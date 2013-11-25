@@ -1,0 +1,10 @@
+<userGroupService>
+  <id>-3a52b6b4:1428ce0125d:-7ff6</id>
+  <name>default</name>
+  <className>org.geoserver.security.xml.XMLUserGroupService</className>
+  <fileName>users.xml</fileName>
+  <checkInterval>10000</checkInterval>
+  <validating>true</validating>
+  <passwordEncoderName>pbePasswordEncoder</passwordEncoderName>
+  <passwordPolicyName>default</passwordPolicyName>
+</userGroupService>
