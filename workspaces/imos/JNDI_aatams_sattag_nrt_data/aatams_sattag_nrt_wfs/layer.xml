@@ -1,0 +1,16 @@
+<layer>
+  <name>aatams_sattag_nrt_wfs</name>
+  <id>LayerInfoImpl-756ec81e:1417706073b:-3acc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-756ec81e:1417706073b:-3acd</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
