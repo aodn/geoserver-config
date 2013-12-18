@@ -34,18 +34,9 @@
       <virtualTable>
         <name>argo_profile_layer</name>
         <sql>select &#xd;
- profile_general.*,&#xd;
- exists(&#xd;
-   select true&#xd;
-     from profile_params&#xd;
-    where profile_params.file_id =&#xd;
-          profile_general.file_id&#xd;
-      and profile_params.profile_no = &#xd;
-          profile_general.profile_no&#xd;
-      and station_parameters = &apos;DOXY&apos;&#xd;
- ) as oxygen_sensor,&#xd;
+ profile_summary.*,&#xd;
  indexed_file.*&#xd;
-  from profile_general&#xd;
+  from profile_summary&#xd;
   left join indexed_file&#xd;
     on file_id = indexed_file.id</sql>
         <escapeSql>false</escapeSql>
