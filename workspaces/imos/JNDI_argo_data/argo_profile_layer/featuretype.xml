@@ -1,0 +1,65 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-5ac5c1:14303a938b3:-8000</id>
+  <name>argo_profile_layer</name>
+  <nativeName>argo_profile_layer</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>Argo Profiles</title>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-179.999</minx>
+    <maxx>180.0</maxx>
+    <miny>-75.0889</miny>
+    <maxy>48.366</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-179.999</minx>
+    <maxx>180.0</maxx>
+    <miny>-75.0889</miny>
+    <maxy>48.366</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>argo_profile_layer</name>
+        <sql>select &#xd;
+ profile_general.*,&#xd;
+ exists(&#xd;
+   select true&#xd;
+     from profile_params&#xd;
+    where profile_params.file_id =&#xd;
+          profile_general.file_id&#xd;
+      and profile_params.profile_no = &#xd;
+          profile_general.profile_no&#xd;
+      and station_parameters = &apos;DOXY&apos;&#xd;
+ ) as oxygen_sensor,&#xd;
+ indexed_file.*&#xd;
+  from profile_general&#xd;
+  left join indexed_file&#xd;
+    on file_id = indexed_file.id</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>position</name>
+          <type>Geometry</type>
+          <srid>-1</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-6c033aa5:1407b759987:-7fff</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
