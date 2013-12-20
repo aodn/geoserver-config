@@ -18,6 +18,13 @@
   <verbose>false</verbose>
   <gml>
     <entry>
+      <version>V_11</version>
+      <gml>
+        <srsNameStyle>URN</srsNameStyle>
+        <overrideGMLAttributes>false</overrideGMLAttributes>
+      </gml>
+    </entry>
+    <entry>
       <version>V_20</version>
       <gml>
         <srsNameStyle>URN2</srsNameStyle>
@@ -31,17 +38,11 @@
         <overrideGMLAttributes>true</overrideGMLAttributes>
       </gml>
     </entry>
-    <entry>
-      <version>V_11</version>
-      <gml>
-        <srsNameStyle>URN</srsNameStyle>
-        <overrideGMLAttributes>false</overrideGMLAttributes>
-      </gml>
-    </entry>
   </gml>
   <serviceLevel>COMPLETE</serviceLevel>
   <maxFeatures>1000000</maxFeatures>
   <featureBounding>true</featureBounding>
   <canonicalSchemaLocation>false</canonicalSchemaLocation>
   <encodeFeatureMember>false</encodeFeatureMember>
+  <hitsIgnoreMaxFeatures>false</hitsIgnoreMaxFeatures>
 </wfs>
