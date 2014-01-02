@@ -1,0 +1,56 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--a1ff436:1357f8d1119:154a</id>
+  <name>acidification_moorings_vw</name>
+  <nativeName>acidification_moorings_vw</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>ANMN Acidification Moorings</title>
+  <abstract>ANMN ocean acidification sensor moorings</abstract>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=5be06101-e670-4ad7-89bc-6b58ca5d1637</content>
+    </metadataLink>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=5be06101-e670-4ad7-89bc-6b58ca5d1637</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>136.447</minx>
+    <maxx>148.233</maxx>
+    <miny>-42.597</miny>
+    <maxy>-19.308</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>136.447</minx>
+    <maxx>148.233</maxx>
+    <miny>-42.597</miny>
+    <maxy>-19.308</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='cachingEnabled'>false</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl-9889540:12ca5b383e5:-7fec</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
