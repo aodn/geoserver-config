@@ -1,0 +1,17 @@
+<layer>
+  <name>csiro_harvest_phyto</name>
+  <id>LayerInfoImpl-6d238173:1394cca21e6:1451</id>
+  <path>Ships of Opportunity (SOOP)/Continuous Plankton Recorder</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1b043e60:13164ec07c0:-7ffd</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl-6d238173:1394cca21e6:1450</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

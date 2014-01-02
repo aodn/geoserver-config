@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-6d238173:1394cca21e6:1450</id>
+  <name>csiro_harvest_phyto</name>
+  <nativeName>csiro_harvest_phyto</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>CPR Phytoplankton Abundance Survey</title>
+  <abstract>SOOP CPR Phytoplankton Abundance Survey</abstract>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=c1344979-f701-0916-e044-00144f7bc0f4</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>89.611</minx>
+    <maxx>174.304</maxx>
+    <miny>-65.16</miny>
+    <maxy>-18.798</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>89.611</minx>
+    <maxx>174.304</maxx>
+    <miny>-65.16</miny>
+    <maxy>-18.798</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='cachingEnabled'>false</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl-3ab8edf6:12f766e0eb9:-8000</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
