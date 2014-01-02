@@ -1,0 +1,17 @@
+<layer>
+  <name>anfog_realtime</name>
+  <id>LayerInfoImpl-55992f94:1286bcb382c:-7fbe</id>
+  <path>Ocean Gliders (ANFOG)/Realtime</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-55992f94:1286bcb382c:-7fbd</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl-55992f94:1286bcb382c:-7fbf</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
