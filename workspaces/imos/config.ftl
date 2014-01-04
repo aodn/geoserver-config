@@ -1,4 +1,4 @@
-<#assign baseurl = "http://geoserver.imos.org.au" >
+<#assign baseurl = "http://geoserver-123.aodn.org.au" >
 <#assign baseMetadataShow = "http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=" >
 <#assign baseurlDataServer = "http://data.aodn.org.au/IMOS/public" >
 <#assign baseurlDataFabric = "${baseurlDataServer}" >    
