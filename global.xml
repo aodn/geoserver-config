@@ -8,7 +8,6 @@
     <numDecimals>4</numDecimals>
     <verbose>true</verbose>
     <verboseExceptions>false</verboseExceptions>
-    <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
   </settings>
   <jai>
     <allowInterpolation>false</allowInterpolation>
