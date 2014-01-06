@@ -1,0 +1,19 @@
+<layer>
+  <name>soop_sst_recent_vw</name>
+  <id>LayerInfoImpl--7dd7ddbc:128296988c0:-5b8b</id>
+  <path>Ships of Opportunity (SOOP)/Sea Surface Temperature</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--fed60a8:1326a401a86:702d</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl--7dd7ddbc:128296988c0:-5b8c</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <title>simon says</title>
+    <href>http://google.com</href>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

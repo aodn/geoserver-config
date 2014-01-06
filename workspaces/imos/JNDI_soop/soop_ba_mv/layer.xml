@@ -1,0 +1,17 @@
+<layer>
+  <name>soop_ba_mv</name>
+  <id>LayerInfoImpl-7755a04d:130d3f898e3:-2562</id>
+  <path>Ships of Opportunity (SOOP)</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a5c507c:1283d7168ec:-29ec</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl-7755a04d:130d3f898e3:-2563</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

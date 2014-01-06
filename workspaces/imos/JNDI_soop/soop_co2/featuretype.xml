@@ -1,0 +1,55 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-63cdf60c:127ac30589b:-2d30</id>
+  <name>soop_co2</name>
+  <nativeName>soop_co2_mv</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>Underway CO2 - All Cruises</title>
+  <abstract>(SOOP) Underway CO2 Measurements - All Cruises</abstract>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=63db5801-cc19-40ef-83b3-85ccba884cf7</content>
+    </metadataLink>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=63db5801-cc19-40ef-83b3-85ccba884cf7</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>133.669</minx>
+    <maxx>188.246</maxx>
+    <miny>-46.931</miny>
+    <maxy>-12.581</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>133.669</minx>
+    <maxx>188.246</maxx>
+    <miny>-46.931</miny>
+    <maxy>-12.581</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='cachingEnabled'>false</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl--4d58b4f0:12ca9442793:6328</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

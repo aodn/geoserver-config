@@ -1,0 +1,17 @@
+<layer>
+  <name>soop_asf_recent</name>
+  <id>LayerInfoImpl-1b8f3b35:127e0f170fd:-76bc</id>
+  <path>Ships of Opportunity (SOOP)/Air-Sea Fluxes</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2d23ec69:126d477e611:-7fec</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl-1b8f3b35:127e0f170fd:-76bd</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
