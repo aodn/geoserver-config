@@ -1,0 +1,15 @@
+<layer>
+  <name>soop_sst_nrt_trajectory_map</name>
+  <id>LayerInfoImpl-8183a7e:1436522e834:552e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-8183a7e:1436522e834:5531</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-8183a7e:1436522e834:552d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
