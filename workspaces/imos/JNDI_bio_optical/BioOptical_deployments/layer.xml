@@ -1,0 +1,17 @@
+<layer>
+  <name>BioOptical_deployments</name>
+  <id>LayerInfoImpl-2ebea7c2:13068a85983:-6991</id>
+  <path>Satellite Remote Sensing (SRS)</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--a1ff436:13578ed8974:-528b</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl-2ebea7c2:13068a85983:-6992</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
