@@ -8,6 +8,7 @@
     <numDecimals>4</numDecimals>
     <verbose>true</verbose>
     <verboseExceptions>false</verboseExceptions>
+    <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
   </settings>
   <jai>
     <allowInterpolation>false</allowInterpolation>
@@ -28,7 +29,7 @@
     <queueType>UNBOUNDED</queueType>
     <imageIOCacheThreshold>10240</imageIOCacheThreshold>
   </coverageAccess>
-  <updateSequence>8</updateSequence>
+  <updateSequence>30</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>
