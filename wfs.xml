@@ -44,5 +44,4 @@
   <featureBounding>true</featureBounding>
   <canonicalSchemaLocation>false</canonicalSchemaLocation>
   <encodeFeatureMember>false</encodeFeatureMember>
-  <hitsIgnoreMaxFeatures>false</hitsIgnoreMaxFeatures>
 </wfs>
