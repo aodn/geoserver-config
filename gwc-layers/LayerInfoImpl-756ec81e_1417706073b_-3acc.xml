@@ -1,7 +1,7 @@
 <GeoServerTileLayer>
   <id>LayerInfoImpl-756ec81e:1417706073b:-3acc</id>
   <enabled>true</enabled>
-  <name>imos:aatams_sattag_nrt_wfs</name>
+  <name>imos:aatams_sattag_nrt_data</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
@@ -18,7 +18,13 @@
     <int>4</int>
     <int>4</int>
   </metaWidthHeight>
-  <parameterFilters/>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>point</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
   <gutter>0</gutter>
-  <autoCacheStyles>true</autoCacheStyles>
 </GeoServerTileLayer>

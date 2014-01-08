@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-756ec81e:1417706073b:-3acd</id>
-  <name>aatams_sattag_nrt_wfs</name>
+  <name>aatams_sattag_nrt_data</name>
   <nativeName>measurements</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>aatams_sattag_nrt_wfs</title>
+  <title>aatams_sattag_nrt_data</title>
   <keywords>
     <string>measurements</string>
     <string>features</string>
@@ -50,6 +50,19 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>true</advertised>
+  <metadata>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-33ca5666:14110b97ce9:-8000</id>
   </store>
