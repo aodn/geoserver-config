@@ -1,6 +1,6 @@
 <dataStore>
   <id>DataStoreInfoImpl-33ca5666:14110b97ce9:-8000</id>
-  <name>JNDI_aatams_sattag_nrt_data</name>
+  <name>JNDI_aatams_sattag_nrt</name>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
