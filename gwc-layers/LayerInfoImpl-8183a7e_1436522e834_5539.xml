@@ -1,7 +1,7 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-756ec81e:1417706073b:-3acc</id>
+  <id>LayerInfoImpl-8183a7e:1436522e834:5539</id>
   <enabled>true</enabled>
-  <name>imos:aatams_sattag_nrt_data</name>
+  <name>imos:soop_sst_dm_trajectory_map</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
@@ -23,7 +23,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>point</defaultStyle>
+      <defaultStyle>soop_sst</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
