@@ -1,13 +1,13 @@
 <featureType>
   <id>FeatureTypeInfoImpl-555b1cb1:1435084f571:-67e9</id>
-  <name>sooptrv_trajectory_data</name>
-  <nativeName>sooptrv_trajectory_data</nativeName>
+  <name>soop_trv_trajectory_data</name>
+  <nativeName>soop_trv_trajectory_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>sooptrv_trajectory_data</title>
+  <title>soop_trv_trajectory_data</title>
   <keywords>
-    <string>sooptrv_trajectory_data</string>
+    <string>soop_trv_trajectory_data</string>
     <string>features</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 

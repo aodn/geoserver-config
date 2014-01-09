@@ -1,7 +1,7 @@
 <GeoServerTileLayer>
   <id>LayerInfoImpl-555b1cb1:1435084f571:-6864</id>
   <enabled>true</enabled>
-  <name>imos:sooptrv_trajectory_map</name>
+  <name>imos:soop_trv_trajectory_map</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
