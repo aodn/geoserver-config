@@ -1,0 +1,15 @@
+<layer>
+  <name>soop_co2_trajectory_map</name>
+  <id>LayerInfoImpl-491b8ace:14365c06a04:-7ff1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-491b8ace:14365c06a04:-7ff0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-491b8ace:14365c06a04:-7ff2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
