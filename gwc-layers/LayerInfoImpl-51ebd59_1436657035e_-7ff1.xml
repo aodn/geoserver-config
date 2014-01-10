@@ -1,7 +1,7 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-756ec81e:1417706073b:-3acc</id>
+  <id>LayerInfoImpl-51ebd59:1436657035e:-7ff1</id>
   <enabled>true</enabled>
-  <name>imos:aatams_sattag_nrt_data</name>
+  <name>imos:anmn_nrs_rt_meteo_timeseries_map</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
