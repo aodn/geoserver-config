@@ -1,0 +1,15 @@
+<layer>
+  <name>auv_trajectory_map</name>
+  <id>LayerInfoImpl-6dc2cedc:14388f1d1f9:-132f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6dc2cedc:14388fffb60:-406c</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6dc2cedc:14388f1d1f9:-1330</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
