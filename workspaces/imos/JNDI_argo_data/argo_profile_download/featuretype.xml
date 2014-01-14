@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl--3149ec01:141c371781f:bdc</id>
-  <name>argo_profile_download</name>
+  <name>argo_profile_download_data</name>
   <nativeName>profile_download</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
@@ -51,9 +51,9 @@
   <enabled>true</enabled>
   <advertised>true</advertised>
   <metadata>
-    <entry key="cachingEnabled">false</entry>
+    <entry key='cachingEnabled'>false</entry>
   </metadata>
-  <store class="dataStore">
+  <store class='dataStore'>
     <id>DataStoreInfoImpl-6c033aa5:1407b759987:-7fff</id>
   </store>
   <maxFeatures>0</maxFeatures>
