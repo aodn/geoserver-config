@@ -1,11 +1,11 @@
 <layer>
-  <name>argo_profile_history</name>
+  <name>argo_profile_history_data</name>
   <id>LayerInfoImpl--2ff06e4e:14094b92896:-7ff5</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
-  <resource class="featureType">
+  <resource class='featureType'>
     <id>FeatureTypeInfoImpl--2ff06e4e:14094b92896:-7ff6</id>
   </resource>
   <enabled>true</enabled>

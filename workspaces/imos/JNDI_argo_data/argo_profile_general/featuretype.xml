@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-6c033aa5:140801c2af9:-67d8</id>
-  <name>argo_profile_general</name>
+  <name>argo_profile_general_data</name>
   <nativeName>profile_general</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>argo_profile_general</title>
+  <title>argo_profile_general_data</title>
   <keywords>
     <string>profile_general</string>
     <string>features</string>
@@ -43,9 +43,9 @@
   <enabled>true</enabled>
   <advertised>true</advertised>
   <metadata>
-    <entry key="cachingEnabled">false</entry>
+    <entry key='cachingEnabled'>false</entry>
   </metadata>
-  <store class="dataStore">
+  <store class='dataStore'>
     <id>DataStoreInfoImpl-6c033aa5:1407b759987:-7fff</id>
   </store>
   <maxFeatures>0</maxFeatures>
