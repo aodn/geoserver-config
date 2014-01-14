@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
   <title>ANMN NRS Real Time T, S, O and bio-optical timeseries (map)</title>
-  <abstract>Time-series observations of temperature, salinity, dissolved oxygen and bio-optical parameters (turbidity and chlorophyll proxy from fluorescence) from NRS coastal moorings deployed by the Australian National Mooring Network (ANMN) Facility of IMOS.</abstract>
+  <abstract>Time-series observations of temperature, salinity, dissolved oxygen and bio-optical parameters (turbidity and chlorophyll proxy from fluorescence) from the National Reference Station (NRS) coastal moorings deployed by the Australian National Mooring Network (ANMN) Facility of IMOS.</abstract>
   <keywords>
     <string>anmn_nrs_rt_bio_timeseries_map</string>
     <string>features</string>
