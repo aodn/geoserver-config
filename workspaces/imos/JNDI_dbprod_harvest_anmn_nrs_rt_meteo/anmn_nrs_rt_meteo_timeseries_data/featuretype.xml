@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
   <title>ANMN NRS Real Time Meteorological timeseries (data)</title>
-  <abstract>Time-series observations of air and sea surface temperature, atmospheric pressure at sea level, rainfall amount, relative humidity, and wind parameters from the National Reference Station (NRS) coastal moorings deployed by the Australian National Mooring Network (ANMN) Facility of IMOS.</abstract>
+  <abstract>Time-series observations of air and sea surface temperature, atmospheric pressure at sea level, rainfall amount, relative humidity, and wind parameters from coastal moorings deployed by the Australian National Mooring Network (ANMN) Facility of IMOS.</abstract>
   <keywords>
     <string>features</string>
     <string>anmn_nrs_rt_meteo_timeseries_data</string>
