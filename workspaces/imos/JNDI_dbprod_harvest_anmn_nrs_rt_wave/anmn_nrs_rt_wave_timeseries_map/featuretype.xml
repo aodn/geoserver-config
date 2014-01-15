@@ -1,21 +1,21 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--54fa5a6d:14366257f6c:-7ff3</id>
-  <name>anmn_velocity_timeseries_map</name>
-  <nativeName>anmn_velocity_timeseries_map</nativeName>
+  <id>FeatureTypeInfoImpl--1729f1c8:1438ed73eb0:-7fc5</id>
+  <name>anmn_nrs_rt_wave_timeseries_map</name>
+  <nativeName>anmn_nrs_rt_wave_timeseries_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>ANMN Current timeseries (map)</title>
-  <abstract>Time-series observations of current from coastal moorings deployed by the Australian National Mooring Network (ANMN) Facility of IMOS.</abstract>
+  <title>ANMN NRS Real Time Wave timeseries (map)</title>
+  <abstract>Time-series observations of wave height from the National Reference Station (NRS) coastal moorings deployed by the Australian National Mooring Network (ANMN) Facility of IMOS.</abstract>
   <keywords>
-    <string>anmn_velocity_timeseries_map</string>
+    <string>anmn_nrs_rt_wave_timeseries_map</string>
     <string>features</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=ae86e2f5-eaaf-459e-a405-e654d85adb9c&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=72dbe843-2fb1-4b2e-8b7e-4661d857affb&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -29,17 +29,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>24.0000166667</minx>
-    <maxx>153.5622333333</maxx>
-    <miny>-42.6017833333</miny>
-    <maxy>-9.8168333333</maxy>
+    <minx>148.23</minx>
+    <maxx>153.561</maxx>
+    <miny>-42.6</miny>
+    <maxy>-27.341</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>24.0000166667</minx>
-    <maxx>153.5622333333</maxx>
-    <miny>-42.6017833333</miny>
-    <maxy>-9.8168333333</maxy>
+    <minx>148.23</minx>
+    <maxx>153.561</maxx>
+    <miny>-42.6</miny>
+    <maxy>-27.341</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -51,7 +51,7 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--7d6d29b8:1430d3f9851:-7dc3</id>
+    <id>DataStoreInfoImpl--1729f1c8:1438ed73eb0:-7fc6</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
