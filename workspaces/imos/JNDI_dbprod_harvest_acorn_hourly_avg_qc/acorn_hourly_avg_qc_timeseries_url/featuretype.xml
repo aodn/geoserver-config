@@ -1,0 +1,27 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-18eae362:143936638b2:-7ff2</id>
+  <name>acorn_hourly_avg_qc_timeseries_url</name>
+  <nativeName>acorn_hourly_avg_qc_timeseries_url</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>acorn_hourly_avg_qc_timeseries_url</title>
+  <keywords>
+    <string>acorn_hourly_avg_qc_timeseries_url</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-18eae362:143936638b2:-7ff3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
