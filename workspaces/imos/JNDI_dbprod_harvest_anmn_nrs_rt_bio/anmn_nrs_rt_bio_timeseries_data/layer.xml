@@ -1,0 +1,15 @@
+<layer>
+  <name>anmn_nrs_rt_bio_timeseries_data</name>
+  <id>LayerInfoImpl--1729f1c8:1438ed73eb0:-7fef</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1729f1c8:1438ed73eb0:-7ff0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
