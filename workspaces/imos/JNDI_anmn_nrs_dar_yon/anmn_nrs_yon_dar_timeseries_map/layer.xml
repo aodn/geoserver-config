@@ -1,0 +1,15 @@
+<layer>
+  <name>anmn_nrs_yon_dar_timeseries_map</name>
+  <id>LayerInfoImpl-20b82ed6:1438de21531:-7b0e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2d23ec69:126d477e611:-7fed</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-20b82ed6:1438de21531:-7b0f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
