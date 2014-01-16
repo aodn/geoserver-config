@@ -1,0 +1,15 @@
+<layer>
+  <name>soop_sst_dm_trajectory_map</name>
+  <id>LayerInfoImpl-31cce0d2:14392e74ae1:-7fed</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-31cce0d2:14392e74ae1:-7fec</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-31cce0d2:14392e74ae1:-7fee</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
