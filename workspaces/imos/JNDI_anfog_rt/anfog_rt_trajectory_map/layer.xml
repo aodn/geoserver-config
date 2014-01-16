@@ -1,0 +1,20 @@
+<layer>
+  <name>anfog_rt_trajectory_map</name>
+  <id>LayerInfoImpl-6754abbc:14399224156:54df</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-7fff</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-55992f94:1286bcb382c:-7fbd</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6754abbc:14399224156:54de</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
