@@ -1,0 +1,15 @@
+<layer>
+  <name>aatams_biologging_penguin_map</name>
+  <id>LayerInfoImpl-461696ef:1438906a8d9:-7ff2</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-461696ef:1438906a8d9:-7ff1</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-461696ef:1438906a8d9:-7ff3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
