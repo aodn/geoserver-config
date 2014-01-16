@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
   <title>ANMN T, S, O and bio-optical burst averaged timeseries (map)</title>
-  <abstract>Burst averaged time-series observations of temperature, salinity, dissolved oxygen and bio-optical parameters (turbidity and fluorescence as a proxy for chlorophyll) from coastal moorings deployed by the Australian National Mooring Network (ANMN) Facility of IMOS.</abstract>
+  <abstract>Burst averaged time-series observations of temperature, salinity, dissolved oxygen and bio-optical parameters (turbidity and chlorophyll proxy from fluorescence) from coastal moorings deployed by the Australian National Mooring Network (ANMN) Facility of IMOS.</abstract>
   <keywords>
     <string>anmn_burst_avg_timeseries_map</string>
     <string>features</string>
@@ -15,7 +15,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?id=21869&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=8964658c-6ee1-4015-9bae-2937dfcc6ab9&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
