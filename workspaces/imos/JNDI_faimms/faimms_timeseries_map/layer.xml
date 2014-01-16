@@ -1,0 +1,15 @@
+<layer>
+  <name>faimms_timeseries_map</name>
+  <id>LayerInfoImpl-20b82ed6:1438de21531:-7a86</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6c0b40e:12cb9e5b4ec:3ef3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-20b82ed6:1438de21531:-7a87</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
