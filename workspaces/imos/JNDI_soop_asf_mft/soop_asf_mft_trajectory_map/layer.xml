@@ -1,0 +1,15 @@
+<layer>
+  <name>soop_asf_mft_trajectory_map</name>
+  <id>LayerInfoImpl--1e1115e2:1439408283b:32ff</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1e1115e2:1439408283b:3300</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1e1115e2:1439408283b:32fe</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
