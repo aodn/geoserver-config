@@ -1,0 +1,15 @@
+<layer>
+  <name>aatams_biologging_shearwater_map</name>
+  <id>LayerInfoImpl-4e568af5:1439d1f8819:-7fef</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4e568af5:1439d1f8819:-7fee</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4e568af5:1439d1f8819:-7ff0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
