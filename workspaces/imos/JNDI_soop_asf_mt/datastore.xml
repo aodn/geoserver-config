@@ -1,6 +1,6 @@
 <dataStore>
   <id>DataStoreInfoImpl--1e1115e2:1439408283b:-7ff3</id>
-  <name>soop_asf_mt</name>
+  <name>JNDI_soop_asf_mt</name>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
