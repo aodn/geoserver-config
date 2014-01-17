@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--1e1115e2:1439408283b:32f3</id>
-  <name>auv_trajectory_data_st</name>
+  <name>auv_trajectory_st_data</name>
   <nativeName>auv_trajectory_data_st</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>auv_trajectory_data_st</title>
+  <title>auv_trajectory_st_data</title>
   <keywords>
     <string>auv_trajectory_data_st</string>
     <string>features</string>
