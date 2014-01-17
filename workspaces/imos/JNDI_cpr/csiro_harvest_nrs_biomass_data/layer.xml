@@ -1,12 +1,12 @@
 <layer>
-  <name>csiro_harvest_nrs_biomass</name>
-  <id>LayerInfoImpl--7c2fce77:13951622097:-48a3</id>
+  <name>csiro_harvest_nrs_biomass_data</name>
+  <id>LayerInfoImpl--7c2fce77:13951622097:-48a3:1</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--a1ff436:1357f8d1119:155f</id>
   </defaultStyle>
   <resource class='featureType'>
-    <id>FeatureTypeInfoImpl--7c2fce77:13951622097:-48a4</id>
+    <id>FeatureTypeInfoImpl--7c2fce77:13951622097:-48a4:1</id>
   </resource>
   <enabled>true</enabled>
   <attribution>
