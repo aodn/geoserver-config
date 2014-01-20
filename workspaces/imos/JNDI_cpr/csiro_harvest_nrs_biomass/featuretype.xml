@@ -1,31 +1,30 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-2d5161be:1394cbe92b3:-7ffa:1</id>
-  <name>csiro_harvest_pci_data</name>
-  <nativeName>csiro_harvest_pci</nativeName>
+  <id>FeatureTypeInfoImpl--7c2fce77:13951622097:-48a4</id>
+  <name>csiro_harvest_nrs_biomass</name>
+  <nativeName>csiro_harvest_nrs_biomass</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>CPR Plankton Colour Index Survey</title>
-  <abstract>SOOP CPR Plankton Colour Index Survey</abstract>
+  <title>NRS Biomass Abundance</title>
   <metadataLinks>
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=c1344979-f702-0916-e044-00144f7bc0f4</content>
+      <content>http://mest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=c13451a9-7cfc-091c-e044-00144f7bc0f4</content>
     </metadataLink>
   </metadataLinks>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>89.611</minx>
-    <maxx>174.304</maxx>
-    <miny>-65.257</miny>
-    <maxy>-15.149</maxy>
+    <minx>113.779</minx>
+    <maxx>153.562</maxx>
+    <miny>-42.597</miny>
+    <maxy>-12.4</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>89.611</minx>
-    <maxx>174.304</maxx>
-    <miny>-65.257</miny>
-    <maxy>-15.149</maxy>
+    <minx>113.779</minx>
+    <maxx>153.562</maxx>
+    <miny>-42.597</miny>
+    <maxy>-12.4</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>

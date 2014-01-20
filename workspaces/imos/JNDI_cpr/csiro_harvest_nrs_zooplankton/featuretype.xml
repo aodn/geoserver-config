@@ -1,9 +1,9 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--7c2fce77:13951622097:-44cc:1</id>
-  <name>csiro_harvest_nrs_zooplankton_data</name>
+  <id>FeatureTypeInfoImpl--7c2fce77:13951622097:-44cc</id>
+  <name>csiro_harvest_nrs_zooplankton</name>
   <nativeName>csiro_harvest_nrs_zooplankton</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff:1</id>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
   <title>NRS Zooplankton Abundance</title>
   <metadataLinks>
