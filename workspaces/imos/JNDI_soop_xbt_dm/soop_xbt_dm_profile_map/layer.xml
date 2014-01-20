@@ -1,0 +1,15 @@
+<layer>
+  <name>soop_xbt_dm_profile_map</name>
+  <id>LayerInfoImpl--3d957792:14394539e24:-7ff0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--d22b50b:14369debdca:7641</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3d957792:14394539e24:-7ff1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
