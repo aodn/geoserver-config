@@ -1,10 +1,10 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-6754abbc:14398a7c94a:-7fef</id>
+  <id>LayerInfoImpl--1e1115e2:1439408283b:-7ff1</id>
   <enabled>true</enabled>
-  <name>imos:anfog_dm_trajectory_data</name>
+  <name>imos:soop_asf_mt_trajectory_map</name>
   <mimeFormats>
-    <string>image/jpeg</string>
     <string>image/png</string>
+    <string>image/jpeg</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
@@ -23,7 +23,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>anfog-glider-trackonly</defaultStyle>
+      <defaultStyle>soop_asf</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>

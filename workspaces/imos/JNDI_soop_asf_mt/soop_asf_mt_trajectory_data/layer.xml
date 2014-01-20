@@ -1,12 +1,12 @@
 <layer>
-  <name>anfog_dm_trajectory_data</name>
-  <id>LayerInfoImpl-6754abbc:14398a7c94a:-7fef</id>
+  <name>soop_asf_mt_trajectory_data</name>
+  <id>LayerInfoImpl--1e1115e2:1439408283b:32fa</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-55992f94:1286bcb382c:-7fbd</id>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-6754abbc:14398a7c94a:-7ff0</id>
+    <id>FeatureTypeInfoImpl--1e1115e2:1439408283b:32f9</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
