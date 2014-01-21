@@ -1,5 +1,5 @@
 <layer>
-  <name>acorn_hourly_avg_qc_timeseries_url_rot</name>
+  <name>acorn_hourly_avg_rot_qc_timeseries_url</name>
   <id>LayerInfoImpl--50868d64:1439e738332:21e3</id>
   <type>VECTOR</type>
   <defaultStyle>

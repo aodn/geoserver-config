@@ -1,7 +1,7 @@
 <GeoServerTileLayer>
   <id>LayerInfoImpl--50868d64:1439e738332:21e3</id>
   <enabled>true</enabled>
-  <name>imos:acorn_hourly_avg_qc_timeseries_url_rot</name>
+  <name>imos:acorn_hourly_avg_rot_qc_timeseries_url</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
