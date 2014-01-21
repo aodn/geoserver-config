@@ -1,21 +1,21 @@
 <StyledLayerDescriptor xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.opengis.net/sld" version="1.0.0">
 <NamedLayer>
-<Name>AATAMS Satellite Tagging NRT</Name>
+<Name>SOOP TMV trajectories</Name>
 <UserStyle>
-<Name>AATAMS Satellite Tagging NRT</Name>
+<Name>SOOP TMV trajectories</Name>
 <FeatureTypeStyle>
 <Rule>
-<Title>Animal Tracks</Title>
+<Title>Vessel Tracks</Title>
           <LineSymbolizer>
           <Stroke>
-            <CssParameter name="stroke">#0BD61C</CssParameter>
+            <CssParameter name="stroke">#F7A53A</CssParameter>
             <CssParameter name="stroke-opacity">1</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
           </Stroke>
         </LineSymbolizer>
 </Rule>
-<Rule>
-  <Title>Animal Tracks (Directional Arrows)</Title>
+  <Rule>
+  <Title>Vessel Tracks (Directional Arrows)</Title>
 <MaxScaleDenominator>20000000</MaxScaleDenominator>
         <LineSymbolizer>
           <Stroke>
@@ -58,11 +58,11 @@
 </LineSymbolizer>
 </Rule>
 <Rule>
-  <Title>CTD profile locations</Title>
+  <Title>Measurement location</Title>
 <MaxScaleDenominator>2500000</MaxScaleDenominator>
 <PointSymbolizer>
 <Geometry>
-<ogc:Function name="startPoint">
+<ogc:Function name="vertices">
 <ogc:PropertyName>geom</ogc:PropertyName>
 </ogc:Function>
 </Geometry>
@@ -70,11 +70,11 @@
 <Mark>
 <WellKnownName>circle</WellKnownName>
 <Fill>
-<CssParameter name="fill">#FAA302</CssParameter>
+<CssParameter name="fill">#110CA8</CssParameter>
 <CssParameter name="fill-opacity">0.2</CssParameter>
 </Fill>
 <Stroke>
-<CssParameter name="stroke">#FAA302</CssParameter>
+<CssParameter name="stroke">#110CA8</CssParameter>
 <CssParameter name="stroke-opacity">1</CssParameter>
 <CssParameter name="stroke-width">2</CssParameter>
 </Stroke>
@@ -84,14 +84,14 @@
 </PointSymbolizer>
 </Rule>
 <Rule>
-<Title>Animal WMO Code</Title>
+<Title>Vessel name</Title>
   
 <MaxScaleDenominator>4500000</MaxScaleDenominator>
   
 <TextSymbolizer>
   <Label>
-<ogc:PropertyName>device_wmo_ref</ogc:PropertyName>
-<ogc:PropertyName>timestamp</ogc:PropertyName>
+<ogc:PropertyName>vessel_name</ogc:PropertyName>
+<ogc:PropertyName>time_start</ogc:PropertyName>
 </Label>
 <Font>
 <CssParameter name="font-family">Verdana</CssParameter>
