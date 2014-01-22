@@ -1,5 +1,5 @@
-<#assign baseurl = "http://geoserver-rc.aodn.org.au" >
-<#assign baseMetadataShow = "http://catalogue-rc.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=" >
+<#assign baseurl = "http://geoserver-123.aodn.org.au" >
+<#assign baseMetadataShow = "http://catalogue-123.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=" >
 <#assign baseurlDataServer = "http://data.aodn.org.au/IMOS/public" >
 <#assign baseurlDataFabric = "${baseurlDataServer}" >
 <#assign baseurl_data_turbine = "http://realtime.emii.org.au">
