@@ -10,7 +10,7 @@
     <entry key="schema">soop_sst</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
-    <entry key="Expose primary keys">false</entry>
+    <entry key="Expose primary keys">true</entry>
     <entry key="encode functions">false</entry>
     <entry key="preparedStatements">false</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
