@@ -1,0 +1,12 @@
+<layer>
+  <name>acorn_hourly_avg_rot_nonqc_timeseries_url</name>
+  <id>LayerInfoImpl-17795082:143b35482ab:-7ff2</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-17795082:143b35482ab:-7ff3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
