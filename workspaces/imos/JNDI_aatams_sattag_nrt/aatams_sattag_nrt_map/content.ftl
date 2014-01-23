@@ -3,8 +3,8 @@
 
 <#if (feature_index < 2) >
 <div class="featurewhite">
-<b>Animal ID :</b> ${feature.ref.value}<br/>
-<b>Time range :</b> ${feature.start_date.value} - ${feature.end_date.value}<br/>
+<b>Device WMO number :</b> ${feature.device_wmo_ref.value}<br/>
+<b>Time :</b> ${feature.timestamp.value}<br/>
 <BR>
 </div>
 </#if>
