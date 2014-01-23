@@ -17,10 +17,6 @@
             <b>${feature.longitude.value}</b>
 
             <p/>
-            <a href="http://imosmest.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=c017bda3-8a03-4b41-8a07-c34c41bda1f0"  target="_blank"  rel="external" class="h3" title="">Link to the IMOS metadata record</a> |
-            <a  rel="external"
-                href="http://geoserver.imos.org.au/geoserver/wfs?service=wfs&version=1.1.0&request=GetFeature&typeName=imos:csiro_harvest_zoop&srs=EPSG:4326&outputFormat=csv&cql_filter=(route_code='${feature.route_code.value}')"
-                target="_blank" class="h3" >Link to the data </a><br/><br/>
             Please contact <a href="mailto:Claire.Davies@csiro.au">Claire Davies</a> for help with using the data.
 
     </#if>
