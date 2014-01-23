@@ -1,0 +1,16 @@
+<layer>
+  <name>csiro_harvest_nrs_zooplankton_data</name>
+  <id>LayerInfoImpl--7c2fce77:13951622097:-44cb:1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--a1ff436:1357f8d1119:1634</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl--7c2fce77:13951622097:-44cc:1</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
