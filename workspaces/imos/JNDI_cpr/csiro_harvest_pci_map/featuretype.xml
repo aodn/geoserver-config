@@ -11,7 +11,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=c1344979-f702-0916-e044-00144f7bc0f4</content>
+      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=e210cb45-910a-79c2-e043-08114f8c7800&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <srs>EPSG:4326</srs>
