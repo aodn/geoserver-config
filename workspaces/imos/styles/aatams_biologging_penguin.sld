@@ -90,6 +90,7 @@
   
 <TextSymbolizer>
   <Label>
+    <ogc:PropertyName>pttid</ogc:PropertyName>
 <ogc:PropertyName>observation_start_date</ogc:PropertyName>
 </Label>
 <Font>
