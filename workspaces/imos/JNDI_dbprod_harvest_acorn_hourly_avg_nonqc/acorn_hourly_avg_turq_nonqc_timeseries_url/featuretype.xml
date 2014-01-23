@@ -23,7 +23,7 @@
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>acorn_hourly_avg_turq_nonqc_timeseries_url</name>
-        <sql>select * &#xd;
+        <sql>select *, ST_makepoint(1, 2) &#xd;
 from acorn_hourly_avg_nonqc.timeseries&#xd;
 where site_code = &apos;TURQ, Turqoise Coast&apos;</sql>
         <escapeSql>false</escapeSql>
