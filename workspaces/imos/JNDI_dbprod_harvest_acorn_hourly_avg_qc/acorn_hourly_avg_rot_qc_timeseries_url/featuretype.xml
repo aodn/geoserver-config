@@ -7,21 +7,15 @@
   </namespace>
   <title>acorn_hourly_avg_rot_qc_timeseries_url</title>
   <keywords>
-    <string>acorn_url</string>
     <string>features</string>
+    <string>acorn_hourly_avg_rot_qc_timeseries_url</string>
   </keywords>
   <srs>EPSG:4326</srs>
-  <nativeBoundingBox>
-    <minx>0.0</minx>
-    <maxx>2.0</maxx>
-    <miny>1.0</miny>
-    <maxy>3.0</maxy>
-  </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>0.0</minx>
-    <maxx>2.0</maxx>
-    <miny>1.0</miny>
-    <maxy>3.0</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
