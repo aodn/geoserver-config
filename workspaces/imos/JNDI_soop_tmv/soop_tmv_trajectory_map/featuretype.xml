@@ -28,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>144.610380757576</minx>
-    <maxx>146.381849166667</maxx>
-    <miny>-41.1776891666667</miny>
-    <maxy>-37.8500133333333</maxy>
+    <minx>144.560985</minx>
+    <maxx>146.389570909091</maxx>
+    <miny>-41.1777533333333</miny>
+    <maxy>-37.8500058333333</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>144.610380757576</minx>
-    <maxx>146.381849166667</maxx>
-    <miny>-41.1776891666667</miny>
-    <maxy>-37.8500133333333</maxy>
+    <minx>144.560985</minx>
+    <maxx>146.389570909091</maxx>
+    <miny>-41.1777533333333</miny>
+    <maxy>-37.8500058333333</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -50,9 +50,9 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key='cachingEnabled'>false</entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
-  <store class='dataStore'>
+  <store class="dataStore">
     <id>DataStoreInfoImpl-555b1cb1:1435084f571:-6463</id>
   </store>
   <maxFeatures>0</maxFeatures>
