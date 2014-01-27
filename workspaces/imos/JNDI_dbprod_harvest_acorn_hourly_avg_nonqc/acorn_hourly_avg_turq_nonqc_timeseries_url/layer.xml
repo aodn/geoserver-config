@@ -1,0 +1,15 @@
+<layer>
+  <name>acorn_hourly_avg_turq_nonqc_timeseries_url</name>
+  <id>LayerInfoImpl-17795082:143b35482ab:-7fee</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-17795082:143b35482ab:-7fef</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
