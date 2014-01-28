@@ -31,7 +31,7 @@
       <virtualTable>
         <name>acorn_hourly_avg_rot_nonqc_timeseries_url</name>
         <sql>select *, ST_makepoint(1, 2) &#xd;
-from acorn_hourly_avg_nonqc.timeseries&#xd;
+from acorn_hourly_avg_nonqc.acorn_hourly_avg_nonqc_timeseries_url&#xd;
 where site_code = &apos;ROT, Rottnest Shelf&apos;</sql>
         <escapeSql>false</escapeSql>
         <geometry>
