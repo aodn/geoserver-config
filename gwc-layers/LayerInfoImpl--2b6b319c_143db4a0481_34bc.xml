@@ -1,7 +1,7 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-555b1cb1:1435084f571:-67e8</id>
+  <id>LayerInfoImpl--2b6b319c:143db4a0481:34bc</id>
   <enabled>true</enabled>
-  <name>imos:soop_trv_trajectory_data</name>
+  <name>imos:soop_xbt_nrt_profiles_data</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
