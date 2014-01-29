@@ -1,7 +1,7 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-555b1cb1:1435084f571:-6864</id>
+  <id>LayerInfoImpl--2b6b319c:143db4a0481:34b8</id>
   <enabled>true</enabled>
-  <name>imos:soop_trv_trajectory_map</name>
+  <name>imos:soop_xbt_nrt_profiles_map</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
@@ -22,10 +22,8 @@
     <styleParameterFilter>
       <key>STYLES</key>
       <defaultValue></defaultValue>
-      <availableStyles class="sorted-set">
-        <string>soop_trv</string>
-      </availableStyles>
-      <defaultStyle>soop_trv</defaultStyle>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>soop_xbt</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
