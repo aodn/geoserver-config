@@ -1,17 +1,17 @@
 <layer>
-  <name>anfog_dm_trajectory_map</name>
-  <id>LayerInfoImpl-1f224bdc:143d6ea9606:-7ff1</id>
+  <name>anfog_rt_trajectory_map</name>
+  <id>LayerInfoImpl--4533df4e:143999e84e7:-7fee</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+    <id>StyleInfoImpl-55992f94:1286bcb382c:-7fbd</id>
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
-      <id>StyleInfoImpl-2d23ec69:126d477e611:-7fe8</id>
+      <id>StyleInfoImpl-55992f94:1286bcb382c:-7fbd</id>
     </style>
   </styles>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-1f224bdc:143d6ea9606:-7ff2</id>
+    <id>FeatureTypeInfoImpl--4533df4e:143999e84e7:-7fef</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
