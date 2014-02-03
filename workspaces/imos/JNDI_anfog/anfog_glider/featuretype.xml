@@ -50,12 +50,12 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key='indexingEnabled'>false</entry>
-    <entry key='cachingEnabled'>false</entry>
-    <entry key='dirName'>PostGIS_anfog_anfog_glider</entry>
-    <entry key='kml.regionateFeatureLimit'>15</entry>
+    <entry key="indexingEnabled">false</entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">PostGIS_anfog_anfog_glider</entry>
+    <entry key="kml.regionateFeatureLimit">15</entry>
   </metadata>
-  <store class='dataStore'>
+  <store class="dataStore">
     <id>DataStoreInfoImpl-9889540:12ca5b383e5:-7fed</id>
   </store>
   <maxFeatures>0</maxFeatures>

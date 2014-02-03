@@ -46,9 +46,9 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key='cachingEnabled'>false</entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
-  <store class='dataStore'>
+  <store class="dataStore">
     <id>DataStoreInfoImpl-9889540:12ca5b383e5:-7fed</id>
   </store>
   <maxFeatures>0</maxFeatures>
