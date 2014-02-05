@@ -1,12 +1,12 @@
 <layer>
-  <name>anfog_dm_trajectory_map</name>
-  <id>LayerInfoImpl-6754abbc:14398a7c94a:-7ff1</id>
+  <name>anfog_dm_trajectory_data</name>
+  <id>LayerInfoImpl-9a2d12c:143f9e5a832:-45b5</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-6754abbc:14398a7c94a:-7ff2</id>
+    <id>FeatureTypeInfoImpl-9a2d12c:143f9e5a832:-45b6</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
