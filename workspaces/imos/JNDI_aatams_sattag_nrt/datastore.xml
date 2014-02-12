@@ -10,9 +10,9 @@
     <entry key="schema">aatams_sattag_nrt</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
-    <entry key="Expose primary keys">false</entry>
-    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">true</entry>
     <entry key="encode functions">false</entry>
+    <entry key="fetch size">1000</entry>
     <entry key="preparedStatements">false</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
     <entry key="Estimated extends">false</entry>

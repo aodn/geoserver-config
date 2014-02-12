@@ -56,12 +56,12 @@
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
+    <entry key="cachingEnabled">false</entry>
     <entry key="elevation">
       <dimensionInfo>
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-33ca5666:14110b97ce9:-8000</id>
