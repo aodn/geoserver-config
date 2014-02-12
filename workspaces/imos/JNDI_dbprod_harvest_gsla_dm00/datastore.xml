@@ -7,6 +7,7 @@
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
   <connectionParameters>
+    <entry key="schema">gsla_dm00</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">false</entry>
