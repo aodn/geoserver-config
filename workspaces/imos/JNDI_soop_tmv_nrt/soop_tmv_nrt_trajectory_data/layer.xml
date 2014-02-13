@@ -1,0 +1,15 @@
+<layer>
+  <name>soop_tmv_nrt_trajectory_data</name>
+  <id>LayerInfoImpl-43dc8aba:144285cc303:1020</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-43dc8aba:144285cc303:101f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
