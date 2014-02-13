@@ -1,21 +1,17 @@
 <div class="feature">
 <#list features as feature>
 
-<#if (feature_index < 1) >
-<div class="feature">
-<h3>Glider Deployment - ${feature.deployment_name.value}</h3>
+<#if (feature_index < 2) >
+<div class="featurewhite">
+<b>Glider Deployment :</b> ${feature.deployment_name.value}<br/>
 <#if feature.platform_type.value == "slocum glider" >
-<h4>Slocum glider ${feature.platform_code.value}</h4>
+<b>Slocum glider :</b> ${feature.platform_code.value}</br>
 </#if>
 <#if feature.platform_type.value == "seaglider" >
-<h4>Seaglider ${feature.platform_code.value}</h4>
+<b>Seaglider :</b> ${feature.platform_code.value}</br>
 </#if>
-<ul>
-      <li><b>Start</b> ${feature.time_coverage_start.value}</li>
-      <li><b>End</b> to ${feature.time_coverage_end.value}</li>
-    </ul>
+<b>Time range :</b> ${feature.time_coverage_start.value} - ${feature.time_coverage_end.value}<br/>
 <BR>
 </div>
 </#if>
 </#list>
-</div>
