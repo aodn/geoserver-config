@@ -1,21 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-394ebecf:13096b4592e:-650a</id>
-  <name>srs_altimetry_deployments</name>
-  <nativeName>deployments</nativeName>
+  <id>FeatureTypeInfoImpl-28296fcf:1446178d9bc:-7ff1</id>
+  <name>srs_altimetry_timeseries_map</name>
+  <nativeName>srs_altimetry_timeseries_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>SRS Altimetry Calibration and Validation</title>
+  <title>srs_altimetry_timeseries_map</title>
+  <keywords>
+    <string>features</string>
+    <string>srs_altimetry_timeseries_map</string>
+  </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/xml</type>
-      <metadataType>other</metadataType>
-      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?id=10851</content>
-    </metadataLink>
-    <metadataLink>
-      <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=78d588ed-79dd-47e2-b806-d39025194e7e</content>
+      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=78d588ed-79dd-47e2-b806-d39025194e7e&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -29,25 +28,31 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>145.594</minx>
-    <maxx>147.661</maxx>
-    <miny>-43.3</miny>
-    <maxy>-40.65</maxy>
+    <minx>145.591995239258</minx>
+    <maxx>147.664001464844</maxx>
+    <miny>-43.2999992370605</miny>
+    <maxy>-40.6419982910156</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.661</minx>
-    <maxx>147.661</maxx>
-    <miny>-43.3</miny>
-    <maxy>-43.3</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>145.591995239258</minx>
+    <maxx>147.664001464844</maxx>
+    <miny>-43.2999992370605</miny>
+    <maxy>-40.6419982910156</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key='cachingEnabled'>false</entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
-  <store class='dataStore'>
+  <store class="dataStore">
     <id>DataStoreInfoImpl-394ebecf:13096b4592e:-650c</id>
   </store>
   <maxFeatures>0</maxFeatures>
