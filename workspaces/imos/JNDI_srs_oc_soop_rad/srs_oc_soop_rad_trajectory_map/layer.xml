@@ -1,0 +1,15 @@
+<layer>
+  <name>srs_oc_soop_rad_trajectory_map</name>
+  <id>LayerInfoImpl--670276b2:14475b49751:-7ff1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--670276b2:14475b49751:-77a0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--670276b2:14475b49751:-7ff2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
