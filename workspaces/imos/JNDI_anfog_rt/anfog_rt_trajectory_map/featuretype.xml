@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=a681fdba-c6d9-44ab-90b9-113b0ed03536&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>http://catalogue-rc.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=a681fdba-c6d9-44ab-90b9-113b0ed03536&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -28,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>111.574699401855</minx>
-    <maxx>154.10107421875</maxx>
-    <miny>-47.0915641784668</miny>
-    <maxy>-11.3288669586182</maxy>
+    <minx>112.71068572998</minx>
+    <maxx>145.830993652344</maxx>
+    <miny>-29.3648281097412</miny>
+    <maxy>-15.2431335449219</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>111.574699401855</minx>
-    <maxx>154.10107421875</maxx>
-    <miny>-47.0915641784668</miny>
-    <maxy>-11.3288669586182</maxy>
+    <minx>112.71068572998</minx>
+    <maxx>145.830993652344</maxx>
+    <miny>-29.3648281097412</miny>
+    <maxy>-15.2431335449219</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -50,7 +50,17 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-6529389c:143981bb2a4:-7ff1</id>
