@@ -7,7 +7,7 @@
   <div class="feature">
   <h5>Deployment ${feature.cruise_id.value} </h5>
 ${feature.time_start.value} to<BR>${feature.time_end.value}<BR>
- <a  rel="external" href="${feature.url_nc.value}" target="_blank" class="h3" >Download as NetCDF</a><BR>
+
  
  <a  rel="external" href="${feature.url_csv.value}" target="_blank" class="h3" >Download as CSV</a><BR>
 <p>${feature.abstract.value}</p>
