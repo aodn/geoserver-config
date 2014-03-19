@@ -1,0 +1,15 @@
+<layer>
+  <name>srs_oc_bodbaw_trajectory_profile_map</name>
+  <id>LayerInfoImpl-7b7629e4:144be2cdc24:-7fea</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7b7629e4:144be2cdc24:-7fe8</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7b7629e4:144be2cdc24:-7feb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
