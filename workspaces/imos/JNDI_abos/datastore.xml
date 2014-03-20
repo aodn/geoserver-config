@@ -7,14 +7,14 @@
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
   <connectionParameters>
-    <entry key='schema'>abos</entry>
+    <entry key='schema'>legacy_abos</entry>
     <entry key='dbtype'>postgis</entry>
     <entry key='Loose bbox'>true</entry>
     <entry key='Expose primary keys'>false</entry>
     <entry key="fetch size">1000</entry>
     <entry key='Max open prepared statements'>50</entry>
     <entry key='preparedStatements'>false</entry>
-    <entry key='jndiReferenceName'>java:comp/env/jdbc/legacy_read</entry>
+    <entry key='jndiReferenceName'>java:comp/env/jdbc/harvest_read</entry>
     <entry key='namespace'>imos.mod</entry>
   </connectionParameters>
   <__default>false</__default>
