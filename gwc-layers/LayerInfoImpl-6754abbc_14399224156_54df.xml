@@ -3,8 +3,8 @@
   <enabled>true</enabled>
   <name>imos:anfog_rt_trajectory_map</name>
   <mimeFormats>
-    <string>image/png</string>
     <string>image/jpeg</string>
+    <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
@@ -25,7 +25,7 @@
       <availableStyles class="sorted-set">
         <string>anfog-glider-trackonly</string>
       </availableStyles>
-      <defaultStyle>line</defaultStyle>
+      <defaultStyle>anfog-realtime</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
