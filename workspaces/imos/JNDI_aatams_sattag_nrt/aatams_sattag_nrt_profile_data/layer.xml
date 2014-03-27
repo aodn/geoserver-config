@@ -1,12 +1,12 @@
 <layer>
-  <name>aatams_sattag_nrt_map</name>
-  <id>LayerInfoImpl-66a72209:1430e66bb4d:-7fee</id>
+  <name>aatams_sattag_nrt_profile_data</name>
+  <id>LayerInfoImpl-3472ed5:144dc4d381d:-7ff2</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-66a72209:1430e66bb4d:-7fed</id>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-66a72209:1430e66bb4d:-7fef</id>
+    <id>FeatureTypeInfoImpl-3472ed5:144dc4d381d:-7ff3</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

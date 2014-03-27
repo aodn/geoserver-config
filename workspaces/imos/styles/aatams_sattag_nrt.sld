@@ -84,13 +84,13 @@
 </PointSymbolizer>
 </Rule>
 <Rule>
-<Title>Animal WMO Code</Title>
+<Title>Animal ID</Title>
   
 <MaxScaleDenominator>4500000</MaxScaleDenominator>
   
 <TextSymbolizer>
   <Label>
-<ogc:PropertyName>device_wmo_ref</ogc:PropertyName>
+<ogc:PropertyName>device_id</ogc:PropertyName>
 <ogc:PropertyName>timestamp</ogc:PropertyName>
 </Label>
 <Font>
