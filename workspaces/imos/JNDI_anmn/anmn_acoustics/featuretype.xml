@@ -11,12 +11,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=e850651b-d65d-495b-8182-5dde35919616</content>
-    </metadataLink>
-    <metadataLink>
-      <type>text/xml</type>
-      <metadataType>TC211</metadataType>
-      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=e850651b-d65d-495b-8182-5dde35919616</content>
+      <content>http://catalogue-rc.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=e850651b-d65d-495b-8182-5dde35919616&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
