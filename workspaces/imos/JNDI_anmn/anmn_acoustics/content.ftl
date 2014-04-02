@@ -23,6 +23,8 @@
     <p>${feature.abstract.value}</p>
 
 
+    <a  rel="external" href="http://acoustic.aodn.org.au" target="_blank"  >Acoustic Data Viewer (preview and download raw data)</a><br>
+
     <a  rel="external" href="mailto:info@emii.org.au" target="_blank"  >Email us for raw data</a>
 
 
