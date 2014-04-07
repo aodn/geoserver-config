@@ -22,8 +22,12 @@
     <styleParameterFilter>
       <key>STYLES</key>
       <defaultValue></defaultValue>
-      <availableStyles class="sorted-set"/>
-      <defaultStyle>point</defaultStyle>
+      <availableStyles class="sorted-set">
+        <string>ANMN_CO2_moorings</string>
+        <string>ANMN_shelfmooring</string>
+        <string>point</string>
+      </availableStyles>
+      <defaultStyle>ANMN_CO2_moorings</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
