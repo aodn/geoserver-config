@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl-7b4a08b6:1453a97229c:-7ff3</id>
+  <name>JNDI_abos_currents</name>
+  <description>abos_currents</description>
+  <type>PostGIS (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">abos_currents</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/local_harvest_read</entry>
+    <entry key="Estimated extends">true</entry>
+    <entry key="namespace">imos.mod</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
