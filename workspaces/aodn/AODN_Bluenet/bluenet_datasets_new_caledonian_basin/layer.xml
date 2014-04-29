@@ -1,0 +1,21 @@
+<layer>
+  <name>bluenet_datasets_new_caledonian_basin</name>
+  <id>LayerInfoImpl-51b621c6:13e35a4036c:-7f4f</id>
+  <path>Universities/Australian National University/</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3f915dc9:13ded0e5778:4c41</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-51b621c6:13e35a4036c:-7f50</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

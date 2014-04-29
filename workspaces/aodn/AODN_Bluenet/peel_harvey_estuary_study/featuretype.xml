@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-39942fb7:13e3980d7e2:-2419</id>
+  <name>peel_harvey_estuary_study</name>
+  <nativeName>peel_harvey_estuary_study</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-3b0a723a:137e9896802:-7ffd</id>
+  </namespace>
+  <title>Peel Harvey Estuary Study</title>
+  <abstract>BlueNET dataset</abstract>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://bluenet.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=9694c100-0d78-11dc-b244-00188b4c0af8</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>115.66</minx>
+    <maxx>115.77</maxx>
+    <miny>-32.747</miny>
+    <maxy>-32.5</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>115.66</minx>
+    <maxx>115.77</maxx>
+    <miny>-32.747</miny>
+    <maxy>-32.5</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='cachingEnabled'>false</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl-3f915dc9:13de8255999:-76bc</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
