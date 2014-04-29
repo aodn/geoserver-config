@@ -1,0 +1,50 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--3d4d70dd:13e1e174f81:-c78</id>
+  <name>cleveland_bay_data</name>
+  <nativeName>cleveland_bay_data</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-3b0a723a:137e9896802:-7ffd</id>
+  </namespace>
+  <title>Cleveland Bay Study Data</title>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://bluenet.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=ac3a75e0-1494-11dc-80b6-00188b4c0af8</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>146.39</minx>
+    <maxx>147.683</maxx>
+    <miny>-19.255</miny>
+    <maxy>-18.267</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>146.39</minx>
+    <maxx>147.683</maxx>
+    <miny>-19.255</miny>
+    <maxy>-18.267</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='cachingEnabled'>false</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl-3f915dc9:13de8255999:-76bc</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

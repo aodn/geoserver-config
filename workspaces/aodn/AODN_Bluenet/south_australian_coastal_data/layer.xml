@@ -1,0 +1,22 @@
+<layer>
+  <name>south_australian_coastal_data</name>
+  <id>LayerInfoImpl--7b420237:13e35888c21:-7ffb</id>
+  <path>Universities/Flinders University/</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3f915dc9:13ded0e5778:4c41</id>
+  </defaultStyle>
+  <styles class='linked-hash-set'>
+    <style>
+      <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+    </style>
+  </styles>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl--7b420237:13e35888c21:-7ffc</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
