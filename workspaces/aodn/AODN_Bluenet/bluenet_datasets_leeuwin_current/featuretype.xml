@@ -1,0 +1,34 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-3f915dc9:13ded0e5778:4c49</id>
+  <name>bluenet_datasets_leeuwin_current</name>
+  <nativeName>bluenet_datasets_leeuwin_current</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-3b0a723a:137e9896802:-7ffd</id>
+  </namespace>
+  <title>Core Data - Leeuwin Current</title>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>104.033</minx>
+    <maxx>137.411</maxx>
+    <miny>-36.968</miny>
+    <maxy>-5.818</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>104.033</minx>
+    <maxx>137.411</maxx>
+    <miny>-36.968</miny>
+    <maxy>-5.818</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='cachingEnabled'>false</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl-3f915dc9:13de8255999:-76bc</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
