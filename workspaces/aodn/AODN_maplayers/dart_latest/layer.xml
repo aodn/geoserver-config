@@ -1,0 +1,18 @@
+<layer>
+  <name>dart_latest</name>
+  <id>LayerInfoImpl--57876621:138209104e5:-778a</id>
+  <path>Bureau of Meteorology</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--57876621:13821f23d6b:178c</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl--57876621:138209104e5:-778b</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <href>http://www.bom.gov.au/tsunami/info/index.shtml</href>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
