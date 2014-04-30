@@ -1,0 +1,18 @@
+<layer>
+  <name>coastal_watch_locations</name>
+  <id>LayerInfoImpl-3b0a723a:137e9896802:-7ff8</id>
+  <path>Coastal Watch</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6e3ce13a:137a13ece96:-7fa8</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl-3b0a723a:137e9896802:-7ff9</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <title>micky</title>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
