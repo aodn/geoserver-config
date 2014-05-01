@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--7756965e:1392e412d05:-7ffe</id>
+  <name>so_cpr_geoserver_view</name>
+  <nativeName>so_cpr_geoserver_view</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>Southern Ocean CPR Zooplankton</title>
+  <abstract>Southern Ocean CPR Zooplankton Abundance Survey</abstract>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=be689b31-a1e6-49d1-afa8-a6c1f4b95498</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-179.996</minx>
+    <maxx>179.996</maxx>
+    <miny>-75.838</miny>
+    <maxy>-38.779</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-179.996</minx>
+    <maxx>179.996</maxx>
+    <miny>-75.838</miny>
+    <maxy>-38.779</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='cachingEnabled'>false</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl-3ab8edf6:12f766e0eb9:-8000</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
