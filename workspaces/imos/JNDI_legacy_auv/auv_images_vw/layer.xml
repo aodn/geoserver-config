@@ -1,0 +1,21 @@
+<layer>
+  <name>auv_images_vw</name>
+  <id>LayerInfoImpl--7b88e67:129fd81174b:33bb</id>
+  <path>Autonomous Underwater Vehicle (AUV)</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4132f657:12af4adebcc:-2ae</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-b57b2f:12b9e45e3c9:-53df</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--7b88e67:129fd81174b:33ba</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
