@@ -1,0 +1,16 @@
+<layer>
+  <name>srs_occ</name>
+  <id>LayerInfoImpl--7daad56b:1379c8ba7ab:-7fe4</id>
+  <path>Satellite Remote Sensing (SRS)</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7d44d2e4:1379b4bb71e:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--7daad56b:1379c8ba7ab:-7fe5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
