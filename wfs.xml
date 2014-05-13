@@ -41,7 +41,7 @@
   </gml>
   <serviceLevel>COMPLETE</serviceLevel>
   <maxFeatures>1000000</maxFeatures>
-  <featureBounding>true</featureBounding>
+  <featureBounding>false</featureBounding>
   <canonicalSchemaLocation>false</canonicalSchemaLocation>
   <encodeFeatureMember>false</encodeFeatureMember>
   <hitsIgnoreMaxFeatures>false</hitsIgnoreMaxFeatures>
