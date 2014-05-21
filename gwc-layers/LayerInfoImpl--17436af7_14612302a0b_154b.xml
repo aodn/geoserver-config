@@ -1,7 +1,7 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl--5bf0fc51:144d335af6e:-661c</id>
+  <id>LayerInfoImpl--17436af7:14612302a0b:154b</id>
   <enabled>true</enabled>
-  <name>imos:anmn_regridded_temperature_map</name>
+  <name>imos:abos_currents_map</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
@@ -23,7 +23,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>ANMN_slopemooring</defaultStyle>
+      <defaultStyle>point</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
