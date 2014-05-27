@@ -14,7 +14,7 @@
     <entry key="Expose primary keys">false</entry>
     <entry key="encode functions">false</entry>
     <entry key="preparedStatements">false</entry>
-    <entry key="jndiReferenceName">java:comp/env/jdbc/local_harvest_read</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
     <entry key="Estimated extends">true</entry>
     <entry key="namespace">imos.mod</entry>
   </connectionParameters>
