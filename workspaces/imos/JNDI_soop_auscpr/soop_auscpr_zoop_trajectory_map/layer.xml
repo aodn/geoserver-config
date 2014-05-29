@@ -1,0 +1,15 @@
+<layer>
+  <name>soop_auscpr_zoop_trajectory_map</name>
+  <id>LayerInfoImpl--17436af7:1461208fd57:1ba3</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1b043e60:13164ec07c0:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--17436af7:1461208fd57:1ba2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
