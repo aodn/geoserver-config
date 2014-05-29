@@ -1,0 +1,15 @@
+<layer>
+  <name>anmn_am_dm_map</name>
+  <id>LayerInfoImpl--3ce6ac49:146133ce71f:-5918</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--a1ff436:1357f8d1119:1547</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3ce6ac49:146133ce71f:-5919</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
