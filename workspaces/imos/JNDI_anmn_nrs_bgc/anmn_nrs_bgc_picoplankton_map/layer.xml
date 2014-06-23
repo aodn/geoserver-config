@@ -1,0 +1,15 @@
+<layer>
+  <name>anmn_nrs_bgc_picoplankton_map</name>
+  <id>LayerInfoImpl--49f425ad:146466cb455:-7fdb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--49f425ad:146466cb455:-7ff3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--49f425ad:146466cb455:-7fdc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

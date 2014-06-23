@@ -1,0 +1,15 @@
+<layer>
+  <name>anmn_nrs_bgc_plankton_zooplankton_map</name>
+  <id>LayerInfoImpl--49f425ad:146466cb455:-781f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--49f425ad:146466cb455:-7ff3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--49f425ad:146466cb455:-7820</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
