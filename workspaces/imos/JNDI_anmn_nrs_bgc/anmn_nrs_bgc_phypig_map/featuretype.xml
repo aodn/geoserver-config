@@ -1,23 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-10175866:142b0c3e928:-7fee</id>
-  <name>anmn_ts_timeseries_map</name>
-  <nativeName>anmn_ts_timeseries_map</nativeName>
+  <id>FeatureTypeInfoImpl--49f425ad:146466cb455:-7fe0</id>
+  <name>anmn_nrs_bgc_phypig_map</name>
+  <nativeName>anmn_nrs_bgc_phypig_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>ANMN Temperature &amp; Salinity timeseries (map)</title>
-  <abstract>Time-series observations of temperature and salinity from coastal moorings deployed by the Australian National Mooring Network (ANMN) Facility of IMOS.</abstract>
+  <title>Phytoplankton HPLC Pigment Composition Analysis</title>
   <keywords>
-    <string>anmn_ts_timeseries_map</string>
+    <string>anmn_nrs_bgc_phypig_map</string>
     <string>features</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/xml</type>
-      <metadataType>TC211</metadataType>
-      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=7e13b5f3-4a70-4e31-9e95-335efa491c5c&amp;styleSheet=xml_iso19139.mcp.xsl</content>
-    </metadataLink>
-  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -29,17 +21,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>113.9468333333</minx>
-    <maxx>153.8765333333</maxx>
-    <miny>-42.6017833333</miny>
-    <maxy>-9.8168333333</maxy>
+    <minx>113.779</minx>
+    <maxx>153.562</maxx>
+    <miny>-42.59667</miny>
+    <maxy>-12.4</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>113.9468333333</minx>
-    <maxx>153.8765333333</maxx>
-    <miny>-42.6017833333</miny>
-    <maxy>-9.8168333333</maxy>
+    <minx>113.779</minx>
+    <maxx>153.562</maxx>
+    <miny>-42.59667</miny>
+    <maxy>-12.4</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -54,7 +46,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-10175866:142b0c3e928:-7ff3</id>
+    <id>DataStoreInfoImpl--49f425ad:146466cb455:-7ff2</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>

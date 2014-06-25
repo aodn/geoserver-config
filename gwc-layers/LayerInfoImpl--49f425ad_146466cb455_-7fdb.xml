@@ -1,7 +1,7 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-66a72209:1430e66bb4d:-7fee</id>
+  <id>LayerInfoImpl--49f425ad:146466cb455:-7fdb</id>
   <enabled>true</enabled>
-  <name>imos:aatams_sattag_nrt_map</name>
+  <name>imos:anmn_nrs_bgc_picoplankton_map</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
@@ -23,7 +23,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>aatams_sattag_nrt</defaultStyle>
+      <defaultStyle>anmn_nrs_bgc_stations</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
