@@ -22,8 +22,8 @@
         
         <#if feature.IMAGE.value?trim != "">
         <BR>
-<img  src="${my.baseurl}/portalimages/${feature.IMAGE.value}" alt="Imaged sized down to fit" />
-<a class="h3 external" target="_blank" href="${my.baseurl}/portalimages/${feature.IMAGE.value}" alt="${feature.ANMNNAME.value} - ${feature.ANMNCODE.value} image">Diagram of the deployment</a> 
+<img  src="${my.baseurlStaticImages}/${feature.IMAGE.value}" alt="Imaged sized down to fit" />
+<a class="h3 external" target="_blank" href="${my.baseurlStaticImages}/${feature.IMAGE.value}" alt="${feature.ANMNNAME.value} - ${feature.ANMNCODE.value} image">Diagram of the deployment</a> 
 </#if>
 <BR>
 

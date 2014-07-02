@@ -54,10 +54,10 @@ title="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=${featur
  
   <h5>Sample image of '${feature.radar_system.value}' data collected by ACORN</h5>
 <#if feature.radar_system.value?trim == "Phased Array System">
-  <img class="spaced" src="${my.baseurl}/portalimages/ACORN/phased_array.JPG" alt="sample output"  />
+  <img class="spaced" src="${my.baseurlStaticImages}/ACORN/phased_array.JPG" alt="sample output"  />
 </#if>
 <#if feature.radar_system.value?trim == "Direction Finding System">
-  <img class="spaced" src="${my.baseurl}/portalimages/ACORN/direction_finding.JPG" alt="sample output" />
+  <img class="spaced" src="${my.baseurlStaticImages}/ACORN/direction_finding.JPG" alt="sample output" />
 </#if>
 -->
 
