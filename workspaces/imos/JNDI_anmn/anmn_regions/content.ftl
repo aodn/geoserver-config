@@ -11,12 +11,6 @@
 
 <b>LON/LAT</b> ${feature.lon.value}/${feature.lat.value}<br/>
 
-<#--
-<b>Data Turbine Links:</b><BR/>
-<#list feature.DT_CHANNEL.value?split(",") as x>
-<a class="external" target="_blank" href="${my.baseurl_data_turbine}${feature.DT_LINK.value}${x}">${x}</a><br>
-</#list>
--->
 <BR>
 <a href="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=${feature.METADATA.value}"  target="_blank"  rel="external" class="h3" title="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=${feature.METADATA.value}">Link to the IMOS metadata record</a>
   <#if feature.OPENDAP.value?trim != ""> |
