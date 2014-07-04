@@ -18,7 +18,7 @@ ${feature.time_coverage_start.value}  ${feature.time_coverage_end.value}
 
         
   <#if feature.callsign.value == "VLHJ" >
-        <img class="spaced" src="${my.baseurl}/portalimages/SOOP/southern_surveyor.jpg" alt="${feature.vessel_name.value}  ${feature.callsign.value}" /><BR>
+        <img class="spaced" src="${my.baseurlStaticImages}/SOOP/southern_surveyor.jpg" alt="${feature.vessel_name.value}  ${feature.callsign.value}" /><BR>
   </#if>
  
         

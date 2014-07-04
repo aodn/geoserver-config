@@ -17,7 +17,7 @@ ${feature.time_coverage_start.value}  ${feature.time_coverage_end.value}<BR>
 </#if>
 
 
-    <img class="spaced" src="${my.baseurl}/portalimages/SOOP/${feature.vessel_name.value?replace(" ","_")?replace("M/V_","")}.jpg" alt="${feature.vessel_name.value}  ${feature.callsign.value}" /><BR>
+    <img class="spaced" src="${my.baseurlStaticImages}/SOOP/${feature.vessel_name.value?replace(" ","_")?replace("M/V_","")}.jpg" alt="${feature.vessel_name.value}  ${feature.callsign.value}" /><BR>
 	
 Principal Investigator: <h6>${feature.principal_investigator.value}</h6><BR>
 

@@ -10,10 +10,10 @@
     <div class="feature">
 
     <#if feature.glider_type.value == "Slocum glider" >
-      <img src="${my.baseurl}/portalimages/slocum-glider.jpg" alt="Image of a  Slocum Glider">
+      <img src="${my.baseurlStaticImages}/slocum-glider.jpg" alt="Image of a  Slocum Glider">
     </#if>
     <#if feature.glider_type.value == "Seaglider" >
-      <img src="${my.baseurl}/portalimages/ocean-glider.png" alt="Image of a  Sea Glider">
+      <img src="${my.baseurlStaticImages}/ocean-glider.png" alt="Image of a  Sea Glider">
     </#if>
     <h3>Glider Deployment - ${feature.name.value}</h3>
     <h6>${feature.glider_type.value} ${feature.platform.value}</h6>

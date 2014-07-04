@@ -18,7 +18,7 @@ rel="external" class="h3" title="${feature.metadata.value}">IMOS metadata record
   <a  rel="external" href="${feature.opendap.value}" target="_blank" class="h3" >Sensor data on OPeNDAP </a><BR>
  </#if>
  <#if feature.image.value?trim != "">
-<img class="spaced maximage" src="${my.baseurl}/portalimages/ANMN/${feature.image.value}" alt="${feature.site_name.value} - ${feature.facility.value} image" />
+<img class="spaced maximage" src="${my.baseurlStaticImages}/ANMN/${feature.image.value}" alt="${feature.site_name.value} - ${feature.facility.value} image" />
 </#if>
 
 

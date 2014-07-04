@@ -32,12 +32,12 @@ ${feature.time_coverage_start.value}  ${feature.time_coverage_end.value}
 
   
  <#if feature.callsign.value == "VLST" >
-  <p><img class="spaced" src="${my.baseurl}/portalimages/SOOP/spiritShip.jpg" alt="" /><BR>  
+  <p><img class="spaced" src="${my.baseurlStaticImages}/SOOP/spiritShip.jpg" alt="" /><BR>  
 <h4>Summary plots of data for the period August 2008 to July 2009</h4>
-<a href="${my.baseurl}/portalimages/SOOP/IMOS_Spirit-of-Tasmania_Temperature_Aug08-Jul09.jpg"  target="_blank"  rel="external" >Temperature </a> |
-<a href="${my.baseurl}/portalimages/SOOP/IMOS_Spirit-of-Tasmania_Turbidity_Aug08-Jul09.jpg" target="_blank"  rel="external" >Turbidity </a> |
-<a href="${my.baseurl}/portalimages/SOOP/IMOS_Spirit-of-Tasmania_Chlorophyll_Aug08-Jul09.jpg" target="_blank"  rel="external" >Chlorophyll </a> |
-<a href="${my.baseurl}/portalimages/SOOP/IMOS_Spirit-of-Tasmania_Salinity_Aug08-Jul09.jpg" target="_blank"  rel="external" >Salinity </a> </p>
+<a href="${my.baseurlStaticImages}/SOOP/IMOS_Spirit-of-Tasmania_Temperature_Aug08-Jul09.jpg"  target="_blank"  rel="external" >Temperature </a> |
+<a href="${my.baseurlStaticImages}/SOOP/IMOS_Spirit-of-Tasmania_Turbidity_Aug08-Jul09.jpg" target="_blank"  rel="external" >Turbidity </a> |
+<a href="${my.baseurlStaticImages}/SOOP/IMOS_Spirit-of-Tasmania_Chlorophyll_Aug08-Jul09.jpg" target="_blank"  rel="external" >Chlorophyll </a> |
+<a href="${my.baseurlStaticImages}/SOOP/IMOS_Spirit-of-Tasmania_Salinity_Aug08-Jul09.jpg" target="_blank"  rel="external" >Salinity </a> </p>
   </#if>
  
         

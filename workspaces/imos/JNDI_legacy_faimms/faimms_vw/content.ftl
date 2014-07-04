@@ -51,7 +51,7 @@ SF = Sensor Float<BR>
 RP = Relay Pole<BR>
 WS = Weather Station
 </p>
-<img src="${my.baseurl}/portalimages/FAIMMS/${feature.site_code.value}.png"  alt="map showing receiver locations" />
+<img src="${my.baseurlStaticImages}/FAIMMS/${feature.site_code.value}.png"  alt="map showing receiver locations" />
 
 <!--a href="http://data.aims.gov.au/gbroosdata/services/rss/latestData/${feature.channelid.value}"  target="_blank"  rel="external" >RSS</a-->
 
