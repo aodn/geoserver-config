@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--49f425ad:146466cb455:-7fe4</id>
+  <id>FeatureTypeInfoImpl-358eefdb:14737db8e14:-6379</id>
   <name>anmn_nrs_bgc_phypig_data</name>
   <nativeName>anmn_nrs_bgc_phypig_data</nativeName>
   <namespace>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://catalogue-rc.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=04da3a85-807f-4ec2-8644-63a7aaeeb62c&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=f48531e2-f182-56ca-e043-08114f8c7f2e&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 

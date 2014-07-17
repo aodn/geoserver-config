@@ -1,3 +1,5 @@
 security/usergroup/default/users.xml
 .DS_Store
+*.iml
+Thumbs.db
 

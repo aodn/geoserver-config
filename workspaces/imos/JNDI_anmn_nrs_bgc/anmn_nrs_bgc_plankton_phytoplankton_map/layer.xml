@@ -1,12 +1,12 @@
 <layer>
   <name>anmn_nrs_bgc_plankton_phytoplankton_map</name>
-  <id>LayerInfoImpl--49f425ad:146466cb455:-7823</id>
+  <id>LayerInfoImpl-358eefdb:14737db8e14:-6372</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--49f425ad:146466cb455:-7ff3</id>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--49f425ad:146466cb455:-7824</id>
+    <id>FeatureTypeInfoImpl-358eefdb:14737db8e14:-6373</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

@@ -34,8 +34,8 @@ Link to the IMOS metadata record</a><BR>
 	
 	<#if feature.image.value?trim != "">
 	<BR>
-<img src="${my.baseurl}/portalimages/${feature.image.value}"/><BR>
-<a class="h3 external" target="_blank" href="${my.baseurl}/portalimages/${feature.image.value}" alt="${feature.sotsname.value} - ${feature.sotscode.value} image">Image from the deployment</a> 
+<img src="${my.baseurlStaticImages}/${feature.image.value}"/><BR>
+<a class="h3 external" target="_blank" href="${my.baseurlStaticImages}/${feature.image.value}" alt="${feature.sotsname.value} - ${feature.sotscode.value} image">Image from the deployment</a> 
 </#if>
 <BR>
 

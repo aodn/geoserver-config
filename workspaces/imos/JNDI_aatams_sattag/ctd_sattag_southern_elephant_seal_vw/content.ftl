@@ -63,11 +63,11 @@ Date: ${feature.timestamp.value}<br/>
 <p>${feature.abstract.value}</p>
 
  <#if  feature.common_name.value?trim == "Southern Elephant Seal" >
-        <img src="${my.baseurl}/portalimages/AATAMS/seal_tag.jpg"/>
+        <img src="${my.baseurlStaticImages}/AATAMS/seal_tag.jpg"/>
 <#elseif  feature.common_name.value?trim == "Australian Sea Lion" >
-        <img src="${my.baseurl}/portalimages/AATAMS/sea_lion.jpg"/>
+        <img src="${my.baseurlStaticImages}/AATAMS/sea_lion.jpg"/>
 <#else>
-        <img src="${my.baseurl}/portalimages/AATAMS/smru_ctd.jpg"/>
+        <img src="${my.baseurlStaticImages}/AATAMS/smru_ctd.jpg"/>
 </#if>
 
 

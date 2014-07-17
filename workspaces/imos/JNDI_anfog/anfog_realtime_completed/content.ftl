@@ -9,10 +9,10 @@
         <div class="feature">
 
         <#if feature.glider_type.value == "Slocum glider" >
-        <img src="${my.baseurl}/portalimages/slocum-glider.jpg" alt="Image of a ANFOG Slocum Glider">
+        <img src="${my.baseurlStaticImages}/slocum-glider.jpg" alt="Image of a ANFOG Slocum Glider">
         </#if>
         <#if feature.glider_type.value == "Seaglider" >
-        <img src="${my.baseurl}/portalimages/ocean-glider.png" alt="Image of a ANFOG Sea Glider">
+        <img src="${my.baseurlStaticImages}/ocean-glider.png" alt="Image of a ANFOG Sea Glider">
         </#if>
         <h3>${feature.name.value} Dive:${feature.dive.value}</h3>
 

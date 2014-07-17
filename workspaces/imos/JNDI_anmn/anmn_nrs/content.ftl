@@ -32,7 +32,7 @@ rel="external" class="h3" title="http://imosmest.emii.org.au/geonetwork/srv/en/m
 	
 	<#if feature.image.value?trim != "">
 	
-<img class="spaced maximage" src="${my.baseurl}/portalimages/${feature.image.value}" alt="${feature.name.value} - ${feature.code.value} image" />
+<img class="spaced maximage" src="${my.baseurlStaticImages}/${feature.image.value}" alt="${feature.name.value} - ${feature.code.value} image" />
 </#if>
 
 

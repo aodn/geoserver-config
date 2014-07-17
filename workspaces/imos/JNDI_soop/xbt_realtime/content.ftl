@@ -29,16 +29,16 @@
 
 
 <#if feature.callsign.value == 'FHZI' >
-    <img src="${my.baseurl}/portalimages/SOOP/L'Astrolabe.jpg" /><BR>
+    <img src="${my.baseurlStaticImages}/SOOP/L'Astrolabe.jpg" /><BR>
 </#if>
 <#if feature.callsign.value == 'V2BF1' >
-    <img src="${my.baseurl}/portalimages/SOOP/Florence.jpg" /><BR>
+    <img src="${my.baseurlStaticImages}/SOOP/Florence.jpg" /><BR>
 </#if>
 <#if feature.callsign.value == 'A8SW3' >
-    <img src="${my.baseurl}/portalimages/SOOP/Buxlink-546416.jpg" /><BR>
+    <img src="${my.baseurlStaticImages}/SOOP/Buxlink-546416.jpg" /><BR>
 </#if>
 <#if feature.callsign.value == 'V2BP4' >
-    <img src="${my.baseurl}/portalimages/SOOP/Vega-Gotland-443757.jpg" /><BR>
+    <img src="${my.baseurlStaticImages}/SOOP/Vega-Gotland-443757.jpg" /><BR>
 </#if>
 
 
