@@ -1,0 +1,15 @@
+<layer>
+  <name>seagrass_sampling_cockburn_sound</name>
+  <id>LayerInfoImpl--23d6da2f:1475bd6d626:-7f1d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3f915dc9:13ded0e5778:4c41</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--23d6da2f:1475bd6d626:-7f1e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
