@@ -5,7 +5,7 @@
 <Name>AATAMS Satellite Tagging NRT</Name>
 <FeatureTypeStyle>
 <Rule>
-<Title>Animal Tracks</Title>
+<Title>Animal track</Title>
           <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0BD61C</CssParameter>
@@ -15,7 +15,7 @@
         </LineSymbolizer>
 </Rule>
 <Rule>
-  <Title>Animal Tracks (Directional Arrows)</Title>
+  <Title>Animal direction</Title>
 <MaxScaleDenominator>20000000</MaxScaleDenominator>
         <LineSymbolizer>
           <Stroke>
@@ -58,7 +58,7 @@
 </LineSymbolizer>
 </Rule>
 <Rule>
-  <Title>CTD profile locations</Title>
+  <Title>CTD profile (not all represented)</Title>
 <MaxScaleDenominator>2500000</MaxScaleDenominator>
 <PointSymbolizer>
 <Geometry>
@@ -84,8 +84,6 @@
 </PointSymbolizer>
 </Rule>
 <Rule>
-<Title>Animal ID</Title>
-  
 <MaxScaleDenominator>4500000</MaxScaleDenominator>
   
 <TextSymbolizer>

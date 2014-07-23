@@ -5,7 +5,7 @@
 <Name>SOOP XBT measurements</Name>
 <FeatureTypeStyle>
 <Rule>
-<Title>Measurement location</Title>
+<Title>Measurement</Title>
   <PointSymbolizer>
 <Geometry>
 <ogc:Function name="vertices">
