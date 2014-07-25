@@ -5,7 +5,7 @@
 <Name>SOOP SST trajectories</Name>
 <FeatureTypeStyle>
 <Rule>
-<Title>Vessel Tracks</Title>
+<Title>Vessel track</Title>
           <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#F7A53A</CssParameter>
@@ -15,7 +15,7 @@
         </LineSymbolizer>
 </Rule>
   <Rule>
-  <Title>Vessel Tracks (Directional Arrows)</Title>
+  <Title>Vessel direction</Title>
 <MaxScaleDenominator>20000000</MaxScaleDenominator>
         <LineSymbolizer>
           <Stroke>
@@ -58,7 +58,7 @@
 </LineSymbolizer>
 </Rule>
 <Rule>
-  <Title>Measurement location</Title>
+  <Title>Measurement (not all represented)</Title>
 <MaxScaleDenominator>2500000</MaxScaleDenominator>
 <PointSymbolizer>
 <Geometry>
@@ -84,7 +84,6 @@
 </PointSymbolizer>
 </Rule>
 <Rule>
-<Title>Vessel name</Title>
   
 <MaxScaleDenominator>4500000</MaxScaleDenominator>
   

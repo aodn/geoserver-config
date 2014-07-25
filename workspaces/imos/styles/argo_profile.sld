@@ -17,7 +17,7 @@
       <FeatureTypeStyle>
         <Rule>
           <Name>rule1</Name>
-          <Title>Blue Circle</Title>
+          <Title>Argo profile</Title>
           <Abstract>A 4 pixel circle with a blue fill and no stroke</Abstract>
             <PointSymbolizer>
               <Graphic>
