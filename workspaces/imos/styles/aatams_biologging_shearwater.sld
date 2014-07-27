@@ -5,7 +5,7 @@
 <Name>Short-tailed shearwater trajectories</Name>
 <FeatureTypeStyle>
 <Rule>
-<Title>Shearwater Tracks</Title>
+<Title>Shearwater track</Title>
           <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#FA8A70</CssParameter>
@@ -15,7 +15,7 @@
         </LineSymbolizer>
 </Rule>
   <Rule>
-  <Title>Shearwater Tracks (Directional Arrows)</Title>
+  <Title>Shearwater direction</Title>
 <MaxScaleDenominator>20000000</MaxScaleDenominator>
         <LineSymbolizer>
           <Stroke>
@@ -58,7 +58,7 @@
 </LineSymbolizer>
 </Rule>
 <Rule>
-  <Title>Animal geolocation</Title>
+  <Title>Animal geolocation (not all represented)</Title>
 <MaxScaleDenominator>2500000</MaxScaleDenominator>
 <PointSymbolizer>
 <Geometry>
@@ -84,7 +84,6 @@
 </PointSymbolizer>
 </Rule>
 <Rule>
-  <Title>Animal code</Title>
 <MaxScaleDenominator>4500000</MaxScaleDenominator>
 <TextSymbolizer>
   <Label>

@@ -5,7 +5,7 @@
 <Name>Emperor penguin trajectories</Name>
 <FeatureTypeStyle>
 <Rule>
-<Title>Penguin Tracks</Title>
+<Title>Penguin track</Title>
           <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#E82EE5</CssParameter>
@@ -15,7 +15,7 @@
         </LineSymbolizer>
 </Rule>
   <Rule>
-  <Title>Penguin Tracks (Directional Arrows)</Title>
+  <Title>Penguin direction</Title>
 <MaxScaleDenominator>20000000</MaxScaleDenominator>
         <LineSymbolizer>
           <Stroke>
@@ -58,7 +58,7 @@
 </LineSymbolizer>
 </Rule>
 <Rule>
-  <Title>Argos location</Title>
+  <Title>Argos location (not all represented)</Title>
 <MaxScaleDenominator>2500000</MaxScaleDenominator>
 <PointSymbolizer>
 <Geometry>
@@ -84,7 +84,6 @@
 </PointSymbolizer>
 </Rule>
 <Rule>
-<Title>PTT ID</Title>
   
 <MaxScaleDenominator>4500000</MaxScaleDenominator>
   
