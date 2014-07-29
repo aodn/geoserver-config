@@ -87,7 +87,7 @@
 <MaxScaleDenominator>4500000</MaxScaleDenominator>
 <TextSymbolizer>
   <Label>
-    <ogc:PropertyName>ref</ogc:PropertyName>
+    <ogc:PropertyName>animal_id</ogc:PropertyName>
 <ogc:PropertyName>start_date</ogc:PropertyName>
 </Label>
 <Font>
