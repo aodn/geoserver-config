@@ -6,7 +6,7 @@
 <b>Animal ID :</b> ${feature.animal_id.value}<br/>
 <b>Species common name:</b> ${feature.common_name.value}<br/>
 <b>Age class:</b> ${feature.age_class.value}, <b>Sex:</b> ${feature.sex.value}<br/>
-<b>Release site and date:</b> ${feature.release_location.value}, ${feature.release_date.value?date("dd/MM/yy")}<br/>
+<b>Release site and date:</b> ${feature.release_location.value}, ${feature.release_date.value?date}<br/>
 <b>Time range :</b> ${feature.start_date.value} - ${feature.end_date.value}<br/>
 <BR>
 </div>
