@@ -1,14 +1,13 @@
 <layer>
   <name>so_cpr_geoserver_view</name>
-  <id>LayerInfoImpl--7756965e:1392e412d05:-7ffd</id>
+  <id>LayerInfoImpl-2a063d6c:14858ec12b2:5509</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--76dc30d3:13ba6555f5c:-44c8</id>
   </defaultStyle>
-  <resource class='featureType'>
-    <id>FeatureTypeInfoImpl--7756965e:1392e412d05:-7ffe</id>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2a063d6c:14858ec12b2:5508</id>
   </resource>
-  <enabled>true</enabled>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>

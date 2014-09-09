@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--7756965e:1392e412d05:-7ffe</id>
+  <id>FeatureTypeInfoImpl-2a063d6c:14858ec12b2:5508</id>
   <name>so_cpr_geoserver_view</name>
   <nativeName>so_cpr_geoserver_view</nativeName>
   <namespace>
@@ -7,33 +7,43 @@
   </namespace>
   <title>Southern Ocean CPR Zooplankton</title>
   <abstract>Southern Ocean CPR Zooplankton Abundance Survey</abstract>
+  <keywords>
+    <string>so_cpr_geoserver_view</string>
+    <string>features</string>
+  </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=be689b31-a1e6-49d1-afa8-a6c1f4b95498</content>
+      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=c8350207-49b1-458f-a648-59107815bd3d&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-179.996</minx>
-    <maxx>179.996</maxx>
+    <minx>-179.9957</minx>
+    <maxx>179.9963</maxx>
     <miny>-75.838</miny>
-    <maxy>-38.779</maxy>
+    <maxy>-38.7786</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.996</minx>
-    <maxx>179.996</maxx>
+    <minx>-179.9957</minx>
+    <maxx>179.9963</maxx>
     <miny>-75.838</miny>
-    <maxy>-38.779</maxy>
-    <crs>EPSG:4326</crs>
+    <maxy>-38.7786</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key='cachingEnabled'>false</entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
-  <store class='dataStore'>
+  <store class="dataStore">
     <id>DataStoreInfoImpl-3ab8edf6:12f766e0eb9:-8000</id>
   </store>
   <maxFeatures>0</maxFeatures>
