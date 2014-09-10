@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_dsto_trajectory_map</name>
+  <id>LayerInfoImpl--6ba995da:1485ca8dac4:45a1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6ba995da:1485ca8dac4:45ad</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6ba995da:1485ca8dac4:45a0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
