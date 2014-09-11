@@ -7,15 +7,17 @@
     <id>WorkspaceInfoImpl-3b0a723a:137e9896802:-7ffe</id>
   </workspace>
   <connectionParameters>
-    <entry key='schema'>aodn_dsto</entry>
-    <entry key='dbtype'>postgis</entry>
-    <entry key='Loose bbox'>true</entry>
-    <entry key='Expose primary keys'>false</entry>
+    <entry key="schema">aodn_dsto</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="Max open prepared statements">50</entry>
     <entry key="fetch size">1000</entry>
-    <entry key='Max open prepared statements'>50</entry>
-    <entry key='preparedStatements'>true</entry>
-    <entry key='jndiReferenceName'>java:comp/env/jdbc/harvest_read</entry>
-    <entry key='namespace'>aodn</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="preparedStatements">true</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
+    <entry key="Estimated extends">false</entry>
+    <entry key="namespace">aodn</entry>
   </connectionParameters>
   <__default>false</__default>
 </dataStore>
