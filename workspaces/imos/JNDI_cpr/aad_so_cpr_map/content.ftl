@@ -30,11 +30,6 @@
         </p>
         
         <p>
-            <a href="http://imosmest.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=be689b31-a1e6-49d1-afa8-a6c1f4b95498"  target="_blank"  rel="external" class="h3" title="">IMOS metadata record</a> |
-            <a  rel="external"
-                href="http://geoserver.imos.org.au/geoserver/wfs?service=wfs&version=1.1.0&request=GetFeature&typeName=so_cpr_geoserver_view&srs=EPSG:4326&outputFormat=csv&cql_filter=(ship_code='${feature.ship_code.value}')"
-                title="http://geoserver.imos.org.au/geoserver/wfs?service=wfs&version=1.1.0&request=GetFeature&typeName=so_cpr_geoserver_view&srs=EPSG:4326&outputFormat=csv&cql_filter=(ship_code='${feature.ship_code.value}')"
-                target="_blank" class="h3" >Download data </a><br/><br/>
             Please contact <a href="mailto:graham.hosie@aad.gov.au">Graham Hosie</a> for help with using the data.
                 
                 
