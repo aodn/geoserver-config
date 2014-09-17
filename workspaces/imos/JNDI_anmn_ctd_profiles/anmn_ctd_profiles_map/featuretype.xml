@@ -1,0 +1,50 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--3d0980bd:148634d2ab5:-7ff0</id>
+  <name>anmn_ctd_profiles_map</name>
+  <nativeName>anmn_nrs_ctd_profiles_map</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>ANMN CTD  profiles (map)</title>
+  <abstract>This collection includes CTD profile data transmitted since 2009 from the National Reference Stations (NRS) and some regional coastal moorings from the Australian National Mooring Network (ANMN). Each mooring is equipped with a SBE19 plus CTD, measuring temperature, salinity, pressure, dissolved oxygen, chlorophyll concentration, and turbidity. These data are processed in delayed mode, with automated quality control applied.</abstract>
+  <keywords>
+    <string>anmn_nrs_ctd_profiles_map</string>
+    <string>features</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=7b901002-b1dc-46c3-89f2-b4951cedca48&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>113.9466666667</minx>
+    <maxx>121.85</maxx>
+    <miny>-33.9333333333</miny>
+    <maxy>-21.865</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>113.9466666667</minx>
+    <maxx>121.85</maxx>
+    <miny>-33.9333333333</miny>
+    <maxy>-21.865</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--3d0980bd:148634d2ab5:-7ff3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
