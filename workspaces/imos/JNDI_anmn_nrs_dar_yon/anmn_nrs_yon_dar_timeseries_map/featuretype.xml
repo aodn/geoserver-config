@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=006bb7dc-860b-4b89-bf4c-6bd930bd35b7&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=006bb7dc-860b-4b89-bf4c-6bd930bd35b7&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
