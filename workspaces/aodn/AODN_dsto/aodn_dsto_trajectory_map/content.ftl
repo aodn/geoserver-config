@@ -19,7 +19,7 @@
       <li><b>Start</b> ${feature.time_coverage_start.value}</li>
       <li><b>End</b> to ${feature.time_coverage_end.value}</li>
     </ul>
-    <a href="http://catalogue-123.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=9cb44921-91a0-4a17-bdd0-3225bc47346c"  target="_blank"  rel="external" class="h3" title="http://catalogue-123.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=9cb44921-91a0-4a17-bdd0-3225bc47346c">
+    <a href="https://catalogue-123.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=9cb44921-91a0-4a17-bdd0-3225bc47346c"  target="_blank"  rel="external" class="h3" title="https://catalogue-123.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=9cb44921-91a0-4a17-bdd0-3225bc47346c">
     Metadata record</a> <BR>
 
     </div>
