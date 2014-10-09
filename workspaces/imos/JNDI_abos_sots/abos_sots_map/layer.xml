@@ -1,0 +1,15 @@
+<layer>
+  <name>abos_sots_map</name>
+  <id>LayerInfoImpl-2a063d6c:1485932beea:7419</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2a063d6c:1485932beea:7418</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
