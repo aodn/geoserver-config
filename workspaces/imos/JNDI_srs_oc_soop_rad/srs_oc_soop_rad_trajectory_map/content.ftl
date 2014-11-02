@@ -1,13 +1,10 @@
-<div class="feature">
 <#list features as feature>
+<div class="feature">
+    <h4>${feature.vessel_name.value} ${feature.platform_code.value}</h4>
 
-<#if (feature_index < 2) >
-<div class="featurewhite">
-<b>Vessel name :</b> ${feature.vessel_name.value}<br/>
-<b>Platform code :</b> ${feature.platform_code.value}<br/>
-<b>Time range :</b> ${feature.time_start.value} - ${feature.time_end.value}<br/>
-<BR>
+    ${feature.time_start.value} - ${feature.time_end.value}<br>
+    <br>
+    Irradiance and radiance spectra from DALEC instrument on board.<br>
+    <br>
 </div>
-</#if>
 </#list>
-</div>
