@@ -51,8 +51,8 @@ hidden for use in AUV page  TODO: make it visible and hide with jquery !!!!!!!!!
   <#if feature.dive_report.value?trim != ""> 
   <a href="${feature.dive_report.value}">Dive Report</a><BR>
   </#if>  
-  <#if feature.dive_notes.value?trim != ""> 
-  <a href="${feature.dive_notes.value}">Dive Notes</a><BR>
+  <#if feature.notes.value?trim != ""> 
+  <a href="${feature.notes.value}">Dive Notes</a><BR>
   </#if>
 
 
