@@ -2,7 +2,7 @@
 <div class="belt">
 
 <#list features as feature>
-<#assign image = "https://auv.aodn.org.au/AUV/${feature.campaign_code.value}/${feature.site_code.value}/i2jpg/${feature.image_filename.value}.jpg" >
+<#assign image = "https://data.aodn.org.au/IMOS/public/AUV/auv_viewer_data/thumbnails/${feature.campaign_code.value}/${feature.site_code.value}/i2jpg/${feature.image_filename.value}.jpg" >
 
 <div class="panel"  id="auvpanel_${feature_index}" >
 <a href="#" onclick="openPopup('${image}','${my.baseurlDataServer}/AUV/${feature.campaign_code.value}/${feature.site_code.value}/${feature.image_folder.value}/${feature.image_filename.value}.tif');return false;" >

@@ -1,14 +1,13 @@
 <layer>
-  <name>auv_tracks</name>
-  <id>LayerInfoImpl--2146e1bc:13928659104:3b10</id>
+  <name>auv_tracks_vw</name>
+  <id>LayerInfoImpl-219289c1:1497999d21a:-6cf2</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--7b88e67:129fd81174b:337a</id>
   </defaultStyle>
-  <resource class='featureType'>
-    <id>FeatureTypeInfoImpl--2146e1bc:13928659104:3b0f</id>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-219289c1:1497999d21a:-6cf3</id>
   </resource>
-  <enabled>true</enabled>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>

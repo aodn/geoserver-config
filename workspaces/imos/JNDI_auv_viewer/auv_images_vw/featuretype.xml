@@ -1,11 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--2146e1bc:13928659104:3b0f</id>
-  <name>auv_tracks</name>
-  <nativeName>auv_tracks</nativeName>
+  <id>FeatureTypeInfoImpl-219289c1:1497999d21a:-6cf5</id>
+  <name>auv_images_vw</name>
+  <nativeName>auv_images_vw</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>auv_tracks</title>
+  <title>auv_images_vw</title>
+  <keywords>
+    <string>features</string>
+    <string>auv_images_vw</string>
+  </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -17,26 +21,32 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>113.944</minx>
-    <maxx>153.486</maxx>
-    <miny>-43.623</miny>
-    <maxy>-14.029</maxy>
+    <minx>113.9438389</minx>
+    <maxx>152.3455056</maxx>
+    <miny>-43.6184528</miny>
+    <maxy>-18.7936194</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>113.944</minx>
-    <maxx>153.486</maxx>
-    <miny>-43.623</miny>
-    <maxy>-14.029</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>113.9438389</minx>
+    <maxx>152.3455056</maxx>
+    <miny>-43.6184528</miny>
+    <maxy>-18.7936194</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key='cachingEnabled'>false</entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
-  <store class='dataStore'>
-    <id>DataStoreInfoImpl-a3e766a:12ca0028feb:legacy_auv</id>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-219289c1:1497999d21a:-6cf6</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
