@@ -1,22 +1,23 @@
 <dataStore>
-  <id>DataStoreInfoImpl-219289c1:1497999d21a:-6cf6</id>
-  <name>JNDI_auv_viewer</name>
+  <id>DataStoreInfoImpl-a3e766a:12ca0028feb:legacy_auv</id>
+  <name>JNDI_legacy_auv</name>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
   <connectionParameters>
+    <entry key="schema">legacy_auv</entry>
     <entry key="dbtype">postgis</entry>
-    <entry key="encode functions">false</entry>
-    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
-    <entry key="namespace">imos.mod</entry>
-    <entry key="schema">auv_viewer_track</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">false</entry>
+    <entry key="Max open prepared statements">50</entry>
+    <entry key="encode functions">false</entry>
     <entry key="fetch size">1000</entry>
     <entry key="preparedStatements">false</entry>
-    <entry key="Estimated extends">true</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
+    <entry key="Estimated extends">false</entry>
+    <entry key="namespace">imos.mod</entry>
   </connectionParameters>
   <__default>false</__default>
 </dataStore>

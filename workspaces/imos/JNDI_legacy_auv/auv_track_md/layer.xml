@@ -1,0 +1,16 @@
+<layer>
+  <name>auv_track_md</name>
+  <id>LayerInfoImpl--cb0f62a:139d8156ff5:-1c0d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--7b88e67:129fd81174b:337a</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl--cb0f62a:139d8156ff5:-1c0e</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
