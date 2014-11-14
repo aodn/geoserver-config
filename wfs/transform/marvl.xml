@@ -1,0 +1,7 @@
+<transform>
+  <sourceFormat>text/xml; subtype=gml/2.1.2</sourceFormat>
+  <outputFormat>marvl xml</outputFormat>
+  <outputMimeType>text/xml</outputMimeType>
+  <fileExtension>xml</fileExtension>
+  <xslt>marvl.xslt</xslt>
+</transform>
