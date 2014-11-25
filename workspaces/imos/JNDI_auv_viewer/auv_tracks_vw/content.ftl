@@ -51,10 +51,9 @@ hidden for use in AUV page  TODO: make it visible and hide with jquery !!!!!!!!!
   <#if feature.dive_report.value?trim != ""> 
   <a href="${feature.dive_report.value}">Dive Report</a><BR>
   </#if>  
-  <#if feature.notes.value?trim != ""> 
-  <a href="${feature.notes.value}">Dive Notes</a><BR>
+  <#if feature.dive_notes.value?trim != ""> 
+  <a href="${feature.dive_notes.value}">Dive Notes</a><BR>
   </#if>
-
 
   <#if feature.metadata_uuid.value?trim != "">
   	<a href="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=${feature.metadata_uuid.value}"  target="_blank"  rel="external" class="h3" title="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=${feature.metadata_uuid.value}">
