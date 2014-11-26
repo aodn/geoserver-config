@@ -1,0 +1,15 @@
+<layer>
+  <name>aatams_sattag_dm_haulout_map</name>
+  <id>LayerInfoImpl-77d9490c:1499be6f754:-7fe7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-66a72209:1430e66bb4d:-7fed</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-77d9490c:1499be6f754:-7fe8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

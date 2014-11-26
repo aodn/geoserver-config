@@ -1,0 +1,15 @@
+<layer>
+  <name>aatams_sattag_dm_dive_profile_data</name>
+  <id>LayerInfoImpl-77d9490c:1499be6f754:-7ff2</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-77d9490c:1499be6f754:-7ff3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
