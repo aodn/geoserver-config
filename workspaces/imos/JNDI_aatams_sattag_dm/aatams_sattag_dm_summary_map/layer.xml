@@ -1,12 +1,12 @@
 <layer>
-  <name>auv_images</name>
-  <id>LayerInfoImpl--4ec3bed4:13fc1b13032:20ea</id>
+  <name>aatams_sattag_dm_summary_map</name>
+  <id>LayerInfoImpl-77d9490c:1499be6f754:-7fe1</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--4132f657:12af4adebcc:-2ae</id>
+    <id>StyleInfoImpl-66a72209:1430e66bb4d:-7fed</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--4ec3bed4:13fc1b13032:20e9</id>
+    <id>FeatureTypeInfoImpl-77d9490c:1499be6f754:-7fe2</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
