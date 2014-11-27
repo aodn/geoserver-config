@@ -1,0 +1,12 @@
+<layer>
+  <name>srs_sst_l3s_1d_day_gridded_url</name>
+  <id>LayerInfoImpl--27f4461c:149ef08661b:-2a10</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--27f4461c:149ef08661b:-2a11</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
