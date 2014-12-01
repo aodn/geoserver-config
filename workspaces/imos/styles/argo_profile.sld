@@ -14,23 +14,60 @@
       <Abstract>A style that draws an argo point</Abstract>
       <!-- FeatureTypeStyles describe how to render different features -->
       <!-- A FeatureTypeStyle for rendering points -->
-      <FeatureTypeStyle>
+<FeatureTypeStyle>
         <Rule>
-          <Name>rule1</Name>
+          <Name>highZoom</Name>
+          <MaxScaleDenominator>9000000</MaxScaleDenominator>
           <Title>Argo profile</Title>
-          <Abstract>A 4 pixel circle with a blue fill and no stroke</Abstract>
+          <Abstract>A 4 pixel circle with a yellow fill and no stroke</Abstract>
             <PointSymbolizer>
               <Graphic>
                 <Mark>
                   <WellKnownName>circle</WellKnownName>
                   <Fill>
-                    <CssParameter name="fill">#3ABFEF</CssParameter>
+                    <CssParameter name="fill">#ffeaa4</CssParameter>
                   </Fill>
                 </Mark>
               <Size>4</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
+        <Rule>
+          <Name>mediumZoom</Name>
+          <MinScaleDenominator>9000000</MinScaleDenominator>
+          <MaxScaleDenominator>20000000</MaxScaleDenominator>
+          <Title>Argo profile</Title>
+          <Abstract>A 2 pixel circle with a yellow fill and no stroke</Abstract>
+            <PointSymbolizer>
+              <Graphic>
+                <Mark>
+                  <WellKnownName>circle</WellKnownName>
+                  <Fill>
+                    <CssParameter name="fill">#ffeaa4</CssParameter>
+                  </Fill>
+                </Mark>
+              <Size>2</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+        <Rule>
+          <Name>lowZoom</Name>
+          <MinScaleDenominator>20000000</MinScaleDenominator>
+          <Title>Argo profile</Title>
+          <Abstract>A 1 pixel circle with a yellow fill and no stroke</Abstract>
+            <PointSymbolizer>
+              <Graphic>
+                <Mark>
+                  <WellKnownName>circle</WellKnownName>
+                  <Fill>
+                    <CssParameter name="fill">#ffeaa4</CssParameter>
+                  </Fill>
+                </Mark>
+              <Size>1</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
