@@ -1,0 +1,22 @@
+<dataStore>
+  <id>DataStoreInfoImpl--27f4461c:149ef08661b:-2a12</id>
+  <name>JNDI_srs_sst</name>
+  <type>PostGIS (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">srs_sst</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
+    <entry key="Estimated extends">true</entry>
+    <entry key="namespace">imos.mod</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
