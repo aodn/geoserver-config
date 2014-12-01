@@ -1,12 +1,12 @@
 <layer>
-  <name>argo_float</name>
-  <id>LayerInfoImpl--27f4461c:14a04ed49d7:41fb</id>
+  <name>argo_profile_layer_map</name>
+  <id>LayerInfoImpl-5ac5c1:14303a938b3:-7fff</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-2d23ec69:126d477e611:-7ffa</id>
+    <id>StyleInfoImpl-5ac5c1:14303a938b3:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--27f4461c:14a04ed49d7:41fa</id>
+    <id>FeatureTypeInfoImpl-5ac5c1:14303a938b3:-8000</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

@@ -1,25 +1,17 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--27f4461c:14a04ed49d7:41fa</id>
-  <name>argo_float</name>
-  <nativeName>argo_float</nativeName>
+  <id>FeatureTypeInfoImpl--6f874984:135401c4311:5156</id>
+  <name>argo_float_abos_aodn_vw</name>
+  <nativeName>argo_float_abos_aodn_vw</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>argo_float</title>
-  <keywords>
-    <string>features</string>
-    <string>argo_float</string>
-  </keywords>
+  <title>Argo Floats by ABOS</title>
+  <abstract>Argo floats  deployed by the IMOS  Deep Water Moorings (ABOS) facility</abstract>
   <metadataLinks>
     <metadataLink>
-      <type>xml/plain</type>
+      <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=8cc13f98-9897-4193-8ba6-d1f05356d3f2</content>
-    </metadataLink>
-    <metadataLink>
-      <type>xml/plain</type>
-      <metadataType>TC211</metadataType>
-      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?id=4625</content>
+      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=677a6c35-0c34-4479-afd3-cb0d2d091cfa</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -34,16 +26,16 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-149.544</minx>
-    <maxx>152.407</maxx>
-    <miny>-58.968</miny>
-    <maxy>-35.085</maxy>
+    <maxx>-108.217</maxx>
+    <miny>-51.036</miny>
+    <maxy>-49.153</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-149.544</minx>
-    <maxx>152.407</maxx>
-    <miny>-58.968</miny>
-    <maxy>-35.085</maxy>
+    <maxx>-108.217</maxx>
+    <miny>-51.036</miny>
+    <maxy>-49.153</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
