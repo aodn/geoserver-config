@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>TIME</name>
+        <type>datetime</type>
+        <label>Time</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>pointpropertytype</type>
+        <label>Bounding Box</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>

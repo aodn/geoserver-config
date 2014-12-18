@@ -1,0 +1,16 @@
+<layer>
+  <name>srs_oc_ljco_aeronet_map</name>
+  <id>LayerInfoImpl--19515b16:14a56a8bbfb:-7ff1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--19515b16:14a56a8bbfb:-7ff2</id>
+  </resource>
+  <queryable>true</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
