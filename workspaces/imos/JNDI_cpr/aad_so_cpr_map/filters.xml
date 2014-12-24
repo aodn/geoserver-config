@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>geom</label>
+    <name>position</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Species name</label>
+    <name>species_name</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>date_time</name>
+    <type>Date</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Vessel code</label>
+    <name>ship_code</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>
