@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Bounding Box</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Date</label>
+    <name>TIME</name>
+    <type>DateRange</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>deployment_number</label>
+    <name>deployment_number</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>
