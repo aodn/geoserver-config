@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Callsign</label>
+    <name>Callsign</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>geom</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>TIME</name>
+    <type>Date</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Vessel name</label>
+    <name>vessel_name</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>XBT line</label>
+    <name>XBT_line</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>

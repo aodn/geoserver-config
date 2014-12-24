@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Bounding Box</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Taxonomic Classification</label>
+    <name>taxon_group</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Taxonomic group</label>
+    <name>taxon_eco_group</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>TIME</name>
+    <type>Date</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Vessel name</label>
+    <name>vessel_name</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>
