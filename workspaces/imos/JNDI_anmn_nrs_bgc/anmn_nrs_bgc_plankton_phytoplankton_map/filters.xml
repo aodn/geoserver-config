@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Date (UTC)</label>
+    <name>UTC_TRIP_START_TIME</name>
+    <type>Date</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Functional group</label>
+    <name>TAXON_ECO_GROUP</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>geom</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Station Name</label>
+    <name>STATION_NAME</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>
