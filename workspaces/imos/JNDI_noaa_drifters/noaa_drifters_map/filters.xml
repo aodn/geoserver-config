@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Bounding box</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Date (UTC)</label>
+    <name>date_utc</name>
+    <type>Date</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Drifter ID</label>
+    <name>driftnum</name>
+    <type>Number</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>
