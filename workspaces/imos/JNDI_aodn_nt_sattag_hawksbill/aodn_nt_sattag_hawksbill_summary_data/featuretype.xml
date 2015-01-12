@@ -1,0 +1,33 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--d4a95bc:14adc6e189b:-7fed</id>
+  <name>aodn_nt_sattag_hawksbill_summary_data</name>
+  <nativeName>aodn_nt_sattag_hawksbill_summary_data</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>aodn_nt_sattag_hawksbill_summary_data</title>
+  <keywords>
+    <string>aodn_nt_sattag_hawksbill_summary_data</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>135.856994628906</minx>
+    <maxx>138.549270629883</maxx>
+    <miny>-16.7550182342529</miny>
+    <maxy>-13.2073030471802</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>135.856994628906</minx>
+    <maxx>138.549270629883</maxx>
+    <miny>-16.7550182342529</miny>
+    <maxy>-13.2073030471802</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--7ba38d2a:148532ddeef:-7ff3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
