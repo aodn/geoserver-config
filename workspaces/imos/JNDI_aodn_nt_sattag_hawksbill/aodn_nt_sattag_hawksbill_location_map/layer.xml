@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_nt_sattag_hawksbill_location_map</name>
+  <id>LayerInfoImpl--d4a95bc:14adc6e189b:356</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--7ba38d2a:148532ddeef:-7ff1</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--d4a95bc:14adc6e189b:355</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
