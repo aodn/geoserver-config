@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Bounding box</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Date (UTC)</label>
+    <name>TIME</name>
+    <type>DateRange</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>deployment_code</label>
+    <name>deployment_code</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>sea_surface_temperature</label>
+    <name>sea_surface_temperature_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>site_code</label>
+    <name>site_code</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>

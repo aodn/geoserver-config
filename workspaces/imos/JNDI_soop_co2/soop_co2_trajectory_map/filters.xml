@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Bounding Box</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>cruise_id</label>
+    <name>cruise_id</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>TIME</name>
+    <type>DateRange</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>vessel_name</label>
+    <name>vessel_name</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>

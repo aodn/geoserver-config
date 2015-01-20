@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Bounding Box</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Depth</label>
+    <name>DEPTH</name>
+    <type>Number</type>
+    <visualised>false</visualised>
+  </filter>
+  <filter>
+    <label>Site</label>
+    <name>site_code</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>TIME</name>
+    <type>DateRange</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>

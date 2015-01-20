@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Age class</label>
+    <name>age_class</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Deployment site</label>
+    <name>release_site</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Deployment State/Country</label>
+    <name>state_country</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Device ID</label>
+    <name>device_id</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Device WMO number</label>
+    <name>device_wmo_ref</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>geom</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Satellite tagging program</label>
+    <name>sattag_program</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Sex</label>
+    <name>sex</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Species name</label>
+    <name>common_name</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Tag type</label>
+    <name>tag_type</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>timestamp</name>
+    <type>Date</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>

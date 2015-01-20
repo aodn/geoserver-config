@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Bounding Box</label>
+    <name>position</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Oxygen</label>
+    <name>oxygen_sensor</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Platform number</label>
+    <name>platform_number</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Project Name</label>
+    <name>project_name</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>juld</name>
+    <type>Date</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>

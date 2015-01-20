@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Air temperature</label>
+    <name>AIRT_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Atmospheric pressure</label>
+    <name>ATMP_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Earth-relative wind direction</label>
+    <name>WDIR_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Earth-relative wind speed</label>
+    <name>WSPD_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>geom</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Photosynthetically active radiation</label>
+    <name>RAD_PAR_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Platform code</label>
+    <name>platform_code</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Relative humidity</label>
+    <name>RELH_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Sea temperature</label>
+    <name>TEMP_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>TIME</name>
+    <type>DateRange</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Vessel name</label>
+    <name>vessel_name</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Voyage number</label>
+    <name>voyage_number</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>

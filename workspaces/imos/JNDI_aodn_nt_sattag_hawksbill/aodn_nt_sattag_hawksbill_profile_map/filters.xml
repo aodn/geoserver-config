@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Device ID</label>
+    <name>device_id</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>geom</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Satellite tagging program</label>
+    <name>sattag_program</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>timestamp</name>
+    <type>Date</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>

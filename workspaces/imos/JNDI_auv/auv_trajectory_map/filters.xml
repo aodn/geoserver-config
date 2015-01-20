@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Bounding Box</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Campaign name</label>
+    <name>campaign_name</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Chlorophyll</label>
+    <name>CPHL_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Colored dissolved organic matter (CDOM)</label>
+    <name>CDOM_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Dive name</label>
+    <name>dive_name</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Optical Backscattering (OPBS)</label>
+    <name>OPBS_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Salinity</label>
+    <name>PSAL_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Temperature</label>
+    <name>TEMP_b</name>
+    <type>Boolean</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>TIME</name>
+    <type>DateRange</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>

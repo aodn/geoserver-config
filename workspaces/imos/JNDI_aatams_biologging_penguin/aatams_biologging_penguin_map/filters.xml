@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <label>Animal ID</label>
+    <name>pttid</name>
+    <type>String</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>geom</label>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <visualised>true</visualised>
+  </filter>
+  <filter>
+    <label>Time</label>
+    <name>observation_date</name>
+    <type>DateRange</type>
+    <visualised>true</visualised>
+  </filter>
+</filters>
