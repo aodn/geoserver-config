@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--1c16a0c8:1464ae44409:3480</id>
+  <name>temp_data</name>
+  <nativeName>temp_data</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>temp_data</title>
+  <keywords>
+    <string>temp_data</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-179.999771118164</minx>
+    <maxx>179.999649047852</maxx>
+    <miny>-67.3355162749149</miny>
+    <maxy>49.5435791015625</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-179.999771118164</minx>
+    <maxx>179.999649047852</maxx>
+    <miny>-67.3355162749149</miny>
+    <maxy>49.5435791015625</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-7021f23:14645833d8b:-402b</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
