@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <label>Bounding Box</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>cruise_id</name>
+    <type>String</type>
+    <label>Cruise Identifier</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>data_type</name>
+    <type>String</type>
+    <label>Data Type</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>TIME</name>
+    <type>DateRange</type>
+    <label>Time</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>vessel_name</name>
+    <type>String</type>
+    <label>Vessel Name</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>

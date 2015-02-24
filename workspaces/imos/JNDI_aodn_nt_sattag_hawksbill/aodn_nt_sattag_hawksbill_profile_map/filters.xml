@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>device_id</name>
+    <type>String</type>
+    <label>Device ID</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <label>geom</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>sattag_program</name>
+    <type>String</type>
+    <label>Satellite tagging program</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>timestamp</name>
+    <type>Date</type>
+    <label>Time</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>

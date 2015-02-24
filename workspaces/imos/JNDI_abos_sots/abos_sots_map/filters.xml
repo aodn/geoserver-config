@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <label>Bounding Box</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>data_type</name>
+    <type>String</type>
+    <label>Data product</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>time_coverage_start</name>
+    <type>DateRange</type>
+    <label>Date (UTC)</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>deployment_code</name>
+    <type>String</type>
+    <label>deployment_code</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>platform_code</name>
+    <type>String</type>
+    <label>platform_code</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>
