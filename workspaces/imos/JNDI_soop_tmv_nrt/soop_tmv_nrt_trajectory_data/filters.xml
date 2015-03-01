@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>geom</name>
+    <type>BoundingBox</type>
+    <label>geom</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>TIME</name>
+    <type>DateRange</type>
+    <label>Time</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>
