@@ -16,7 +16,7 @@
   </filter>
   <filter>
     <name>driftnum</name>
-    <type>Number</type>
+    <type>Long</type>
     <label>Drifter ID</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

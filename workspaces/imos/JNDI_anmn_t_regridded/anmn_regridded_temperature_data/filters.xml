@@ -9,7 +9,7 @@
   </filter>
   <filter>
     <name>DEPTH</name>
-    <type>Number</type>
+    <type>Float</type>
     <label>Depth</label>
     <visualised>false</visualised>
     <excludedFromDownload>false</excludedFromDownload>
