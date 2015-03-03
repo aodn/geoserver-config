@@ -16,7 +16,7 @@
   </filter>
   <filter>
     <name>geom</name>
-    <type>BoundingBox</type>
+    <type>Geometry</type>
     <label>geom</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
