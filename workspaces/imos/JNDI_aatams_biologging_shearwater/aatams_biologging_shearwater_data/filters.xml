@@ -16,7 +16,7 @@
   </filter>
   <filter>
     <name>release_date</name>
-    <type>Date</type>
+    <type>Timestamp</type>
     <label>Release date</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

@@ -2,7 +2,7 @@
 <filters>
   <filter>
     <name>UTC_TRIP_START_TIME</name>
-    <type>Date</type>
+    <type>Timestamp</type>
     <label>Date (UTC)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

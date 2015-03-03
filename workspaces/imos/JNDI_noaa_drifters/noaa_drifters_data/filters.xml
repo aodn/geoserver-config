@@ -9,7 +9,7 @@
   </filter>
   <filter>
     <name>date_utc</name>
-    <type>Date</type>
+    <type>Timestamp</type>
     <label>Date (UTC)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

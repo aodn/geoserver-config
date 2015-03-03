@@ -16,7 +16,7 @@
   </filter>
   <filter>
     <name>TIME</name>
-    <type>Date</type>
+    <type>Timestamp</type>
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
