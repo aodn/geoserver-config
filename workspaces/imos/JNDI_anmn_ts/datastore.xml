@@ -1,13 +1,13 @@
 <dataStore>
-  <id>DataStoreInfoImpl--7d6d29b8:1430d3f9851:-7ff3</id>
-  <name>JNDI_dbprod_harvest_anmn_burst_avg</name>
+  <id>DataStoreInfoImpl-10175866:142b0c3e928:-7ff3</id>
+  <name>JNDI_anmn_ts</name>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
   <connectionParameters>
-    <entry key="schema">anmn_burst_avg</entry>
+    <entry key="schema">anmn_ts</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">false</entry>
