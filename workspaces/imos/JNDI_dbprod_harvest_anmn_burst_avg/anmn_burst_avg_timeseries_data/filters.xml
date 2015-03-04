@@ -1,30 +1,30 @@
 <?xml version="1.0"?>
 <filters>
   <filter>
+    <name>TIME</name>
+    <type>DateRange</type>
+    <label>Date (UTC)</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>deployment_code</name>
+    <type>String</type>
+    <label>Deployment code</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
     <name>geom</name>
     <type>Geometry</type>
-    <label>Bounding Box</label>
+    <label>geom</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>taxon_group</name>
+    <name>site_code</name>
     <type>String</type>
-    <label>Taxonomic Classification</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>TIME</name>
-    <type>Timestamp</type>
-    <label>Time</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>vessel_name</name>
-    <type>String</type>
-    <label>Vessel name</label>
+    <label>Site code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

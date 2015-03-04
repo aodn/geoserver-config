@@ -8,23 +8,23 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>taxon_group</name>
+    <name>platform_name</name>
     <type>String</type>
-    <label>Taxonomic Classification</label>
+    <label>platform_name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TIME</name>
-    <type>Timestamp</type>
+    <type>DateRange</type>
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>vessel_name</name>
+    <name>VARNAME</name>
     <type>String</type>
-    <label>Vessel name</label>
+    <label>Variable name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

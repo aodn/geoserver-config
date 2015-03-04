@@ -3,28 +3,35 @@
   <filter>
     <name>geom</name>
     <type>Geometry</type>
-    <label>Bounding Box</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>taxon_group</name>
-    <type>String</type>
-    <label>Taxonomic Classification</label>
+    <label>Bounding box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TIME</name>
-    <type>Timestamp</type>
-    <label>Time</label>
+    <type>DateRange</type>
+    <label>Date (UTC)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>vessel_name</name>
+    <name>deployment_code</name>
     <type>String</type>
-    <label>Vessel name</label>
+    <label>deployment_code</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>sea_surface_temperature_b</name>
+    <type>Boolean</type>
+    <label>sea_surface_temperature</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>site_code</name>
+    <type>String</type>
+    <label>site_code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

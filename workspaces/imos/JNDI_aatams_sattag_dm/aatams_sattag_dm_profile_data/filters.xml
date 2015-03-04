@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>age_class</name>
+    <type>String</type>
+    <label>Age class</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>release_site</name>
+    <type>String</type>
+    <label>Deployment site</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>state_country</name>
+    <type>String</type>
+    <label>Deployment State/Country</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>device_id</name>
+    <type>String</type>
+    <label>Device ID</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>device_wmo_ref</name>
+    <type>String</type>
+    <label>Device WMO number</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>geom</name>
+    <type>Geometry</type>
+    <label>geom</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>sattag_program</name>
+    <type>String</type>
+    <label>Satellite tagging program</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>sex</name>
+    <type>String</type>
+    <label>Sex</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>common_name</name>
+    <type>String</type>
+    <label>Species name</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>tag_type</name>
+    <type>String</type>
+    <label>Tag type</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>timestamp</name>
+    <type>Timestamp</type>
+    <label>Time</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>

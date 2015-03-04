@@ -8,16 +8,37 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>taxon_group</name>
-    <type>String</type>
-    <label>Taxonomic Classification</label>
+    <name>fluorescence_b</name>
+    <type>Boolean</type>
+    <label>Fluorescence</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>TIME</name>
+    <name>PSAL_b</name>
+    <type>Boolean</type>
+    <label>Salinity</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>Seawater_Intake_Temperature_b</name>
+    <type>Boolean</type>
+    <label>Temperature</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>time</name>
     <type>Timestamp</type>
     <label>Time</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>TURB_b</name>
+    <type>Boolean</type>
+    <label>Turbidity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

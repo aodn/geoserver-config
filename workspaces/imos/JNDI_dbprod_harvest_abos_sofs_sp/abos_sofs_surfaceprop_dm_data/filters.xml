@@ -9,15 +9,8 @@
   </filter>
   <filter>
     <name>TIME</name>
-    <type>Timestamp</type>
-    <label>Time</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>vessel_name</name>
-    <type>String</type>
-    <label>vessel name</label>
+    <type>DateRange</type>
+    <label>Date</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

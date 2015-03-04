@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <filters>
   <filter>
+    <name>UTC_TRIP_START_TIME</name>
+    <type>Timestamp</type>
+    <label>Date (UTC)</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
     <name>geom</name>
     <type>Geometry</type>
-    <label>Bounding Box</label>
+    <label>geom</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>TIME</name>
-    <type>Timestamp</type>
-    <label>Time</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>vessel_name</name>
+    <name>STATION_NAME</name>
     <type>String</type>
-    <label>vessel name</label>
+    <label>STATION_NAME</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <filters>
   <filter>
-    <name>geom</name>
-    <type>Geometry</type>
-    <label>Bounding Box</label>
+    <name>Callsign</name>
+    <type>String</type>
+    <label>Callsign</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>taxon_group</name>
-    <type>String</type>
-    <label>Taxonomic Classification</label>
+    <name>geom</name>
+    <type>Geometry</type>
+    <label>geom</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -25,6 +25,13 @@
     <name>vessel_name</name>
     <type>String</type>
     <label>Vessel name</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>XBT_line</name>
+    <type>String</type>
+    <label>XBT line</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

@@ -3,21 +3,14 @@
   <filter>
     <name>geom</name>
     <type>Geometry</type>
-    <label>Bounding Box</label>
+    <label>geom</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TIME</name>
-    <type>Timestamp</type>
+    <type>DateRange</type>
     <label>Time</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>vessel_name</name>
-    <type>String</type>
-    <label>vessel name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
