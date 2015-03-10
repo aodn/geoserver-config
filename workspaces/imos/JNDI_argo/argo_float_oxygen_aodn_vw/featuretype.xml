@@ -1,25 +1,22 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--27f4461c:14a04ed49d7:41fa</id>
-  <name>argo_float</name>
-  <nativeName>argo_float</nativeName>
+  <id>FeatureTypeInfoImpl--6f874984:1352c9de7a5:3e96</id>
+  <name>argo_float_oxygen_aodn_vw</name>
+  <nativeName>argo_float_oxygen_aodn_vw</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>argo_float</title>
-  <keywords>
-    <string>features</string>
-    <string>argo_float</string>
-  </keywords>
+  <title>Argo Floats Measuring Oxygen</title>
+  <abstract>These Argo floats have additional sensors to record dissolved oxygen data</abstract>
   <metadataLinks>
     <metadataLink>
-      <type>xml/plain</type>
+      <type>text/xml</type>
       <metadataType>TC211</metadataType>
       <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=8cc13f98-9897-4193-8ba6-d1f05356d3f2</content>
     </metadataLink>
     <metadataLink>
-      <type>xml/plain</type>
+      <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?id=4625</content>
+      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=8cc13f98-9897-4193-8ba6-d1f05356d3f2</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -33,24 +30,18 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-149.544</minx>
-    <maxx>152.407</maxx>
-    <miny>-58.968</miny>
-    <maxy>-35.085</maxy>
+    <minx>-178.381</minx>
+    <maxx>176.174</maxx>
+    <miny>-66.567</miny>
+    <maxy>4.26</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-149.544</minx>
-    <maxx>152.407</maxx>
-    <miny>-58.968</miny>
-    <maxy>-35.085</maxy>
-    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
-  DATUM[&quot;WGS84&quot;, 
-    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+    <minx>-178.381</minx>
+    <maxx>176.174</maxx>
+    <miny>-66.567</miny>
+    <maxy>4.26</maxy>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
