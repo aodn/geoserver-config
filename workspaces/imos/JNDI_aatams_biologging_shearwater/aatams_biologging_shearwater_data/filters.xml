@@ -34,5 +34,7 @@
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
+    <wmsStartDateName>start_date</wmsStartDateName>
+    <wmsEndDateName>end_date</wmsEndDateName>
   </filter>
 </filters>
