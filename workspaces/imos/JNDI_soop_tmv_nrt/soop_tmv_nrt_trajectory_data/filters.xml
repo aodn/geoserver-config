@@ -13,5 +13,7 @@
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
+    <wmsStartDateName>time_start</wmsStartDateName>
+    <wmsEndDateName>time_end</wmsEndDateName>
   </filter>
 </filters>

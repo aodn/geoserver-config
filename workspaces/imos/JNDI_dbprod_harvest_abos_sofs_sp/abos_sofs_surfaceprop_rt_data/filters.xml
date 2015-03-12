@@ -13,6 +13,8 @@
     <label>Date</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
+    <wmsStartDateName>time_coverage_start</wmsStartDateName>
+    <wmsEndDateName>time_coverage_end</wmsEndDateName>
   </filter>
   <filter>
     <name>deployment_number</name>
