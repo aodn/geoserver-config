@@ -2,91 +2,91 @@
 <filters>
   <filter>
     <name>AIRT_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Air temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>ATMP_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Atmospheric pressure</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>DEWT_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Dew-point temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>WDIR_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Earth-relative wind direction</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>WSPD_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Earth-relative wind speed</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>geom</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>platform_code</name>
-    <type>String</type>
+    <type>string</type>
     <label>Platform code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>PL_WDIR_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Platform relative wind direction</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>PL_WSPD_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Platform relative wind speed</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>RELH_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Relative humidity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>PSAL_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Sea salinity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TEMP_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Sea temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TIME</name>
-    <type>DateRange</type>
+    <type>datetime</type>
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
@@ -95,14 +95,14 @@
   </filter>
   <filter>
     <name>vessel_name</name>
-    <type>String</type>
+    <type>string</type>
     <label>Vessel name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>WETT_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Wet-bulb temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

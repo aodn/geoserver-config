@@ -2,35 +2,35 @@
 <filters>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>Bounding Box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>CNDC_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Conductivity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>PSAL_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Salinity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TEMP_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TIME</name>
-    <type>DateRange</type>
+    <type>datetime</type>
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
@@ -39,14 +39,14 @@
   </filter>
   <filter>
     <name>TURB_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Turbidity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>vessel_name</name>
-    <type>String</type>
+    <type>string</type>
     <label>vessel_name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

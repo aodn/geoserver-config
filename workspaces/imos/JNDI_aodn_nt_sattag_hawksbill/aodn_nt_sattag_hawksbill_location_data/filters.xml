@@ -2,28 +2,28 @@
 <filters>
   <filter>
     <name>device_id</name>
-    <type>String</type>
+    <type>string</type>
     <label>Device ID</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>geom</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>sattag_program</name>
-    <type>String</type>
+    <type>string</type>
     <label>Satellite tagging program</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>timestamp</name>
-    <type>Timestamp</type>
+    <type>datetime</type>
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

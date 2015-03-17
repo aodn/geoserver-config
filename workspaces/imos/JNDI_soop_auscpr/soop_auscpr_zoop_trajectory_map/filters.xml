@@ -2,35 +2,35 @@
 <filters>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>Bounding Box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>taxon_group</name>
-    <type>String</type>
+    <type>string</type>
     <label>Taxonomic Classification</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>taxon_eco_group</name>
-    <type>String</type>
+    <type>string</type>
     <label>Taxonomic group</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TIME</name>
-    <type>Timestamp</type>
+    <type>datetime</type>
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>vessel_name</name>
-    <type>String</type>
+    <type>string</type>
     <label>Vessel name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

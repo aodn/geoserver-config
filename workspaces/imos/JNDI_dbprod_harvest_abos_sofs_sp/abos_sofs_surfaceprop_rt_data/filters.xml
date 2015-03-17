@@ -2,14 +2,14 @@
 <filters>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>Bounding Box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TIME</name>
-    <type>DateRange</type>
+    <type>datetime</type>
     <label>Date</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
@@ -18,7 +18,7 @@
   </filter>
   <filter>
     <name>deployment_number</name>
-    <type>String</type>
+    <type>string</type>
     <label>deployment_number</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

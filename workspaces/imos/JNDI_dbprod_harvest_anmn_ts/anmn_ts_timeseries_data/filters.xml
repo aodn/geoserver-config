@@ -2,7 +2,7 @@
 <filters>
   <filter>
     <name>TIME</name>
-    <type>DateRange</type>
+    <type>datetime</type>
     <label>Date (UTC)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
@@ -11,35 +11,35 @@
   </filter>
   <filter>
     <name>deployment_code</name>
-    <type>String</type>
+    <type>string</type>
     <label>deployment_code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>geom</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>platform_code</name>
-    <type>String</type>
+    <type>string</type>
     <label>platform_code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>sea_water_salinity_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Salinity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>site_code</name>
-    <type>String</type>
+    <type>string</type>
     <label>site_code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

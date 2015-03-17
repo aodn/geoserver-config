@@ -2,21 +2,21 @@
 <filters>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>Bounding box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>date_utc</name>
-    <type>Timestamp</type>
+    <type>datetime</type>
     <label>Date (UTC)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>driftnum</name>
-    <type>Long</type>
+    <type>decimal</type>
     <label>Drifter ID</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

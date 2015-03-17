@@ -2,35 +2,35 @@
 <filters>
   <filter>
     <name>animal_id</name>
-    <type>String</type>
+    <type>string</type>
     <label>Animal ID</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>geom</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>release_date</name>
-    <type>Timestamp</type>
+    <type>datetime</type>
     <label>Release date</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>release_location</name>
-    <type>String</type>
+    <type>string</type>
     <label>Release site</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>timestamp</name>
-    <type>DateRange</type>
+    <type>datetime</type>
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

@@ -2,21 +2,21 @@
 <filters>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>Bounding Box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>platform_code</name>
-    <type>String</type>
+    <type>string</type>
     <label>Platform code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TIME</name>
-    <type>DateRange</type>
+    <type>datetime</type>
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
@@ -25,7 +25,7 @@
   </filter>
   <filter>
     <name>vessel_name</name>
-    <type>String</type>
+    <type>string</type>
     <label>Vessel name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

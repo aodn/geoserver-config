@@ -2,21 +2,21 @@
 <filters>
   <filter>
     <name>UTC_TRIP_START_TIME</name>
-    <type>Timestamp</type>
+    <type>datetime</type>
     <label>Date (UTC)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>geom</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>STATION_NAME</name>
-    <type>String</type>
+    <type>string</type>
     <label>STATION_NAME</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
