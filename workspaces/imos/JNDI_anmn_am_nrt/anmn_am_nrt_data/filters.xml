@@ -2,14 +2,14 @@
 <filters>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>Bounding box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TIME</name>
-    <type>DateRange</type>
+    <type>datetime</type>
     <label>Date (UTC)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
@@ -18,21 +18,21 @@
   </filter>
   <filter>
     <name>deployment_code</name>
-    <type>String</type>
+    <type>string</type>
     <label>deployment_code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>sea_surface_temperature_b</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>sea_surface_temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>site_code</name>
-    <type>String</type>
+    <type>string</type>
     <label>site_code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>

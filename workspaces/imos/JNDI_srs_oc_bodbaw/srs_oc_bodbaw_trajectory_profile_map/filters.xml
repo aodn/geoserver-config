@@ -2,28 +2,28 @@
 <filters>
   <filter>
     <name>geom</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>Bounding Box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>cruise_id</name>
-    <type>String</type>
+    <type>string</type>
     <label>Cruise Identifier</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>data_type</name>
-    <type>String</type>
+    <type>string</type>
     <label>Data Type</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TIME</name>
-    <type>DateRange</type>
+    <type>datetime</type>
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
@@ -32,7 +32,7 @@
   </filter>
   <filter>
     <name>vessel_name</name>
-    <type>String</type>
+    <type>string</type>
     <label>Vessel Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
