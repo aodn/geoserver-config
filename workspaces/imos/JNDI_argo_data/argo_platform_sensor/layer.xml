@@ -1,13 +1,12 @@
 <layer>
-  <name>argo_float_data</name>
-  <id>LayerInfoImpl-4036bd7d:1278d32dacc:-6051</id>
-  <path>Argo Floats</path>
+  <name>argo_platform_sensor_data</name>
+  <id>LayerInfoImpl--4166521:1409e44efa9:-7ffe</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-2d23ec69:126d477e611:-7ffa</id>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class='featureType'>
-    <id>FeatureTypeInfoImpl-4036bd7d:1278d32dacc:-6052</id>
+    <id>FeatureTypeInfoImpl--4166521:1409e44efa9:-7fff</id>
   </resource>
   <enabled>true</enabled>
   <attribution>
