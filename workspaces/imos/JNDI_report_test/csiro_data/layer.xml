@@ -1,0 +1,15 @@
+<layer>
+  <name>csiro_data</name>
+  <id>LayerInfoImpl--65b3fc2a:14b38719a83:-2a26</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--70ef9ba:14b32784359:-7ff0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--65b3fc2a:14b38719a83:-2a27</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
