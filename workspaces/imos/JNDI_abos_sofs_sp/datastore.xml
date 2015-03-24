@@ -1,13 +1,13 @@
 <dataStore>
-  <id>DataStoreInfoImpl-18eae362:143936638b2:-7ff3</id>
-  <name>JNDI_dbprod_harvest_acorn_hourly_avg_qc</name>
+  <id>DataStoreInfoImpl-8c3024:143988a79ed:-7ff3</id>
+  <name>JNDI_abos_sofs_sp</name>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
   <connectionParameters>
-    <entry key="schema">acorn_hourly_avg_qc</entry>
+    <entry key="schema">abos_sofs_sp</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">false</entry>

@@ -1,6 +1,6 @@
 <dataStore>
   <id>DataStoreInfoImpl--6f0e2286:14423a26e91:-7ff3</id>
-  <name>JNDI_dbprod_harvest_gsla_dm00</name>
+  <name>JNDI_gsla_dm00</name>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>

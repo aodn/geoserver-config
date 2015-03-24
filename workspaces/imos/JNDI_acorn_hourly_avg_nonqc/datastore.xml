@@ -1,13 +1,13 @@
 <dataStore>
-  <id>DataStoreInfoImpl--e0e2b2a:1442e7b652c:-7ff3</id>
-  <name>JNDI_dbprod_harvest_gsla_nrt00</name>
+  <id>DataStoreInfoImpl-4d4a0dec:143997c4258:-7ff3</id>
+  <name>JNDI_acorn_hourly_avg_nonqc</name>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
   <connectionParameters>
-    <entry key="schema">gsla_nrt00</entry>
+    <entry key="schema">acorn_hourly_avg_nonqc</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">false</entry>

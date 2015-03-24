@@ -1,13 +1,13 @@
 <dataStore>
-  <id>DataStoreInfoImpl--1729f1c8:1438ed73eb0:-7fc6</id>
-  <name>JNDI_dbprod_harvest_anmn_nrs_rt_wave</name>
+  <id>DataStoreInfoImpl--e0e2b2a:1442e7b652c:-7ff3</id>
+  <name>JNDI_gsla_nrt00</name>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
   <connectionParameters>
-    <entry key="schema">anmn_nrs_rt_wave</entry>
+    <entry key="schema">gsla_nrt00</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">false</entry>
