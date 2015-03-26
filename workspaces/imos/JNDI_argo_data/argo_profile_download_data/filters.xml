@@ -2,7 +2,7 @@
 <filters>
   <filter>
     <name>position</name>
-    <type>Geometry</type>
+    <type>geometrypropertytype</type>
     <label>Bounding Box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
@@ -30,7 +30,7 @@
   </filter>
   <filter>
     <name>juld</name>
-    <type>Timestamp</type>
+    <type>datetime</type>
     <label>Time</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
