@@ -9,21 +9,21 @@
   </filter>
   <filter>
     <name>oxygen_sensor</name>
-    <type>Boolean</type>
+    <type>boolean</type>
     <label>Oxygen</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>platform_number</name>
-    <type>String</type>
+    <type>string</type>
     <label>Platform number</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>project_name</name>
-    <type>String</type>
+    <type>string</type>
     <label>Project Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
