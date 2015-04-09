@@ -19,7 +19,7 @@
   <filter>
     <name>deployment_number</name>
     <type>string</type>
-    <label>deployment_number</label>
+    <label>Deployment Number</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

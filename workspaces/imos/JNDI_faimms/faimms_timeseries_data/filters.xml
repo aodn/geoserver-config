@@ -10,7 +10,7 @@
   <filter>
     <name>platform_code</name>
     <type>string</type>
-    <label>Platform name</label>
+    <label>Platform Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -26,7 +26,7 @@
   <filter>
     <name>VARNAME</name>
     <type>string</type>
-    <label>Variable name</label>
+    <label>Variable Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

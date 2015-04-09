@@ -3,14 +3,14 @@
   <filter>
     <name>age_class</name>
     <type>string</type>
-    <label>Age class</label>
+    <label>Age Class</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>release_site</name>
     <type>string</type>
-    <label>Deployment site</label>
+    <label>Deployment Site</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -24,7 +24,7 @@
   <filter>
     <name>device_id</name>
     <type>string</type>
-    <label>Device ID</label>
+    <label>Device Id</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -38,7 +38,7 @@
   <filter>
     <name>sattag_program</name>
     <type>string</type>
-    <label>Satellite tagging program</label>
+    <label>Satellite Tagging Program</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -52,14 +52,14 @@
   <filter>
     <name>common_name</name>
     <type>string</type>
-    <label>Species name</label>
+    <label>Species Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>tag_type</name>
     <type>string</type>
-    <label>Tag type</label>
+    <label>Tag Type</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

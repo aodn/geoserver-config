@@ -17,7 +17,7 @@
   <filter>
     <name>platform_number</name>
     <type>string</type>
-    <label>Platform number</label>
+    <label>Platform Number</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

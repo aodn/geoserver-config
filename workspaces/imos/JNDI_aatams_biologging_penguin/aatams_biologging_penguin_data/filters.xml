@@ -3,7 +3,7 @@
   <filter>
     <name>pttid</name>
     <type>string</type>
-    <label>Animal ID</label>
+    <label>Animal Id</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
