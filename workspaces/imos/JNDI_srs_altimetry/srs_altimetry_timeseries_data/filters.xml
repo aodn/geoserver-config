@@ -17,21 +17,21 @@
   <filter>
     <name>UCUR_b</name>
     <type>boolean</type>
-    <label>Current (horizontal component)</label>
+    <label>Current (Horizontal Component)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>VCUR_b</name>
     <type>boolean</type>
-    <label>Current (vertical component)</label>
+    <label>Current (Vertical Component)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>instrument</name>
     <type>string</type>
-    <label>instrument</label>
+    <label>Instrument</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -52,7 +52,7 @@
   <filter>
     <name>site_name</name>
     <type>string</type>
-    <label>site name</label>
+    <label>Site Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

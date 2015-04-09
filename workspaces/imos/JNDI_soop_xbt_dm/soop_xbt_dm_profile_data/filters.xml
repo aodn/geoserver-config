@@ -24,14 +24,14 @@
   <filter>
     <name>XBT_line</name>
     <type>string</type>
-    <label>XBT line</label>
+    <label>XBT Line</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>XBT_line_description</name>
     <type>string</type>
-    <label>XBT line description</label>
+    <label>XBT Line Description</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

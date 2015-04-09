@@ -3,7 +3,7 @@
   <filter>
     <name>geom</name>
     <type>geometrypropertytype</type>
-    <label>Bounding box</label>
+    <label>Bounding Box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -17,7 +17,7 @@
   <filter>
     <name>driftnum</name>
     <type>decimal</type>
-    <label>Drifter ID</label>
+    <label>Drifter Id</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

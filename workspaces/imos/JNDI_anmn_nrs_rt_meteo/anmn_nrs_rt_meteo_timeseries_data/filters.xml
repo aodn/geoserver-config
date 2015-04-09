@@ -19,7 +19,7 @@
   <filter>
     <name>site_code</name>
     <type>string</type>
-    <label>Site code</label>
+    <label>Site Code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

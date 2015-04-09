@@ -3,35 +3,35 @@
   <filter>
     <name>AIRT_b</name>
     <type>boolean</type>
-    <label>Air temperature</label>
+    <label>Air Temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>ATMP_b</name>
     <type>boolean</type>
-    <label>Atmospheric pressure</label>
+    <label>Atmospheric Pressure</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>DEWT_b</name>
     <type>boolean</type>
-    <label>Dew-point temperature</label>
+    <label>Dew-point Temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>WDIR_b</name>
     <type>boolean</type>
-    <label>Earth-relative wind direction</label>
+    <label>Earth-relative Wind Direction</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>WSPD_b</name>
     <type>boolean</type>
-    <label>Earth-relative wind speed</label>
+    <label>Earth-relative Wind Speed</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -45,42 +45,42 @@
   <filter>
     <name>platform_code</name>
     <type>string</type>
-    <label>Platform code</label>
+    <label>Platform Code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>PL_WDIR_b</name>
     <type>boolean</type>
-    <label>Platform relative wind direction</label>
+    <label>Platform Relative Wind Direction</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>PL_WSPD_b</name>
     <type>boolean</type>
-    <label>Platform relative wind speed</label>
+    <label>Platform Relative Wind Speed</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>RELH_b</name>
     <type>boolean</type>
-    <label>Relative humidity</label>
+    <label>Relative Humidity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>PSAL_b</name>
     <type>boolean</type>
-    <label>Sea salinity</label>
+    <label>Sea Salinity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TEMP_b</name>
     <type>boolean</type>
-    <label>Sea temperature</label>
+    <label>Sea Temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -96,14 +96,14 @@
   <filter>
     <name>vessel_name</name>
     <type>string</type>
-    <label>Vessel name</label>
+    <label>Vessel Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>WETT_b</name>
     <type>boolean</type>
-    <label>Wet-bulb temperature</label>
+    <label>Wet-bulb Temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

@@ -10,7 +10,7 @@
   <filter>
     <name>data_type</name>
     <type>string</type>
-    <label>Data product</label>
+    <label>Data Product</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -26,14 +26,14 @@
   <filter>
     <name>deployment_code</name>
     <type>string</type>
-    <label>deployment_code</label>
+    <label>Deployment Code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>platform_code</name>
     <type>string</type>
-    <label>platform_code</label>
+    <label>Platform Code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

@@ -3,28 +3,28 @@
   <filter>
     <name>AIRT_b</name>
     <type>boolean</type>
-    <label>Air temperature</label>
+    <label>Air Temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>ATMP_b</name>
     <type>boolean</type>
-    <label>Atmospheric pressure</label>
+    <label>Atmospheric Pressure</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>WDIR_b</name>
     <type>boolean</type>
-    <label>Earth-relative wind direction</label>
+    <label>Earth-relative Wind Direction</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>WSPD_b</name>
     <type>boolean</type>
-    <label>Earth-relative wind speed</label>
+    <label>Earth-relative Wind Speed</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -38,28 +38,28 @@
   <filter>
     <name>RAD_PAR_b</name>
     <type>boolean</type>
-    <label>Photosynthetically active radiation</label>
+    <label>Photosynthetically Active Radiation</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>platform_code</name>
     <type>string</type>
-    <label>Platform code</label>
+    <label>Platform Code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>RELH_b</name>
     <type>boolean</type>
-    <label>Relative humidity</label>
+    <label>Relative Humidity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>TEMP_b</name>
     <type>boolean</type>
-    <label>Sea temperature</label>
+    <label>Sea Temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -75,14 +75,14 @@
   <filter>
     <name>vessel_name</name>
     <type>string</type>
-    <label>Vessel name</label>
+    <label>Vessel Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>voyage_number</name>
     <type>string</type>
-    <label>Voyage number</label>
+    <label>Voyage Number</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
