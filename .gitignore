@@ -3,4 +3,6 @@ security/usergroup/default/users.xml
 *.iml
 Thumbs.db
 gwc-layers/*
+global.xml
+wfs.xml
 
