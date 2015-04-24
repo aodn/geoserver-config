@@ -1,0 +1,22 @@
+<dataStore>
+  <id>DataStoreInfoImpl-614c04d0:14c1f8c862b:-7ff0</id>
+  <name>JNDI_aodn_csiro_cmar</name>
+  <type>PostGIS (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-3b0a723a:137e9896802:-7ffe</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="dbtype">postgis</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
+    <entry key="namespace">aodn</entry>
+    <entry key="schema">aodn_csiro_cmar</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="Estimated extends">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_csiro_cmar_mooring_map</name>
+  <id>LayerInfoImpl-614c04d0:14c1f8c862b:-54ba</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-614c04d0:14c1f8c862b:-54bb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

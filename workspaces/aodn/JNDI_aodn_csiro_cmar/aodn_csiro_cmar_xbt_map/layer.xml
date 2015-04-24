@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_csiro_cmar_xbt_map</name>
+  <id>LayerInfoImpl-614c04d0:14c1f8c862b:-54ad</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-614c04d0:14c1f8c862b:-54b1</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-614c04d0:14c1f8c862b:-54ae</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
