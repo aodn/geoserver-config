@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>device_id</name>
+    <type>string</type>
+    <label>Device Id</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>sattag_program</name>
+    <type>string</type>
+    <label>Satellite Tagging Program</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>
