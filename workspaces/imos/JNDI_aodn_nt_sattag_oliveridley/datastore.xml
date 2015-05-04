@@ -9,7 +9,7 @@
   <connectionParameters>
     <entry key="dbtype">postgis</entry>
     <entry key="encode functions">false</entry>
-    <entry key="jndiReferenceName">java:comp/env/jdbc/local_harvest_read</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
     <entry key="Support on the fly geometry simplification">true</entry>
     <entry key="namespace">imos.mod</entry>
     <entry key="schema">aodn_nt_sattag_oliveridley</entry>
