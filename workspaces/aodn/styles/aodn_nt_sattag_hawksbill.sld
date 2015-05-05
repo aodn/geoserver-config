@@ -1,8 +1,8 @@
 <StyledLayerDescriptor xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.opengis.net/sld" version="1.0.0">
 <NamedLayer>
-<Name>AATAMS Satellite Tagging NRT</Name>
+<Name>Satellite tagging of hawksbill turtles</Name>
 <UserStyle>
-<Name>AATAMS Satellite Tagging NRT</Name>
+<Name>Satellite tagging of hawksbill turtles</Name>
 <FeatureTypeStyle>
 <Rule>
 <Title>Animal track</Title>

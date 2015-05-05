@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--d4a95bc:14adc6e189b:34f</id>
-  <name>aodn_nt_sattag_hawksbill_summary_map</name>
+  <id>FeatureTypeInfoImpl-609344f3:14d1da5a96f:142</id>
+  <name>aodn_nt_sattag_hawksbill_gps_location_map</name>
   <nativeName>aodn_nt_sattag_hawksbill_profile_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>aodn_nt_sattag_hawksbill_summary_map</title>
+  <title>aodn_nt_sattag_hawksbill_gps_location_map</title>
   <keywords>
     <string>features</string>
     <string>aodn_nt_sattag_hawksbill_profile_map</string>
@@ -14,25 +14,15 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=993f203f-960e-442b-b5c5-6b6bdba41c90&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=0c4b5e2a-b426-459f-9d03-cbc9170da903&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
-  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
-  DATUM[&quot;World Geodetic System 1984&quot;, 
-    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>135.856994628906</minx>
     <maxx>138.549270629883</maxx>
     <miny>-16.7550182342529</miny>
     <maxy>-13.2073030471802</maxy>
-    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>135.856994628906</minx>
