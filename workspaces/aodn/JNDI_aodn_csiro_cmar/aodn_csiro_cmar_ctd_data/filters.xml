@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>SURVEY_ID</name>
+        <type>string</type>
+        <label>SURVEY ID</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>PROJECT_NAME</name>
+        <type>string</type>
+        <label>PROJECT NAME</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>STATION_NAME</name>
+        <type>string</type>
+        <label>STATION NAME</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>TIME_START</name>
+        <type>datetime</type>
+        <label>TIME START</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>TIME_END</name>
+        <type>datetime</type>
+        <label>TIME END</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>MIN_DEPTH</name>
+        <type>double</type>
+        <label>MIN DEPTH</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>MAX_DEPTH</name>
+        <type>double</type>
+        <label>MAX DEPTH</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
