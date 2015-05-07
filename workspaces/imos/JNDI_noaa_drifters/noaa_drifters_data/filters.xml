@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>geom</name>
+    <type>geometrypropertytype</type>
+    <label>Bounding box</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>date_utc</name>
+    <type>datetime</type>
+    <label>Date (UTC)</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>driftnum</name>
+    <type>decimal</type>
+    <label>Drifter ID</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>

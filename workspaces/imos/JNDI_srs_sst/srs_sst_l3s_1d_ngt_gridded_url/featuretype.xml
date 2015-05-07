@@ -1,0 +1,27 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--1ca87290:14bbf0ac4ce:-7fea</id>
+  <name>srs_sst_l3s_1d_ngt_gridded_url</name>
+  <nativeName>srs_sst_l3s_1d_ngt_gridded_url</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>srs_sst_l3s_1d_ngt_gridded_url</title>
+  <keywords>
+    <string>srs_sst_l3s_1d_ngt_gridded_url</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <latLonBoundingBox>
+    <minx>-170.0</minx>
+    <maxx>70.0</maxx>
+    <miny>-70.0</miny>
+    <maxy>20.0</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--27f4461c:149ef08661b:-2a12</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
