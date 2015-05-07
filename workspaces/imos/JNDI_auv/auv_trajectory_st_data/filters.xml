@@ -10,7 +10,7 @@
   <filter>
     <name>campaign_name</name>
     <type>string</type>
-    <label>Campaign name</label>
+    <label>Campaign Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -24,14 +24,14 @@
   <filter>
     <name>CDOM_b</name>
     <type>boolean</type>
-    <label>Colored dissolved organic matter (CDOM)</label>
+    <label>Colored Dissolved Organic Matter (CDOM)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>dive_name</name>
     <type>string</type>
-    <label>Dive name</label>
+    <label>Dive Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

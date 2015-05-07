@@ -10,7 +10,7 @@
   <filter>
     <name>cruise_id</name>
     <type>string</type>
-    <label>cruise_id</label>
+    <label>Cruise Id</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -26,7 +26,7 @@
   <filter>
     <name>vessel_name</name>
     <type>string</type>
-    <label>vessel_name</label>
+    <label>Vessel Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

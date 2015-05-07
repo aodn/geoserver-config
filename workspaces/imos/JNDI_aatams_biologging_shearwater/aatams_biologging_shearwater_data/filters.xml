@@ -3,7 +3,7 @@
   <filter>
     <name>animal_id</name>
     <type>string</type>
-    <label>Animal ID</label>
+    <label>Animal Id</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -17,14 +17,14 @@
   <filter>
     <name>release_date</name>
     <type>datetime</type>
-    <label>Release date</label>
+    <label>Release Date</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>release_location</name>
     <type>string</type>
-    <label>Release site</label>
+    <label>Release Site</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

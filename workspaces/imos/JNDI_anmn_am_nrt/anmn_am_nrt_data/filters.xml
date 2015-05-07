@@ -3,7 +3,7 @@
   <filter>
     <name>geom</name>
     <type>geometrypropertytype</type>
-    <label>Bounding box</label>
+    <label>Bounding Box</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -19,21 +19,21 @@
   <filter>
     <name>deployment_code</name>
     <type>string</type>
-    <label>deployment_code</label>
+    <label>Deployment Code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>sea_surface_temperature_b</name>
     <type>boolean</type>
-    <label>sea_surface_temperature</label>
+    <label>Sea Surface Temperature</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>site_code</name>
     <type>string</type>
-    <label>site_code</label>
+    <label>Site Code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

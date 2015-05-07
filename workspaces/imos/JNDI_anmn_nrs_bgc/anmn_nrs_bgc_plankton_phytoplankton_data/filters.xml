@@ -10,7 +10,7 @@
   <filter>
     <name>TAXON_ECO_GROUP</name>
     <type>string</type>
-    <label>Functional group</label>
+    <label>Functional Group</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

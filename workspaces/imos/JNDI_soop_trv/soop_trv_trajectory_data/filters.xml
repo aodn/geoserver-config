@@ -47,7 +47,7 @@
   <filter>
     <name>vessel_name</name>
     <type>string</type>
-    <label>Vessel name</label>
+    <label>Vessel Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

@@ -10,7 +10,7 @@
   <filter>
     <name>species_name</name>
     <type>string</type>
-    <label>Species name</label>
+    <label>Species Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
@@ -24,7 +24,7 @@
   <filter>
     <name>ship_code</name>
     <type>string</type>
-    <label>Vessel code</label>
+    <label>Vessel Code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>

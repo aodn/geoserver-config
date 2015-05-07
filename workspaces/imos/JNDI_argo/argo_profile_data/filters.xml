@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>position</name>
+    <type>geometrypropertytype</type>
+    <label>Bounding Box</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>oxygen_sensor</name>
+    <type>boolean</type>
+    <label>Oxygen</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>platform_number</name>
+    <type>string</type>
+<<<<<<< HEAD:workspaces/imos/JNDI_argo_data/argo_profile_download_data/filters.xml
+    <label>Platform number</label>
+=======
+    <label>Platform Number</label>
+>>>>>>> master:workspaces/imos/JNDI_argo/argo_profile_data/filters.xml
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>project_name</name>
+    <type>string</type>
+    <label>Project Name</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>juld</name>
+    <type>datetime</type>
+    <label>Time</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>

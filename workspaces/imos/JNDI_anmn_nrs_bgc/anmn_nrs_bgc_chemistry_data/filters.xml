@@ -17,7 +17,7 @@
   <filter>
     <name>STATION_NAME</name>
     <type>string</type>
-    <label>STATION_NAME</label>
+    <label>Station Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
