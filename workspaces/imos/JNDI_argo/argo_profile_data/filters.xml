@@ -17,11 +17,7 @@
   <filter>
     <name>platform_number</name>
     <type>string</type>
-<<<<<<< HEAD:workspaces/imos/JNDI_argo_data/argo_profile_download_data/filters.xml
-    <label>Platform number</label>
-=======
     <label>Platform Number</label>
->>>>>>> master:workspaces/imos/JNDI_argo/argo_profile_data/filters.xml
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
