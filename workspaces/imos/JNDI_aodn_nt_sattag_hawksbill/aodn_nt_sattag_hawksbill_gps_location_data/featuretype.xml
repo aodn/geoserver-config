@@ -1,22 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--d4a95bc:14adc6e189b:34f</id>
-  <name>aodn_nt_sattag_hawksbill_summary_map</name>
-  <nativeName>aodn_nt_sattag_hawksbill_profile_map</nativeName>
+  <id>FeatureTypeInfoImpl-609344f3:14d1da5a96f:-1307</id>
+  <name>aodn_nt_sattag_hawksbill_gps_location_data</name>
+  <nativeName>aodn_nt_sattag_hawksbill_gps_location_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>aodn_nt_sattag_hawksbill_summary_map</title>
+  <title>aodn_nt_sattag_hawksbill_gps_location_data</title>
   <keywords>
     <string>features</string>
-    <string>aodn_nt_sattag_hawksbill_profile_map</string>
+    <string>aodn_nt_sattag_hawksbill_gps_location_data</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/xml</type>
-      <metadataType>TC211</metadataType>
-      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=993f203f-960e-442b-b5c5-6b6bdba41c90&amp;styleSheet=xml_iso19139.mcp.xsl</content>
-    </metadataLink>
-  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -28,17 +21,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>135.856994628906</minx>
-    <maxx>138.549270629883</maxx>
-    <miny>-16.7550182342529</miny>
-    <maxy>-13.2073030471802</maxy>
+    <minx>129.506042480469</minx>
+    <maxx>142.675994873047</maxx>
+    <miny>-19.3296909332275</miny>
+    <maxy>-8.09726047515869</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>135.856994628906</minx>
-    <maxx>138.549270629883</maxx>
-    <miny>-16.7550182342529</miny>
-    <maxy>-13.2073030471802</maxy>
+    <minx>129.506042480469</minx>
+    <maxx>142.675994873047</maxx>
+    <miny>-19.3296909332275</miny>
+    <maxy>-8.09726047515869</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -49,9 +42,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--7ba38d2a:148532ddeef:-7ff3</id>
   </store>
