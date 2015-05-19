@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
+        <name>ORGANISATION</name>
+        <type>string</type>
+        <label>ORGANISATION</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>TIME</name>
         <type>datetime</type>
         <label>TIME</label>
