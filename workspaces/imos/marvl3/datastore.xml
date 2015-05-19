@@ -1,0 +1,37 @@
+<dataStore>
+  <id>DataStoreInfoImpl-609344f3:14d1da5a96f:1d5f</id>
+  <name>marvl3</name>
+  <type>PostGIS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="port">5432</entry>
+    <entry key="Connection timeout">20</entry>
+    <entry key="passwd">crypt1:y9t35O/SWuDVHMmiOxJ0Vw==</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="Evictor run periodicity">300</entry>
+    <entry key="namespace">imos.mod</entry>
+    <entry key="schema">marvl3</entry>
+    <entry key="create database">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="min connections">1</entry>
+    <entry key="Evictor tests per run">3</entry>
+    <entry key="host">po.aodn.org.au</entry>
+    <entry key="validate connections">true</entry>
+    <entry key="max connections">10</entry>
+    <entry key="database">harvest?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory</entry>
+    <entry key="Support on the fly geometry simplification">true</entry>
+    <entry key="Max connection idle time">300</entry>
+    <entry key="Test while idle">true</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="Max open prepared statements">50</entry>
+    <entry key="Estimated extends">true</entry>
+    <entry key="user">marvl3</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

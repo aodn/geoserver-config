@@ -1,0 +1,42 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--3932ae99:14d64c16f8c:-7f2a</id>
+  <name>marvl3_data</name>
+  <nativeName>marvl3_data</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>marvl3_data</title>
+  <keywords>
+    <string>marvl3_data</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>112.495</minx>
+    <maxx>154.099</maxx>
+    <miny>-44.0449981689453</miny>
+    <maxy>-8.697</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>112.495</minx>
+    <maxx>154.099</maxx>
+    <miny>-44.0449981689453</miny>
+    <maxy>-8.697</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-609344f3:14d1da5a96f:1d5f</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
