@@ -1,0 +1,42 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-609344f3:14d1d07b262:3354</id>
+  <name>aodn_nt_sattag_oliveridley_dive_profile_data</name>
+  <nativeName>aodn_nt_sattag_oliveridley_dive_profile_data</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>aodn_nt_sattag_oliveridley_dive_profile_data</title>
+  <keywords>
+    <string>features</string>
+    <string>aodn_nt_sattag_oliveridley_dive_profile_data</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>125.522314263322</minx>
+    <maxx>137.648553774385</maxx>
+    <miny>-14.5144372248637</miny>
+    <maxy>-7.39464705882606</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>125.522314263322</minx>
+    <maxx>137.648553774385</maxx>
+    <miny>-14.5144372248637</miny>
+    <maxy>-7.39464705882606</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-609344f3:14d1d07b262:334b</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
