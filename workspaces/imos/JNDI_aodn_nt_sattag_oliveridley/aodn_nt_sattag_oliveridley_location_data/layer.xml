@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_nt_sattag_oliveridley_location_data</name>
+  <id>LayerInfoImpl-609344f3:14d1d07b262:3359</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-609344f3:14d1d07b262:3358</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

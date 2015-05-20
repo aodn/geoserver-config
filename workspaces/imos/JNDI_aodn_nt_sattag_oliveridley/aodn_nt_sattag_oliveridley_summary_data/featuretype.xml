@@ -1,0 +1,42 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-609344f3:14d1d07b262:335c</id>
+  <name>aodn_nt_sattag_oliveridley_summary_data</name>
+  <nativeName>aodn_nt_sattag_oliveridley_summary_data</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>aodn_nt_sattag_oliveridley_summary_data</title>
+  <keywords>
+    <string>aodn_nt_sattag_oliveridley_summary_data</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>125.708885192871</minx>
+    <maxx>137.690582275391</maxx>
+    <miny>-14.3778896331787</miny>
+    <maxy>-7.37239122390747</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>125.708885192871</minx>
+    <maxx>137.690582275391</maxx>
+    <miny>-14.3778896331787</miny>
+    <maxy>-7.37239122390747</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-609344f3:14d1d07b262:334b</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
