@@ -1,0 +1,15 @@
+<layer>
+  <name>anmn_wave_map</name>
+  <id>LayerInfoImpl--38c45a0b:14d751af077:-7ff9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3f915dc9:13ded0e5778:4c41</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--38c45a0b:14d751af077:-7ffa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
