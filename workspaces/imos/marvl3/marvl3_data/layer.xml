@@ -1,0 +1,15 @@
+<layer>
+  <name>marvl3_data</name>
+  <id>LayerInfoImpl--3932ae99:14d64c16f8c:-7f29</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3932ae99:14d64c16f8c:-7f2a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
