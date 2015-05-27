@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-609344f3:14d1da5a96f:1db7</id>
+  <id>FeatureTypeInfoImpl-28554fee:14d93daf902:-7ff6</id>
   <name>data_atlas_psaln</name>
   <nativeName>data_atlas</nativeName>
   <namespace>
@@ -43,10 +43,11 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-609344f3:14d1da5a96f:1d5f</id>
+    <id>DataStoreInfoImpl-67bc23b4:14d939cad3e:-7ff5</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
 </featureType>

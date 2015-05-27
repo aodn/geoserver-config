@@ -1,12 +1,12 @@
 <layer>
   <name>data_atlas_psaln</name>
-  <id>LayerInfoImpl-609344f3:14d1da5a96f:1db8</id>
+  <id>LayerInfoImpl-28554fee:14d93daf902:-7ff5</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-609344f3:14d1da5a96f:1dc3</id>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-609344f3:14d1da5a96f:1db7</id>
+    <id>FeatureTypeInfoImpl-28554fee:14d93daf902:-7ff6</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

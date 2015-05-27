@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-609344f3:14d1da5a96f:1d60</id>
+  <id>FeatureTypeInfoImpl-28554fee:14d93daf902:-7ff8</id>
   <name>data_atlas_tempn</name>
   <nativeName>data_atlas</nativeName>
   <namespace>
@@ -21,17 +21,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>112.671249389648</minx>
-    <maxx>153.828750610352</maxx>
-    <miny>-43.7962493896484</miny>
-    <maxy>-9.20374965667725</maxy>
+    <minx>111.662498474121</minx>
+    <maxx>154.587493896484</maxx>
+    <miny>-44.3062515258789</miny>
+    <maxy>-7.69374990463257</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>112.671249389648</minx>
-    <maxx>153.828750610352</maxx>
-    <miny>-43.7962493896484</miny>
-    <maxy>-9.20374965667725</maxy>
+    <minx>111.662498474121</minx>
+    <maxx>154.587493896484</maxx>
+    <miny>-44.3062515258789</miny>
+    <maxy>-7.69374990463257</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -42,14 +42,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-609344f3:14d1da5a96f:1d5f</id>
+    <id>DataStoreInfoImpl-67bc23b4:14d939cad3e:-7ff5</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
 </featureType>
