@@ -1,12 +1,12 @@
 <layer>
-  <name>data_atlas_psaln</name>
-  <id>LayerInfoImpl-28554fee:14d93daf902:-7ff5</id>
+  <name>marvl3_atlas_tempn_map</name>
+  <id>LayerInfoImpl-28554fee:14d93daf902:-7ff7</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-28554fee:14d93daf902:-7ff6</id>
+    <id>FeatureTypeInfoImpl-28554fee:14d93daf902:-7ff8</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-609344f3:14d1da5a96f:1dc3</id>
-  <name>marvl3_psaln</name>
+  <name>marvl3_atlas_psaln_map</name>
   <workspace>
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>marvl3_psaln.sld</filename>
+  <filename>marvl3_atlas_psaln_map.sld</filename>
 </style>

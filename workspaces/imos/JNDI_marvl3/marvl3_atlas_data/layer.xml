@@ -1,12 +1,12 @@
 <layer>
-  <name>marvl3_data</name>
-  <id>LayerInfoImpl-28554fee:14d93daf902:-7ffb</id>
+  <name>marvl3_atlas_data</name>
+  <id>LayerInfoImpl--d66634e:14d98da1ba9:-7ffb</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-28554fee:14d93daf902:-7ffc</id>
+    <id>FeatureTypeInfoImpl--d66634e:14d98da1ba9:-7ffc</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
