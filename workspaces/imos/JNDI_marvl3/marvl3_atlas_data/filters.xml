@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>TIME_bin</name>
+        <type>datetime</type>
+        <label>TIME</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>DEPTH_bin</name>
+        <type>float</type>
+        <label>DEPTH</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom_bin</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
