@@ -1,13 +1,13 @@
 <featureType>
   <id>FeatureTypeInfoImpl-28554fee:14d93daf902:-7ffc</id>
   <name>marvl3_raw_data</name>
-  <nativeName>marvl3_data</nativeName>
+  <nativeName>marvl3_raw_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
   <title>marvl3_raw_data</title>
   <keywords>
-    <string>marvl3_data</string>
+    <string>marvl3_raw_data</string>
     <string>features</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 

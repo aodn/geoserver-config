@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl-28554fee:14d93daf902:-7ff6</id>
   <name>marvl3_atlas_psaln_map</name>
-  <nativeName>data_atlas</nativeName>
+  <nativeName>marvl3_atlas_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
   <title>marvl3_atlas_psaln_map</title>
   <keywords>
     <string>features</string>
-    <string>data_atlas</string>
+    <string>marvl3_atlas_data</string>
   </keywords>
   <metadataLinks>
     <metadataLink>

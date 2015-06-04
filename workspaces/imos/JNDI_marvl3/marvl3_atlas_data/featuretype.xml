@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl--d66634e:14d98da1ba9:-7ffc</id>
   <name>marvl3_atlas_data</name>
-  <nativeName>data_atlas</nativeName>
+  <nativeName>marvl3_atlas_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
   <title>marvl3_atlas_data</title>
   <keywords>
     <string>features</string>
-    <string>data_atlas</string>
+    <string>marvl3_atlas_data</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
