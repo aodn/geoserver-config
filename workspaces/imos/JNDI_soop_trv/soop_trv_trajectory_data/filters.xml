@@ -29,7 +29,7 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>time</name>
+    <name>TIME</name>
     <type>datetime</type>
     <label>Time</label>
     <visualised>true</visualised>
