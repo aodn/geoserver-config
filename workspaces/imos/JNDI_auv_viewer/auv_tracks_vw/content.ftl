@@ -15,7 +15,7 @@
 
 <h4 class="getfeatureTitle">${site} - Dive:${dive} Depth:${depth}
  </h4>
-<p class="getfeatureCode" style="display:none" >AUV_${feature.site_code.value}</p>
+<p class="getfeatureCode" style="display:none" >${feature.site_code.value}</p>
 <p class="getfeatureExtent" style="display:none" >${feature.geospatial_lon_min.value},${feature.geospatial_lat_min.value},${feature.geospatial_lon_max.value},${feature.geospatial_lat_max.value}</p>
 
 
