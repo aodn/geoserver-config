@@ -11,12 +11,12 @@
 
 <#assign depthNum = feature.depth.value?substring(0, feature.depth.value?last_index_of(".") + 2) >
 
-
-<div class="panelinfo">${feature.dive_code_name.value?capitalize} ${feature.time.value} &nbsp; Depth:${depthNum}m 
-        Temperature:${feature.sea_water_temperature.value}&deg;c 
-        Salinity:${feature.sea_water_salinity.value} 
+<div class="panelinfo">${feature.dive_code_name.value?capitalize} ${feature.time.value} &nbsp; Depth:${depthNum}m &nbsp;
+        Temperature:${feature.sea_water_temperature.value}&deg;c &nbsp;
+        Salinity:${feature.sea_water_salinity.value} &nbsp;
         Chlorophyll:${feature.chlorophyll_concentration_in_sea_water.value}
 </div>
+
 <div id="auvpanelinf_${feature_index}" style="display:none">
   <div class="site_code">${feature.site_code.value}</div>
   <div class="site_code_name">${feature.dive_code_name.value?capitalize}</div>
