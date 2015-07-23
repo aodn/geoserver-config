@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_aims_ctd_data</name>
+  <id>LayerInfoImpl-3d7926ce:14eb9714849:-7ff8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3d7926ce:14eb9714849:-7ff9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
