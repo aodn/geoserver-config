@@ -2,16 +2,16 @@
 
 <h4><a class="external" href="http://aatams.emii.org.au/aatams/" target="_blank" >AATAMS data access and search page</a></h4>
 <#list features as feature>
+<#if (feature_index < 2) >
 <div class="feature">
 
-<h4>${feature.name.value} ${feature.configuration_type.value} </h4>
 <ul>
 	
-  <li><b>LON/LAT</b> ${feature.longitude.value}/${feature.latitude.value}</li>
-
-<p>Zoom in on this  ${feature.configuration_type.value} for the latest statistics</p>
-  
+  <li><b>Project name</b> ${feature.project_name.value}</li> 
+  <li><b>Installation name</b> ${feature.installation_name.value}</li>
+  <li><b>Station name</b> ${feature.station_name.value}</li>
 	
 </ul>
 </div>
+</#if>
 </#list>
