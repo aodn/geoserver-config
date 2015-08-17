@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_ran_ctd_data</name>
+  <id>LayerInfoImpl--746e8737:14f3996591f:-7fd1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4a6120af:14f0104932f:3d0f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--746e8737:14f3996591f:-7fd2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

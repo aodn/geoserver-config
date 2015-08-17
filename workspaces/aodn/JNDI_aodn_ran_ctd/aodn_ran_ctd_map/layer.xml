@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_ran_ctd_map</name>
+  <id>LayerInfoImpl-4de0af9b:14f394774b8:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4de0af9b:14f394774b8:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
