@@ -234,7 +234,7 @@
         </Rule>
 
 <Rule>   
- <Title>ANMN NRS</Title>  
+ <Title>ANMN</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
