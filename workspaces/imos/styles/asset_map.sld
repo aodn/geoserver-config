@@ -376,6 +376,30 @@
    </Graphic>
 </PointSymbolizer>
         </Rule>
+
+   <Rule>   
+ <Title>SRS - Lucinda Jetty</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>SRS</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>Ocean colour</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="SRS_OCC.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>  
   
 </FeatureTypeStyle>
 </UserStyle>
