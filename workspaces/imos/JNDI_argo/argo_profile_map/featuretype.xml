@@ -1,11 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-5ac5c1:14303a938b3:-8000</id>
+  <id>FeatureTypeInfoImpl--7703ee05:14fafe8867b:-7ffb</id>
   <name>argo_profile_map</name>
   <nativeName>argo_profile_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
   <title>argo_profile_map</title>
+  <keywords>
+    <string>features</string>
+    <string>argo_profile_map</string>
+  </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/xml</type>
@@ -26,14 +30,14 @@
   <nativeBoundingBox>
     <minx>-179.999</minx>
     <maxx>180.0</maxx>
-    <miny>-75.0889</miny>
+    <miny>-75.08888</miny>
     <maxy>48.366</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-179.999</minx>
     <maxx>180.0</maxx>
-    <miny>-75.0889</miny>
+    <miny>-75.08888</miny>
     <maxy>48.366</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
@@ -47,24 +51,6 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="JDBC_VIRTUAL_TABLE">
-      <virtualTable>
-        <name>argo_profile_map</name>
-        <sql>select &#xd;
- profile_summary.*,&#xd;
- indexed_file.*&#xd;
-  from profile_summary&#xd;
-  left join indexed_file&#xd;
-    on file_id = indexed_file.id
-</sql>
-        <escapeSql>false</escapeSql>
-        <geometry>
-          <name>position</name>
-          <type>Point</type>
-          <srid>4326</srid>
-        </geometry>
-      </virtualTable>
-    </entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-6c033aa5:1407b759987:-7fff</id>
@@ -72,5 +58,6 @@
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
 </featureType>
