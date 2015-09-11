@@ -4,24 +4,140 @@
 <UserStyle>
 <Name>Asset map</Name>
 <FeatureTypeStyle>
-
-<Rule>
-     <ogc:Filter>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>gtype</ogc:PropertyName>
-         <ogc:Literal>Line</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-   </ogc:Filter>
-   <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
-            <CssParameter name="stroke-opacity">1</CssParameter>
-            <CssParameter name="stroke-width">2</CssParameter>
-          </Stroke>
-        </LineSymbolizer>
-</Rule>
   
-       
+<Rule>   
+ <Title>AATAMS Acoustic</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>AATAMS</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>Acoustic</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="aatams2.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+     <Size>20</Size>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>
+
+<Rule>   
+ <Title>AATAMS Biologging - Emperor penguins</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>AATAMS</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>platform_code</ogc:PropertyName>
+   <ogc:Literal>Emperor Penguins</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="Emperor_penguin.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>   
+
+<Rule>   
+ <Title>AATAMS Biologging - Shearwaters</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>AATAMS</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>platform_code</ogc:PropertyName>
+   <ogc:Literal>Shearwaters</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="Shearwaters.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>  
+        
+<Rule>   
+ <Title>AATAMS Biologging - Satellite tagging</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>AATAMS</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>platform_code</ogc:PropertyName>
+   <ogc:Literal>Seals and sea lions</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="seals.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>    
+
+<Rule>   
+ <Title>ABOS</Title>  
+  <ogc:Filter>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>ABOS</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="11_Time_series_buoy.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>
+
+<Rule>   
+ <Title>ACORN</Title>  
+  <ogc:Filter>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>ACORN</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="ACORN-HF-radar-station-NEW.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule> 
+                   
 <Rule>   
  <Title>Anfog Ocean Glider Deployment</Title> 
   <ogc:Filter>
@@ -71,6 +187,54 @@
         </Rule>
   
 <Rule>   
+ <Title>ANMN</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>ANMN</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsNotEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>NRS</ogc:Literal> 
+   </ogc:PropertyIsNotEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="ANMN-Slope-mooring.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>
+        
+<Rule>   
+ <Title>ANMN NRS</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>ANMN</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>NRS</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="ANMN-National-Reference-Station.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>
+
+<Rule>   
  <Title>Argo</Title>  
   <ogc:Filter>
       <ogc:PropertyIsEqualTo>
@@ -107,24 +271,6 @@
         </Rule>
   
 <Rule>   
- <Title>ACORN</Title>  
-  <ogc:Filter>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>ACORN</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-  </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="ACORN-HF-radar-station-NEW.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
-        </Rule> 
-  
-<Rule>   
  <Title>FAIMMS</Title>  
   <ogc:Filter>
       <ogc:PropertyIsEqualTo>
@@ -141,50 +287,176 @@
    </Graphic>
 </PointSymbolizer>
         </Rule>
-
-<Rule>   
- <Title>ABOS</Title>  
-  <ogc:Filter>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>ABOS</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-  </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="11_Time_series_buoy.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
-        </Rule>
-  
-<Rule>   
- <Title>AATAMS Acoustic</Title>  
+    
+  <Rule>   
+ <Title>SOOP ASF</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>AATAMS</ogc:Literal>
+         <ogc:Literal>SOOP</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
-   <ogc:Literal>Acoustic</ogc:Literal> 
+   <ogc:Literal>ASF</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
   </ogc:Filter>   
 <PointSymbolizer>
    <Graphic>
      <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="aatams2.png" />
+        <OnlineResource xlink:type="simple" xlink:href="soop.png" />
         <Format>image/png</Format>
      </ExternalGraphic>
-     <Size>20</Size>
    </Graphic>
 </PointSymbolizer>
         </Rule>
+
+<Rule>
+   <Title>SOOP BA - Vessel track</Title> 
+     <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>gtype</ogc:PropertyName>
+         <ogc:Literal>Line</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>BA</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+   </ogc:Filter>
+   <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#069917</CssParameter>
+            <CssParameter name="stroke-opacity">1</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
   
+<Rule>
+   <Title>SOOP CPR - Vessel track</Title> 
+     <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>gtype</ogc:PropertyName>
+         <ogc:Literal>Line</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>CPR</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+   </ogc:Filter>
+   <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#F7722A</CssParameter>
+            <CssParameter name="stroke-opacity">1</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+
+  <Rule>   
+ <Title>SOOP TMV</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>SOOP</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>TMV</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="soop_TMV.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>
+
+  <Rule>   
+ <Title>SOOP TRV</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>SOOP</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>TRV</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="soop.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>
+ 
+  <Rule>   
+ <Title>SOOP SST</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>SOOP</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>SST</ogc:Literal> 
+   </ogc:PropertyIsEqualTo>
+   <ogc:PropertyIsNotEqualTo>
+   <ogc:PropertyName>platform_code</ogc:PropertyName>
+   <ogc:Literal>Spirit of Tasmania 2</ogc:Literal> 
+   </ogc:PropertyIsNotEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="soop.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>
+
+<Rule>
+   <Title>SOOP XBT - Vessel track </Title> 
+     <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>gtype</ogc:PropertyName>
+         <ogc:Literal>Line</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>XBT</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+   </ogc:Filter>
+   <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#591FBF</CssParameter>
+            <CssParameter name="stroke-opacity">1</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+
 <Rule>   
  <Title>SRS Altimetry</Title>  
   <ogc:Filter>
@@ -203,174 +475,6 @@
    <Graphic>
      <ExternalGraphic>
         <OnlineResource xlink:type="simple" xlink:href="SRS_Altimetry.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
-        </Rule>
-  
-<Rule>   
- <Title>ANMN NRS</Title>  
-  <ogc:Filter>
-           <ogc:And>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>ANMN</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>subfacility</ogc:PropertyName>
-   <ogc:Literal>NRS</ogc:Literal> 
-   </ogc:PropertyIsEqualTo> 
-           </ogc:And>
-  </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="ANMN-National-Reference-Station.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
-        </Rule>
-
-<Rule>   
- <Title>ANMN</Title>  
-  <ogc:Filter>
-           <ogc:And>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>ANMN</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    <ogc:PropertyIsNotEqualTo>
-   <ogc:PropertyName>subfacility</ogc:PropertyName>
-   <ogc:Literal>NRS</ogc:Literal> 
-   </ogc:PropertyIsNotEqualTo> 
-           </ogc:And>
-  </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="ANMN-Slope-mooring.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
-        </Rule>
- 
-<Rule>   
- <Title>AATAMS Biologging - Satellite tagging</Title>  
-  <ogc:Filter>
-           <ogc:And>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>AATAMS</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>platform_code</ogc:PropertyName>
-   <ogc:Literal>Seals and sea lions</ogc:Literal> 
-   </ogc:PropertyIsEqualTo> 
-           </ogc:And>
-  </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="seals.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
-        </Rule>   
-
-<Rule>   
- <Title>AATAMS Biologging - Emperor penguins</Title>  
-  <ogc:Filter>
-           <ogc:And>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>AATAMS</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>platform_code</ogc:PropertyName>
-   <ogc:Literal>Emperor Penguins</ogc:Literal> 
-   </ogc:PropertyIsEqualTo> 
-           </ogc:And>
-  </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="Emperor_penguin.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
-        </Rule>   
-
-<Rule>   
- <Title>AATAMS Biologging - Shearwaters</Title>  
-  <ogc:Filter>
-           <ogc:And>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>AATAMS</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>platform_code</ogc:PropertyName>
-   <ogc:Literal>Shearwaters</ogc:Literal> 
-   </ogc:PropertyIsEqualTo> 
-           </ogc:And>
-  </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="Shearwaters.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
-        </Rule>   
-  
-  <Rule>   
- <Title>SOOP</Title>  
-  <ogc:Filter>
-           <ogc:And>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>SOOP</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    <ogc:PropertyIsNotEqualTo>
-   <ogc:PropertyName>subfacility</ogc:PropertyName>
-   <ogc:Literal>XBT</ogc:Literal> 
-   </ogc:PropertyIsNotEqualTo> 
-           </ogc:And>
-  </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="soop.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
-        </Rule>
-  
-   <Rule>   
- <Title>SRS - Radiometer</Title>  
-  <ogc:Filter>
-           <ogc:And>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>SRS</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>subfacility</ogc:PropertyName>
-   <ogc:Literal>Radiometer</ogc:Literal> 
-   </ogc:PropertyIsEqualTo> 
-           </ogc:And>
-  </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="soop.png" />
         <Format>image/png</Format>
      </ExternalGraphic>
    </Graphic>
@@ -400,6 +504,30 @@
    </Graphic>
 </PointSymbolizer>
         </Rule>  
+
+   <Rule>   
+ <Title>SRS - Radiometer</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>SRS</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:Literal>Radiometer</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="soop.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule>
   
 </FeatureTypeStyle>
 </UserStyle>
