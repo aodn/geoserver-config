@@ -289,7 +289,7 @@
         </Rule>
     
   <Rule>   
- <Title>SOOP ASF</Title>  
+ <Title>SOOP CO2 and ASF - Vessel track</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
@@ -298,18 +298,17 @@
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
-   <ogc:Literal>ASF</ogc:Literal> 
+   <ogc:Literal>CO2 and ASF</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
   </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="soop.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
+   <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#ED3B8B</CssParameter>
+            <CssParameter name="stroke-opacity">1</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
         </Rule>
 
 <Rule>
@@ -383,7 +382,7 @@
         </Rule>
 
   <Rule>   
- <Title>SOOP TRV</Title>  
+ <Title>SOOP TRV - Vessel track</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
@@ -396,18 +395,17 @@
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
   </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="soop.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
+   <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#E69777</CssParameter>
+            <CssParameter name="stroke-opacity">1</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
         </Rule>
  
   <Rule>   
- <Title>SOOP SST</Title>  
+ <Title>SOOP SST - Vessel track</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
@@ -417,21 +415,16 @@
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
    <ogc:Literal>SST</ogc:Literal> 
-   </ogc:PropertyIsEqualTo>
-   <ogc:PropertyIsNotEqualTo>
-   <ogc:PropertyName>platform_code</ogc:PropertyName>
-   <ogc:Literal>Spirit of Tasmania 2</ogc:Literal> 
-   </ogc:PropertyIsNotEqualTo> 
+   </ogc:PropertyIsEqualTo> 
            </ogc:And>
   </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="soop.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
+   <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#F0A732</CssParameter>
+            <CssParameter name="stroke-opacity">1</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
         </Rule>
 
 <Rule>
