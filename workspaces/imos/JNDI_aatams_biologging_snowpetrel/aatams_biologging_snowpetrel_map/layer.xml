@@ -1,0 +1,15 @@
+<layer>
+  <name>aatams_biologging_snowpetrel_map</name>
+  <id>LayerInfoImpl--70864e15:14fed3cae37:-7ff6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4e568af5:1439d1f8819:-7fee</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--70864e15:14fed3cae37:-7ff7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
