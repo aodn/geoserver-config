@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl--5f1b1a6c:14fed986e44:-7ffc</id>
+  <name>JNDI_aus_phyto</name>
+  <type>PostGIS (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">aus_phyto_db</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
+    <entry key="Estimated extends">true</entry>
+    <entry key="Support on the fly geometry simplification">true</entry>
+    <entry key="namespace">imos.mod</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
