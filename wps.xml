@@ -12,7 +12,7 @@
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
   <connectionTimeout>30.0</connectionTimeout>
-  <resourceExpirationTimeout>300</resourceExpirationTimeout>
+  <resourceExpirationTimeout>86400</resourceExpirationTimeout>
   <maxSynchronousProcesses>1</maxSynchronousProcesses>
   <maxAsynchronousProcesses>1</maxAsynchronousProcesses>
   <processGroups>
