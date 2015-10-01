@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>animal_id</name>
+    <type>string</type>
+    <label>Animal Id</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>geom</name>
+    <type>geometrypropertytype</type>
+    <label>geom</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>release_date</name>
+    <type>datetime</type>
+    <label>Release Date</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>release_location</name>
+    <type>string</type>
+    <label>Release Site</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>timestamp</name>
+    <type>datetime</type>
+    <label>Time</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+    <wmsStartDateName>start_date</wmsStartDateName>
+    <wmsEndDateName>end_date</wmsEndDateName>
+  </filter>
+</filters>
