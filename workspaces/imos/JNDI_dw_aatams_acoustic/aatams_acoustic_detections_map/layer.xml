@@ -1,0 +1,15 @@
+<layer>
+  <name>aatams_acoustic_detections_map</name>
+  <id>LayerInfoImpl-6fb59ab3:1466924b21e:74d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-54db01c2:1466571181c:-5ec1</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6fb59ab3:1466924b21e:74c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
