@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>project_name</name>
+        <type>string</type>
+        <label>Project name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>installation_name</name>
+        <type>string</type>
+        <label>Installation name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>station_name</name>
+        <type>string</type>
+        <label>Station name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>common_name</name>
+        <type>string</type>
+        <label>Species common name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>transmitter_id</name>
+        <type>string</type>
+        <label>Tag ID</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>release_locality</name>
+        <type>string</type>
+        <label>Release locality</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>detection_date</name>
+        <type>datetime</type>
+        <label>Detection date</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+        <wmsEndDateName>
+    last_detection_date
+    </wmsEndDateName>
+        <wmsStartDateName>
+        first_detection_date
+    </wmsStartDateName>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>detected</name>
+        <type>boolean</type>
+        <label>Detected</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
