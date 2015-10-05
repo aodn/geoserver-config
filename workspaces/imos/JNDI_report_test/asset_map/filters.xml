@@ -10,14 +10,147 @@
     <filter>
         <name>subfacility</name>
         <type>string</type>
-        <label>Subfacility</label>
+        <label>Sub-facility</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>product</name>
+        <type>string</type>
+        <label>Product</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>platform_code</name>
         <type>string</type>
-        <label>Platform code</label>
+        <label>Deployment code</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>platform_type</name>
+        <type>string</type>
+        <label>Platform type</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>date_start</name>
+        <type>datetime</type>
+        <label>Date start</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>date_end</name>
+        <type>datetime</type>
+        <label>Date end</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>w_temp_b</name>
+        <type>boolean</type>
+        <label>Temperature</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>w_psal_b</name>
+        <type>boolean</type>
+        <label>Salinity</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>w_oxygen_b</name>
+        <type>boolean</type>
+        <label>Oxygen</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>w_co2_b</name>
+        <type>boolean</type>
+        <label>Carbon</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>w_chlorophyll_b</name>
+        <type>boolean</type>
+        <label>Chlorophyll</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>turb_b</name>
+        <type>boolean</type>
+        <label>Turbidity</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>w_current_b</name>
+        <type>boolean</type>
+        <label>Current</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>wave_b</name>
+        <type>boolean</type>
+        <label>Wave</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>air_temperature_b</name>
+        <type>boolean</type>
+        <label>Air temperature</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>air_pressure_b</name>
+        <type>boolean</type>
+        <label>Air pressure</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>air_co2_b</name>
+        <type>boolean</type>
+        <label>Air CO2</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>wind_b</name>
+        <type>boolean</type>
+        <label>Wind</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>plankton_b</name>
+        <type>boolean</type>
+        <label>Plankton</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>optical_properties_b</name>
+        <type>boolean</type>
+        <label>Optical properties</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>animal_location_b</name>
+        <type>boolean</type>
+        <label>Animal location</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
