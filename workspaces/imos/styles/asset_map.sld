@@ -39,7 +39,7 @@
          <ogc:Literal>AATAMS</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>product</ogc:PropertyName>
+   <ogc:PropertyName>platform_type</ogc:PropertyName>
    <ogc:Literal>Emperor Penguins</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
@@ -63,7 +63,7 @@
          <ogc:Literal>AATAMS</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>product</ogc:PropertyName>
+   <ogc:PropertyName>platform_type</ogc:PropertyName>
    <ogc:Literal>Shearwaters</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
@@ -87,7 +87,7 @@
          <ogc:Literal>AATAMS</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>product</ogc:PropertyName>
+   <ogc:PropertyName>platform_type</ogc:PropertyName>
    <ogc:Literal>Snow petrels</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
@@ -111,7 +111,7 @@
          <ogc:Literal>AATAMS</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>product</ogc:PropertyName>
+   <ogc:PropertyName>platform_type</ogc:PropertyName>
    <ogc:Literal>Seals and sea lions</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>

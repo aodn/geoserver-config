@@ -24,7 +24,7 @@
     <filter>
         <name>platform_code</name>
         <type>string</type>
-        <label>Deployment code</label>
+        <label>Platform code</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
