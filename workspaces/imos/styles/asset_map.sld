@@ -15,7 +15,7 @@
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
-   <ogc:Literal>Acoustic</ogc:Literal> 
+   <ogc:Literal>Acoustic tagging</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
   </ogc:Filter>   
@@ -39,7 +39,7 @@
          <ogc:Literal>AATAMS</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>platform_code</ogc:PropertyName>
+   <ogc:PropertyName>platform_type</ogc:PropertyName>
    <ogc:Literal>Emperor Penguins</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
@@ -63,7 +63,7 @@
          <ogc:Literal>AATAMS</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>platform_code</ogc:PropertyName>
+   <ogc:PropertyName>platform_type</ogc:PropertyName>
    <ogc:Literal>Shearwaters</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
@@ -77,7 +77,31 @@
    </Graphic>
 </PointSymbolizer>
         </Rule>  
-        
+
+<Rule>   
+ <Title>AATAMS Biologging - Snow petrels</Title>  
+  <ogc:Filter>
+           <ogc:And>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>facility</ogc:PropertyName>
+         <ogc:Literal>AATAMS</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>platform_type</ogc:PropertyName>
+   <ogc:Literal>Snow petrels</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+           </ogc:And>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="snowpetrel.png"/>
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+        </Rule> 
+  
 <Rule>   
  <Title>AATAMS Biologging - Satellite tagging</Title>  
   <ogc:Filter>
@@ -87,7 +111,7 @@
          <ogc:Literal>AATAMS</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>platform_code</ogc:PropertyName>
+   <ogc:PropertyName>platform_type</ogc:PropertyName>
    <ogc:Literal>Seals and sea lions</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
@@ -100,7 +124,7 @@
      </ExternalGraphic>
    </Graphic>
 </PointSymbolizer>
-        </Rule>    
+        </Rule>
 
 <Rule>   
  <Title>ABOS</Title>  
@@ -147,7 +171,7 @@
          <ogc:Literal>ANFOG</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:PropertyName>platform_type</ogc:PropertyName>
    <ogc:Literal>seaglider</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
@@ -171,7 +195,7 @@
          <ogc:Literal>ANFOG</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:PropertyName>platform_type</ogc:PropertyName>
    <ogc:Literal>slocum glider</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
@@ -459,7 +483,7 @@
          <ogc:Literal>SRS</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:PropertyName>product</ogc:PropertyName>
    <ogc:Literal>Altimetry</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
@@ -507,7 +531,7 @@
          <ogc:Literal>SRS</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>subfacility</ogc:PropertyName>
+   <ogc:PropertyName>product</ogc:PropertyName>
    <ogc:Literal>Radiometer</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
