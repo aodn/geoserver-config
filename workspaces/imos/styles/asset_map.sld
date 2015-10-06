@@ -172,7 +172,7 @@
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>platform_type</ogc:PropertyName>
-   <ogc:Literal>seaglider</ogc:Literal> 
+   <ogc:Literal>Seaglider</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
   </ogc:Filter>   
@@ -196,7 +196,7 @@
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>platform_type</ogc:PropertyName>
-   <ogc:Literal>slocum glider</ogc:Literal> 
+   <ogc:Literal>Slocum glider</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
            </ogc:And>
   </ogc:Filter>   
