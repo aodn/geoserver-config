@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>project_name</name>
+        <type>string</type>
+        <label>Project name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>installation_name</name>
+        <type>string</type>
+        <label>Installation name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>station_name</name>
+        <type>string</type>
+        <label>Station name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
