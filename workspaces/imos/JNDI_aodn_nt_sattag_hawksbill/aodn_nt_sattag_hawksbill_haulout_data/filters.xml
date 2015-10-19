@@ -21,4 +21,13 @@
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
+      <filter>
+    <name>timestamp</name>
+    <type>datetime</type>
+    <label>Time</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+    <wmsStartDateName>timestamp_start</wmsStartDateName>
+    <wmsEndDateName>timestamp_end</wmsEndDateName>
+  </filter>
 </filters>
