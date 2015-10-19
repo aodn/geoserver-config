@@ -10,6 +10,7 @@
   <li><b>Project name</b> ${feature.project_name.value}</li> 
   <li><b>Installation name</b> ${feature.installation_name.value}</li>
   <li><b>Station name</b> ${feature.station_name.value}</li>
+  <li><b>Installation type</b> ${feature.installation_type.value}</li>
 	
 </ul>
 </div>

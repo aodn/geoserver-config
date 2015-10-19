@@ -69,4 +69,18 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
+    <filter>
+        <name>embargo</name>
+        <type>string</type>
+        <label>Embargo</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>registered</name>
+        <type>string</type>
+        <label>Registered</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
 </filters>
