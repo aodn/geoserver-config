@@ -22,9 +22,51 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>receiver_name</name>
+        <type>string</type>
+        <label>Receiver name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>deployment_date</name>
+        <type>datetime</type>
+        <label>Deployment date</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>recovery_date</name>
+        <type>datetime</type>
+        <label>Recovery date</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>receiver_status</name>
+        <type>string</type>
+        <label>Receiver status</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>active</name>
+        <type>string</type>
+        <label>Active</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>geom</name>
         <type>geometrypropertytype</type>
         <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>installation_type</name>
+        <type>string</type>
+        <label>Installation type</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

@@ -55,7 +55,7 @@
                                 <WellKnownName>circle</WellKnownName>
                                 <Fill>
                                    <CssParameter name="fill"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
-                                    <CssParameter name="fill-opacity">1</CssParameter>
+                                    <CssParameter name="fill-opacity">0.5</CssParameter>
                                 </Fill>
                             </Mark>
                             <Opacity>1</Opacity>
@@ -85,7 +85,7 @@
                                 <WellKnownName>circle</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
-                                    <CssParameter name="fill-opacity">1</CssParameter>
+                                    <CssParameter name="fill-opacity">0.5</CssParameter>
                                 </Fill>
                             </Mark>
                             <Opacity>1</Opacity>
@@ -115,7 +115,7 @@
                                 <WellKnownName>circle</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
-                                    <CssParameter name="fill-opacity">1</CssParameter>
+                                    <CssParameter name="fill-opacity">0.5</CssParameter>
                                 </Fill>
                             </Mark>
                             <Opacity>1</Opacity>
@@ -139,7 +139,7 @@
                                 <WellKnownName>circle</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
-                                    <CssParameter name="fill-opacity">1</CssParameter>
+                                    <CssParameter name="fill-opacity">0.5</CssParameter>
                                 </Fill>
                             </Mark>
                             <Opacity>1</Opacity>

@@ -36,13 +36,6 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>release_locality</name>
-        <type>string</type>
-        <label>Release locality</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>detection_date</name>
         <type>datetime</type>
         <label>Detection date</label>
@@ -66,6 +59,20 @@
         <name>detected</name>
         <type>boolean</type>
         <label>Detected</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>embargo</name>
+        <type>string</type>
+        <label>Embargo</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>registered</name>
+        <type>string</type>
+        <label>Registered</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
