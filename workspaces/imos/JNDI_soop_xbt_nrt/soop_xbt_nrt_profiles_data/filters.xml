@@ -28,11 +28,4 @@
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
-  <filter>
-    <name>XBT_line</name>
-    <type>string</type>
-    <label>XBT Line</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
 </filters>
