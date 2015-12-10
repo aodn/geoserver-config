@@ -1,0 +1,15 @@
+<layer>
+  <name>anmn_acoustics_map</name>
+  <id>LayerInfoImpl-7332f732:151890644dc:-7ff3</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-17e13b7c:126df4f301b:-49ba</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7332f732:151890644dc:-7ff4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
