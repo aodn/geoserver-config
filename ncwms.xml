@@ -1,5 +1,5 @@
 <ncwms>
   <wfsServer>http://localhost:8080/geoserver/ows</wfsServer>
-  <urlSubstitution key="/mnt/imos-t3/IMOS/opendap/">http://thredds-1-aws-syd.aodn.org.au/thredds/wms/IMOS/</urlSubstitution>
-  <urlSubstitution key="/IMOS/">http://thredds-1-aws-syd.aodn.org.au/thredds/wms/IMOS/</urlSubstitution>
+  <urlSubstitution key="^/mnt/imos-t3/IMOS/opendap/">http://thredds-1-aws-syd.aodn.org.au/thredds/wms/IMOS/</urlSubstitution>
+  <urlSubstitution key="^IMOS/">http://thredds-1-aws-syd.aodn.org.au/thredds/wms/IMOS/</urlSubstitution>
 </ncwms>
