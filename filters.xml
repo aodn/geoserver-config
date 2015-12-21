@@ -1,0 +1,7 @@
+<filters>
+  <allowed>
+    <regex>.*:.*_map/.*</regex>
+    <regex>imos:anmn_acoustics/.*</regex>
+    <regex>imos:installation_summary/.*</regex>
+  </allowed>
+</filters>
