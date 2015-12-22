@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-4a6120af:14f0104932f:3d16</id>
-  <name>installation_summary</name>
+  <name>installation_summary_map</name>
   <nativeName>installation_summary</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>installation_summary</title>
+  <title>installation_summary_map</title>
   <keywords>
     <string>features</string>
     <string>installation_summary</string>
