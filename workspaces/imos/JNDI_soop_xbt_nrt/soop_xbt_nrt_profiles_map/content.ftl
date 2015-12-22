@@ -4,7 +4,6 @@
 <#if (feature_index < 2) >
 <div class="featurewhite">
 <b>Profile ID :</b> ${feature.profile_id.value}<br/>
-<b>XBT line :</b> ${feature.XBT_line.value}<br/>
 <b>Vessel name :</b> ${feature.vessel_name.value}<br/>
 <b>Callsign :</b> ${feature.Callsign.value}<br/>
 <b>Maximum depth :</b> ${feature.max_depth.value}<br/>
