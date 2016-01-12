@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl--1e1115e2:1439408283b:43b8</id>
-  <name>soop_asf_mft_trajectory_data</name>
-  <nativeName>soop_asf_mft_trajectory_data</nativeName>
+  <name>soop_asf_fmt_trajectory_data</name>
+  <nativeName>soop_asf_fmt_trajectory_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>soop_asf_mft_trajectory_data</title>
+  <title>soop_asf_fmt_trajectory_data</title>
   <keywords>
     <string>features</string>
-    <string>soop_asf_mft_trajectory_data</string>
+    <string>soop_asf_fmt_trajectory_data</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -47,4 +47,7 @@
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
 </featureType>

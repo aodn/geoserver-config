@@ -1,13 +1,13 @@
 <featureType>
   <id>FeatureTypeInfoImpl--1e1115e2:1439408283b:32fe</id>
-  <name>soop_asf_mft_trajectory_map</name>
-  <nativeName>soop_asf_mft_trajectory_map</nativeName>
+  <name>soop_asf_fmt_trajectory_map</name>
+  <nativeName>soop_asf_fmt_trajectory_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>soop_asf_mft_trajectory_map</title>
+  <title>soop_asf_fmt_trajectory_map</title>
   <keywords>
-    <string>soop_asf_mft_trajectory_map</string>
+    <string>soop_asf_fmt_trajectory_map</string>
     <string>features</string>
   </keywords>
   <metadataLinks>
@@ -57,4 +57,7 @@
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
 </featureType>

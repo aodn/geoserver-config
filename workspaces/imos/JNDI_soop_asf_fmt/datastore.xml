@@ -1,13 +1,13 @@
 <dataStore>
   <id>DataStoreInfoImpl--1e1115e2:1439408283b:32fb</id>
-  <name>JNDI_soop_asf_mft</name>
+  <name>JNDI_soop_asf_fmt</name>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
   <connectionParameters>
-    <entry key="schema">soop_asf_mft</entry>
+    <entry key="schema">soop_asf_fmt</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">false</entry>
@@ -16,6 +16,7 @@
     <entry key="preparedStatements">false</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
     <entry key="Estimated extends">true</entry>
+    <entry key="Support on the fly geometry simplification">false</entry>
     <entry key="namespace">imos.mod</entry>
   </connectionParameters>
   <__default>false</__default>
