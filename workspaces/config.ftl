@@ -1,4 +1,4 @@
-<#assign baseurl = "https://geoserver-rc.aodn.org.au" >
+<#assign baseurl = "https://geoserver-rc.aodn.org.au/geoserver" >
 <#assign baseMetadataShow = "https://catalogue-rc.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=" >
 <#assign baseurlDataServer = "https://data.aodn.org.au/IMOS/public" >
 <#assign baseurlDataServerS3 = "https://imos-data.s3-ap-southeast-2.amazonaws.com" >

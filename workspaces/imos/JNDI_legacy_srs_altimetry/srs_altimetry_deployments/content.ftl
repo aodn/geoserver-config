@@ -2,7 +2,7 @@
 <#import "config.ftl" as my>
 <h3>SRS Satellite Altimetry Calibration and Validation Deployment</h3>
 <!--
-<select onChange="setExtWmsLayer('${my.baseurl}/geoserver/wms','ANFOG Glider ','1.1.1','anfog_glider','',this.value,'')">
+<select onChange="setExtWmsLayer('${my.baseurl}/wms','ANFOG Glider ','1.1.1','anfog_glider','',this.value,'')">
 <option value="">Filter by Year</option>
 <option value="time_start after 2007-12-31T00:00:00Z and time_start before 2009-01-01T00:00:00Z,Tracks from 2008">Tracks from 2008</option>
 <option value="time_start after 2008-12-31T00:00:00Z and time_start before 2010-01-01T00:00:00Z,Tracks from 2009">Tracks from 2009</option>

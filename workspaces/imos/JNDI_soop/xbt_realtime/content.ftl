@@ -4,7 +4,7 @@
 
 
 
-<select onChange="setExtWmsLayer('${my.baseurl}/geoserver/wms','SOOP XBT Realtime','1.1.1','xbt_realtime','',this.value,'xbt_by_line')">
+<select onChange="setExtWmsLayer('${my.baseurl}/wms','SOOP XBT Realtime','1.1.1','xbt_realtime','',this.value,'xbt_by_line')">
 
 <option value="">Filter by Ship</option>
 

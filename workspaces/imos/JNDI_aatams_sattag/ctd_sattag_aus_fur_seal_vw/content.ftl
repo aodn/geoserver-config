@@ -50,7 +50,7 @@ Deployment Metadata Record</a><BR>-->
 <a href="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=4637bd9b-8fba-4a10-bf23-26a511e17042"  target="_blank"  rel="external" class="h3" title="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=i4637bd9b-8fba-4a10-bf23-26a511e17042">Sub Facility Metadata Record</a><BR>
        
         <#if true == false>
-                <a  rel="external" href="${my.baseurlDataServers}/AATAMS/sattag/${feature.device_wmo_ref.value?trim}/profiles/${feature.filename.value?trim}.csv" target="_blank" class="h3" >Profiles as CSV</a><BR>
+                <a  rel="external" href="${my.baseurlDataServer}/AATAMS/sattag/${feature.device_wmo_ref.value?trim}/profiles/${feature.filename.value?trim}.csv" target="_blank" class="h3" >Profiles as CSV</a><BR>
         </#if>
         <#if  feature.filename.value?trim != "" >
                 <a  rel="external" href="${my.baseurlThredds}/thredds/dodsC/IMOS/AATAMS/marine_mammal_ctd-tag/${feature.filename.value?trim}.html" target="_blank" class="h3" >Download Profile Data</a><BR>
@@ -61,7 +61,7 @@ Deployment Metadata Record</a><BR>-->
         </#if>
 
 
-      <a  href="#" onclick="parent.setExtWmsLayer('${my.baseurl}/geoserver/wms','AATAMS ${feature.common_name.value?trim} ${feature.device_id.value?trim} tracks ','1.1.1','ctd_profile_mdb_workflow_vw','','device_id like \'${feature.device_id.value?trim}\'','');return false;"  >Add this animal track  (${feature.device_id.value}) to new map layer </a><BR>
+      <a  href="#" onclick="parent.setExtWmsLayer('${my.baseurl}/wms','AATAMS ${feature.common_name.value?trim} ${feature.device_id.value?trim} tracks ','1.1.1','ctd_profile_mdb_workflow_vw','','device_id like \'${feature.device_id.value?trim}\'','');return false;"  >Add this animal track  (${feature.device_id.value}) to new map layer </a><BR>
 
         
 <p>${feature.abstract.value}</p>

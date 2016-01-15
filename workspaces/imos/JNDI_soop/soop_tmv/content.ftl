@@ -2,7 +2,7 @@
 
 <h3>SOOP Temperate Merchant Vessel -all tracks</h3>
 
-<select onChange="setExtWmsLayer('${my.baseurl}/geoserver/wms','SOOP TMV ','1.1.1','soop_tmv','',this.value,'')">
+<select onChange="setExtWmsLayer('${my.baseurl}/wms','SOOP TMV ','1.1.1','soop_tmv','',this.value,'')">
 
 <option value="">Filter by Year</option>
 <option value="time_coverage_start after 2007-12-31T00:00:00Z and time_coverage_start before 2009-01-01T00:00:00Z,Tracks from 2008">Tracks from 2008</option>

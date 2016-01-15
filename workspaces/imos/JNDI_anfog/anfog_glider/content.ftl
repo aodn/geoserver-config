@@ -2,7 +2,7 @@
 <#import "config.ftl" as my>
 <h3>ANFOG Glider Deployment</h3>
 
-<select onChange="setExtWmsLayer('${my.baseurl}/geoserver/wms','ANFOG Glider ','1.1.1','anfog_glider','',this.value,'')">
+<select onChange="setExtWmsLayer('${my.baseurl}/wms','ANFOG Glider ','1.1.1','anfog_glider','',this.value,'')">
 <option value="">Filter by Year</option>
 <option value="time_start after 2007-12-31T00:00:00Z and time_start before 2009-01-01T00:00:00Z,Tracks from 2008">Tracks from 2008</option>
 <option value="time_start after 2008-12-31T00:00:00Z and time_start before 2010-01-01T00:00:00Z,Tracks from 2009">Tracks from 2009</option>
@@ -35,7 +35,7 @@
       <li><b>Max Depth</b> to ${feature.max_depth.value}m</li>
       <li><b>Extent</b> ${feature.max_lat.value}N  ${feature.max_lon.value}E  ${feature.min_lat.value}S  ${feature.min_lon.value}W </li>
     </ul>
-    <a href="${my.baseurl}/geoserver/wms/kml?layers=imos:anfog_glider&CQL_FILTER=deploy_id like '${feature.deploy_id.value}'" target="_blank">Download as KML</a><br>
+    <a href="${my.baseurl}/wms/kml?layers=imos:anfog_glider&CQL_FILTER=deploy_id like '${feature.deploy_id.value}'" target="_blank">Download as KML</a><br>
         <a href="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=${feature.uuid.value}"  target="_blank"  rel="external" class="h3" title="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=${feature.uuid.value}">
     Link to the IMOS metadata record</a> <BR>
         <a  rel="external" href="${feature.opendap.value}" target="_blank" class="h3" >Link to the data on OPeNDAP </a> <BR>
@@ -52,7 +52,7 @@
 
 
     <p>Zoom in to see the track for the glider.<br>
-    <a href="#" onClick="setExtWmsLayer('${my.baseurl}/geoserver/wms','ANFOG Glider ','1.1.1','anfog_glider','','deploy_id like \'${feature.deploy_id.value}\',${feature.name.value}','')" >Create a new layer featuring this glider</a>
+    <a href="#" onClick="setExtWmsLayer('${my.baseurl}/wms','ANFOG Glider ','1.1.1','anfog_glider','','deploy_id like \'${feature.deploy_id.value}\',${feature.name.value}','')" >Create a new layer featuring this glider</a>
     </p>
 
     </div>

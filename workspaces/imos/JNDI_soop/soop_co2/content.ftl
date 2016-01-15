@@ -5,7 +5,7 @@
 
 <#-- parent.setExtWmsLayer(url,label,type,layer,sld,cql,style) -->
 
-<select onChange="setExtWmsLayer('${my.baseurl}/geoserver/wms','SOOP Underway Co2 ','1.1.1','soop_co2','',this.value,'soop-co2-recent')">
+<select onChange="setExtWmsLayer('${my.baseurl}/wms','SOOP Underway Co2 ','1.1.1','soop_co2','',this.value,'soop-co2-recent')">
 
 <option value="">Filter by Year</option>
 <option value="time_coverage_start after 2007-12-31T00:00:00Z and time_coverage_start before 2009-01-01T00:00:00Z,Tracks from 2008">Tracks from 2008</option>

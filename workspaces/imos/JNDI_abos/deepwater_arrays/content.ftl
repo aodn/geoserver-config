@@ -27,7 +27,7 @@ Link to the IMOS metadata record</a><BR>
 
 
 <#if feature.track.value == "true">
-      <a  href="#" onclick="parent.setExtWmsLayer('${my.baseurl}/geoserver/wms','SOTS ${feature.sotscode.value} track','1.1.1','abos_tracks','','sotscode like \'${feature.sotscode.value}\'','');return false;"  >Add Track to map</a><BR>
+      <a  href="#" onclick="parent.setExtWmsLayer('${my.baseurl}/wms','SOTS ${feature.sotscode.value} track','1.1.1','abos_tracks','','sotscode like \'${feature.sotscode.value}\'','');return false;"  >Add Track to map</a><BR>
       </#if>
 
     <#if feature.image.value?trim != "">

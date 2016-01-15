@@ -3,7 +3,7 @@
 <h3>SOOP Air Sea Flux Measurements (Last 7 Days)</h3>
 <p>This layer is a subset of the all available data, limited to 7 days older than the last received data.
 <#--setExtWmsLayer(url,label,type,layer,sld,cql,style)-->
-<a href="" onclick="parent.setExtWmsLayer('${my.baseurl}/geoserver/wms','SOOP Air Sea Fluxes','1.1.1','soop_asf','','','');return false;">Show all ASF data</a></p>
+<a href="" onclick="parent.setExtWmsLayer('${my.baseurl}/wms','SOOP Air Sea Fluxes','1.1.1','soop_asf','','','');return false;">Show all ASF data</a></p>
 
 <#assign empty = "(no&nbsp;data)" >
 
