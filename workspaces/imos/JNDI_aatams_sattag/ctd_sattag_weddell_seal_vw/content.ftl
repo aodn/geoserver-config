@@ -59,7 +59,7 @@ Date: ${feature.timestamp.value}<br/>
         </#if>
 
 
-      <a  href="#" onclick="parent.setExtWmsLayer('${my.baseurl}/geoserver/wms','AATAMS ${feature.common_name.value?trim} ${feature.device_id.value?trim} tracks ','1.1.1','ctd_profile_mdb_workflow_vw','','device_id like \'${feature.device_id.value?trim}\'','');return false;"  >Add this animal track  (${feature.device_id.value}) to new map layer </a><BR>
+      <a  href="#" onclick="parent.setExtWmsLayer('${my.baseurl}/wms','AATAMS ${feature.common_name.value?trim} ${feature.device_id.value?trim} tracks ','1.1.1','ctd_profile_mdb_workflow_vw','','device_id like \'${feature.device_id.value?trim}\'','');return false;"  >Add this animal track  (${feature.device_id.value}) to new map layer </a><BR>
 
         
 <p>${feature.abstract.value}</p>

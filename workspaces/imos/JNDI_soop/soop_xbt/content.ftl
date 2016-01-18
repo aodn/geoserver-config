@@ -20,7 +20,7 @@
     <a href="${my.baseurlDataServer}/SOOP/XBT/plot/individual_profile/${feature.xbt_line.value}/${year}/${feature.xbt_uniqueid.value}.jpg" target="_blank" rel="external">Temperature profile for XBT '${feature.xbt_uniqueid.value}'</a><BR>
 </#if>
 
-<a  href="#" onclick="parent.setExtWmsLayer('${my.baseurl}/geoserver/wms','XBT ${feature.xbt_cruise_id.value} Cruises','1.1.1','soop_xbt','','xbt_cruise_id like \'${feature.xbt_cruise_id.value?trim}\'','');return false;"  >Add XBT's from this Cruise (${feature.xbt_cruise_id.value?trim}) to map</a><BR>
+<a  href="#" onclick="parent.setExtWmsLayer('${my.baseurl}/wms','XBT ${feature.xbt_cruise_id.value} Cruises','1.1.1','soop_xbt','','xbt_cruise_id like \'${feature.xbt_cruise_id.value?trim}\'','');return false;"  >Add XBT's from this Cruise (${feature.xbt_cruise_id.value?trim}) to map</a><BR>
 
 
 <ul>

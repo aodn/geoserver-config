@@ -29,9 +29,9 @@ Principal Investigator: <h6>${feature.principal_investigator.value}</h6><BR>
         (1Minute Averaged product)      
   </#if><BR>
 <#if feature.callsign.value == 'FHZI' >
-    <a href="${my.baseurl}/soop/${feature.platform_uuid.value}.wms" onclick="parent.setExtWmsLayer('${my.baseurl}/geoserver/wms','SST ${feature.vessel_name.value?js_string} (all non 1min Avg tracks)','1.1.1','soop_sst_without_1min_vw','','callsign like \'${feature.callsign.value}\' ','');return false;">Show all non 1min Avg tracks for ${feature.callsign.value} </a>
+    <a href="${my.baseurl}/soop/${feature.platform_uuid.value}.wms" onclick="parent.setExtWmsLayer('${my.baseurl}/wms','SST ${feature.vessel_name.value?js_string} (all non 1min Avg tracks)','1.1.1','soop_sst_without_1min_vw','','callsign like \'${feature.callsign.value}\' ','');return false;">Show all non 1min Avg tracks for ${feature.callsign.value} </a>
 <#else>
-    <a href="" onclick="parent.setExtWmsLayer('${my.baseurl}/geoserver/wms','SST ${feature.vessel_name.value?js_string} (all tracks)','1.1.1','soop_sst_mv','','callsign like \'${feature.callsign.value}\' ','');return false;">Show all tracks for ${feature.callsign.value} </a>
+    <a href="" onclick="parent.setExtWmsLayer('${my.baseurl}/wms','SST ${feature.vessel_name.value?js_string} (all tracks)','1.1.1','soop_sst_mv','','callsign like \'${feature.callsign.value}\' ','');return false;">Show all tracks for ${feature.callsign.value} </a>
 </#if>
 <BR><BR>
 
