@@ -30,4 +30,11 @@
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
+  <filter>
+    <name>LONGNAME</name>
+    <type>string</type>
+    <label>Long Name</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
 </filters>
