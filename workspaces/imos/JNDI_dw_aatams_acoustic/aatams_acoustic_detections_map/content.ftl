@@ -23,7 +23,7 @@
 <TD Align="Center">${feature.transmitter_id.value}</td>
 <TD Align="Center">${feature.registered.value}</td>
 <TD Align="Center">${feature.embargo.value}</td>
-<TD Align="Center"> <#if feature.no_detections.value == '0'> No detections <#else> ${feature.first_detection_date.value?date("dd/MM/yy")} - ${feature.last_detection_date.value?date("dd/MM/yy")}</#if></td>
+<TD Align="Center"> <#if feature.no_detections.value == '0'> No detections <#else> ${feature.first_detection_date.value?date("MM/dd/yy")} - ${feature.last_detection_date.value?date("MM/dd/yy")}</#if></td>
 <TD Align="Center">${feature.no_detections.value}</td>
 </#if>
 </#list>
