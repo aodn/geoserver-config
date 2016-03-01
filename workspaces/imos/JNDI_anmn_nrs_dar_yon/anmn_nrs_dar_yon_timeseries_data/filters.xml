@@ -8,9 +8,9 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>platform_name</name>
+    <name>platform_code</name>
     <type>string</type>
-    <label>Platform Name</label>
+    <label>Platform Code</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
