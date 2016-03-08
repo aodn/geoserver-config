@@ -1,4 +1,5 @@
 <gogoduck>
   <fileLimit>10</fileLimit>
   <threadCount>0</threadCount>
+  <urlSubstitution key="^">http://imos-data.aodn.org.au/</urlSubstitution>
 </gogoduck>
