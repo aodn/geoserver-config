@@ -1,0 +1,15 @@
+<layer>
+  <name>srs_oc_ljco_wws_hourlt_wqm_fv01_timeseries_data</name>
+  <id>LayerInfoImpl-22d1d4ad:15378777f46:-7ff9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-9b0d687:1521054cdbd:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-22d1d4ad:15378777f46:-7ffa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
