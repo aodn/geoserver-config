@@ -46,7 +46,7 @@
 <#assign charts = {"Chromophoric Dissolved Organic Matter":"CDOM", "Conductivity":"CNDC","Dissolved Oxygen":"DOXY", "Fluorescence":"FLU2", "Salinity":"PSAL", "Temperature":"TEMP","Volumetric Back-Scattering Coefficient":"VBSC"} >
 <#assign keys = charts?keys>
 <#list keys as key>
-    <a  rel="external" href="${my.baseurlDataServer}/ANFOG/${glider}/${feature.deployment_name.value}/${feature.deployment_name.value}_${charts[key]}.jpg" target="_blank" class="h3" >${key} Chart</a> <BR>
+    <a  rel="external" href="${my.baseurlDataServer}/IMOS/ANFOG/${glider}/${feature.deployment_name.value}/${feature.deployment_name.value}_${charts[key]}.jpg" target="_blank" class="h3" >${key} Chart</a> <BR>
 
 </#list>
 

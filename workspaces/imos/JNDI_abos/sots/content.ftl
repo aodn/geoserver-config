@@ -18,7 +18,7 @@
 <a href="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=${feature.metadata.value}"  target="_blank"  rel="external" class="h3" title="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=${feature.metadata.value}">
 Link to the IMOS metadata record</a><BR>
        <#if feature.data_fabric.value?trim == "http://emii1.its.utas.edu.au/SOTS/Pulse/Pulse_6/">
-                <a  rel="external" href="${my.baseurlDataServer}/ABOS/SOTS/Pulse/Pulse_6/" target="_blank" class="h3" >Raw data on Data Fabric</a><BR>
+                <a  rel="external" href="${my.baseurlDataServer}/IMOS/ABOS/SOTS/Pulse/Pulse_6/" target="_blank" class="h3" >Raw data on Data Fabric</a><BR>
          
         <#elseif feature.data_fabric.value?trim != "">
                 <a  rel="external" href="${feature.data_fabric.value}" target="_blank" class="h3" >Raw data on Data Fabric</a><BR>

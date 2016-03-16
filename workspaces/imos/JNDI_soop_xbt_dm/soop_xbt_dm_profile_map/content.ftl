@@ -11,7 +11,7 @@
 <b>XBT cruise ID :</b> ${feature.XBT_cruise_ID.value}<br/>
 <b>Maximum depth :</b> ${feature.max_depth.value}<br/>
 <b>Time :</b> ${feature.TIME.value}<br/>
-<img src="${my.baseurlDataServerS3}/${feature.url.value?substring(0, feature.url.value?last_index_of("."))}.jpg"><br clear="all" />
+<img src="${my.baseurlDataServer}/${feature.url.value?substring(0, feature.url.value?last_index_of("."))}.jpg"><br clear="all" />
 <BR>
 
 </div>

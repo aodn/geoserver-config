@@ -63,7 +63,7 @@ Link to the IMOS metadata record</a><BR>
 <a href="${my.baseurlThredds}/thredds/catalog/IMOS/AUV/${feature.campaign_code.value}/${feature.site_code.value}/hydro_netcdf/catalog.html"  target="_blank"  rel="external" class="h3"
  title="${my.baseurlThredds}/thredds/catalog/IMOS/AUV/${feature.campaign_code.value}/${feature.site_code.value}/hydro_netcdf/catalog.html">
 Data on opendap</a><BR>
-  <a  rel="external" href="${my.baseurlDataServer}/AUV/${feature.campaign_code.value}/${feature.site_code.value}" target="_blank" class="h3" alt=" download KML" >Link to data folder</a> <BR>
+  <a  rel="external" href="${my.baseurlDataServer}/IMOS/AUV/${feature.campaign_code.value}/${feature.site_code.value}" target="_blank" class="h3" alt=" download KML" >Link to data folder</a> <BR>
   <#if feature.kml.value?trim != "">
 	  <a  rel="external" href="${feature.kml.value}" target="_blank" class="h3" alt=" download KML" >Download for Google Earth (KML)</a> 
   </#if>

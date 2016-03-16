@@ -11,7 +11,7 @@ ${feature.time_coverage_start.value} -  ${feature.time_coverage_end.value}<BR>
 <p>
  <a  rel="external" href="${feature.opendap_url.value}.html" title="${feature.opendap_url.value}" target="_blank" class="h3" >OPeNDAP Dataset Access</a><BR>
  <a  rel="external" href="${feature.download_url.value}" title="${feature.download_url.value}" target="_blank" class="h3" >Download data</a><BR>
- <a  rel="external" href="${my.baseurlDataServer}/SOOP/BA/matlab_script/viz_sv.m" title="download Matlab script" target="_blank" class="h3" >Download Matlab script</a>
+ <a  rel="external" href="${my.baseurlDataServer}/IMOS/SOOP/BA/matlab_script/viz_sv.m" title="download Matlab script" target="_blank" class="h3" >Download Matlab script</a>
 
 <#if feature.opendap_url.value?matches(".*1-min-avg.*") >
         &nbsp; (1Minute Averaged product)
@@ -28,7 +28,7 @@ title="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=${featur
 
 
         <#assign bits = feature.opendap_url.value?split("/") >
-        <#assign image = "${my.baseurlDataServer}/SOOP/BA/" + bits[bits?size -3] + "/" + bits[bits?size -2] + "/" + bits[bits?size -1] + ".png" >
+        <#assign image = "${my.baseurlDataServer}/IMOS/SOOP/BA/" + bits[bits?size -3] + "/" + bits[bits?size -2] + "/" + bits[bits?size -1] + ".png" >
         <img class="spaced" src="${image}" alt="link to graph" /><BR>
         <a href="${image}" target="_blank"  rel="external" class="h3" >View graph in new window</a>
 
