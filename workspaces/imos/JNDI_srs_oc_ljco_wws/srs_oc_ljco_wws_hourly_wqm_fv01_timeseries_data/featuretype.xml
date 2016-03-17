@@ -1,13 +1,13 @@
 <featureType>
   <id>FeatureTypeInfoImpl-22d1d4ad:15378777f46:-7ffa</id>
-  <name>srs_oc_ljco_wws_hourlt_wqm_fv01_timeseries_data</name>
-  <nativeName>srs_oc_ljco_wws_hourlt_wqm_fv01_timeseries_data</nativeName>
+  <name>srs_oc_ljco_wws_hourly_wqm_fv01_timeseries_data</name>
+  <nativeName>srs_oc_ljco_wws_hourly_wqm_fv01_timeseries_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>srs_oc_ljco_wws_hourlt_wqm_fv01_timeseries_data</title>
+  <title>srs_oc_ljco_wws_hourly_wqm_fv01_timeseries_data</title>
   <keywords>
-    <string>srs_oc_ljco_wws_hourlt_wqm_fv01_timeseries_data</string>
+    <string>srs_oc_ljco_wws_hourly_wqm_fv01_timeseries_data</string>
     <string>features</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
