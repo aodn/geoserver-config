@@ -7,7 +7,7 @@
 
 
   <!-- Replace a file path with an HTTP URL. -->
-  <xsl:template match="imos:url/text()">https://data.aodn.org.au<xsl:value-of select="substring-after(., '/mnt/imos-t3')" />
+  <xsl:template match="imos:url/text()">http://data.aodn.org.au/<xsl:value-of select="."/>
   </xsl:template>
 
   <!-- copy everything else as is - identity template -->
