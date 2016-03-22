@@ -56,7 +56,7 @@
 
 
     <a href="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=35234913-aa3c-48ec-b9a4-77f822f66ef8"  target="_blank"  rel="external" class="h3" title="http://imosmest.emii.org.au/geonetwork/srv/en/metadata.show?uuid=35234913-aa3c-48ec-b9a4-77f822f66ef8">IMOS metadata record</a> | 
-        <a  rel="external" href="${my.baseurlDataServer}/SOOP/XBT/realtime/${feature.csv_name.value}" target="_blank" class="h3" >Raw data as CSV</a>
+        <a  rel="external" href="${my.baseurlDataServer}/IMOS/SOOP/SOOP-XBT/realtime/${feature.csv_name.value}" target="_blank" class="h3" >Raw data as CSV</a>
 
 </div>
 
