@@ -10,6 +10,13 @@
     <string>features</string>
     <string>aus_phyto_db_map</string>
   </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=16e191c0-6b64-482b-affd-783fc2023df4&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+    </metadataLink>
+  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -21,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-76.00883</minx>
-    <maxx>174.335</maxx>
-    <miny>-73.15116</miny>
-    <maxy>-5.09924</maxy>
+    <minx>104.53955078125</minx>
+    <maxx>173.005935668945</maxx>
+    <miny>-67.1185607910156</miny>
+    <maxy>-4.79068613052368</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-76.00883</minx>
-    <maxx>174.335</maxx>
-    <miny>-73.15116</miny>
-    <maxy>-5.09924</maxy>
+    <minx>104.53955078125</minx>
+    <maxx>173.005935668945</maxx>
+    <miny>-67.1185607910156</miny>
+    <maxy>-4.79068613052368</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -42,6 +49,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--5f1b1a6c:14fed986e44:-7ffc</id>
   </store>
