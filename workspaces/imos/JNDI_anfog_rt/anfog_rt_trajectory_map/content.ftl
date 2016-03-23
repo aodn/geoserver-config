@@ -11,13 +11,11 @@
 <#assign platform="seaglider">
 <b>Seaglider :</b> ${feature.platform_code.value}</br>
 </#if>
-<#if feature.status.value == "TRUE" >
+<#if feature.status_filter.value == "in_progress" >
 <b>This deployment is in progress. Started on ${feature.time_coverage_start.value} .</b></br>
 <#else>
 <b>This deployment is completed.</b></br>
 </#if>
-<a href="http://data.aodn.org.au/IMOS/public/ANFOG/Realtime/${platform}/${feature.deployment_name.value}" target="_blank">Summary graphs of temperature, salinity, concentration of Chlorophyll, dissolved oxygen and coloured dissolved organic matter are avaialble here</a>
-<BR>
 </div>
 </#if>
 </#list>
