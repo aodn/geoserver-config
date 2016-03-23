@@ -10,8 +10,8 @@
   <Title>Anfog Glider realtime track</Title> 
      <ogc:Filter>  
     <ogc:PropertyIsEqualTo >
-   <ogc:PropertyName>status</ogc:PropertyName>
-   <ogc:Literal>TRUE</ogc:Literal> 
+   <ogc:PropertyName>status_filter</ogc:PropertyName>
+   <ogc:Literal>in_progress</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
   </ogc:Filter> 
 
@@ -34,8 +34,8 @@
   <Title>Anfog Glider tracks - completed</Title> 
    <ogc:Filter>  
     <ogc:PropertyIsEqualTo>
-   <ogc:PropertyName>status</ogc:PropertyName>
-   <ogc:Literal>FALSE</ogc:Literal> 
+   <ogc:PropertyName>status_filter</ogc:PropertyName>
+   <ogc:Literal>completed</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
   </ogc:Filter> 
     <LineSymbolizer>

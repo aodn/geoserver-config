@@ -28,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>112.71068572998</minx>
-    <maxx>145.830993652344</maxx>
-    <miny>-29.3648281097412</miny>
-    <maxy>-15.2431335449219</maxy>
+    <minx>114.844017028809</minx>
+    <maxx>153.738403320312</maxx>
+    <miny>-43.6880683898926</miny>
+    <maxy>-13.9070167541504</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>112.71068572998</minx>
-    <maxx>145.830993652344</maxx>
-    <miny>-29.3648281097412</miny>
-    <maxy>-15.2431335449219</maxy>
+    <minx>114.844017028809</minx>
+    <maxx>153.738403320312</maxx>
+    <miny>-43.6880683898926</miny>
+    <maxy>-13.9070167541504</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -67,4 +67,7 @@
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
 </featureType>
