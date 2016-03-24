@@ -1,16 +1,9 @@
 <?xml version="1.0"?>
 <filters>
   <filter>
-    <name>PROJECT_ID</name>
+    <name>PROJECT_DESCRIPTION</name>
     <type>string</type>
-    <label>Project ID</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-    <filter>
-    <name>SAMPLE_ID</name>
-    <type>string</type>
-    <label>Sample ID</label>
+    <label>Project name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
