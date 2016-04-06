@@ -16,7 +16,7 @@
       <!-- A FeatureTypeStyle for rendering points -->
 <FeatureTypeStyle>
     <Rule>
-          <Name>padding</Name>
+          <Name>Argo Float</Name>
           <Abstract>A 4 pixel padding</Abstract>
             <PointSymbolizer>
               <Graphic>
@@ -36,7 +36,7 @@
         </Rule>
   
         <Rule>
-          <Name>highZoom</Name>
+          <Name>Argo Float - high zoom</Name>
           <MaxScaleDenominator>9000000</MaxScaleDenominator>
             <PointSymbolizer>
               <Graphic>
@@ -51,7 +51,7 @@
           </PointSymbolizer>
         </Rule>
         <Rule>
-          <Name>mediumZoom</Name>
+          <Name>Argo Float - medium zoom</Name>
           <MinScaleDenominator>9000000</MinScaleDenominator>
           <MaxScaleDenominator>20000000</MaxScaleDenominator>
             <PointSymbolizer>
@@ -67,7 +67,7 @@
           </PointSymbolizer>
         </Rule>
         <Rule>
-          <Name>lowZoom</Name>
+          <Name>Argo Float - low zoom</Name>
           <MinScaleDenominator>20000000</MinScaleDenominator>
             <PointSymbolizer>
               <Graphic>
