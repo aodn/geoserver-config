@@ -20,7 +20,7 @@ ${feature.time_start.value} to<BR>${feature.time_end.value}<BR>
 
 <a  rel="external" href="${feature.url_marlin_metadata.value}" target="_blank" class="h3" >CSIRO Cruise metadata</a><BR>
 
-<img src=${feature.url_plot.value} title="${feature.url_plot.value}" />
+<img src=${my.baseurlDataServer}/${feature.url_plot.value} title="${feature.url_plot.value}" />
  </div>
 </#list>
 
