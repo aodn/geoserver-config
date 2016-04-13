@@ -1,3 +1,5 @@
+<#import "config.ftl" as my>
+
 <div class="feature">
 <#list features as feature>
 
@@ -13,7 +15,7 @@
 <b>Seaglider :</b> ${feature.platform_code.value}</br>
 </#if>
 <b>Time range :</b> ${feature.time_coverage_start.value} - ${feature.time_coverage_end.value}</br>
-<b>Summary charts of this deployment can be found here: <a  rel="external" href="http://data.aodn.org.au/IMOS/public/ANFOG/${glider}/${feature.deployment_name.value}/" target="_blank" class="h3" > Charts</a> 
+<b>View summary charts of this deployment: <a  rel="external" href="${my.baseurlDataServer}/?prefix=IMOS/ANFOG/${glider}/${feature.deployment_name.value}/" target="_blank" class="h3" > Charts</a>
 
 <BR>
 </div>

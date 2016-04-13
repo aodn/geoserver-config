@@ -1,3 +1,5 @@
+<#import "config.ftl" as my>
+
 <div class="feature">
 <#list features as feature>
 
@@ -9,36 +11,36 @@
 <#if feature.vessel_name.value =="Southern Surveyor">
 <ul>
 <li> Acoustic data collected at 120kHz </li>
-<img src="${my.baseurlDataServer}/${feature.url_csv.value}_120kHz.png"/>
+<img src="${my.baseurlDataServer}/${feature.url.value}_120kHz.png"/>
 <li> Acoustic data collected at 38kHz </li>
-<img src="${my.baseurlDataServer}/${feature.url_csv.value}_38kHz.png"/>
+<img src="${my.baseurlDataServer}/${feature.url.value}_38kHz.png"/>
 </ul>
 <#else>
-<img src="${my.baseurlDataServer}/${feature.url_csv.value}.png"/>
+<img src="${my.baseurlDataServer}/${feature.url.value}.png"/>
 </#if>
-<#if feature.vessel_name.value == "Oscar Elton Sette">	
-	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/RV_Oscar_Elton_Sette/" target="_blank"> View more echograms from the Oscar Elton Sette </a>
+<#if feature.vessel_name.value == "Oscar Elton Sette">
+	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/WTEE_Oscar-Elton-Sette/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#elseif feature.vessel_name.value == "Austral Leader II">
-	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/FV_Austral_Leader_II/" target="_blank"> View more echograms from the Austral Leader II</a>
+	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/VHLU_Austral-Leader-II/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#elseif feature.vessel_name.value == "Janas">
-	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/FV_Janas/" target="_blank"> View more echograms from the Janas</a>
+	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/ZMTW_Janas/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#elseif feature.vessel_name.value == "Kaharoa">
-	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/RV_Kaharoa/" target="_blank"> View more echograms from the Kaharoa</a>
+	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/ZM7552_Kaharoa/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#elseif feature.vessel_name.value == "Rehua">
-	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/FV_Rehua/" target="_blank"> View more echograms from the Rehua</a>
+	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/ZMRE_Rehua/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#elseif feature.vessel_name.value == "Southern Surveyor">
-	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/RV_Southern_Surveyor/" target="_blank"> View more echograms from the Southern Surveyor</a>
+	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/VLHJ_Southern-Surveyor/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#elseif feature.vessel_name.value == "Santo Rocco">
-	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/FV_Santo_Rocco/" target="_blank"> View more echograms from the Santo Rocco</a>
+	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/LFB13191P_Santo-Rocco/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#elseif feature.vessel_name.value == "Southern Champion">
-	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/FV_Southern_Champion/" target="_blank"> View more echograms from the Southern Champion</a>
+	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/VHGI_Southern-Champion/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#elseif feature.vessel_name.value == "Will Watch">
-	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/FV_Will_Watch/" target="_blank"> View more echograms from the Will Watch</a>
+	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/E5WW_Will-Watch/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#elseif feature.vessel_name.value == "Aurora Australis">
-	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/RV_Aurora_Australis/" target="_blank"> View more echograms from the Aurora Australis</a>
+	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/VNAA_Aurora-Australis/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#else>
 <a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/" target="_blank"> View more echograms from the SOOP-Bioacoustic facility </a>
-</#if> 
+</#if>
 <BR>
 </div>
 </#if>
