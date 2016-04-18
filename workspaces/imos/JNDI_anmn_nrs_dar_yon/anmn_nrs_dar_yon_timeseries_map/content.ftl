@@ -25,6 +25,6 @@
    <h5><b>Channel Id:</b> ${feature.channel_id.value?replace("_"," ")}</h5>
    <p>Graph showing data for the last seven days:</p>
    <a href="http://data.aims.gov.au/gbroosdata/services/chart/rtds/qaqc/${feature.channel_id.value}/level0/raw/raw/last7days/750/500/page" target="_blank" title="click to see full size graph" >
-   <img src="http://data.aims.gov.au/gbroosdata/serviceses/chart/rtds/qaqc/${feature.channel_id.value}/level0/raw/raw/last7days/400/300/page" alt="last7days ${feature.channel_id.value}" /></a>
+   <img src="http://data.aims.gov.au/gbroosdata/services/chart/rtds/qaqc/${feature.channel_id.value}/level0/raw/raw/last7days/400/300/page" alt="last7days ${feature.channel_id.value}" /></a>
    </div>
 </list>
