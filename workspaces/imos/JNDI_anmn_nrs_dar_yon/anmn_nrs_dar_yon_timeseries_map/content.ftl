@@ -5,7 +5,7 @@
 <p>Sites at your click point:<b></p>
 
 <p><i>[deployment] + [parameter] + [depth] + [last available data]</i></p>
-<select id="channelId" name="channelId" onChange="showChannel(this.value,'faimms')" >
+<select id="channelId" name="channelId" onChange="showChannel(this.value,'aims')" >
   <#list features as feature>
     <#if site_code != feature.site_code.value >
     <#assign site_code = feature.site_code.value >
@@ -19,7 +19,7 @@
 </select>
 
 <#list features as feature>
-   <div class="feature" id=faimms${feature.channel_id.value}" style="display:none" >
+   <div class="feature" id="aims${feature.channel_id.value}" style="display:none" >
    <h4>${site_code?replace("_"," ")} ${feature.platform_code.value?replace("_"," ")}</h4>
    <h2>${feature.VARNAME.value?replace("_"," ")}</h2>
    <h5><b>Channel Id:</b> ${feature.channel_id.value?replace("_"," ")}</h5>
@@ -27,4 +27,4 @@
    <a href="http://data.aims.gov.au/gbroosdata/services/chart/rtds/qaqc/${feature.channel_id.value}/level0/raw/raw/last7days/750/500/page" target="_blank" title="click to see full size graph" >
    <img src="http://data.aims.gov.au/gbroosdata/services/chart/rtds/qaqc/${feature.channel_id.value}/level0/raw/raw/last7days/400/300/page" alt="last7days ${feature.channel_id.value}" /></a>
    </div>
-</list>
+</#list>
