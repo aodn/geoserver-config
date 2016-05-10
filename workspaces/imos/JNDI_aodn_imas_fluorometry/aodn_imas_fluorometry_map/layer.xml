@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_imas_fluorometry_map</name>
+  <id>LayerInfoImpl-300252b1:15459b70386:-7ff9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-300252b1:15459b70386:-7fbc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-300252b1:15459b70386:-7ffa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
