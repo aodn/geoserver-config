@@ -1,0 +1,15 @@
+<layer>
+  <name>future_reef_map_trajectory_map</name>
+  <id>LayerInfoImpl-3831ce4d:1545008da37:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3831ce4d:1545008da37:-7fae</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3831ce4d:1545008da37:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
