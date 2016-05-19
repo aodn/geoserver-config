@@ -1,7 +1,7 @@
 <dataStore>
   <id>DataStoreInfoImpl-3831ce4d:1545008da37:-7ffc</id>
   <name>JNDI_aodn_future_reef_map</name>
-  <description>Future_Reff_MAP</description>
+  <description>Future_Reef_MAP</description>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
@@ -12,8 +12,8 @@
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">false</entry>
-    <entry key="encode functions">false</entry>
     <entry key="fetch size">1000</entry>
+    <entry key="encode functions">false</entry>
     <entry key="preparedStatements">false</entry>
     <entry key="jndiReferenceName">jdbc/harvest_read</entry>
     <entry key="Estimated extends">true</entry>
