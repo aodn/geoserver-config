@@ -8,17 +8,10 @@
 <b>Vessel name :</b> ${feature.vessel_name.value}<br/>
 <b>Platform code :</b> ${feature.platform_code.value}<br/>
 <b>Time range :</b> ${feature.time_start.value} - ${feature.time_end.value}<br/>
-<#if feature.vessel_name.value =="Southern Surveyor">
-<ul>
-<li> Acoustic data collected at 120kHz </li>
-<img src="${my.baseurlDataServer}/${feature.url.value}_120kHz.png"/>
-<li> Acoustic data collected at 38kHz </li>
-<img src="${my.baseurlDataServer}/${feature.url.value}_38kHz.png"/>
-</ul>
-<#else>
 <img src="${my.baseurlDataServer}/${feature.url.value}.png"/>
-</#if>
-<#if feature.vessel_name.value == "Oscar Elton Sette">
+<#if feature.vessel_name.value == "Southern Surveyor">
+        <a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/VLHJ_Southern-Surveyor/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
+<#elseif feature.vessel_name.value == "Oscar Elton Sette">
 	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/WTEE_Oscar-Elton-Sette/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
 <#elseif feature.vessel_name.value == "Austral Leader II">
 	<a href="${my.baseurlDataServer}/?prefix=IMOS/SOOP/SOOP-BA/VHLU_Austral-Leader-II/" target="_blank"> View more echograms from the ${feature.vessel_name.value}</a>
