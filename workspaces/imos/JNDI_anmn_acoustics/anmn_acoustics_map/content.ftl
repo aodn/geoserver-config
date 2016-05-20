@@ -23,4 +23,4 @@
 
 <b>Note:</b> Each deployment is comprised of 2 - 4 hydrophones on separate moorings, and each results in a set of recordings. The best set for each deployment is shown here. The <a rel="external" href="http://acoustic.aodn.org.au" target="_blank">Acoustic Data Viewer</a> provides a preview of these sets, with the option to download individual recordings.<br/>
 
-Please <a rel="external" href="mailto:info@emii.org.au" target="_blank">email us</a> to obtain the complete raw data on disk.
+Please <a rel="external" href="mailto:info@aodn.org.au" target="_blank">email us</a> to obtain the complete raw data on disk.
