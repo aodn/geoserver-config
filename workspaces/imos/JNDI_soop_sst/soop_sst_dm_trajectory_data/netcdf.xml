@@ -26,13 +26,13 @@
   <dimensions>
     <dimension name="TIME"/>
   </dimensions>
-  <globalattributes/>
-    <attribute name="title" value="'Sea surface temperature and meteorological data'"/>  <--Same as in soop_sst file-->
+  <globalattributes>
+    <attribute name="title" value="'Sea surface temperature and meteorological data'"/>
     <attribute name="file_version" value="'Level 1 - Quality Controlled Data'"/>
     <attribute name="file_version_quality_control">
     <value>'Data in this file has been through the BOM quality control procedure (Reference Table F). Every data point in this file has an associated quality flag.'</value>
     </attribute>
-    <attribute name="abstract" value=" "/>  <-- Soop sst doesn t provide an abstract in its netcdf file. need to come up with something here -->
+    <attribute name="abstract" value=" "/>
     <attribute name="project" value="'Integrated Marine Observing System (IMOS)'"/>
     <attribute name="Conventions" value="'CF-1.6,IMOS-1.3'"/>
     <attribute name="institution" value="'Australian Bureau of Meteorology'"/>
@@ -105,6 +105,7 @@
         <attribute name="valid_max" value="90000."/>
       </attributes>
     </variable>
+    <variable>
       <name>LATITUDE</name>
       <encoder>double</encoder>
       <dimensions>
