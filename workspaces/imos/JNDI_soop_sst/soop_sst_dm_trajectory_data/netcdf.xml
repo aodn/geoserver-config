@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <definition>
-  <!-- soop_sst_trajectory -->
   <source>
     <dataStoreName>JNDI_soop_sst</dataStoreName>
     <virtualDataTable>select trajectory_id as instance_id, * from measurements</virtualDataTable>
