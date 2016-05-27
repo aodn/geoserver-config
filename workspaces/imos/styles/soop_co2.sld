@@ -6,13 +6,20 @@
 <FeatureTypeStyle>
 <Rule>
 <Title>Vessel Tracks</Title>
-          <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#F7A53A</CssParameter>
-            <CssParameter name="stroke-opacity">1</CssParameter>
-            <CssParameter name="stroke-width">1</CssParameter>
-          </Stroke>
-        </LineSymbolizer>
+         <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#FFFFFF</CssParameter>
+              <CssParameter name="stroke-opacity">0.01</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>
+            </Stroke>
+         </LineSymbolizer>
+         <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#F7A53A</CssParameter>
+              <CssParameter name="stroke-opacity">1</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+         </LineSymbolizer>
 </Rule>
   <Rule>
   <Title>Vessel Tracks (Directional Arrows)</Title>
