@@ -70,4 +70,11 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
+    <filter>
+        <name>imos_b</name>
+        <type>boolean</type>
+        <label>IMOS receivers</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
 </filters>
