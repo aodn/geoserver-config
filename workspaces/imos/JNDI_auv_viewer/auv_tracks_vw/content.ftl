@@ -4,19 +4,12 @@
 <div class="feature">
 <#list features as feature>
 
-<#assign ids = feature.site_code.value?split("_") >
-<#assign site = ids[2]?capitalize >
-<#assign dive = ids[3] >
-<#assign depth = ids[4] >
 <#assign kml_relative = feature.kml.value >
 <#assign dive_report_relative = feature.dive_report.value >
 
-
 <div class="featurewhite">
 
-
-<h4 class="getfeatureTitle">${site} - Dive:${dive} Depth:${depth}
- </h4>
+<h4 class="getfeatureTitle">${feature.dive_code_name.value}</h4>
 <p class="getfeatureCode" style="display:none" >${feature.site_code.value}</p>
 <p class="getfeatureExtent" style="display:none" >${feature.geospatial_lon_min.value},${feature.geospatial_lat_min.value},${feature.geospatial_lon_max.value},${feature.geospatial_lat_max.value}</p>
 
