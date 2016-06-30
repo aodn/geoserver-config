@@ -1,0 +1,12 @@
+<layer>
+  <name>auv_trajectory_b_data</name>
+  <id>LayerInfoImpl--59a1eb20:1558fa15ca1:-7ecf</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--59a1eb20:1558fa15ca1:-7ed0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
