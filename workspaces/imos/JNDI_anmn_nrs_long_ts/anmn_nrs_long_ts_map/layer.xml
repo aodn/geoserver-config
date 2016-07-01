@@ -1,0 +1,20 @@
+<layer>
+  <name>anmn_nrs_long_ts_map</name>
+  <id>LayerInfoImpl--59a1eb20:1558fa15ca1:-7ff7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3f915dc9:13ded0e5778:4c41</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-3f915dc9:13ded0e5778:4c41</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--59a1eb20:1558fa15ca1:-7ff8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
