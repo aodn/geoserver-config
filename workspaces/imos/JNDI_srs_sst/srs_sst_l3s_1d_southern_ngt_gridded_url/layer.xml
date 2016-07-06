@@ -1,0 +1,12 @@
+<layer>
+  <name>srs_sst_l3s_1d_southern_ngt_gridded_url</name>
+  <id>LayerInfoImpl-241704d9:155bdb454c6:-7fe3</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-241704d9:155bdb454c6:-7fe4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
