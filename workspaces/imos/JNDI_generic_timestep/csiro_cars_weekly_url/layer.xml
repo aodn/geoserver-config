@@ -1,0 +1,15 @@
+<layer>
+  <name>csiro_cars_weekly_url</name>
+  <id>LayerInfoImpl--5360df55:155d8796886:-7db8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--396ecd48:155a40f3d82:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5360df55:155d8796886:-7db9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
