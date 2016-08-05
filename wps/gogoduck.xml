@@ -1,5 +1,20 @@
 <gogoduck>
   <fileLimit>10</fileLimit>
-  <threadCount>0</threadCount>
+  <threadCount>1</threadCount>
   <urlSubstitution key="^">http://data.aodn.org.au/</urlSubstitution>
+  <ncksPath>/usr/bin/ncks</ncksPath>
+  <ncpdqPath>/usr/bin/ncpdq</ncpdqPath>
+  <ncrcatPath>/usr/bin/ncrcat</ncrcatPath>
+  <timeField>time</timeField>
+  <fileUrlField>file_url</fileUrlField>
+  <unpack>true</unpack>
+  <globalAttributes>
+    <title>title</title>
+    <latitudeStart>geospatial_lat_min</latitudeStart>
+    <latitudeEnd>geospatial_lat_max</latitudeEnd>
+    <longitudeStart>geospatial_lon_min</longitudeStart>
+    <longitudeEnd>geospatial_lon_max</longitudeEnd>
+    <timeStart>time_coverage_start</timeStart>
+    <timeEnd>time_coverage_end</timeEnd>
+  </globalAttributes>
 </gogoduck>
