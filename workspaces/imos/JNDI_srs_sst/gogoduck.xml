@@ -1,0 +1,25 @@
+<gogoduck>
+    <globalAttributes>
+        <title>title</title>
+        <latitudeStart>southernmost_latitude</latitudeStart>
+        <latitudeEnd>northernmost_latitude</latitudeEnd>
+        <longitudeStart>westernmost_longitude</longitudeStart>
+        <longitudeEnd>easternmost_longitude</longitudeEnd>
+        <timeStart>start_time</timeStart>
+        <timeEnd>stop_time</timeEnd>
+    </globalAttributes>
+    <variablesToInclude>
+        <variable>time</variable>
+        <variable>lat</variable>
+        <variable>lon</variable>
+        <variable>dt_analysis</variable>
+        <variable>l2p_flags</variable>
+        <variable>quality_level</variable>
+        <variable>satellite_zenith_angle</variable>
+        <variable>sea_surface_temperature</variable>
+        <variable>sses_bias</variable>
+        <variable>sses_count</variable>
+        <variable>sses_standard_deviation</variable>
+        <variable>sst_dtime</variable>
+    </variablesToInclude>
+</gogoduck>
