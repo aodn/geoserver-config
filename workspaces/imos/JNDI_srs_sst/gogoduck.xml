@@ -7,8 +7,6 @@
         <longitudeEnd>easternmost_longitude</longitudeEnd>
         <timeStart>start_time</timeStart>
         <timeEnd>stop_time</timeEnd>
-        <timeStart>time_coverage_start</timeStart>
-        <timeEnd>time_coverage_end</timeEnd>
     </globalAttributes>
     <variablesToInclude>
         <variable>time</variable>
