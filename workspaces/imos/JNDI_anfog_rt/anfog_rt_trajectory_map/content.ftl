@@ -20,7 +20,7 @@
             <b>Time range :</b> ${feature.time_coverage_start.value} - ${feature.time_coverage_end.value}</br>
         </#if>
     </#if>
-    <b>View charts of this deployment: <a  rel="external" href="${my.baseurlDataServer}/?prefix=IMOS/ANFOG/REALTIME/${platform}/${feature.deployment_name.value}/" target="_blank" class="h3" > Charts</a>
+    <b>View charts of this deployment: <a  rel="external" href="${my.baseurlDataServerS3Listing}/?prefix=IMOS/ANFOG/REALTIME/${platform}/${feature.deployment_name.value}/" target="_blank" class="h3" > Charts</a>
 
     </div>
 </#if>
