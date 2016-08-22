@@ -2,8 +2,8 @@
 <definition>
   <source>
     <dataStoreName>JNDI_soop_sst</dataStoreName>
-    <virtualDataTable>select trajectory_id as instance_id, * from measurements</virtualDataTable>
-    <virtualInstanceTable>select * from soop_sst_nrt_trajectory_map</virtualInstanceTable>
+    <virtualDataTable>select trajectory_id as instance_id, * from soop_sst.soop_sst_nrt_trajectory_data</virtualDataTable>
+    <virtualInstanceTable>select id from soop_sst.indexed_file</virtualInstanceTable>
   </source>
   <filename>
     <sql>
@@ -11,9 +11,9 @@
         'IMOS_SOOP-SST_'
         ||to_char(min("TIME" AT TIME ZONE 'UTC'), 'YYYYMMDD"T"HH24MISS"Z"')
         ||'_'
-        ||platform_code
+        ||coalesce(platform_code,'PLATFORM')
         ||'_FV01_'
-        ||voyage_number
+        ||coalesce(voyage_number,'VOYAGE')
         ||'_END-'
         ||to_char(max("TIME" AT TIME ZONE 'UTC'), 'YYYYMMDD"T"HH24MISS"Z"')
         ||'_id-'
@@ -30,9 +30,9 @@
     <attribute name="title" value="'Sea surface temperature and meteorological data'"/>
     <attribute name="file_version" value="'Level 1 - Quality Controlled Data'"/>
     <attribute name="file_version_quality_control">
-    <value>'Data in this file has been through the BOM quality control procedure (Reference Table F). Every data point in this file has an associated quality flag.'</value>
+      <value>'Data in this file has been through the BOM quality control procedure (Reference Table F). Every data point in this file has an associated quality flag.'</value>
     </attribute>
-    <attribute name="abstract" value=" "/>
+    <attribute name="abstract" value="''"/>
     <attribute name="project" value="'Integrated Marine Observing System (IMOS)'"/>
     <attribute name="Conventions" value="'CF-1.6,IMOS-1.3'"/>
     <attribute name="institution" value="'Australian Bureau of Meteorology'"/>
@@ -41,28 +41,22 @@
       <sql>select to_char(now() AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS"Z"')</sql>
     </attribute>
     <attribute name="references" value="'http://www.imos.org.au'"/>
-    <attribute name="vessel_name">
-		<sql>value="select vessel_name from $instance"</sql>
-	</attribute>
-    <attribute name="platform_code">
-		<sql>sql="select platform_code from $instance"</sql>
-	</attribute>
-    <attribute name="voyage_id">
-		<sql>sql="select voyage_number from $instance"</sql>
-	</attribute>
+    <attribute name="vessel_name" sql="SELECT vessel_name FROM $data"/>
+    <attribute name="platform_code" sql="select platform_code from $data"/>
+    <attribute name="voyage_number" sql="select coalesce(voyage_number,'undefined') from $data"/>
     <attribute name="featureType" value="'trajectory'"/>
     <attribute name="naming_authority" value="'IMOS'"/>
     <attribute name="geospatial_lat_min">
-      <sql>select min("LATITUDE") from $instance</sql>
+      <sql>select min("LATITUDE") from $data</sql>
     </attribute>
     <attribute name="geospatial_lat_max">
-      <sql>select max("LATITUDE") from $instance</sql>
+      <sql>select max("LATITUDE") from $data</sql>
     </attribute>
     <attribute name="geospatial_lon_min">
-      <sql>select min("LONGITUDE") from $instance</sql>
+      <sql>select min("LONGITUDE") from $data</sql>
     </attribute>
     <attribute name="geospatial_lon_max">
-      <sql>select max("LONGITUDE") from $instance</sql>
+      <sql>select max("LONGITUDE") from $data</sql>
     </attribute>
     <attribute name="geospatial_vertical_min" value="0"/>
     <attribute name="geospatial_vertical_max" value="0"/>
@@ -73,7 +67,7 @@
       <sql>select to_char(max("TIME" AT TIME ZONE 'UTC'), 'YYYY-MM-DD"T"HH24:MI:SS"Z"') from $data</sql>
     </attribute>
     <attribute name="data_centre" value="'eMarine Information Infrastructure (eMII)'"/>
-    <attribute name="data_centre_email" value="'info@emii.org.au'"/>
+    <attribute name="data_centre_email" value="'info@aodn.org.au'"/>
     <attribute name="institution_references" value="'http://www.imos.org.au/emii.html'"/>
     <attribute name="citation">
       <value>'The citation in a list of references is: "IMOS [year-of-data-download], [Title], [data-access-url], accessed [date-of-access]"'</value>
@@ -201,7 +195,7 @@
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
-       </attributes>
+      </attributes>
     </variable>
     <variable>
       <name>ATMP</name>
@@ -348,7 +342,7 @@
         <attribute name="ancillary_variables" value="'DEWT_quality_control'"/>
       </attributes>
     </variable>
-   <variable>
+    <variable>
       <name>DEWT_quality_control</name>
       <encoder>char</encoder>
       <dimensions>
@@ -370,14 +364,14 @@
         <dimension name="TIME"/>
       </dimensions>
       <attributes>
-        <attribute name="standard_name" value="'platform_course"/>
+        <attribute name="standard_name" value="'platform_course'"/>
         <attribute name="long_name" value="'platform_course'"/>
         <attribute name="units" value="'degree (clockwise towards true north)'"/>
         <attribute name="_FillValue" value="-9999.f"/>
         <attribute name="valid_min" value="0.f"/>
         <attribute name="valid_max" value="360.f"/>
         <attribute name="coordinates" value="'TIME LATITUDE LONGITUDE'"/>
-        <attribute name="ancillary_variables" value="PL_CRS_quality_control"/>
+        <attribute name="ancillary_variables" value="'PL_CRS_quality_control'"/>
       </attributes>
     </variable>
     <variable>
@@ -393,7 +387,7 @@
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
-       </attributes>
+      </attributes>
     </variable>
     <variable>
       <name>PL_SPD</name>
@@ -613,39 +607,6 @@
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
       </attributes>
     </variable>
-    <!-- this is a new variable replacing variable TEMP measured by Fantasea Wonder .The harvester has to be modified to create this new var in the DB -->
-    <variable>
-      <name>SST</name>
-      <encoder>float</encoder>
-      <dimensions>
-        <dimension name="TIME"/>
-      </dimensions>
-      <attributes>
-        <attribute name="standard_name" value="'sea_surface_temperature'"/>
-        <attribute name="long_name" value="'sea_surface_temperature'"/>
-        <attribute name="units" value="'degrees_Celsius'"/>
-        <attribute name="valid_min" value="-2.5f"/>
-        <attribute name="valid_max" value="40.f"/>
-        <attribute name="_FillValue" value="999999.f"/>
-        <attribute name="coordinates" value="'TIME LATITUDE LONGITUDE'"/>
-        <attribute name="ancillary_variables" value="'SST_quality_control'"/>
-      </attributes>
-    </variable>
-    <variable>
-      <name>SST_quality_control</name>
-      <encoder>char</encoder>
-      <dimensions>
-        <dimension name="TIME"/>
-      </dimensions>
-      <attributes>
-        <attribute name="standard_name" value="'sea_surface_temperature status_flag'"/>
-        <attribute name="long_name" value="'quality flag for sea_surface_temperature'"/>
-        <attribute name="quality_control_set" value="3."/>
-        <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
-        <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
-        <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
-      </attributes>
-    </variable>
     <variable>
       <name>TEMP</name>
       <encoder>float</encoder>
@@ -692,7 +653,7 @@
         <attribute name="valid_max" value="40.f"/>
         <attribute name="_FillValue" value="999999.f"/>
         <attribute name="coordinates" value="'TIME LATITUDE LONGITUDE'"/>
-        <attribute name="ancillary_variables" value="'TEMP_quality_control"/>
+        <attribute name="ancillary_variables" value="'TEMP_quality_control'"/>
       </attributes>
     </variable>
     <variable>
@@ -724,7 +685,7 @@
         <attribute name="valid_max" value="40.f"/>
         <attribute name="_FillValue" value="999999.f"/>
         <attribute name="coordinates" value="'TIME LATITUDE LONGITUDE'"/>
-        <attribute name="ancillary_variables" value="'TEMP_quality_control"/>
+        <attribute name="ancillary_variables" value="'TEMP_quality_control'"/>
       </attributes>
     </variable>
     <variable>
