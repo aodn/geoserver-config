@@ -1,0 +1,53 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--3ec537a0:15668861a25:-7fe1</id>
+  <name>aodn_wamsi_sediment_data</name>
+  <nativeName>aodn_wamsi_sediment_data</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-3b0a723a:137e9896802:-7ffd</id>
+  </namespace>
+  <title>aodn_wamsi_sediment_data</title>
+  <keywords>
+    <string>aodn_wamsi_sediment_data</string>
+    <string>features</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>https://catalogue-portal.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=67984a64-c5bd-485d-8ace-7b0b22806ffa&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>113.383499145508</minx>
+    <maxx>114.35230255127</maxx>
+    <miny>-24.0433979034424</miny>
+    <maxy>-21.5796012878418</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>113.383499145508</minx>
+    <maxx>114.35230255127</maxx>
+    <miny>-24.0433979034424</miny>
+    <maxy>-21.5796012878418</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--3ec537a0:15668861a25:-7fe5</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

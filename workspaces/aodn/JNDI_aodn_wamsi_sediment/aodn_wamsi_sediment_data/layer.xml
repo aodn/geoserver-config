@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_wamsi_sediment_data</name>
+  <id>LayerInfoImpl--3ec537a0:15668861a25:-7fe0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--287ea228:155fc44b940:-7fe8</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3ec537a0:15668861a25:-7fe1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

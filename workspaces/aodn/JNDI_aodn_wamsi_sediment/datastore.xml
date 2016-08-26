@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl--3ec537a0:15668861a25:-7fe5</id>
+  <name>JNDI_aodn_wamsi_sediment</name>
+  <type>PostGIS (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-3b0a723a:137e9896802:-7ffe</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">aodn_wamsi_sediment</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
+    <entry key="Estimated extends">true</entry>
+    <entry key="Support on the fly geometry simplification">true</entry>
+    <entry key="namespace">aodn</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
