@@ -13,7 +13,7 @@
     </#if>
 
     <option value="${feature.channel_id.value}"> ${feature.platform_code.value?replace("_"," ")} ${feature.VARNAME.value?replace("_"," ")}
-    <#if feature.NOMINAL_DEPTH.value != "0.0" >${feature.NOMINAL_DEPTH.value}m</#if> ${feature.time_end.value?date}
+    <#if feature.NOMINAL_DEPTH.value != "0.0" >${feature.NOMINAL_DEPTH.value}m</#if> ${feature.time_coverage_end.value?date}
     </option>
   </#list>
 </select>
