@@ -91,7 +91,7 @@
 <TextSymbolizer>
   <Label>
 <ogc:PropertyName>vessel_name</ogc:PropertyName>
-<ogc:PropertyName>time_start</ogc:PropertyName>
+<ogc:PropertyName>time_coverage_start</ogc:PropertyName>
 </Label>
 <Font>
 <CssParameter name="font-family">Verdana</CssParameter>
