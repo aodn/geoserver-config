@@ -653,7 +653,7 @@
         <attribute name="valid_max" value="40.f"/>
         <attribute name="_FillValue" value="999999.f"/>
         <attribute name="coordinates" value="'TIME LATITUDE LONGITUDE'"/>
-        <attribute name="ancillary_variables" value="'TEMP_quality_control'"/>
+        <attribute name="ancillary_variables" value="'TEMP_2_quality_control'"/>
       </attributes>
     </variable>
     <variable>
@@ -685,7 +685,7 @@
         <attribute name="valid_max" value="40.f"/>
         <attribute name="_FillValue" value="999999.f"/>
         <attribute name="coordinates" value="'TIME LATITUDE LONGITUDE'"/>
-        <attribute name="ancillary_variables" value="'TEMP_quality_control'"/>
+        <attribute name="ancillary_variables" value="'TEMP_3_quality_control'"/>
       </attributes>
     </variable>
     <variable>
