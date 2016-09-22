@@ -13,7 +13,7 @@
   <metadataLinks>
     <metadataLink>
       <type>text/xml</type>
-      <metadataType>ISO19115:2003</metadataType>
+      <metadataType>TC211</metadataType>
       <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=07818819-2e5c-4a12-9395-0082b57b2fe8&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
