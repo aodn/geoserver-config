@@ -8,20 +8,6 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>PSAL_b</name>
-    <type>boolean</type>
-    <label>Salinity</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>TEMP_b</name>
-    <type>boolean</type>
-    <label>Temperature</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
     <name>TIME</name>
     <type>datetime</type>
     <label>Time</label>
@@ -29,19 +15,5 @@
     <excludedFromDownload>false</excludedFromDownload>
     <wmsStartDateName>time_coverage_start</wmsStartDateName>
     <wmsEndDateName>time_coverage_end</wmsEndDateName>
-  </filter>
-  <filter>
-    <name>TURB_b</name>
-    <type>boolean</type>
-    <label>Turbidity</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>vessel_name</name>
-    <type>string</type>
-    <label>Vessel Name</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
   </filter>
 </filters>
