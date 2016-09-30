@@ -32,7 +32,7 @@
     <attribute name="file_version_quality_control">
       <value>'Data in this file has been through the BOM quality control procedure (Reference Table F). Every data point in this file has an associated quality flag.'</value>
     </attribute>
-    <attribute name="abstract" value="''"/>
+    <attribute name="abstract" value="'Sea surface temperature and meteorological data'"/>
     <attribute name="project" value="'Integrated Marine Observing System (IMOS)'"/>
     <attribute name="Conventions" value="'CF-1.6,IMOS-1.3'"/>
     <attribute name="institution" value="'Australian Bureau of Meteorology'"/>
@@ -192,6 +192,7 @@
         <attribute name="standard_name" value="'air_temperature status_flag'"/>
         <attribute name="long_name" value="'quality flag for air_temperature'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -224,6 +225,7 @@
         <attribute name="standard_name" value="'air_pressure status_flag'"/>
         <attribute name="long_name" value="'quality flag for air_pressure'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -256,6 +258,7 @@
         <attribute name="standard_name" value="'sea_water_electrical_conductivity status_flag'"/>
         <attribute name="long_name" value="'quality flag for sea_water_electrical_conductivity'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -288,6 +291,7 @@
         <attribute name="standard_name" value="'sea_water_electrical_conductivity status_flag'"/>
         <attribute name="long_name" value="'quality flag for sea_water_electrical_conductivity'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -320,6 +324,7 @@
         <attribute name="standard_name" value="'sea_water_electrical_conductivity status_flag'"/>
         <attribute name="long_name" value="'quality flag for sea_water_electrical_conductivity'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -352,6 +357,7 @@
         <attribute name="standard_name" value="'dew_point_temperature status_flag'"/>
         <attribute name="long_name" value="'quality flag for dew_point_temperature'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -384,6 +390,7 @@
         <attribute name="standard_name" value="'platform_course status_flag'"/>
         <attribute name="long_name" value="'quality flag for platform_course'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -416,6 +423,7 @@
         <attribute name="standard_name" value="'platform_speed_wrt_ground status_flag'"/>
         <attribute name="long_name" value="'quality flag for platform_speed_wrt_ground'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -446,6 +454,7 @@
       <attributes>
         <attribute name="long_name" value="'quality flag for wind direction relative to moving platform'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -474,6 +483,7 @@
       <attributes>
         <attribute name="long_name" value="'quality flag for wind speed relative to moving platform'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -506,6 +516,7 @@
         <attribute name="standard_name" value="'sea_water_salinity status_flag'"/>
         <attribute name="long_name" value="'quality flag for sea_water_salinity'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -538,6 +549,7 @@
         <attribute name="standard_name" value="'sea_water_salinity status_flag'"/>
         <attribute name="long_name" value="'quality flag for sea_water_salinity'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -570,6 +582,7 @@
         <attribute name="standard_name" value="'sea_water_salinity status_flag'"/>
         <attribute name="long_name" value="'quality flag for sea_water_salinity'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -602,6 +615,7 @@
         <attribute name="standard_name" value="'relative_humidity status_flag'"/>
         <attribute name="long_name" value="'quality flag for relative_humidity'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -621,7 +635,7 @@
         <attribute name="valid_max" value="40.f"/>
         <attribute name="_FillValue" value="999999.f"/>
         <attribute name="coordinates" value="'TIME LATITUDE LONGITUDE'"/>
-        <attribute name="ancillary_variables" value="'TEMP_quality_control"/>
+        <attribute name="ancillary_variables" value="'TEMP_quality_control'"/>
       </attributes>
     </variable>
     <variable>
@@ -634,6 +648,7 @@
         <attribute name="standard_name" value="'sea_water_temperature status_flag'"/>
         <attribute name="long_name" value="'quality flag for sea_water_temperature'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -666,6 +681,7 @@
         <attribute name="standard_name" value="'sea_water_temperature status_flag'"/>
         <attribute name="long_name" value="'quality flag for sea_water_temperature'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -698,6 +714,7 @@
         <attribute name="standard_name" value="'sea_water_temperature status_flag'"/>
         <attribute name="long_name" value="'quality flag for sea_water_temperature'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -730,6 +747,7 @@
         <attribute name="standard_name" value="'wind_from_direction status_flag'"/>
         <attribute name="long_name" value="'quality flag for wind_from_direction'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -760,6 +778,7 @@
         <attribute name="standard_name" value="'wet_bulb_temperature status_flag'"/>
         <attribute name="long_name" value="'quality flag for wet_bulb_temperature'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
@@ -790,6 +809,7 @@
         <attribute name="standard_name" value="'wind_speed status_flag'"/>
         <attribute name="long_name" value="'quality flag for wind_speed'"/>
         <attribute name="quality_control_set" value="3."/>
+        <attribute name="_FillValue" value="''"/>
         <attribute name="quality_control_conventions" value="'BOM (SST and Air-Sea flux) quality control procedure'"/>
         <attribute name="flag_values" value="'B, C, D, E, F, G, H, J, K, L, M, Q, S, T, U, V, X, Z'"/>
         <attribute name="flag_meaning" value="'Value_out_of_bounds Time_not_sequential Failed_T_Tw_Td_test Failed_true_wind_recomputation_test Platform_velocity_unrealistic Value_exceeds_threshold Discontinuity Erroneous_value Suspect_value_(visual) Value_located_over_land Instrument_malfunction Pre-flagged_as_suspect Spike_in_data_(visual) Time_duplicate Suspect_value_(statistical) Step_in_data_(statistical) Spike_in_data_(statistical) Value_passed_all_tests'"/>
