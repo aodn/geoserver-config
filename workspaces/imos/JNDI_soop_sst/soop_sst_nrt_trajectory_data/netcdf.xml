@@ -2,22 +2,25 @@
 <definition>
   <source>
     <dataStoreName>JNDI_soop_sst</dataStoreName>
-    <virtualDataTable>select platform_code as instance_id, * from soop_sst.soop_sst_nrt_trajectory_data</virtualDataTable>
-    <virtualInstanceTable>select distinct(platform_code) from soop_sst.soop_sst_nrt_trajectory_map</virtualInstanceTable>
+    <virtualDataTable>select trajectory_id as instance_id, * from soop_sst.soop_sst_nrt_trajectory_data</virtualDataTable>
+    <virtualInstanceTable>select id from soop_sst.indexed_file</virtualInstanceTable>
   </source>
   <filename>
     <sql>
         select
-        'IMOS_SOOP-SST_T_'
+        'IMOS_SOOP-SST_'
         ||to_char(min("TIME" AT TIME ZONE 'UTC'), 'YYYYMMDD"T"HH24MISS"Z"')
         ||'_'
-        ||coalesce(instance_id,'PLATFORM')
+        ||coalesce(platform_code,'PLATFORM')
         ||'_FV01_'
+        ||coalesce(voyage_number,'VOYAGE')
         ||'_END-'
         ||to_char(max("TIME" AT TIME ZONE 'UTC'), 'YYYYMMDD"T"HH24MISS"Z"')
+        ||'_id-'
+        ||instance_id
         ||'.nc'
         from $data
-        group by instance_id
+        group by platform_code, voyage_number, instance_id
     </sql>
   </filename>
   <dimensions>
@@ -40,6 +43,7 @@
     <attribute name="references" value="'http://www.imos.org.au'"/>
     <attribute name="vessel_name" sql="SELECT vessel_name FROM $data"/>
     <attribute name="platform_code" sql="select platform_code from $data"/>
+    <attribute name="voyage_number" sql="select coalesce(voyage_number,'undefined') from $data"/>
     <attribute name="featureType" value="'trajectory'"/>
     <attribute name="naming_authority" value="'IMOS'"/>
     <attribute name="geospatial_lat_min">
