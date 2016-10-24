@@ -40,5 +40,7 @@
   <catalogMode>HIDE</catalogMode>
   <maxComplexInputSize>0</maxComplexInputSize>
   <maxSynchronousExecutionTime>0</maxSynchronousExecutionTime>
+  <maxSynchronousTotalTime>0</maxSynchronousTotalTime>
   <maxAsynchronousExecutionTime>0</maxAsynchronousExecutionTime>
+  <maxAsynchronousTotalTime>0</maxAsynchronousTotalTime>
 </wps>
