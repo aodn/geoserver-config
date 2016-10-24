@@ -1,0 +1,15 @@
+<layer>
+  <name>aus_phyto_db_ongoing_data</name>
+  <id>LayerInfoImpl-7504dad2:157f409f0b7:-7ff6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--28ae9436:15722231f36:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7504dad2:157f409f0b7:-7ff7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
