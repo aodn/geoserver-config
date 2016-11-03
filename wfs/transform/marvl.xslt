@@ -10,6 +10,9 @@
   <xsl:template match="imos:url/text()">http://data.aodn.org.au/<xsl:value-of select="."/>
   </xsl:template>
 
+  <xsl:template match="imos:file_url/text()">http://data.aodn.org.au/<xsl:value-of select="."/>
+  </xsl:template>
+
   <!-- copy everything else as is - identity template -->
   <xsl:template match="@*|node()">
     <xsl:copy>
