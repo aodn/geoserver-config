@@ -1,0 +1,15 @@
+<layer>
+  <name>aatams_sattag_qc_ctd_profile_map</name>
+  <id>LayerInfoImpl-7d713a00:1581d05d8dd:-6927</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7d713a00:1581d05d8dd:-6924</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7d713a00:1581d05d8dd:-6928</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
