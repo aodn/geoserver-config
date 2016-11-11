@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>LOCATION</name>
+        <type>string</type>
+        <label>Sampling location</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SAMPLE_TIME_UTC</name>
+        <type>datetime</type>
+        <label>Time</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>FUNCTIONAL_GROUP</name>
+        <type>string</type>
+        <label>Taxonomic functional group</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>PRESENCE_ABSENCE</name>
+        <type>boolean</type>
+        <label>Presence only</label>
+        <visualised>false</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Bounding Box</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>PROJECT_DESCRIPTION</name>
+        <type>string</type>
+        <label>Project name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
