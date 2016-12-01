@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>location</name>
+        <type>string</type>
+        <label>Location</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>survey_date</name>
+        <type>date</type>
+        <label>Survey date</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>file_type</name>
+        <type>string</type>
+        <label>File type</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
