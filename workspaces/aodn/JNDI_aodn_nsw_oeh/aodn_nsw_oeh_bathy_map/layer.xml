@@ -1,0 +1,29 @@
+<layer>
+  <name>aodn_nsw_oeh_bathy_map</name>
+  <id>LayerInfoImpl--32165d5a:157b6239e58:-7ff5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--7de507c9:15219b464ec:-7ffc</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-2d23ec69:126d477e611:-7fed</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-2d23ec69:126d477e611:-7fef</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-7ffe</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-2d23ec69:126d477e611:-7ff9</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--32165d5a:157b6239e58:-7ff6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
