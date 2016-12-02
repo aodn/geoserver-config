@@ -49,12 +49,12 @@
         <defaultValue/>
       </dimensionInfo>
     </entry>
+    <entry key="cachingEnabled">false</entry>
     <entry key="elevation">
       <dimensionInfo>
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--32165d5a:157b6239e58:-7ff7</id>
