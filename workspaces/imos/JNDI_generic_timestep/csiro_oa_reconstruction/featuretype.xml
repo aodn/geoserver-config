@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--6f703e09:158b821022c:-7ffc</id>
   <name>csiro_oa_reconstruction</name>
-  <nativeName>csiro_oa_reconstruction</nativeName>
+  <nativeName>oa_reconstruction</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
@@ -33,9 +33,10 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>csiro_oa_reconstruction</name>
+        <name>oa_reconstruction</name>
         <sql>select timestep_id, collection_name, file_url, size, &quot;TIME&quot; as time from generic_timestep.timestep_url where collection_name = &apos;oa_reconstruction&apos;
 </sql>
         <escapeSql>false</escapeSql>
