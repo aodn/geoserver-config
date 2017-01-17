@@ -2,6 +2,9 @@
   <name>csiro_oa_reconstruction</name>
   <id>LayerInfoImpl--6f703e09:158b821022c:-7ffb</id>
   <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7b7629e4:144be2cdc24:-7fe8</id>
+  </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--6f703e09:158b821022c:-7ffc</id>
   </resource>
