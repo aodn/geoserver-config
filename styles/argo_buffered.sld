@@ -23,7 +23,7 @@
                 <Mark>
                   <WellKnownName>circle</WellKnownName>
                   <Fill>
-                    <CssParameter name="fill">#EFEFEF</CssParameter>
+                    <CssParameter name="fill">#000080</CssParameter>
                     <CssParameter name="fill-opacity">
            				<ogc:Literal>0.05</ogc:Literal>
           			</CssParameter>
@@ -43,10 +43,10 @@
                 <Mark>
                   <WellKnownName>circle</WellKnownName>
                   <Fill>
-                    <CssParameter name="fill">#ffeaa4</CssParameter>
+                    <CssParameter name="fill">#FFD800</CssParameter>
                   </Fill>
                 </Mark>
-              <Size>4</Size>
+              <Size>5</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -59,10 +59,10 @@
                 <Mark>
                   <WellKnownName>circle</WellKnownName>
                   <Fill>
-                    <CssParameter name="fill">#ffeaa4</CssParameter>
+                    <CssParameter name="fill">#FFD800</CssParameter>
                   </Fill>
                 </Mark>
-              <Size>2</Size>
+              <Size>3</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -74,10 +74,10 @@
                 <Mark>
                   <WellKnownName>circle</WellKnownName>
                   <Fill>
-                    <CssParameter name="fill">#ffeaa4</CssParameter>
+                    <CssParameter name="fill">#FFD800</CssParameter>
                   </Fill>
                 </Mark>
-              <Size>1</Size>
+              <Size>2</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
