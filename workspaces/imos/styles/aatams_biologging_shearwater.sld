@@ -1,11 +1,11 @@
 <StyledLayerDescriptor xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.opengis.net/sld" version="1.0.0">
 <NamedLayer>
-<Name>Short-tailed shearwater trajectories</Name>
+<Name>Seabird trajectories</Name>
 <UserStyle>
-<Name>Short-tailed shearwater trajectories</Name>
+<Name>Seabird trajectories</Name>
 <FeatureTypeStyle>
 <Rule>
-<Title>Shearwater track</Title>
+<Title>Animal track</Title>
           <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#FA8A70</CssParameter>
@@ -15,7 +15,7 @@
         </LineSymbolizer>
 </Rule>
   <Rule>
-  <Title>Shearwater direction</Title>
+  <Title>Animal direction</Title>
 <MaxScaleDenominator>20000000</MaxScaleDenominator>
         <LineSymbolizer>
           <Stroke>
