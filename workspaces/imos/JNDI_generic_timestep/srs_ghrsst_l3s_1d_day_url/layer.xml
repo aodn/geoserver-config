@@ -1,0 +1,15 @@
+<layer>
+  <name>srs_ghrsst_l3s_1d_day_url</name>
+  <id>LayerInfoImpl--7b175bdd:159b4e6e1f3:124d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--28ae9436:15722231f36:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--7b175bdd:159b4e6e1f3:124c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
