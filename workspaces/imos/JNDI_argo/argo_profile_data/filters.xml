@@ -29,6 +29,20 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
+    <name>profile_type</name>
+    <type>string</type>
+    <label>Profile type</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>profile_processing_type</name>
+    <type>string</type>
+    <label>Realtime/Delayed</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
     <name>juld</name>
     <type>datetime</type>
     <label>Time</label>
