@@ -1,18 +1,18 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3149ec01:141c371781f:bdc</id>
-  <name>argo_profile_data</name>
-  <nativeName>argo_profile_data</nativeName>
+  <id>FeatureTypeInfoImpl--5d653b32:15aa182ad2d:-7804</id>
+  <name>argo_sec_profiles_core_high_res_good_qc_data</name>
+  <nativeName>argo_sec_profiles_core_high_res_good_qc_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>argo_profile_data</title>
+  <title>argo_sec_profiles_core_high_res_good_qc_data</title>
   <keywords>
+    <string>argo_sec_profiles_core_high_res_good_qc_data</string>
     <string>features</string>
-    <string>argo_profile_data</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
-      <type>text/plain</type>
+      <type>text/xml</type>
       <metadataType>TC211</metadataType>
       <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=4402cb50-e20a-44ee-93e6-4728259250d2&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
@@ -28,17 +28,16 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-179.999</minx>
+    <minx>-180.0</minx>
     <maxx>180.0</maxx>
-    <miny>-75.0889</miny>
-    <maxy>48.366</maxy>
-    <crs>EPSG:4326</crs>
+    <miny>-75.0</miny>
+    <maxy>50.0</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.999</minx>
+    <minx>-180.0</minx>
     <maxx>180.0</maxx>
-    <miny>-75.0889</miny>
-    <maxy>48.366</maxy>
+    <miny>-75.0</miny>
+    <maxy>50.0</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -49,10 +48,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-6c033aa5:1407b759987:-7fff</id>
   </store>
