@@ -1,18 +1,18 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3149ec01:141c371781f:bdc</id>
-  <name>argo_profile_data</name>
-  <nativeName>argo_profile_data</nativeName>
+  <id>FeatureTypeInfoImpl-4065b3ef:15aa14e7420:-7ebc</id>
+  <name>argo_primary_profile_core_low_res_good_qc_data</name>
+  <nativeName>argo_primary_profile_core_low_res_good_qc_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>argo_profile_data</title>
+  <title>argo_primary_profile_core_low_res_good_qc_data</title>
   <keywords>
+    <string>argo_primary_profile_core_low_res_good_qc_data</string>
     <string>features</string>
-    <string>argo_profile_data</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
-      <type>text/plain</type>
+      <type>text/xml</type>
       <metadataType>TC211</metadataType>
       <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=4402cb50-e20a-44ee-93e6-4728259250d2&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
@@ -30,14 +30,13 @@
   <nativeBoundingBox>
     <minx>-179.999</minx>
     <maxx>180.0</maxx>
-    <miny>-75.0889</miny>
+    <miny>-75.08888</miny>
     <maxy>48.366</maxy>
-    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-179.999</minx>
     <maxx>180.0</maxx>
-    <miny>-75.0889</miny>
+    <miny>-75.08888</miny>
     <maxy>48.366</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
@@ -49,10 +48,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-6c033aa5:1407b759987:-7fff</id>
   </store>
