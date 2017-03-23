@@ -8,7 +8,7 @@
   <ncattedPath>/usr/bin/ncatted</ncattedPath>
   <timeField>time</timeField>
   <sizeField>size</sizeField>
-  <fileSizeLimit></fileSizeLimit>
+  <fileSizeLimit>20000000000</fileSizeLimit>
   <fileUrlField>file_url</fileUrlField>
   <unpack>true</unpack>
   <globalAttributes>
