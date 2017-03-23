@@ -1,5 +1,4 @@
 <gogoduck>
-  <fileLimit>10</fileLimit>
   <threadCount>1</threadCount>
   <urlSubstitution key="^">http://data.aodn.org.au/</urlSubstitution>
   <ncksPath>/usr/bin/ncks</ncksPath>
