@@ -13,12 +13,11 @@
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">false</entry>
     <entry key="Session startup SQL">set search_path to argo, public;</entry>
-    <entry key="fetch size">1000</entry>
     <entry key="encode functions">false</entry>
+    <entry key="fetch size">1000</entry>
     <entry key="preparedStatements">false</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
     <entry key="Estimated extends">false</entry>
-    <entry key="Support on the fly geometry simplification">false</entry>
     <entry key="namespace">imos.mod</entry>
   </connectionParameters>
   <__default>false</__default>
