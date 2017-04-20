@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--3149ec01:141c371781f:bdc</id>
   <name>argo_profile_data</name>
-  <nativeName>argo_profile_data</nativeName>
+  <nativeName>profile_download</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
@@ -59,6 +59,5 @@
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <overridingServiceSRS>false</overridingServiceSRS>
-  <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
 </featureType>

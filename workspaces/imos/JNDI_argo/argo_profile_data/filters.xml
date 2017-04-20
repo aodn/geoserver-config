@@ -8,6 +8,13 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
+    <name>oxygen_sensor</name>
+    <type>boolean</type>
+    <label>Oxygen</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
     <name>platform_number</name>
     <type>string</type>
     <label>Platform Number</label>
@@ -18,6 +25,13 @@
     <name>project_name</name>
     <type>string</type>
     <label>Project Name</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>profile_type</name>
+    <type>string</type>
+    <label>Profile type</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
