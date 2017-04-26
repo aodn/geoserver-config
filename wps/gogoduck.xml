@@ -20,4 +20,7 @@
     <timeStart>time_coverage_start</timeStart>
     <timeEnd>time_coverage_end</timeEnd>
   </globalAttributes>
+  <templates>
+    <template match=".*srs_oc_so_johnson_.*">srs_oc_so_johnson</template>
+  </templates>
 </gogoduck>
