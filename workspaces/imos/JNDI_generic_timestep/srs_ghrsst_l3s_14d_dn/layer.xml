@@ -1,9 +1,9 @@
 <layer>
-  <name>srs_sst_l3u_n19_gridded_url</name>
-  <id>LayerInfoImpl--1ca87290:14bbf0ac4ce:-7fe1</id>
+  <name>srs_ghrsst_l3s_14d_dn</name>
+  <id>LayerInfoImpl-22d14172:15bead064c2:-7fed</id>
   <type>VECTOR</type>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--1ca87290:14bbf0ac4ce:-7fe2</id>
+    <id>FeatureTypeInfoImpl-22d14172:15bead064c2:-7fee</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

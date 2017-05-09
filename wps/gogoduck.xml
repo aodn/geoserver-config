@@ -20,4 +20,9 @@
     <timeStart>time_coverage_start</timeStart>
     <timeEnd>time_coverage_end</timeEnd>
   </globalAttributes>
+  <!-- aggregation templates -->
+    <templates>
+      <template match="imos:srs_ghrsst.*">srs_ghrsst</template>
+      <template match=".*">default</template>
+    </templates>
 </gogoduck>
