@@ -1,0 +1,15 @@
+<layer>
+  <name>aus_chla_db_data</name>
+  <id>LayerInfoImpl--71f71ebf:15c41bfbce9:-7ff9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--71f71ebf:15c422d5b83:24c2</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--71f71ebf:15c41bfbce9:-7ffa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
