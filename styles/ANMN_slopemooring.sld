@@ -4,10 +4,10 @@
   <NamedLayer>
     <Name>ANMN NRS</Name>
     <UserStyle>
-      <Title>ANMN Slope Mooring</Title>
+      <Title>Slope Mooring</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>ANMN Slope Mooring</Title>
+          <Title>Slope Mooring</Title>
 <PointSymbolizer>
    <Graphic>
      <ExternalGraphic>

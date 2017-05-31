@@ -10,7 +10,7 @@
       <Title>gold square point style</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>gold point</Title>
+          <Title>Sampling location</Title>
           <PointSymbolizer>
             <Graphic>
               <Mark>

@@ -8,7 +8,7 @@
       <Abstract>SRS Altimetry Calibration Deployment</Abstract>
       <FeatureTypeStyle>
         <Rule>
-          <Title>SRS Altimetry Calibration Deployment</Title>
+          <Title>Satellite altimetry calibration/validation sites</Title>
 <PointSymbolizer>
    <Graphic>
      <ExternalGraphic>
