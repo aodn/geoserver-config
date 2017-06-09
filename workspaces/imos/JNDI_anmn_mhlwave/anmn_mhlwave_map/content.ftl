@@ -11,9 +11,9 @@
 <b>Location:</b></br>
 <b>Longitude range:</b> ${feature.longitude_min.rawValue?string("0.#####")} - ${feature.longitude_max.rawValue?string("0.#####")} </br>
 <b>Latitude range:</b> ${feature.latitude_min.rawValue?string("0.#####")} - ${feature.latitude_max.rawValue?string("0.#####")} </br>
-<b>Time deployment start:</b> ${feature.time_coverage_start.value} </br>
-<b> Time deployment end :</b> ${feature.time_coverage_end.value} </br>
-<li><a href=${feature.metadata.value} target="_blank">IMOS metadata record</a> </li>
+<b> For the history of Waverider buoy location please see the <a  rel="external" href="${my.baseurlDataServer}/NSW-OEH/Manly_Hydraulics_Laboratory/Wave/${feature.site_name.value?replace(" ","_")}/${feature.site_name.value?replace(" " ,"")}_Waverider_Buoy_location_history.pdf" target="_blank" class="h3" > Buoy location history document</a>
+<b>Time deployment start:</b> ${feature.deployment_start.value} </br>
+<b> Time deployment end :</b> ${feature.deployment_end.value} </br>
 <BR>
 </div>
 </#if>
