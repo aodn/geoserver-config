@@ -23,6 +23,7 @@
   <!-- aggregation templates -->
     <templates>
       <template match="srs_ghrsst.*">srs_ghrsst</template>
+      <template match="srs_sst.*">srs_ghrsst</template>
       <template match=".*">default</template>
     </templates>
 </gogoduck>
