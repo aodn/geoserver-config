@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--7703ee05:14fafe8867b:-7ffb</id>
+  <id>FeatureTypeInfoImpl-523989c3:15cbf4084f8:-7ffb</id>
   <name>argo_profile_map</name>
   <nativeName>argo_profile_map</nativeName>
   <namespace>
@@ -28,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-179.999</minx>
+    <minx>-179.998</minx>
     <maxx>180.0</maxx>
-    <miny>-75.08888</miny>
-    <maxy>48.366</maxy>
+    <miny>-71.217</miny>
+    <maxy>25.064</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.999</minx>
+    <minx>-179.998</minx>
     <maxx>180.0</maxx>
-    <miny>-75.08888</miny>
-    <maxy>48.366</maxy>
+    <miny>-71.217</miny>
+    <maxy>25.064</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -50,7 +50,19 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>argo_profile_map</name>
+        <sql>select * from argo.argo_profile_map where data_centre_name  = &apos;CSIRO&apos;
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>position</name>
+          <type>Point</type>
+          <srid>4326</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-6c033aa5:1407b759987:-7fff</id>

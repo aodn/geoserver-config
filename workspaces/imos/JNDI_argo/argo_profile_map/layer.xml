@@ -1,12 +1,12 @@
 <layer>
   <name>argo_profile_map</name>
-  <id>LayerInfoImpl--7703ee05:14fafe8867b:-7ffa</id>
+  <id>LayerInfoImpl-523989c3:15cbf4084f8:-7ffa</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-46f88ab3:1537e0b6b27:-7ffb</id>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--7703ee05:14fafe8867b:-7ffb</id>
+    <id>FeatureTypeInfoImpl-523989c3:15cbf4084f8:-7ffb</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
