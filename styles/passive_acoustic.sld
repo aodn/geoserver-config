@@ -2,11 +2,12 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" xmlns="http://www.opengis.net/sld"
   xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>ANMN Passive Acoustic Stations</Name>
+    <Name>Passive Acoustic Stations</Name>
     <UserStyle>
-      <Title>ANMN Passive Acoustic Station</Title>
+      <Title>Passive Acoustic Station</Title>
       <FeatureTypeStyle>
         <Rule>
+          <Title>Passive Acoustic Station</Title>
           
 <PointSymbolizer>
    <Graphic>

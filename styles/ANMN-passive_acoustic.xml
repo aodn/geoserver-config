@@ -4,5 +4,9 @@
   <sldVersion>
     <version>1.0.0</version>
   </sldVersion>
+  <format>sld</format>
+  <languageVersion>
+    <version>1.0.0</version>
+  </languageVersion>
   <filename>passive_acoustic.sld</filename>
 </style>

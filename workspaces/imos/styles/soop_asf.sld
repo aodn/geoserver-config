@@ -3,13 +3,13 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"                                     
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">                      
   <NamedLayer>                                                                                                                         
-    <Name>SOOP ASF tracks</Name>                                                                                                            
+    <Name>Vessel track</Name>                                                                                                            
     <UserStyle>  
-    <Title>SOOP ASF tracks</Title>          
+    <Title>Vessel track</Title>          
       <FeatureTypeStyle>                                                                                                               
                                                                                                                                        
         <Rule>               
-    <Title>SOOP ASF tracks</Title>                                                                                                    
+    <Title>Vessel track</Title>                                                                                                    
                                                                                                                                        
 
         <LineSymbolizer>        

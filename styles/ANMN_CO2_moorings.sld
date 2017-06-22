@@ -7,6 +7,7 @@
           <Title>CO2 sensor Mooring Locations</Title>
       <FeatureTypeStyle>
         <Rule>
+          <Title>Acidification mooring</Title>
   <PointSymbolizer>
      <Graphic>
        <ExternalGraphic>

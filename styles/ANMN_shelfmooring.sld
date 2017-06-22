@@ -4,10 +4,10 @@
   <NamedLayer>
     <Name>ANMN</Name>
     <UserStyle>
-       <Title>ANMN Shelf Mooring</Title>
+       <Title>Shelf mooring</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>ANMN Shelf Mooring</Title>
+          <Title>Shelf mooring</Title>
 <PointSymbolizer>
    <Graphic>
      <ExternalGraphic>

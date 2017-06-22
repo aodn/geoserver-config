@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" xmlns="http://www.opengis.net/sld"
   xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>ANMN NRS</Name>
+    <Name>National reference station or shelf mooring</Name>
     <UserStyle>
-      <Title>ANMN NRS</Title>
+      <Title>National reference station or shelf mooring</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>ANMN National Reference Station</Title>
+          <Title>National reference station or shelf mooring</Title>
 <PointSymbolizer>
    <Graphic>
      <ExternalGraphic>
