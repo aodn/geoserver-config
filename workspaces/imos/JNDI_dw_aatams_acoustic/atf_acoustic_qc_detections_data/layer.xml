@@ -1,12 +1,12 @@
 <layer>
-  <name>aatams_acoustic_detections_data</name>
-  <id>LayerInfoImpl--4d4e9b81:1466e961c97:516f</id>
+  <name>atf_acoustic_qc_detections_data</name>
+  <id>LayerInfoImpl--c7aec97:15a628e7172:-7fe8</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--4d4e9b81:1466e961c97:516e</id>
+    <id>FeatureTypeInfoImpl--c7aec97:15a628e7172:-7fe9</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

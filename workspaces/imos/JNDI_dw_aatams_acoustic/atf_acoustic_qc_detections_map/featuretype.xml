@@ -1,15 +1,22 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--4d4e9b81:1466e961c97:516e</id>
-  <name>aatams_acoustic_detections_data</name>
-  <nativeName>aatams_acoustic_detections_data</nativeName>
+  <id>FeatureTypeInfoImpl--c7aec97:15a628e7172:-7ffb</id>
+  <name>atf_acoustic_qc_detections_map</name>
+  <nativeName>atf_acoustic_qc_detections_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>aatams_acoustic_detections_data</title>
+  <title>atf_acoustic_qc_detections_map</title>
   <keywords>
-    <string>aatams_acoustic_detections_data</string>
+    <string>atf_acoustic_qc_detections_map</string>
     <string>features</string>
   </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid==0ede6b3d-8635-472f-b91c-56a758b4e091&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+    </metadataLink>
+  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -21,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>113.419692993164</minx>
-    <maxx>153.880310058594</maxx>
-    <miny>-43.1249008178711</miny>
-    <maxy>-11.8351001739502</maxy>
+    <minx>113.406951904297</minx>
+    <maxx>153.88688659668</maxx>
+    <miny>-38.4612998962402</miny>
+    <maxy>-12.1408395767212</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>113.419692993164</minx>
-    <maxx>153.880310058594</maxx>
-    <miny>-43.1249008178711</miny>
-    <maxy>-11.8351001739502</maxy>
+    <minx>113.406951904297</minx>
+    <maxx>153.88688659668</maxx>
+    <miny>-38.4612998962402</miny>
+    <maxy>-12.1408395767212</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -42,6 +49,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-4a6120af:14f0104932f:3d13</id>
   </store>

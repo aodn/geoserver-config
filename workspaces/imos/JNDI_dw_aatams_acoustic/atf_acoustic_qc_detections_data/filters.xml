@@ -10,7 +10,7 @@
     <filter>
         <name>station_name</name>
         <type>string</type>
-        <label>Station name</label>
+        <label>Installation station name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
@@ -22,16 +22,30 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>transmitter_project_name</name>
+        <name>tag_project_name</name>
         <type>string</type>
-        <label>Transmitter project name</label>
+        <label>Tag project name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>common_name</name>
         <type>string</type>
-        <label>Species common name</label>
+        <label>Species Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>sex</name>
+        <type>string</type>
+        <label>Sex</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Detection_QC</name>
+        <type>int</type>
+        <label>Detection QC</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
@@ -41,5 +55,14 @@
         <label>Geom</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>detection_timestamp</name>
+        <type>datetime</type>
+        <label>Time</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+        <wmsStartDateName>first_detection_date</wmsStartDateName>
+        <wmsEndDateName>last_detection_date</wmsEndDateName>
     </filter>
 </filters>
