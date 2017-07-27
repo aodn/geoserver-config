@@ -3,5 +3,6 @@
     <regex>.*:.*_map/.*</regex>
     <regex>imos:anmn_acoustics/.*</regex>
     <regex>aodn:aodn_wamsi_sediment_data/.*</regex>
+    <regex>imos:aus_chla_db_data/.*</regex>
   </allowed>
 </filters>
