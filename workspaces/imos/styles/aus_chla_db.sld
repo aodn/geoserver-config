@@ -3,9 +3,20 @@
 <Name>Chl a concentration (µg.L-1)</Name>
 <UserStyle>
 <FeatureTypeStyle>
- 
+  
 <Rule>   
- <Title>[0 - 0.25 µg.L-1]</Title> 
+ <Title> 
+ Total Chlorophyll a concentration (µg.L-1) </Title> 
+                       <ogc:Filter>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>TOTAL_CHLA_UGL</ogc:PropertyName>
+                                <ogc:Literal>10000000</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+</Rule>
+  
+<Rule>   
+ <Title>[0 - 0.25]</Title> 
   <ogc:Filter>
       <ogc:PropertyIsLessThanOrEqualTo>
          <ogc:PropertyName>TOTAL_CHLA_UGL</ogc:PropertyName>
@@ -26,7 +37,7 @@
 </Rule> 
   
   <Rule>   
- <Title>[0.25 - 0.5 µg.L-1]</Title>  
+ <Title>[0.25 - 0.5]</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsLessThanOrEqualTo>
@@ -53,7 +64,7 @@
         </Rule>
  
 <Rule>   
- <Title>[0.5 - 0.75 µg.L-1]</Title>  
+ <Title>[0.5 - 0.75]</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsLessThanOrEqualTo>
@@ -80,7 +91,7 @@
         </Rule>
  
 <Rule>   
- <Title>[0.75 - 1 µg.L-1]</Title>  
+ <Title>[0.75 - 1]</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsLessThanOrEqualTo>
@@ -107,7 +118,7 @@
         </Rule> 
 
   <Rule>   
- <Title>[1 - 1.5 µg.L-1]</Title>  
+ <Title>[1 - 1.5]</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsLessThanOrEqualTo>
@@ -135,7 +146,7 @@
   
   
   <Rule>   
- <Title>[1.5 - 3 µg.L-1]</Title>  
+ <Title>[1.5 - 3]</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsLessThanOrEqualTo>
@@ -163,7 +174,7 @@
   
   
   <Rule>   
- <Title>[3 - 10 µg.L-1]</Title>  
+ <Title>[3 - 10]</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsLessThanOrEqualTo>
@@ -191,7 +202,7 @@
   
   
   <Rule>   
- <Title>[10 - 100 µg.L-1]</Title>  
+ <Title>[10 - 100]</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsLessThanOrEqualTo>
@@ -219,7 +230,7 @@
   
    
   <Rule>   
- <Title>[100 - 10,000 µg.L-1]</Title>  
+ <Title>[100 - 10,000]</Title>  
   <ogc:Filter>
     <ogc:PropertyIsGreaterThan>
    <ogc:PropertyName>TOTAL_CHLA_UGL</ogc:PropertyName>

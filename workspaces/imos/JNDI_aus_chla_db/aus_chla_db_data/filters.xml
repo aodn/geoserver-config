@@ -8,23 +8,23 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>SAMPLING_METHOD</name>
+        <name>SAMPLING_METHOD_simplified</name>
         <type>string</type>
-        <label>SAMPLING METHOD</label>
+        <label>Sampling Method</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>PROJECT_DESCRIPTION</name>
         <type>string</type>
-        <label>PROJECT DESCRIPTION</label>
+        <label>Project Name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>PROJECT_LOCATION</name>
         <type>string</type>
-        <label>PROJECT LOCATION</label>
+        <label>Project Location</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
