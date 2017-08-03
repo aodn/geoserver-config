@@ -1,0 +1,12 @@
+<layer>
+  <name>bathy_ppb_deakin_url</name>
+  <id>LayerInfoImpl--56e607d8:15da561032b:-7ffb</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--56e607d8:15da561032b:-7ffc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
