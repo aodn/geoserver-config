@@ -36,7 +36,7 @@
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>bathy_ppb_deakin_map</name>
-        <sql>select timestep_id, collection_name, file_url, size from generic_timestep.timestep_url where collection_name = &apos;bathy_ppb_deakin_map&apos;
+        <sql>select timestep_id, collection_name, file_url, size, &quot;TIME&quot; as time from generic_timestep.timestep_url where collection_name = &apos;bathy_ppb_deakin_map&apos;
 </sql>
         <escapeSql>false</escapeSql>
       </virtualTable>
