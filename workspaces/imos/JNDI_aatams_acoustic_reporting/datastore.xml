@@ -1,13 +1,13 @@
 <dataStore>
   <id>DataStoreInfoImpl-4a6120af:14f0104932f:3d13</id>
-  <name>JNDI_dw_aatams_acoustic</name>
+  <name>JNDI_aatams_acoustic_reporting</name>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
   <connectionParameters>
-    <entry key="schema">dw_aatams_acoustic</entry>
+    <entry key="schema">aatams_acoustic_reporting</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">true</entry>

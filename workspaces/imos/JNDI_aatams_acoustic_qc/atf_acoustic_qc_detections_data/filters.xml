@@ -1,20 +1,6 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>installation_name</name>
-        <type>string</type>
-        <label>Installation name</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>station_name</name>
-        <type>string</type>
-        <label>Installation station name</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>transmitter_id</name>
         <type>string</type>
         <label>Tag ID</label>
@@ -36,23 +22,16 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>sex</name>
+        <name>installation_name</name>
         <type>string</type>
-        <label>Sex</label>
+        <label>Installation name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>Detection_QC</name>
-        <type>int</type>
-        <label>Detection QC</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>geom</name>
-        <type>geometrypropertytype</type>
-        <label>Geom</label>
+        <name>station_name</name>
+        <type>string</type>
+        <label>Installation station name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
@@ -62,7 +41,28 @@
         <label>Time</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
-        <wmsStartDateName>first_detection_date</wmsStartDateName>
         <wmsEndDateName>last_detection_date</wmsEndDateName>
+        <wmsStartDateName>first_detection_date</wmsStartDateName>
+    </filter>
+    <filter>
+        <name>Detection_QC</name>
+        <type>int</type>
+        <label><![CDATA[Detection QC <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 - valid<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 - likely valid<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 - likely invalid<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 - invalid<br />]]></label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>sex</name>
+        <type>string</type>
+        <label>Sex</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
     </filter>
 </filters>
