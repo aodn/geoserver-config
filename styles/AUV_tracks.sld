@@ -24,13 +24,49 @@
        </Graphic>
     </PointSymbolizer>
         </Rule>
+
+       <Rule>
+          <Name>AUV track locations - buffing</Name>
+          <Abstract>A 4 pixel padding</Abstract>
+          <MinScaleDenominator>10000</MinScaleDenominator> 
+
+            <PointSymbolizer>
+            <Geometry>
+              <ogc:Function name="startPoint">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              </ogc:Function>
+        	  </Geometry>
+              <Graphic>
+                <Mark>
+                  <WellKnownName>circle</WellKnownName>
+                  <Fill>
+                    <CssParameter name="fill">#000080</CssParameter>
+                    <CssParameter name="fill-opacity">
+           				<ogc:Literal>0.05</ogc:Literal>
+          			</CssParameter>
+                  </Fill>
+                  
+                </Mark>
+              <Size>5</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>     
+        
+        
         
         <Rule>
         <Title>AUV track locations</Title>
          <MinScaleDenominator>10000</MinScaleDenominator> 
           
-  <PointSymbolizer>
-     <Graphic>
+        <PointSymbolizer>
+          <Geometry>
+          <ogc:Function name="startPoint">
+            <ogc:PropertyName>geom</ogc:PropertyName>
+          </ogc:Function>
+        </Geometry>
+          
+        <Graphic>
+       
                     
        <ExternalGraphic>
           <OnlineResource xlink:type="simple" xlink:href="AUV-deployment.png" />
@@ -38,7 +74,7 @@
        </ExternalGraphic>     
           
       </Graphic>
-  </PointSymbolizer>
+ 	 </PointSymbolizer>
         </Rule>
         
         
