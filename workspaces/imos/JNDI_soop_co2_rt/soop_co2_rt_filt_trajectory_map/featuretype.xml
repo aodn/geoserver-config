@@ -1,0 +1,60 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--60593737:15eb6a747c3:-7ff8</id>
+  <name>soop_co2_rt_filt_trajectory_map</name>
+  <nativeName>soop_co2_rt_filt_trajectory_map</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>soop_co2_rt_filt_trajectory_map</title>
+  <keywords>
+    <string>features</string>
+    <string>soop_co2_rt_filt_trajectory_map</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>10.11.12.13/geonetwork/srv/eng/xml_iso19139.mcp?uuid=9e5c3031-a026-48b3-a153-a70c2e2b78b9&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>61.596267</minx>
+    <maxx>115.178117</maxx>
+    <miny>-66.283367</miny>
+    <maxy>-57.848367</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>61.596267</minx>
+    <maxx>115.178117</maxx>
+    <miny>-66.283367</miny>
+    <maxy>-57.848367</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>soop_co2_rt_filt_trajectory_map</name>
+        <sql>select * from soop_co2_rt.soop_co2_rt_trajectory_map where time_coverage_start &gt; now() -&apos;1year&apos; ::interval
+</sql>
+        <escapeSql>false</escapeSql>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-2009e761:15e78ffbc72:-7ffb</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
