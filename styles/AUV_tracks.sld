@@ -84,17 +84,17 @@
     <MaxScaleDenominator>10000</MaxScaleDenominator>    
     <LineSymbolizer>
           <Stroke>
-            <CssParameter name="stroke">#3399cc</CssParameter>
+            <CssParameter name="stroke">#FFFFFF</CssParameter>
             <CssParameter name="stroke-opacity">0.05</CssParameter>
-            <CssParameter name="stroke-width">24</CssParameter>
+            <CssParameter name="stroke-width">0.1</CssParameter>
           </Stroke>
         </LineSymbolizer>
         
        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#FFFFFF</CssParameter>
-            <CssParameter name="stroke-opacity">1</CssParameter>
-            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-opacity">0.5</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
           </Stroke>
         </LineSymbolizer>
        
