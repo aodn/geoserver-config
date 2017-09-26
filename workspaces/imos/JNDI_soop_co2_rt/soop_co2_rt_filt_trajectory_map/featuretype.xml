@@ -14,21 +14,21 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>10.11.12.13/geonetwork/srv/eng/xml_iso19139.mcp?uuid=9e5c3031-a026-48b3-a153-a70c2e2b78b9&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=9e5c3031-a026-48b3-a153-a70c2e2b78b9&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>61.596267</minx>
-    <maxx>115.178117</maxx>
-    <miny>-66.283367</miny>
-    <maxy>-57.848367</maxy>
+    <minx>146.720887</minx>
+    <maxx>154.656744</maxx>
+    <miny>-41.823914</miny>
+    <maxy>-23.627268</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>61.596267</minx>
-    <maxx>115.178117</maxx>
-    <miny>-66.283367</miny>
-    <maxy>-57.848367</maxy>
+    <minx>146.720887</minx>
+    <maxx>154.656744</maxx>
+    <miny>-41.823914</miny>
+    <maxy>-23.627268</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -40,6 +40,7 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>soop_co2_rt_filt_trajectory_map</name>
