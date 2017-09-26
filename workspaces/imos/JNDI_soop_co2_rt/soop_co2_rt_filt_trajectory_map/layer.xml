@@ -1,0 +1,15 @@
+<layer>
+  <name>soop_co2_rt_filt_trajectory_map</name>
+  <id>LayerInfoImpl--60593737:15eb6a747c3:-7ff7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5aa01124:15233403c30:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--60593737:15eb6a747c3:-7ff8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
