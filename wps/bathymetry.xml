@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+  <attributes>
+    <attribute name="geospatial_lat_min" type="String" value="${LAT_MIN}"/>
+    <attribute name="geospatial_lat_max" type="String" value="${LAT_MAX}"/>
+    <attribute name="geospatial_lon_min" type="String" value="${LON_MIN}"/>
+    <attribute name="geospatial_lon_max" type="String" value="${LON_MAX}"/>
+  </attributes>
+</template>
