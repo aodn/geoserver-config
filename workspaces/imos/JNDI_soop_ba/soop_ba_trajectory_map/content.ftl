@@ -12,7 +12,7 @@
         <img src="${my.baseurlDataServer}/${feature.url.value}.png"/>
     </a>
     <p>
-        <a rel="external" href="${my.baseurlDataServerS3Listing}IMOS/SOOP/SOOP-BA/${feature.platform_code.value}_${feature.vessel_name.value?replace(" ","-")}/" target="_blank">More echograms from the ${feature.vessel_name.value}</a>
+        <a rel="external" href="${my.baseurlDataServerS3Listing}IMOS/SOOP/SOOP-BA/${feature.platform_code.value}_${feature.vessel_name.value?replace(" ","-")}/" target="_blank"> Browse all the transects of the ${feature.vessel_name.value}</a>
     </p>
 </div>
 </#if>
