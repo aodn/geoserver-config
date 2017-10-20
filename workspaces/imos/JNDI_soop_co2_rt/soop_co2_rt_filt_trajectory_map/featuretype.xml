@@ -58,7 +58,7 @@
         <escapeSql>false</escapeSql>
         <geometry>
           <name>geom</name>
-          <type>LineString</type>
+          <type>Geometry</type>
           <srid>4326</srid>
         </geometry>
       </virtualTable>
