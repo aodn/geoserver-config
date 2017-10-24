@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>platform_code</name>
+        <type>string</type>
+        <label>Platform code</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>deployment_code</name>
+        <type>string</type>
+        <label>Deployment code</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>time_coverage_start</name>
+        <type>datetime</type>
+        <label>Date (UTC)</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+        <wmsStartDateName>time_coverage_start</wmsStartDateName>
+        <wmsEndDateName>time_coverage_end</wmsEndDateName>
+    </filter>
+    <filter>
+        <name>has_water_temperature</name>
+        <type>boolean</type>
+        <label>Has water temperature</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>has_air_temperature</name>
+        <type>boolean</type>
+        <label>Has air temperature</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>has_salinity</name>
+        <type>boolean</type>
+        <label>Has salinity</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>has_air_pressure</name>
+        <type>boolean</type>
+        <label>Has air pressure</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>has_wave_parameters</name>
+        <type>boolean</type>
+        <label>Has wave parameters</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
