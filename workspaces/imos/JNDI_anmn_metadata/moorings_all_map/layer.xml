@@ -1,0 +1,15 @@
+<layer>
+  <name>moorings_all_map</name>
+  <id>LayerInfoImpl-758ca76b:15f4bc800f6:-7b23</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-758ca76b:15f4bc800f6:-7b1f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-758ca76b:15f4bc800f6:-7b24</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
