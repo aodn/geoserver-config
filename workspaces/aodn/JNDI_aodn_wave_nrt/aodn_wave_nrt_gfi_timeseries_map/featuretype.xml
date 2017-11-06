@@ -1,0 +1,66 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-3f23d811:15f8eb6599b:-68d4</id>
+  <name>aodn_wave_nrt_gfi_timeseries_map</name>
+  <nativeName>aodn_wave_nrt_gfi_timeseries_map</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-3b0a723a:137e9896802:-7ffd</id>
+  </namespace>
+  <title>aodn_wave_nrt_gfi_timeseries_map</title>
+  <keywords>
+    <string>aodn_wave_nrt_gfi_timeseries_map</string>
+    <string>features</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://10.11.12.13/geonetwork/srv/eng/xml_iso19139.mcp?uuid=ANZCW0503900478&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>114.77</minx>
+    <maxx>145.05</maxx>
+    <miny>-42.18</miny>
+    <maxy>-30.3</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>114.77</minx>
+    <maxx>145.05</maxx>
+    <miny>-42.18</miny>
+    <maxy>-30.3</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>aodn_wave_nrt_gfi_timeseries_map</name>
+        <sql>SELECT * FROM aodn_wave_nrt.aodn_wave_nrt_timeseries_data ORDER BY &quot;TIME&quot;
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom</name>
+          <type>Geometry</type>
+          <srid>-1</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-3f23d811:15f8eb6599b:-68e0</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
