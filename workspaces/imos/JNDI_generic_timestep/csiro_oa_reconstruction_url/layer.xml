@@ -1,10 +1,7 @@
 <layer>
-  <name>csiro_oa_reconstruction</name>
+  <name>csiro_oa_reconstruction_url</name>
   <id>LayerInfoImpl--6f703e09:158b821022c:-7ffb</id>
   <type>VECTOR</type>
-  <defaultStyle>
-    <id>StyleInfoImpl--396ecd48:155a40f3d82:-7ffc</id>
-  </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--6f703e09:158b821022c:-7ffc</id>
   </resource>
