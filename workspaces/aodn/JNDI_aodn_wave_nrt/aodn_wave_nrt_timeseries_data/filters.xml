@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>site_name/name>
+        <type>string</type>
+        <label>Site</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>WMO_ID</name>
+        <type>string</type>
+        <label>Buoy WMO number</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Boundary Box</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>instrument_type</name>
+        <type>string</type>
+        <label>Instrument Type</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>TIME</name>
+        <type>datetime</type>
+        <label>Time</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+        <wmsStartDateName>time_coverage_start</wmsStartDateName>
+        <wmsEndDateName>time_coverage_end</wmsEndDateName>
+    </filter>
+</filters>
