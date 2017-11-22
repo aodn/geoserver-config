@@ -21,14 +21,13 @@
 <th>Wave mean period (s)</th>
 <th>Wave direction (Degrees)</th>
 </TR>
-
 <#list features as feature>
 <TR class="record">
 <TD Align="Center">${feature.TIME.value}</td>
-<TD Align="Center">${feature.WHTH.value}</td>
-<TD Align="Center">${feature.WMXH.value}</td>
-<TD Align="Center">${feature.WPMH.value}</td>
-<TD Align="Center">${feature.VDIR.value}</td>
+<TD Align="Center">${feature.WHTH.rawValue?string("0.0")}</td>
+<TD Align="Center">${feature.WMXH.rawValue?string("0.0")}</td>
+<TD Align="Center">${feature.WPMH.rawValue?string("0.0")}</td>
+<TD Align="Center">${feature.VDIR.rawValue?replace("","N/A")}</td>
 </TR>
 </#list>
 </TABLE>
