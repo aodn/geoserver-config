@@ -1,20 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3149ec01:141c371781f:bdc</id>
-  <name>argo_profile_data</name>
-  <nativeName>argo_profile_data</nativeName>
+  <id>FeatureTypeInfoImpl--4e4d689a:15fdcccb405:-4d41</id>
+  <name>argo_profile_map_test</name>
+  <nativeName>argo_profile_map_test</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>argo_profile_data</title>
+  <title>argo_profile_map_test</title>
   <keywords>
     <string>features</string>
-    <string>argo_profile_data</string>
+    <string>argo_profile_map_test</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
-      <type>text/plain</type>
+      <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=4402cb50-e20a-44ee-93e6-4728259250d2&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>https://10.11.12.13/geonetwork/srv/eng/xml_iso19139.mcp?uuid=4402cb50-e20a-44ee-93e6-4728259250d2&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -28,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-179.999</minx>
+    <minx>-179.998</minx>
     <maxx>180.0</maxx>
-    <miny>-75.0889</miny>
-    <maxy>48.366</maxy>
+    <miny>-71.217</miny>
+    <maxy>25.064</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.999</minx>
+    <minx>-179.998</minx>
     <maxx>180.0</maxx>
-    <miny>-75.0889</miny>
-    <maxy>48.366</maxy>
+    <miny>-71.217</miny>
+    <maxy>25.064</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -49,9 +49,30 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>argo_profile_map_test</name>
+        <sql>SELECT platform_number, &#xd;
+       data_centre, &#xd;
+       oxygen_sensor,&#xd;
+       project_name,&#xd;
+       min(juld) as time_coverage_start,&#xd;
+       max(juld) as time_coverage_end,&#xd;
+       make_trajectory(&quot;position&quot; order by platform_number, cycle_number) as geom&#xd;
+FROM argo.profile_summary &#xd;
+WHERE platform_number = &apos;5902297&apos; &#xd;
+group by platform_number,data_centre,oxygen_sensor,project_name
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom</name>
+          <type>LineString</type>
+          <srid>4326</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-6c033aa5:1407b759987:-7fff</id>
