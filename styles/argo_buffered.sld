@@ -19,6 +19,7 @@
           <Name>Argo Float</Name>
           <Abstract>A 4 pixel padding</Abstract>
             <PointSymbolizer>
+              <Geometry><ogc:PropertyName>position</ogc:PropertyName></Geometry>
               <Graphic>
                 <Mark>
                   <WellKnownName>circle</WellKnownName>
@@ -39,6 +40,7 @@
           <Name>Argo Float - high zoom</Name>
           <MaxScaleDenominator>9000000</MaxScaleDenominator>
             <PointSymbolizer>
+              <Geometry><ogc:PropertyName>position</ogc:PropertyName></Geometry>
               <Graphic>
                 <Mark>
                   <WellKnownName>circle</WellKnownName>
@@ -55,6 +57,7 @@
           <MinScaleDenominator>9000000</MinScaleDenominator>
           <MaxScaleDenominator>20000000</MaxScaleDenominator>
             <PointSymbolizer>
+              <Geometry><ogc:PropertyName>position</ogc:PropertyName></Geometry>
               <Graphic>
                 <Mark>
                   <WellKnownName>circle</WellKnownName>
@@ -70,6 +73,7 @@
           <Name>Argo Float - low zoom</Name>
           <MinScaleDenominator>20000000</MinScaleDenominator>
             <PointSymbolizer>
+              <Geometry><ogc:PropertyName>position</ogc:PropertyName></Geometry>
               <Graphic>
                 <Mark>
                   <WellKnownName>circle</WellKnownName>
@@ -81,6 +85,27 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+  
+  		<Rule>
+					<Name>Argo Trajectory</Name>
+                    <MaxScaleDenominator>9000000</MaxScaleDenominator>
+
+					<Title>Argo Trajectory</Title>
+					<Abstract>Argo Trajectory</Abstract>
+
+					<!-- like a polygonsymbolizer -->
+					<LineSymbolizer>
+                        <Geometry><ogc:PropertyName>traj</ogc:PropertyName></Geometry>
+						<Stroke>
+                            <CssParameter name="fill-opacity">0.1</CssParameter>
+							<CssParameter name="stroke">#f4f6f7</CssParameter>
+                            <CssParameter name="stroke-width">0.05</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 1</CssParameter>
+						</Stroke>
+					</LineSymbolizer>
+        </Rule>
+  
+  
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
