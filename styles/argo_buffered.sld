@@ -14,28 +14,7 @@
       <Abstract>A style that draws an argo point</Abstract>
       <!-- FeatureTypeStyles describe how to render different features -->
       <!-- A FeatureTypeStyle for rendering points -->
-<FeatureTypeStyle>
-    <Rule>
-          <Name>Argo Float</Name>
-          <Abstract>A 4 pixel padding</Abstract>
-            <PointSymbolizer>
-              <Geometry><ogc:PropertyName>position</ogc:PropertyName></Geometry>
-              <Graphic>
-                <Mark>
-                  <WellKnownName>circle</WellKnownName>
-                  <Fill>
-                    <CssParameter name="fill">#000080</CssParameter>
-                    <CssParameter name="fill-opacity">
-           				<ogc:Literal>0.05</ogc:Literal>
-          			</CssParameter>
-                  </Fill>
-                  
-                </Mark>
-              <Size>5</Size>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-  
+<FeatureTypeStyle>     
         <Rule>
           <Name>Argo Float - high zoom</Name>
           <MaxScaleDenominator>9000000</MaxScaleDenominator>
@@ -52,10 +31,11 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Name>Argo Float - medium zoom</Name>
           <MinScaleDenominator>9000000</MinScaleDenominator>
-          <MaxScaleDenominator>20000000</MaxScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
             <PointSymbolizer>
               <Geometry><ogc:PropertyName>position</ogc:PropertyName></Geometry>
               <Graphic>
@@ -71,7 +51,9 @@
         </Rule>
         <Rule>
           <Name>Argo Float - low zoom</Name>
-          <MinScaleDenominator>20000000</MinScaleDenominator>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>90000000</MaxScaleDenominator>
+
             <PointSymbolizer>
               <Geometry><ogc:PropertyName>position</ogc:PropertyName></Geometry>
               <Graphic>
@@ -86,26 +68,30 @@
           </PointSymbolizer>
         </Rule>
   
-  		<Rule>
-					<Name>Argo Trajectory</Name>
-                    <MaxScaleDenominator>9000000</MaxScaleDenominator>
-
-					<Title>Argo Trajectory</Title>
-					<Abstract>Argo Trajectory</Abstract>
-
-					<!-- like a polygonsymbolizer -->
-					<LineSymbolizer>
-                        <Geometry><ogc:PropertyName>traj</ogc:PropertyName></Geometry>
-						<Stroke>
-                            <CssParameter name="fill-opacity">0.1</CssParameter>
-							<CssParameter name="stroke">#f4f6f7</CssParameter>
-                            <CssParameter name="stroke-width">0.05</CssParameter>
-                            <CssParameter name="stroke-dasharray">6 1</CssParameter>
-						</Stroke>
-					</LineSymbolizer>
+        <Rule>
+          <Name>Argo Float - earth level zoom </Name>
+          <abstract>For ressource monitor only</abstract>
+          <MinScaleDenominator>90000000</MinScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>data_centre_name</ogc:PropertyName>
+            <ogc:Literal>CSIRO</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+              <Geometry><ogc:PropertyName>lastpoint</ogc:PropertyName></Geometry>
+              <Graphic>
+                <Mark>
+                  <WellKnownName>circle</WellKnownName>
+                  <Fill>
+                    <CssParameter name="fill">#0061ff</CssParameter>                
+                  </Fill>
+                </Mark>
+              <Size>2</Size>
+            </Graphic>
+          </PointSymbolizer>
         </Rule>
-  
-  
+     
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
