@@ -30,15 +30,15 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>113.9466666667</minx>
-    <maxx>121.85</maxx>
-    <miny>-33.9333333333</miny>
-    <maxy>-21.865</maxy>
+    <maxx>153.5622</maxx>
+    <miny>-42.614</miny>
+    <maxy>-12.3372</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>113.9466666667</minx>
-    <maxx>121.85</maxx>
-    <miny>-33.9333333333</miny>
-    <maxy>-21.865</maxy>
+    <maxx>153.5622</maxx>
+    <miny>-42.614</miny>
+    <maxy>-12.3372</maxy>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
