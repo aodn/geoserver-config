@@ -54,21 +54,11 @@
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>argo_profile_map</name>
-        <sql>SELECT mpoint as position, traj, ST_EndPoint(traj) as  lastpoint, platform_number, data_centre_name,profile_processing_type,oxygen_sensor,time_coverage_start,time_coverage_end FROM argo_trajectory_map
+        <sql>SELECT * from argo_float_aus_so_region_map
 </sql>
         <escapeSql>false</escapeSql>
         <geometry>
           <name>position</name>
-          <type>MultiPoint</type>
-          <srid>4326</srid>
-        </geometry>
-        <geometry>
-          <name>traj</name>
-          <type>MultiLineString</type>
-          <srid>4326</srid>
-        </geometry>
-        <geometry>
-          <name>lastpoint</name>
           <type>Point</type>
           <srid>4326</srid>
         </geometry>

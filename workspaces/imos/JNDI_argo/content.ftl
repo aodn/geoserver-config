@@ -6,8 +6,7 @@
 <b>Platform number :</b> ${feature.platform_number.value}<br/>
 <b>Data centre :</b> ${feature.data_centre_name.value}<br/>
 <b>Oxygen sensor :</b> ${feature.oxygen_sensor.value}<br/>
-<b>Sub-trajectory start date :</b> ${feature.time_coverage_start.value}<br/>
-<b>Sub-trajectory end date :</b> ${feature.time_coverage_end.value}<br/>
+<b>Date :</b> ${feature.juld.value}<br/>
 <BR>
 </div>
 </#if>
