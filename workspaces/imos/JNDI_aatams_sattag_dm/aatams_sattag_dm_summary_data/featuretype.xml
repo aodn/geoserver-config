@@ -13,15 +13,15 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-180.0</minx>
-    <maxx>179.999</maxx>
-    <miny>-78.009794751529</miny>
-    <maxy>86.795</maxy>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
-    <maxx>179.999</maxx>
-    <miny>-78.009794751529</miny>
-    <maxy>86.795</maxy>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

@@ -8,17 +8,17 @@
   <title>Core Data - Leeuwin Current</title>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>104.033</minx>
-    <maxx>137.411</maxx>
-    <miny>-36.968</miny>
-    <maxy>-5.818</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>104.033</minx>
-    <maxx>137.411</maxx>
-    <miny>-36.968</miny>
-    <maxy>-5.818</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
