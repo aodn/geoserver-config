@@ -20,16 +20,16 @@
   </metadataLinks>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-179.9957</minx>
-    <maxx>179.9963</maxx>
-    <miny>-75.838</miny>
-    <maxy>-38.7786</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.9957</minx>
-    <maxx>179.9963</maxx>
-    <miny>-75.838</miny>
-    <maxy>-38.7786</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

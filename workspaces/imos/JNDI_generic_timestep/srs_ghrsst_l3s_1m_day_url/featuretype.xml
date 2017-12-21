@@ -12,10 +12,10 @@
   </keywords>
   <srs>EPSG:4326</srs>
   <latLonBoundingBox>
-    <minx>-170.0</minx>
-    <maxx>70.0</maxx>
-    <miny>-70.0</miny>
-    <maxy>20.0</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
