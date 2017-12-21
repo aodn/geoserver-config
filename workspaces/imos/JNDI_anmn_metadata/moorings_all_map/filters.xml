@@ -101,13 +101,6 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>has_fluorescence</name>
-        <type>boolean</type>
-        <label>Has fluorescence</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>has_wave_parameters</name>
         <type>boolean</type>
         <label>Has wave parameters</label>
