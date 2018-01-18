@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-523989c3:15cbf4084f8:-7ffb</id>
-  <name>argo_profile_map</name>
-  <nativeName>argo_profile_map</nativeName>
+  <id>FeatureTypeInfoImpl-4065b3ef:15aa1683ab1:66b1</id>
+  <name>argo_primary_profile_bio_high_res_data</name>
+  <nativeName>argo_primary_profile_bio_high_res_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>argo_profile_map</title>
+  <title>argo_primary_profile_bio_high_res_data</title>
   <keywords>
+    <string>argo_primary_profile_bio_high_res_data</string>
     <string>features</string>
-    <string>argo_profile_map</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -30,15 +30,14 @@
   <nativeBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
+    <miny>-75.0</miny>
+    <maxy>50.0</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
+    <miny>-75.0</miny>
+    <maxy>50.0</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -49,21 +48,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="JDBC_VIRTUAL_TABLE">
-      <virtualTable>
-        <name>argo_profile_map</name>
-        <sql>select * from argo.argo_profile_map where data_centre_name  = &apos;CSIRO&apos;
-</sql>
-        <escapeSql>false</escapeSql>
-        <geometry>
-          <name>position</name>
-          <type>Point</type>
-          <srid>4326</srid>
-        </geometry>
-      </virtualTable>
-    </entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-6c033aa5:1407b759987:-7fff</id>
   </store>
