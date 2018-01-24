@@ -31,12 +31,12 @@
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
+    <entry key="cachingEnabled">false</entry>
     <entry key="elevation">
       <dimensionInfo>
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-2009e761:15e78ffbc72:-7ffb</id>
