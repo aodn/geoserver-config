@@ -10,7 +10,7 @@
   <PointSymbolizer>
      <Graphic>
        <ExternalGraphic>
-          <OnlineResource xlink:type="simple" xlink:href="ring_buoy.png?" />
+          <OnlineResource xlink:type="simple" xlink:href="ring_buoy.png" />
           <Format>image/png</Format>
        </ExternalGraphic>
        <Size>20</Size>
