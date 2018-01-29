@@ -84,7 +84,7 @@
             </ac:variable>
         </ac:variables>
     </ac:template>
-    <ac:template match=".*" name="default">
+	<ac:template match="csiro_cars.*" name="cars">
         <ac:attributes>
             <ac:attribute>
                 <ac:name>time_coverage_start</ac:name><ac:type>String</ac:type><ac:value>${TIME_START}</ac:value>
@@ -106,6 +106,31 @@
             </ac:attribute>
             <ac:attribute>
                 <ac:name>geospatial_lon_max</ac:name><ac:type>Double</ac:type><ac:value>${LON_MAX}</ac:value>
+            </ac:attribute>
+        </ac:attributes>
+    </ac:template>
+    <ac:template match=".*" name="default">
+        <ac:attributes>
+            <ac:attribute>
+                <ac:name>time_coverage_start</ac:name><ac:type>String</ac:type><ac:value>${TIME_START}</ac:value>
+            </ac:attribute>
+            <ac:attribute>
+                <ac:name>time_coverage_end</ac:name><ac:type>String</ac:type><ac:value>${TIME_END}</ac:value>
+            </ac:attribute>
+            <ac:attribute>
+                <ac:name>title</ac:name><ac:type>String</ac:type><ac:match>(.*?)(,[^,]*)?</ac:match><ac:value>${1}, ${TIME_START}, ${TIME_END}</ac:value>
+            </ac:attribute>
+            <ac:attribute>
+                <ac:name>geospatial_lat_min</ac:name><ac:type>String</ac:type><ac:value>${LAT_MIN}</ac:value>
+            </ac:attribute>
+            <ac:attribute>
+                <ac:name>geospatial_lat_max</ac:name><ac:type>String</ac:type><ac:value>${LAT_MAX}</ac:value>
+            </ac:attribute>
+            <ac:attribute>
+                <ac:name>geospatial_lon_min</ac:name><ac:type>String</ac:type><ac:value>${LON_MIN}</ac:value>
+            </ac:attribute>
+            <ac:attribute>
+                <ac:name>geospatial_lon_max</ac:name><ac:type>String</ac:type><ac:value>${LON_MAX}</ac:value>
             </ac:attribute>
         </ac:attributes>
     </ac:template>
