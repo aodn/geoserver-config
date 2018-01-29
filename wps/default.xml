@@ -4,9 +4,9 @@
     <attribute name="time_coverage_start" type="String" value="${TIME_START}"/>
     <attribute name="time_coverage_end" type="String" value="${TIME_END}"/>
     <attribute name="title" match="(.*?)(,[^,]*)?" type="String" value="${1}, ${TIME_START}, ${TIME_END}"/>
-    <attribute name="geospatial_lat_min" type="String" value="${LAT_MIN}"/>
-    <attribute name="geospatial_lat_max" type="String" value="${LAT_MAX}"/>
-    <attribute name="geospatial_lon_min" type="String" value="${LON_MIN}"/>
-    <attribute name="geospatial_lon_max" type="String" value="${LON_MAX}"/>
+    <attribute name="geospatial_lat_min" type="Double" value="${LAT_MIN}"/>
+    <attribute name="geospatial_lat_max" type="Double" value="${LAT_MAX}"/>
+    <attribute name="geospatial_lon_min" type="Double" value="${LON_MIN}"/>
+    <attribute name="geospatial_lon_max" type="Double" value="${LON_MAX}"/>
   </attributes>
 </template>
