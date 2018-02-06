@@ -1,12 +1,12 @@
 <layer>
   <name>argo_primary_profile_merged_low_res_good_qc_data</name>
-  <id>LayerInfoImpl-4065b3ef:15aa1683ab1:66b4</id>
+  <id>LayerInfoImpl-4aeaaad3:1604d1bfa72:18cc</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+    <id>StyleInfoImpl-61c1d35e:160493ac82f:-7ffc</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-4065b3ef:15aa1683ab1:66b3</id>
+    <id>FeatureTypeInfoImpl-4aeaaad3:1604d1bfa72:1ac</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
