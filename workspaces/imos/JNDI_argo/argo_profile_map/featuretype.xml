@@ -50,10 +50,11 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>argo_profile_map</name>
-        <sql>select * from argo.argo_profile_map where data_centre_name  = &apos;CSIRO&apos;
+        <sql>SELECT * from argo_float_aus_so_region_map
 </sql>
         <escapeSql>false</escapeSql>
         <geometry>
