@@ -15,6 +15,35 @@
       <!-- FeatureTypeStyles describe how to render different features -->
       <!-- A FeatureTypeStyle for rendering points -->
 <FeatureTypeStyle>
+	<Transformation>
+		<ogc:Function name="gs:PointStacker">
+			<ogc:Function name="parameter">
+			  <ogc:Literal>data</ogc:Literal>
+			</ogc:Function>
+			<ogc:Function name="parameter">
+			  <ogc:Literal>cellSize</ogc:Literal>
+			  <ogc:Literal>30</ogc:Literal>
+			</ogc:Function>
+			<ogc:Function name="parameter">
+			  <ogc:Literal>outputBBOX</ogc:Literal>
+			  <ogc:Function name="env">
+			 <ogc:Literal>wms_bbox</ogc:Literal>
+			  </ogc:Function>
+			</ogc:Function>
+			<ogc:Function name="parameter">
+			  <ogc:Literal>outputWidth</ogc:Literal>
+			  <ogc:Function name="env">
+			   <ogc:Literal>wms_width</ogc:Literal>
+			  </ogc:Function>
+			</ogc:Function>
+			<ogc:Function name="parameter">
+			  <ogc:Literal>outputHeight</ogc:Literal>
+			  <ogc:Function name="env">
+				<ogc:Literal>wms_height</ogc:Literal>
+			  </ogc:Function>
+			</ogc:Function>
+		  </ogc:Function>
+	</Transformation>
     <Rule>
           <Name>Argo Float</Name>
           <Abstract>A 4 pixel padding</Abstract>
