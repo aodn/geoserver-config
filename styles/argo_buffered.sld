@@ -37,6 +37,12 @@
   
         <Rule>
           <Name>Argo Float - high zoom</Name>
+		   <ogc:Filter>  
+				<ogc:PropertyIsLike  wildCard="%" singleChar="#" escape="!">
+				   <ogc:PropertyName>juld </ogc:PropertyName>
+				   <ogc:Literal>%####-##-#4%</ogc:Literal> 
+			   </ogc:PropertyIsLike> 
+		  </ogc:Filter> 
           <MaxScaleDenominator>9000000</MaxScaleDenominator>
             <PointSymbolizer>
               <Graphic>
