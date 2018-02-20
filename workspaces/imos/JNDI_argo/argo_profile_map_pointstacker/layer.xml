@@ -1,9 +1,9 @@
 <layer>
-  <name>argo_profile_map</name>
+  <name>argo_profile_map_pointstacker</name>
   <id>LayerInfoImpl-523989c3:15cbf4084f8:-7ffa</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-46f88ab3:1537e0b6b27:-7ffb</id>
+    <id>StyleInfoImpl-2a153920:161acca694e:1379</id>
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>

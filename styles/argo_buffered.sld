@@ -15,8 +15,9 @@
       <!-- FeatureTypeStyles describe how to render different features -->
       <!-- A FeatureTypeStyle for rendering points -->
 <FeatureTypeStyle>
-    <Rule>
+        <Rule>
           <Name>Argo Float</Name>
+          <MaxScaleDenominator>20000000</MaxScaleDenominator>
           <Abstract>A 4 pixel padding</Abstract>
             <PointSymbolizer>
               <Graphic>
@@ -65,22 +66,7 @@
               <Size>3</Size>
             </Graphic>
           </PointSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Argo Float - low zoom</Name>
-          <MinScaleDenominator>20000000</MinScaleDenominator>
-            <PointSymbolizer>
-              <Graphic>
-                <Mark>
-                  <WellKnownName>circle</WellKnownName>
-                  <Fill>
-                    <CssParameter name="fill">#FFD800</CssParameter>
-                  </Fill>
-                </Mark>
-              <Size>2</Size>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
+        </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

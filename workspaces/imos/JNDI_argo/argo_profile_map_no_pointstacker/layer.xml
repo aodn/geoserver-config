@@ -1,0 +1,15 @@
+<layer>
+  <name>argo_profile_map_no_pointstacker</name>
+  <id>LayerInfoImpl-2a153920:161acca694e:137f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-46f88ab3:1537e0b6b27:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2a153920:161acca694e:137e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
