@@ -1,13 +1,13 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-4065b3ef:15aa14e7420:-7ebc</id>
-  <name>argo_primary_profile_core_low_res_good_qc_data</name>
-  <nativeName>argo_primary_profile_core_low_res_good_qc_data</nativeName>
+  <id>FeatureTypeInfoImpl--15b8640b:161b5b0ed01:-7ffc</id>
+  <name>argo_primary_profile_core_low_res_good_qc_doxy_data</name>
+  <nativeName>argo_primary_profile_core_low_res_good_qc_doxy_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>argo_primary_profile_core_low_res_good_qc_data</title>
+  <title>argo_primary_profile_core_low_res_good_qc_doxy_data</title>
   <keywords>
-    <string>argo_primary_profile_core_low_res_good_qc_data</string>
+    <string>argo_primary_profile_core_low_res_good_qc_doxy_data</string>
     <string>features</string>
   </keywords>
   <metadataLinks>
