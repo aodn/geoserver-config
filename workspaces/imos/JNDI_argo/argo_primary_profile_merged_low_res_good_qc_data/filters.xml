@@ -15,6 +15,13 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
+    <name>project_name</name>
+    <type>string</type>
+    <label>Project Name</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
     <name>profile_processing_type</name>
     <type>string</type>
     <label>Realtime/Delayed</label>
@@ -25,13 +32,6 @@
     <name>juld</name>
     <type>datetime</type>
     <label>Time</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>oxygen_sensor</name>
-    <type>boolean</type>
-    <label>Oxygen sensor</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
