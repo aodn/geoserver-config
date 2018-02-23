@@ -22,7 +22,7 @@
 <PointSymbolizer>
    <Graphic>
      <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="aatams2.png" />
+        <OnlineResource xlink:type="simple" xlink:href="atf_receiver.png" />
         <Format>image/png</Format>
      </ExternalGraphic>
      <Size>20</Size>
