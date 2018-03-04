@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-54db01c2:1466571181c:-5ec1</id>
-  <name>atf_acoustic</name>
+  <name>atf_acoustic_qc</name>
   <workspace>
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
@@ -11,5 +11,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>atf_acoustic.sld</filename>
+  <filename>atf_acoustic_qc.sld</filename>
 </style>

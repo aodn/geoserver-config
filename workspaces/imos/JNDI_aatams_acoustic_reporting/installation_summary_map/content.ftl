@@ -1,6 +1,6 @@
-<h3>AATAMS Receiver information</h3>
+<h3>Acoustic Receiver information</h3>
 
-<h4><a class="external" href="http://aatams.emii.org.au/aatams/" target="_blank" >AATAMS data access and search page</a></h4>
+<h4><a class="external" href="http://aatams.emii.org.au/aatams/" target="_blank" >IMOS ATF data access and search page</a></h4>
 <#list features as feature>
 <#if (feature_index < 2) >
 <div class="feature">
