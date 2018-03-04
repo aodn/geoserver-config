@@ -6,12 +6,12 @@
 <FeatureTypeStyle>
   
 <Rule>   
- <Title>AATAMS Acoustic</Title>  
+ <Title>Animal Tracking Acoustic</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>AATAMS</ogc:Literal>
+         <ogc:Literal>Animal Tracking</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
@@ -31,12 +31,12 @@
         </Rule>
 
 <Rule>   
- <Title>AATAMS Biologging - Emperor penguins</Title>  
+ <Title>Animal Tracking Biologging - Emperor penguins</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>AATAMS</ogc:Literal>
+         <ogc:Literal>Animal Tracking</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>platform_type</ogc:PropertyName>
@@ -55,12 +55,12 @@
         </Rule>   
 
 <Rule>   
- <Title>AATAMS Biologging - Shearwaters</Title>  
+ <Title>Animal Tracking Biologging - Shearwaters</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>AATAMS</ogc:Literal>
+         <ogc:Literal>Animal Tracking</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>platform_type</ogc:PropertyName>
@@ -79,12 +79,12 @@
         </Rule>  
 
 <Rule>   
- <Title>AATAMS Biologging - Snow petrels</Title>  
+ <Title>Animal Tracking Biologging - Snow petrels</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>AATAMS</ogc:Literal>
+         <ogc:Literal>Animal Tracking</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>platform_type</ogc:PropertyName>
@@ -103,12 +103,12 @@
         </Rule> 
   
 <Rule>   
- <Title>AATAMS Biologging - Satellite tagging</Title>  
+ <Title>Animal Tracking Biologging - Satellite tagging</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>AATAMS</ogc:Literal>
+         <ogc:Literal>Animal Tracking</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>platform_type</ogc:PropertyName>
@@ -127,11 +127,11 @@
         </Rule>
 
 <Rule>   
- <Title>ABOS</Title>  
+ <Title>Deep Water Moorings</Title>  
   <ogc:Filter>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>ABOS</ogc:Literal>
+         <ogc:Literal>Deep Water Moorings</ogc:Literal>
       </ogc:PropertyIsEqualTo>
   </ogc:Filter>   
 <PointSymbolizer>
@@ -145,11 +145,11 @@
         </Rule>
 
 <Rule>   
- <Title>ACORN</Title>  
+ <Title>Ocean Radar</Title>  
   <ogc:Filter>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>ACORN</ogc:Literal>
+         <ogc:Literal>Ocean Radar</ogc:Literal>
       </ogc:PropertyIsEqualTo>
   </ogc:Filter>   
 <PointSymbolizer>
@@ -168,7 +168,7 @@
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>ANFOG</ogc:Literal>
+         <ogc:Literal>Ocean Gliders</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>platform_type</ogc:PropertyName>
@@ -192,7 +192,7 @@
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>ANFOG</ogc:Literal>
+         <ogc:Literal>Ocean Gliders</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>platform_type</ogc:PropertyName>
@@ -211,12 +211,12 @@
         </Rule>
   
 <Rule>   
- <Title>ANMN</Title>  
+ <Title>National Mooring Network</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>ANMN</ogc:Literal>
+         <ogc:Literal>National Mooring Network</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsNotEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
@@ -235,12 +235,12 @@
         </Rule>
         
 <Rule>   
- <Title>ANMN NRS</Title>  
+ <Title>National Mooring Network NRS</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>ANMN</ogc:Literal>
+         <ogc:Literal>National Mooring Network</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
@@ -277,11 +277,11 @@
         </Rule>
   
 <Rule>   
- <Title>AUV</Title>  
+ <Title>Autonomous Underwater Vehicles</Title>  
   <ogc:Filter>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>AUV</ogc:Literal>
+         <ogc:Literal>Autonomous Underwater Vehicles</ogc:Literal>
       </ogc:PropertyIsEqualTo>
   </ogc:Filter>   
 <PointSymbolizer>
@@ -295,11 +295,11 @@
         </Rule>
   
 <Rule>   
- <Title>FAIMMS</Title>  
+ <Title>Wireless Sensor Networks</Title>  
   <ogc:Filter>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>FAIMMS</ogc:Literal>
+         <ogc:Literal>Wireless Sensor Networks</ogc:Literal>
       </ogc:PropertyIsEqualTo>
   </ogc:Filter>   
 <PointSymbolizer>
@@ -313,12 +313,12 @@
         </Rule>
     
   <Rule>   
- <Title>SOOP CO2 and ASF - Vessel track</Title>  
+ <Title>Ships of Opportunity CO2 and ASF - Vessel track</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>SOOP</ogc:Literal>
+         <ogc:Literal>Ships of Opportunity</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
@@ -336,7 +336,7 @@
         </Rule>
 
 <Rule>
-   <Title>SOOP BA - Vessel track</Title> 
+   <Title>Ships of Opportunity BA - Vessel track</Title> 
      <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
@@ -359,7 +359,7 @@
 </Rule>
   
 <Rule>
-   <Title>SOOP CPR - Vessel track</Title> 
+   <Title>Ships of Opportunity CPR - Vessel track</Title> 
      <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
@@ -382,12 +382,12 @@
 </Rule>
 
   <Rule>   
- <Title>SOOP TMV</Title>  
+ <Title>Ships of Opportunity TMV</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>SOOP</ogc:Literal>
+         <ogc:Literal>Ships of Opportunity</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
@@ -406,12 +406,12 @@
         </Rule>
 
   <Rule>   
- <Title>SOOP TRV - Vessel track</Title>  
+ <Title>Ships of Opportunity TRV - Vessel track</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>SOOP</ogc:Literal>
+         <ogc:Literal>Ships of Opportunity</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
@@ -429,12 +429,12 @@
         </Rule>
  
   <Rule>   
- <Title>SOOP SST - Vessel track</Title>  
+ <Title>Ships of Opportunity SST - Vessel track</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>SOOP</ogc:Literal>
+         <ogc:Literal>Ships of Opportunity</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
@@ -452,7 +452,7 @@
         </Rule>
 
 <Rule>
-   <Title>SOOP XBT - Vessel track </Title> 
+   <Title>Ships of Opportunity XBT - Vessel track </Title> 
      <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
@@ -475,12 +475,12 @@
 </Rule>
 
 <Rule>   
- <Title>SRS Altimetry</Title>  
+ <Title>Satellite Remote SensingAltimetry</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>SRS</ogc:Literal>
+         <ogc:Literal>Satellite Remote Sensing</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>product</ogc:PropertyName>
@@ -499,12 +499,12 @@
         </Rule>
 
    <Rule>   
- <Title>SRS - Lucinda Jetty</Title>  
+ <Title>Satellite Remote Sensing- Lucinda Jetty</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>SRS</ogc:Literal>
+         <ogc:Literal>Satellite Remote Sensing</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>subfacility</ogc:PropertyName>
@@ -523,12 +523,12 @@
         </Rule>  
 
    <Rule>   
- <Title>SRS - Radiometer</Title>  
+ <Title>Satellite Remote Sensing- Radiometer</Title>  
   <ogc:Filter>
            <ogc:And>
       <ogc:PropertyIsEqualTo>
          <ogc:PropertyName>facility</ogc:PropertyName>
-         <ogc:Literal>SRS</ogc:Literal>
+         <ogc:Literal>Satellite Remote Sensing</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>product</ogc:PropertyName>
