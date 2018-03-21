@@ -24,9 +24,9 @@
 <#list features as feature>
 <TR class="record">
 <TD Align="Center">${feature.TIME.value}</td>
-<TD Align="Center">${feature.WHTH.rawValue?string("0.0")}</td>
-<TD Align="Center">${feature.WMXH.rawValue?string("0.0")}</td>
-<TD Align="Center">${feature.WPMH.rawValue?string("0.0")}</td>
+<TD Align="Center"><#if feature.WHTH.value?has_content>${feature.WHTH.rawValue?string("0.0")}<#else>${feature.WHTH.rawValue?replace("","N/A")}</#if></td>
+<TD Align="Center"><#if feature.WMXH.value?has_content>${feature.WMXH.rawValue?string("0.0")}<#else>${feature.WMXH.rawValue?replace("","N/A")}</#if></td>
+<TD Align="Center"><#if feature.WPMH.value?has_content>${feature.WPMH.rawValue?string("0.0")}<#else>${feature.WPMH.rawValue?replace("","N/A")}</#if></td>
 <TD Align="Center"><#if feature.VDIR.value?has_content>${feature.VDIR.rawValue?string("0")}<#else>${feature.VDIR.rawValue?replace("","N/A")}</#if></td>
 </TR>
 </#list>
