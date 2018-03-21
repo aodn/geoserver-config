@@ -27,7 +27,7 @@
 <TD Align="Center">${feature.WHTH.rawValue?string("0.0")}</td>
 <TD Align="Center">${feature.WMXH.rawValue?string("0.0")}</td>
 <TD Align="Center">${feature.WPMH.rawValue?string("0.0")}</td>
-<TD Align="Center">${feature.VDIR.value}</td>
+<TD Align="Center"><#if feature.VDIR.value?has_content>${feature.VDIR.rawValue?string("0")}<#else>${feature.VDIR.rawValue?replace("","N/A")}</#if></td>
 </TR>
 </#list>
 </TABLE>
