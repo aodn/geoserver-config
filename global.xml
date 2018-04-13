@@ -23,8 +23,8 @@
     <allowNativeMosaic>false</allowNativeMosaic>
   </jai>
   <coverageAccess>
-    <maxPoolSize>40</maxPoolSize>
-    <corePoolSize>10</corePoolSize>
+    <maxPoolSize>5</maxPoolSize>
+    <corePoolSize>5</corePoolSize>
     <keepAliveTime>30000</keepAliveTime>
     <queueType>UNBOUNDED</queueType>
     <imageIOCacheThreshold>10240</imageIOCacheThreshold>
