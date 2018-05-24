@@ -15,7 +15,7 @@
 </div>
 <TABLE bordercolorlight="#000000" class="table_design" ALIGN="LEFT" border="2">
 <TR class="record_heading">
-<th>UTC Time</th>
+<th>Time</th>
 <th>Significant wave Height (m)</th>
 <th>Maximum Wave Height (m)</th>
 <th>Wave mean period (s)</th>
@@ -23,7 +23,7 @@
 </TR>
 <#list features as feature>
 <TR class="record">
-<TD Align="Center">${feature.TIME.value}</td>
+<TD Align="Center">${feature.TIME.rawValue?iso_utc}</td>
 <TD Align="Center"><#if feature.WHTH.value?has_content>${feature.WHTH.rawValue?string("0.0")}<#else>${feature.WHTH.rawValue?replace("","N/A")}</#if></td>
 <TD Align="Center"><#if feature.WMXH.value?has_content>${feature.WMXH.rawValue?string("0.0")}<#else>${feature.WMXH.rawValue?replace("","N/A")}</#if></td>
 <TD Align="Center"><#if feature.WPMH.value?has_content>${feature.WPMH.rawValue?string("0.0")}<#else>${feature.WPMH.rawValue?replace("","N/A")}</#if></td>
