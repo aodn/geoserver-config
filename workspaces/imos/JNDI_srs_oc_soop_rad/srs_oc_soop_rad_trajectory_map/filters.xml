@@ -23,4 +23,11 @@
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
+  <filter>
+    <name>product_version</name>
+    <type>string</type>
+    <label>Product Version</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
 </filters>
