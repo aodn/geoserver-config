@@ -1,9 +1,9 @@
 <layer>
-  <name>acorn_wind_qc_sag</name>
-  <id>LayerInfoImpl-5c9df275:1600b96d5c3:-7ff7</id>
+  <name>acorn_wind_qc_cof_url</name>
+  <id>LayerInfoImpl-5c9df275:1600b96d5c3:-7ffb</id>
   <type>VECTOR</type>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-5c9df275:1600b96d5c3:-7ff8</id>
+    <id>FeatureTypeInfoImpl-5c9df275:1600b96d5c3:-7ffc</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

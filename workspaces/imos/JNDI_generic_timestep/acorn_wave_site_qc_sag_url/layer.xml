@@ -1,9 +1,9 @@
 <layer>
-  <name>acorn_wave_site_qc_cof</name>
-  <id>LayerInfoImpl-5c9df275:1600b96d5c3:-7ff5</id>
+  <name>acorn_wave_site_qc_sag_url</name>
+  <id>LayerInfoImpl-5c9df275:1600b96d5c3:-7ff1</id>
   <type>VECTOR</type>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-5c9df275:1600b96d5c3:-7ff6</id>
+    <id>FeatureTypeInfoImpl-5c9df275:1600b96d5c3:-7ff2</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
