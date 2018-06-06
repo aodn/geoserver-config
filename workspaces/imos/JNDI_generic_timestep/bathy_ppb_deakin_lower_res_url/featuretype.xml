@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--56e607d8:15da561032b:-7ffa</id>
-  <name>bathy_ppb_deakin_map</name>
+  <name>bathy_ppb_deakin_lower_res_url</name>
   <nativeName>bathy_ppb_deakin_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>bathy_ppb_deakin_map</title>
+  <title>bathy_ppb_deakin_lower_res_url</title>
   <keywords>
     <string>bathy_ppb_deakin_map</string>
     <string>features</string>
