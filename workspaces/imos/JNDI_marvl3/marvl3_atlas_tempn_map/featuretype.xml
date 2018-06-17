@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-28554fee:14d93daf902:-7ff8</id>
+  <id>FeatureTypeInfoImpl-28ef41bf:163f1e65412:200f</id>
   <name>marvl3_atlas_tempn_map</name>
-  <nativeName>marvl3_atlas_data</nativeName>
+  <nativeName>marvl3_atlas_tempn_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
   <title>marvl3_atlas_tempn_map</title>
   <keywords>
+    <string>marvl3_atlas_tempn_map</string>
     <string>features</string>
-    <string>marvl3_atlas_data</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -28,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
+    <minx>111.875</minx>
+    <maxx>154.375</maxx>
+    <miny>-44.375</miny>
+    <maxy>-6.375</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
+    <minx>111.875</minx>
+    <maxx>154.375</maxx>
+    <miny>-44.375</miny>
+    <maxy>-6.375</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -49,6 +49,45 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>marvl3_atlas_tempn_map</name>
+        <sql>SELECT data_atlas.&quot;LONGITUDE_bin&quot;,&#xd;
+    data_atlas.&quot;LONGITUDE_bound_min&quot;,&#xd;
+    data_atlas.&quot;LONGITUDE_bound_max&quot;,&#xd;
+    data_atlas.&quot;LATITUDE_bin&quot;,&#xd;
+    data_atlas.&quot;LATITUDE_bound_min&quot;,&#xd;
+    data_atlas.&quot;LATITUDE_bound_max&quot;,&#xd;
+    timezone(&apos;UTC&apos;::text, data_atlas.&quot;TIME_bin&quot;) AS &quot;TIME_bin&quot;,&#xd;
+    timezone(&apos;UTC&apos;::text, data_atlas.&quot;TIME_bound_min&quot;) AS &quot;TIME_bound_min&quot;,&#xd;
+    timezone(&apos;UTC&apos;::text, data_atlas.&quot;TIME_bound_max&quot;) AS &quot;TIME_bound_max&quot;,&#xd;
+    data_atlas.&quot;DEPTH_bin&quot;,&#xd;
+    data_atlas.&quot;DEPTH_bound_min&quot;,&#xd;
+    data_atlas.&quot;DEPTH_bound_max&quot;,&#xd;
+    data_atlas.&quot;TEMP_n&quot;,&#xd;
+    data_atlas.&quot;TEMP_min&quot;,&#xd;
+    data_atlas.&quot;TEMP_max&quot;,&#xd;
+    data_atlas.&quot;TEMP_mean&quot;,&#xd;
+    data_atlas.&quot;TEMP_stddev&quot;,&#xd;
+    data_atlas.&quot;PSAL_n&quot;,&#xd;
+    data_atlas.&quot;PSAL_min&quot;,&#xd;
+    data_atlas.&quot;PSAL_max&quot;,&#xd;
+    data_atlas.&quot;PSAL_mean&quot;,&#xd;
+    data_atlas.&quot;PSAL_stddev&quot;,&#xd;
+    data_atlas.geom_bin&#xd;
+   FROM marvl3.data_atlas
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom_bin</name>
+          <type>Polygon</type>
+          <srid>4326</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-67bc23b4:14d939cad3e:-7ff5</id>
   </store>
