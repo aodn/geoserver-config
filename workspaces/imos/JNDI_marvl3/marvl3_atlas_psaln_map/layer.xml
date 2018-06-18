@@ -1,12 +1,12 @@
 <layer>
   <name>marvl3_atlas_psaln_map</name>
-  <id>LayerInfoImpl-28554fee:14d93daf902:-7ff5</id>
+  <id>LayerInfoImpl-30cad643:164100bf233:-61</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-609344f3:14d1da5a96f:1dc3</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-28554fee:14d93daf902:-7ff6</id>
+    <id>FeatureTypeInfoImpl-30cad643:164100bf233:-62</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
