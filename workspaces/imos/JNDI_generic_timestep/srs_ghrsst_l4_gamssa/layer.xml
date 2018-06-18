@@ -1,0 +1,12 @@
+<layer>
+  <name>srs_ghrsst_l4_gamssa</name>
+  <id>LayerInfoImpl--396c13b1:16400e9d6cc:-7ff9</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--396c13b1:16400e9d6cc:-7ffa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
