@@ -23,8 +23,9 @@
   <!-- aggregation templates -->
     <templates>
       <template match=".*bathy_ppb_deakin.*">bathymetry</template>
-      <template match="srs_ghrsst.*">srs_ghrsst</template>
-      <template match="srs_sst.*">srs_ghrsst</template>
+      <template match="srs_ghrsst.l3*">srs_ghrsst_l3</template>
+      <template match="srs_ghrsst.l4_*">srs_ghrsst_l4</template>
+      <template match="srs_sst.*">srs_ghrsst_l3</template>
       <template match=".*">default</template>
     </templates>
 </gogoduck>
