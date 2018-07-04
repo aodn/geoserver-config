@@ -1,11 +1,13 @@
 <#if (features?size = 100) >
-<h3>Total number of deployments at this site: > 100</h3> 
+<h3>Total number of deployments at this site: > 100</h3>
 <#else>
-<h3>Total number of deployments at this site: ${features?size}</h3> 
+<h3>Total number of deployments at this site: ${features?size}</h3>
 </#if>
 <BR>
 
-<#if (feature_index < 5) >
+<div class="feature">
+<#list features as feature>
+
 <div class="featurewhite">
 <b>Site code :</b> ${feature.site_code.value}<br/>
 <b>Deployment code :</b> ${feature.deployment_code.value}<br/>
@@ -14,6 +16,5 @@
 <b>Time range :</b> ${feature.time_coverage_start.value} - ${feature.time_coverage_end.value}<br/>
 <BR>
 </div>
-</#if>
 </#list>
 </div>
