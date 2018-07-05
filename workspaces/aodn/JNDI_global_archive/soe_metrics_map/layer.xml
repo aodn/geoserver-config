@@ -1,0 +1,15 @@
+<layer>
+  <name>soe_metrics_map</name>
+  <id>LayerInfoImpl--446fa100:1648664827d:-4f92</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-30cad643:16410bf68d9:1d8c</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--446fa100:1648664827d:-4f93</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
