@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>management_area</name>
+        <type>string</type>
+        <label>Management area</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>pointpropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>number_of_species_b</name>
+        <type>boolean</type>
+        <label>Species richness</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>total_abundance_b</name>
+        <type>boolean</type>
+        <label>Total abundance</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>number_species_greater_200cm_b</name>
+        <type>boolean</type>
+        <label>Abundance of individuals > 200 cm</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>mass_species_greater_200g_b</name>
+        <type>boolean</type>
+        <label>Biomass of individuals > 200 g</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
