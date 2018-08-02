@@ -26,7 +26,7 @@
         <sql>select *, ST_makepoint(1, 2) &#xd;
 from acorn_hourly_avg_nonqc.acorn_hourly_avg_nonqc_timeseries_url&#xd;
 where site_code = &apos;NEWC, Newcastle&apos;
-</sql>
+order by file_url</sql>
         <escapeSql>false</escapeSql>
       </virtualTable>
     </entry>
