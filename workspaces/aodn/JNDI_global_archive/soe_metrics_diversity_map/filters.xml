@@ -1,27 +1,6 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>family</name>
-        <type>string</type>
-        <label>Family</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>genus</name>
-        <type>string</type>
-        <label>Genus</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>species</name>
-        <type>string</type>
-        <label>Species</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>date</name>
         <type>datetime</type>
         <label>Date</label>

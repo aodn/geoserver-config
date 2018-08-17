@@ -23,22 +23,6 @@
 	  <img src="http://imos-data-globalarchive-soe.dev.aodn.org.au/SOEmetrics_Plots/${feature.management_area.value?replace(" ","")}/totalabundance_TemporalPlot_${feature.management_area.value?replace(" ","")}.png">
 	</#if>
 
-	<#if (feature_index < 1 & feature.number_species_greater_200cm_b.value == 'true')>
-	  <img src="http://imos-data-globalarchive-soe.dev.aodn.org.au/SOEmetrics_Plots/${feature.management_area.value?replace(" ","")}/numberspeciesgreater200cm_SpatialPlot_${feature.management_area.value?replace(" ","")}.png">
-	</#if>
-
-	<#if (feature_index < 1 & feature.number_species_greater_200cm_b.value == 'true')>
-	  <img src="http://imos-data-globalarchive-soe.dev.aodn.org.au/SOEmetrics_Plots/${feature.management_area.value?replace(" ","")}/numberspeciesgreater200cm_TemporalPlot_${feature.management_area.value?replace(" ","")}.png">
-	</#if>
-
-	<#if (feature_index < 1 & feature.mass_species_greater_200g_b.value == 'true')>
-	  <img src="http://imos-data-globalarchive-soe.dev.aodn.org.au/SOEmetrics_Plots/${feature.management_area.value?replace(" ","")}/massspeciesgreater200g_SpatialPlot_${feature.management_area.value?replace(" ","")}.png">
-	</#if>
-
-	<#if (feature_index < 1 & feature.mass_species_greater_200g_b.value == 'true')>
-	  <img src="http://imos-data-globalarchive-soe.dev.aodn.org.au/SOEmetrics_Plots/${feature.management_area.value?replace(" ","")}/massspeciesgreater200g_TemporalPlot_${feature.management_area.value?replace(" ","")}.png">
-	</#if>
-
 </#list>
 
 <h3>SOE metrics</h3>
@@ -50,8 +34,6 @@
 <th>Survey date</th>
 <th>Species richness</th>
 <th>Total abundance</th>
-<th>Abundance of individuals > 200 cm</th>
-<th>Biomass of individuals > 200 g (in g)</th>
 </TR>
 <#list features as feature>
 <#if (feature_index < 20)>
@@ -62,8 +44,6 @@
 <TD Align="Center">${feature.date.value}</td>
 <TD Align="Center">${feature.number_of_species.value?number?round}</td>
 <TD Align="Center">${feature.total_abundance.value?number?round}</td>
-<TD Align="Center">${feature.number_species_greater_200cm.value?number?round}</td>
-<TD Align="Center">${feature.mass_species_greater_200g.value?number?round}</td>
 </#if>
 </#list>
 </TR>

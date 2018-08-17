@@ -1,0 +1,15 @@
+<layer>
+  <name>soe_metrics_diversity_map</name>
+  <id>LayerInfoImpl-5563d54c:1653bf059c0:-d08</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-30cad643:16410bf68d9:1d8c</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-5563d54c:1653bf059c0:-d09</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -6,23 +6,6 @@
 	</#if>
 
 	<BR>
-
-	<#if (feature_index < 1 & feature.number_of_species_b.value == 'true')>
-	  <img src="http://imos-data-globalarchive-soe.dev.aodn.org.au/SOEmetrics_Plots/${feature.management_area.value?replace(" ","")}/numberofspecies_SpatialPlot_${feature.management_area.value?replace(" ","")}.png">
-	</#if>
-
-	<#if (feature_index < 1 & feature.number_of_species_b.value == 'true')>
-	  <img src="http://imos-data-globalarchive-soe.dev.aodn.org.au/SOEmetrics_Plots/${feature.management_area.value?replace(" ","")}/numberofspecies_TemporalPlot_${feature.management_area.value?replace(" ","")}.png">
-	</#if>
-
-	<#if (feature_index < 1 & feature.total_abundance_b.value == 'true')>
-	  <img src="http://imos-data-globalarchive-soe.dev.aodn.org.au/SOEmetrics_Plots/${feature.management_area.value?replace(" ","")}/totalabundance_SpatialPlot_${feature.management_area.value?replace(" ","")}.png">
-	</#if>
-
-	<#if (feature_index < 1 & feature.total_abundance_b.value == 'true')>
-	  <img src="http://imos-data-globalarchive-soe.dev.aodn.org.au/SOEmetrics_Plots/${feature.management_area.value?replace(" ","")}/totalabundance_TemporalPlot_${feature.management_area.value?replace(" ","")}.png">
-	</#if>
-
 	<#if (feature_index < 1 & feature.number_species_greater_200cm_b.value == 'true')>
 	  <img src="http://imos-data-globalarchive-soe.dev.aodn.org.au/SOEmetrics_Plots/${feature.management_area.value?replace(" ","")}/numberspeciesgreater200cm_SpatialPlot_${feature.management_area.value?replace(" ","")}.png">
 	</#if>
@@ -48,8 +31,6 @@
 <th>Site name</th>
 <th>Site status</th>
 <th>Survey date</th>
-<th>Species richness</th>
-<th>Total abundance</th>
 <th>Abundance of individuals > 200 cm</th>
 <th>Biomass of individuals > 200 g (in g)</th>
 </TR>
@@ -60,8 +41,6 @@
 <TD Align="Center">${feature.location.value}</td>
 <TD Align="Center">${feature.status.value}</td>
 <TD Align="Center">${feature.date.value}</td>
-<TD Align="Center">${feature.number_of_species.value?number?round}</td>
-<TD Align="Center">${feature.total_abundance.value?number?round}</td>
 <TD Align="Center">${feature.number_species_greater_200cm.value?number?round}</td>
 <TD Align="Center">${feature.mass_species_greater_200g.value?number?round}</td>
 </#if>
