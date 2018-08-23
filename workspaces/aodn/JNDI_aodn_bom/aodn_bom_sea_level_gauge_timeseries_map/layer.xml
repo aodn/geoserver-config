@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_bom_sea_level_gauge_timeseries_map</name>
+  <id>LayerInfoImpl-48c6e0df:165551b4375:-7fd4</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-48c6e0df:165551b4375:-7fd5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

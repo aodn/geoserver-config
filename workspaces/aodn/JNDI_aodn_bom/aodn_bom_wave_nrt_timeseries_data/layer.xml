@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_bom_wave_nrt_timeseries_data</name>
+  <id>LayerInfoImpl-48c6e0df:165551b4375:-7fd2</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5aa01124:15233403c30:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-48c6e0df:165551b4375:-7fd3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
