@@ -15,30 +15,9 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>CPHL_b</name>
-    <type>boolean</type>
-    <label>Chlorophyll</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>CDOM_b</name>
-    <type>boolean</type>
-    <label>Colored Dissolved Organic Matter (CDOM)</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
     <name>dive_name</name>
     <type>string</type>
     <label>Dive Name</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
-    <name>OPBS_b</name>
-    <type>boolean</type>
-    <label>Optical Backscattering (OPBS)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
