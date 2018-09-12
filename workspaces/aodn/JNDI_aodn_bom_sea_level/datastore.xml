@@ -1,21 +1,21 @@
 <dataStore>
   <id>DataStoreInfoImpl-48c6e0df:165551b4375:-7fda</id>
-  <name>JNDI_aodn_bom</name>
-  <description>AODN BOM DATASETS (WAVE AND SEA LEVEL GAUGE)</description>
+  <name>JNDI_aodn_bom_sea_level</name>
+  <description>AODN BOM SEA LEVEL GAUGE DATASET</description>
   <type>PostGIS (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-3b0a723a:137e9896802:-7ffe</id>
   </workspace>
   <connectionParameters>
-    <entry key="schema">aodn_bom</entry>
+    <entry key="schema">aodn_bom_sea_level</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">true</entry>
-    <entry key="fetch size">1000</entry>
     <entry key="encode functions">false</entry>
+    <entry key="fetch size">1000</entry>
     <entry key="preparedStatements">false</entry>
-    <entry key="jndiReferenceName">java:comp/env/jdbc/local_harvest_read</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
     <entry key="Estimated extends">true</entry>
     <entry key="Support on the fly geometry simplification">true</entry>
     <entry key="namespace">aodn</entry>
