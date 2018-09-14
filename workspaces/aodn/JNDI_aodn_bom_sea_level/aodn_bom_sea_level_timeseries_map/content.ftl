@@ -24,16 +24,12 @@
     and the Pacific Sea Level Monitoring Project page 
     <a rel="external" href="http://www.bom.gov.au/pacific/projects/pslm/index.shtml" target="_blank" class="h2">PSLM</a></p>
     <p>This station is instrumented with the following sensor type(s):
-     <dl>
-        <dt>Sensor 1</dt>
-        <dd><#if feature.sensor1.value?has_content>${feature.sensor1.rawValue?string}<#else>${feature.sensor1.rawValue?replace("","N/A")}</#if></dd>
-        <dt>Sensor 2</dt>
-        <dd><#if feature.sensor2.value?has_content>${feature.sensor2.rawValue?string}<#else>${feature.sensor2.rawValue?replace("","N/A")}</#if></dd> 
-        <dt>Sensor 2</dt>
-        <dd><#if feature.sensor3.value?has_content>${feature.sensor3.rawValue?string}<#else>${feature.sensor3.rawValue?replace("","N/A")}</#if></dd>
-        <dt>Sensor 2</dt>
-        <dd><#if feature.sensor4.value?has_content>${feature.sensor4.rawValue?string}<#else>${feature.sensor4.rawValue?replace("","N/A")}</#if></dd>
-     </dl>
+     <ul>
+        <li>Sensor 1: <#if feature.sensor1.value?has_content>${feature.sensor1.rawValue?string}<#else>${feature.sensor1.rawValue?replace("","N/A")}</#if></li>
+        <li>Sensor 2: <#if feature.sensor2.value?has_content>${feature.sensor2.rawValue?string}<#else>${feature.sensor2.rawValue?replace("","N/A")}</#if></li> 
+        <li>Sensor 3: <#if feature.sensor3.value?has_content>${feature.sensor3.rawValue?string}<#else>${feature.sensor3.rawValue?replace("","N/A")}</#if></li>
+        <li>Sensor 4: <#if feature.sensor4.value?has_content>${feature.sensor4.rawValue?string}<#else>${feature.sensor4.rawValue?replace("","N/A")}</#if></li>
+     </ul>
     </p>
     <p> Data frequency: 1 minute (average of 60, 1-second samples logged at the end of each minute)</p>    
     <p><b> See a sample of the last 2 hours of recordings below. 
