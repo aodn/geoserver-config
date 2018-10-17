@@ -33,7 +33,7 @@
   <filter>
     <name>sea_water_salinity_b</name>
     <type>boolean</type>
-    <label>Salinity</label>
+    <label>Has salinity</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
