@@ -1,0 +1,24 @@
+<dataStore>
+  <id>DataStoreInfoImpl--155fb4bc:16674c70ebb:-7f66</id>
+  <name>JNDI_aodn_wave_dm</name>
+  <description>WAVE ARCHIVE - DES-QLD, DOT -WA, MHL, BOM</description>
+  <type>PostGIS (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-3b0a723a:137e9896802:-7ffe</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="dbtype">postgis</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/local_harvest_read</entry>
+    <entry key="Support on the fly geometry simplification">true</entry>
+    <entry key="namespace">aodn</entry>
+    <entry key="schema">aodn_wave_dm</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="Estimated extends">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
