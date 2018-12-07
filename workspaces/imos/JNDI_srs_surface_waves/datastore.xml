@@ -14,7 +14,7 @@
     <entry key="fetch size">1000</entry>
     <entry key="encode functions">false</entry>
     <entry key="preparedStatements">false</entry>
-    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read_rc</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
     <entry key="Estimated extends">false</entry>
     <entry key="Support on the fly geometry simplification">false</entry>
     <entry key="namespace">imos.mod</entry>
