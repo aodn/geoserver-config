@@ -1,12 +1,12 @@
 <layer>
-  <name>aodn_dot_wa_wave_dm_timeseries_data</name>
-  <id>LayerInfoImpl--155fb4bc:16674c70ebb:-7f5a</id>
+  <name>aodn_wave_dm_timeseries_data</name>
+  <id>LayerInfoImpl-5f95dec5:1678052ab7f:-7f84</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-5aa01124:15233403c30:-7ffc</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--155fb4bc:16674c70ebb:-7f5b</id>
+    <id>FeatureTypeInfoImpl-5f95dec5:1678052ab7f:-7f85</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
