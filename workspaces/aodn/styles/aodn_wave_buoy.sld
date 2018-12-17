@@ -11,13 +11,13 @@
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
              <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*DES-QLD*</ogc:Literal>
+             <ogc:Literal>*DES*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>        
-        <Graphic>
-         <Mark>
-           <WellKnownName>circle</WellKnownName>
+          <Graphic>
+          <Mark>
+            <WellKnownName>circle</WellKnownName>
                 <Stroke>
                   <CssParameter name="stroke">#1E90FF</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
@@ -26,16 +26,16 @@
             </Mark>
             <Size>20</Size>
           </Graphic>
-          </PointSymbolizer>
-       <PointSymbolizer>     
-        <Graphic>
-          <ExternalGraphic>
-           <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
-           <Format>image/png</Format>
-          </ExternalGraphic>
-          <Size>20</Size>
-        </Graphic>
-       </PointSymbolizer>
+        </PointSymbolizer>
+        <PointSymbolizer>     
+          <Graphic>
+            <ExternalGraphic>
+             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+             <Format>image/png</Format>
+            </ExternalGraphic>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
         </Rule>
         <Rule>
           <Title> ABOM buoys</Title>
@@ -45,28 +45,28 @@
              <ogc:Literal>*BoM*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
-        <PointSymbolizer>        
-        <Graphic>
-         <Mark>
-           <WellKnownName>circle</WellKnownName>
+           <PointSymbolizer>        
+            <Graphic>
+             <Mark>
+              <WellKnownName>circle</WellKnownName>
                 <Stroke>
                   <CssParameter name="stroke">#32CD32</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                 </Stroke>
-            </Mark>
-            <Size>20</Size>
-          </Graphic>
-          </PointSymbolizer>
-       <PointSymbolizer>     
-        <Graphic>
-          <ExternalGraphic>
-           <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
-           <Format>image/png</Format>
-          </ExternalGraphic>
-          <Size>20</Size>
-        </Graphic>
-       </PointSymbolizer>
+             </Mark>
+             <Size>20</Size>
+            </Graphic>
+           </PointSymbolizer>
+           <PointSymbolizer>     
+            <Graphic>
+             <ExternalGraphic>
+              <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+              <Format>image/png</Format>
+             </ExternalGraphic>
+             <Size>20</Size>
+            </Graphic>
+           </PointSymbolizer>
         </Rule>
         <Rule>
           <Title> DOT-WA buoys</Title>
