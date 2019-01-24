@@ -2,6 +2,8 @@
   <id>WMSInfoImpl--3a52b6b4:1428ce0125d:-7ffa</id>
   <enabled>true</enabled>
   <name>WMS</name>
+  <title>AODN Web Mapping Services (WMS)</title>
+  <abstrct>The Australian Ocean Data Network (AODN) is an interoperable online network of marine and climate data resources. The AODN Geoserver catalogues Integrated Marine Observing System (IMOS) geospatial data, and also hosts a number of data layers from other marine organisations.</abstrct>
   <versions>
     <org.geotools.util.Version>
       <version>1.1.1</version>
@@ -13,12 +15,33 @@
   <citeCompliant>false</citeCompliant>
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
-  <watermark class="org.geoserver.wms.WatermarkInfoImpl">
+  <metadata>
+    <entry key="kmlSuperoverlayMode">auto</entry>
+    <entry key="kmlReflectorMode">refresh</entry>
+    <entry key="loopContinuously">false</entry>
+    <entry key="kmlPlacemark">false</entry>
+    <entry key="svgAntiAlias">false</entry>
+    <entry key="kmlKmscore">40</entry>
+    <entry key="mapWrapping">true</entry>
+    <entry key="pngCompression">25</entry>
+    <entry key="jpegCompression">25</entry>
+    <entry key="advancedProjectionHandling">true</entry>
+    <entry key="maxAllowedFrames">2147483647</entry>
+    <entry key="kmlAttr">true</entry>
+    <entry key="disposalMethod">none</entry>
+    <entry key="scalehintMapunitsPixel">false</entry>
+    <entry key="framesDelay">1000</entry>
+  </metadata>
+  <watermark>
     <enabled>false</enabled>
     <position>BOT_RIGHT</position>
     <transparency>100</transparency>
   </watermark>
   <interpolation>Nearest</interpolation>
+  <getFeatureInfoMimeTypeCheckingEnabled>false</getFeatureInfoMimeTypeCheckingEnabled>
+  <getMapMimeTypeCheckingEnabled>false</getMapMimeTypeCheckingEnabled>
+  <dynamicStylingDisabled>false</dynamicStylingDisabled>
+  <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
   <maxRequestMemory>0</maxRequestMemory>
   <maxRenderingTime>0</maxRenderingTime>

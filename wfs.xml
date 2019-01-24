@@ -2,6 +2,8 @@
   <id>WFSInfoImpl--3a52b6b4:1428ce0125d:-7ffb</id>
   <enabled>true</enabled>
   <name>WFS</name>
+  <title>AODN Web Feature Service (WFS)</title>
+  <abstrct>The Australian Ocean Data Network (AODN) is an interoperable online network of marine and climate data resources. The AODN Geoserver catalogues Integrated Marine Observing System (IMOS) geospatial data, and also hosts a number of data layers from other marine organisations.</abstrct>
   <versions>
     <org.geotools.util.Version>
       <version>1.0.0</version>
@@ -16,6 +18,9 @@
   <citeCompliant>false</citeCompliant>
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
+  <metadata>
+    <entry key="SHAPE-ZIP_DEFAULT_PRJ_IS_ESRI">false</entry>
+  </metadata>
   <gml>
     <entry>
       <version>V_11</version>
