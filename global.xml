@@ -3,6 +3,11 @@
     <id>SettingsInfoImpl-73e5db00:1428d1a6a2e:-8000</id>
     <contact>
       <id>contact</id>
+      <addressCountry>Australia</addressCountry>
+      <addressState>Tasmania</addressState>
+      <contactEmail>info@aodn.org.au</contactEmail>
+      <contactOrganization>Australian Ocean Data Network (AODN)</contactOrganization>
+      <contactPerson>Data Officer</contactPerson>
     </contact>
     <charset>UTF-8</charset>
     <numDecimals>4</numDecimals>
@@ -21,6 +26,7 @@
     <pngAcceleration>false</pngAcceleration>
     <jpegAcceleration>false</jpegAcceleration>
     <allowNativeMosaic>false</allowNativeMosaic>
+    <allowNativeWarp>false</allowNativeWarp>
   </jai>
   <coverageAccess>
     <maxPoolSize>5</maxPoolSize>
@@ -29,7 +35,7 @@
     <queueType>UNBOUNDED</queueType>
     <imageIOCacheThreshold>10240</imageIOCacheThreshold>
   </coverageAccess>
-  <updateSequence>80</updateSequence>
+  <updateSequence>83</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>
