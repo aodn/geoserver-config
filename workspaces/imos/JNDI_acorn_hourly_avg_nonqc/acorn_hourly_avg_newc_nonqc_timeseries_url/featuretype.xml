@@ -11,6 +11,12 @@
     <string>features</string>
   </keywords>
   <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
@@ -23,11 +29,16 @@
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>acorn_hourly_avg_newc_nonqc_timeseries_url</name>
-        <sql>select *, ST_makepoint(1, 2) &#xd;
+        <sql>select * &#xd;
 from acorn_hourly_avg_nonqc.acorn_hourly_avg_nonqc_timeseries_url&#xd;
 where site_code = &apos;NEWC, Newcastle&apos;
 </sql>
         <escapeSql>false</escapeSql>
+        <geometry>
+          <name>st_makepoint</name>
+          <type>Geometry</type>
+          <srid>-1</srid>
+        </geometry>
       </virtualTable>
     </entry>
   </metadata>
@@ -36,6 +47,8 @@ where site_code = &apos;NEWC, Newcastle&apos;
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
   <overridingServiceSRS>false</overridingServiceSRS>
   <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
