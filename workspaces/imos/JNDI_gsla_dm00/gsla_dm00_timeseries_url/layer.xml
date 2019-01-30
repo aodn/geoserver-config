@@ -1,12 +1,9 @@
 <layer>
   <name>gsla_dm00_timeseries_url</name>
-  <id>LayerInfoImpl--6f0e2286:14423a26e91:-7ff1</id>
+  <id>LayerInfoImpl--71a5d917:1689be45c9c:-7ffa</id>
   <type>VECTOR</type>
-  <defaultStyle>
-    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
-  </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--6f0e2286:14423a26e91:-7ff2</id>
+    <id>FeatureTypeInfoImpl--71a5d917:1689be45c9c:-7ffb</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

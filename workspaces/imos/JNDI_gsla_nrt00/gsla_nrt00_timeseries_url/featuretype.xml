@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--e0e2b2a:1442e7b652c:-7ff2</id>
+  <id>FeatureTypeInfoImpl--71a5d917:1689be45c9c:-7ff9</id>
   <name>gsla_nrt00_timeseries_url</name>
   <nativeName>gsla_nrt00_timeseries_url</nativeName>
   <namespace>
@@ -7,19 +7,16 @@
   </namespace>
   <title>gsla_nrt00_timeseries_url</title>
   <keywords>
-    <string>gsla_nrt00_timeseries_url</string>
     <string>features</string>
+    <string>gsla_nrt00_timeseries_url</string>
   </keywords>
-  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
-  DATUM[&quot;World Geodetic System 1984&quot;, 
-    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
@@ -28,9 +25,30 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>gsla_nrt00_timeseries_url</name>
+        <sql>SELECT timeseries_id, file_url, size, &quot;time&quot;&#xd;
+  FROM gsla_nrt00.gsla_nrt00_timeseries_url
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom</name>
+          <type>Geometry</type>
+          <srid>-1</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--e0e2b2a:1442e7b652c:-7ff3</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
 </featureType>
