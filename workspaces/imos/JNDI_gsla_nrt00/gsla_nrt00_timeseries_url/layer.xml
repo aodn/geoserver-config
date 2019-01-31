@@ -2,8 +2,8 @@
   <name>gsla_nrt00_timeseries_url</name>
   <id>LayerInfoImpl--71a5d917:1689be45c9c:-7ff8</id>
   <type>VECTOR</type>
-  <defaultStyle>
-    <id>StyleInfoImpl-76434bf0:1522e6c5302:-7ffb</id>
+  <defaultStyle>	
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>	
   </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--71a5d917:1689be45c9c:-7ff9</id>
