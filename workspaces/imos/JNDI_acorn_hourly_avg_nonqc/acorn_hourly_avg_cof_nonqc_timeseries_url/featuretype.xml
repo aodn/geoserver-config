@@ -11,18 +11,18 @@
     <string>acorn_hourly_avg_cof_nonqc_timeseries_url</string>
   </keywords>
   <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
-  DATUM[&quot;WGS84&quot;, 
-    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
@@ -30,9 +30,10 @@
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>acorn_hourly_avg_cof_nonqc_timeseries_url</name>
-        <sql>select *, ST_makepoint(1, 2) &#xd;
+        <sql>select * &#xd;
 from acorn_hourly_avg_nonqc.acorn_hourly_avg_nonqc_timeseries_url&#xd;
-where site_code = &apos;COF, Coffs Harbour&apos;</sql>
+where site_code = &apos;COF, Coffs Harbour&apos;
+</sql>
         <escapeSql>false</escapeSql>
         <geometry>
           <name>st_makepoint</name>
@@ -47,4 +48,9 @@ where site_code = &apos;COF, Coffs Harbour&apos;</sql>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
 </featureType>
