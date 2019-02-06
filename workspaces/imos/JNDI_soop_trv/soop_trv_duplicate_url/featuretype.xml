@@ -1,13 +1,13 @@
 <featureType>
   <id>FeatureTypeInfoImpl-555b1cb1:1435084f571:-67f9</id>
   <name>soop_trv_duplicate_url</name>
-  <nativeName>soop_trv_duplicate_ls</nativeName>
+  <nativeName>soop_trv_duplicate_url</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
   <title>soop_trv_duplicate_url</title>
   <keywords>
-    <string>soop_trv_duplicate_ls</string>
+    <string>soop_trv_duplicate_url</string>
     <string>features</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
