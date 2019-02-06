@@ -1,0 +1,12 @@
+<layer>
+  <name>srs_ghrsst_l3c_1d_S_snpp_day_url</name>
+  <id>LayerInfoImpl--6a6b919a:168c035e677:-7fdb</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6a6b919a:168c035e677:-7fdc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
