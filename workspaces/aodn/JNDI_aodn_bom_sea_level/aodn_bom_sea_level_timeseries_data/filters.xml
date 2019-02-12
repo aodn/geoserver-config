@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>site_name</name>
+        <type>string</type>
+        <label>Site name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>station_id</name>
+        <type>string</type>
+        <label>Station ID</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>TIME</name>
+        <type>datetime</type>
+        <label>TIME</label>
+        <visualised>true</visualised>
+	<excludedFromDownload>false</excludedFromDownload>
+        <wmsStartDateName>time_coverage_start</wmsStartDateName>
+        <wmsEndDateName>time_coverage_end</wmsEndDateName>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Bounding Box</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
