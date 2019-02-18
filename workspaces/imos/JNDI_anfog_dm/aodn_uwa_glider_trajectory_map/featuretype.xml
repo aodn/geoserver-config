@@ -1,20 +1,20 @@
 <featureType>
   <id>FeatureTypeInfoImpl--7b32bd1f:1600f526a9e:-7ff1</id>
-  <name>aodn_nrl_glider_trajectory_map</name>
-  <nativeName>aodn_nrl_glider_trajectory_map</nativeName>
+  <name>aodn_uwa_glider_trajectory_map</name>
+  <nativeName>aodn_uwa_glider_trajectory_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>aodn_nrl_glider_trajectory_map</title>
+  <title>aodn_uwa_glider_trajectory_map</title>
   <keywords>
-    <string>aodn_nrl_glider_trajectory_map</string>
+    <string>aodn_uwa_glider_trajectory_map</string>
     <string>features</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://10.11.12.13/geonetwork/srv/eng/xml_iso19139.mcp?uuid=c317b0fe-02e8-4ff9-96c9-563fd58e82acstyleSheet=xml_iso19139.mcp.xsl</content>
+      <content>http://catalogue-rc.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=37662a66-ec3a-4ece-9db0-31930c181725styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -28,28 +28,27 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>115.112575</minx>
-    <maxx>115.277411666667</maxx>
-    <miny>-20.2824216666667</miny>
-    <maxy>-19.980695</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>115.112575</minx>
-    <maxx>115.277411666667</maxx>
-    <miny>-20.2824216666667</miny>
-    <maxy>-19.980695</maxy>
-    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
-  DATUM[&quot;WGS84&quot;, 
-    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="time">
       <dimensionInfo>
         <enabled>false</enabled>
@@ -57,17 +56,14 @@
       </dimensionInfo>
     </entry>
     <entry key="cachingEnabled">false</entry>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-6529389c:143981bb2a4:-7ff2</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
   <overridingServiceSRS>false</overridingServiceSRS>
   <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
