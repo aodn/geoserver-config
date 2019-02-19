@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_uwa_glider_trajectory_map</name>
+  <id>LayerInfoImpl--7b32bd1f:1600f526a9e:-7ff0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-224d7656:1453a5a8184:-7fef</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--7b32bd1f:1600f526a9e:-7ff1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
