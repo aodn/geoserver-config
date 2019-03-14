@@ -1,0 +1,15 @@
+<layer>
+  <name>cpr_zoop_genus_map</name>
+  <id>LayerInfoImpl-1fc9f205:16979d75c23:37fc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1186b25e:1674d1d3893:-7fe7</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1fc9f205:16979d75c23:37fb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
