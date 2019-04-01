@@ -1,0 +1,15 @@
+<layer>
+  <name>nrs_zoop_htg_map</name>
+  <id>LayerInfoImpl-1cc0f50b:169d6e7563f:-6b96</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1186b25e:1674d1d3893:-7fe7</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1cc0f50b:169d6e7563f:-6b97</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
