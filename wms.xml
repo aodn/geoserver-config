@@ -4,6 +4,7 @@
   <name>WMS</name>
   <title>AODN Web Mapping Services (WMS)</title>
   <abstrct>The Australian Ocean Data Network (AODN) is an interoperable online network of marine and climate data resources. The AODN Geoserver catalogues Integrated Marine Observing System (IMOS) geospatial data, and also hosts a number of data layers from other marine organisations.</abstrct>
+  <accessConstraints>Open</accessConstraints>
   <versions>
     <org.geotools.util.Version>
       <version>1.1.1</version>
