@@ -8,13 +8,6 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>platform_code</name>
-    <type>string</type>
-    <label>Platform Code</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
     <name>TIME</name>
     <type>datetime</type>
     <label>Time</label>
@@ -27,6 +20,34 @@
     <name>vessel_name</name>
     <type>string</type>
     <label>Vessel Name</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>freq_18khz_b</name>
+    <type>boolean</type>
+    <label>18khz</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>freq_38khz_b</name>
+    <type>boolean</type>
+    <label>38khz</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>freq_70khz_b</name>
+    <type>boolean</type>
+    <label>70khz</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>freq_120khz_b</name>
+    <type>boolean</type>
+    <label>120khz</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
