@@ -26,28 +26,28 @@
   <filter>
     <name>freq_18khz_b</name>
     <type>boolean</type>
-    <label>18khz</label>
+    <label>18 kHz</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>freq_38khz_b</name>
     <type>boolean</type>
-    <label>38khz</label>
+    <label>38 kHz</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>freq_70khz_b</name>
     <type>boolean</type>
-    <label>70khz</label>
+    <label>70 kHz</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>freq_120khz_b</name>
     <type>boolean</type>
-    <label>120khz</label>
+    <label>120 kHz</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
