@@ -16,4 +16,18 @@
     <wmsStartDateName>time_coverage_start</wmsStartDateName>
     <wmsEndDateName>time_coverage_end</wmsEndDateName>
   </filter>
+  <filter>
+    <name>vessel_status</name>
+    <type>string</type>
+    <label>Vessel Status</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>product_type</name>
+    <type>string</type>
+    <label>Measurement Frequency</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
 </filters>
