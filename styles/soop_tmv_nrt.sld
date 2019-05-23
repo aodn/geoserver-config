@@ -74,9 +74,9 @@
 <CssParameter name="fill-opacity">0.2</CssParameter>
 </Fill>
 <Stroke>
-<CssParameter name="stroke">#110CA8</CssParameter>
+<CssParameter name="stroke">#E50000</CssParameter>
 <CssParameter name="stroke-opacity">1</CssParameter>
-<CssParameter name="stroke-width">2</CssParameter>
+<CssParameter name="stroke-width">3</CssParameter>
 </Stroke>
 </Mark>
 <Size>4</Size>
