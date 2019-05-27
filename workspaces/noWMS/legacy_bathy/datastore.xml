@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl--771c575a:1624bcb83e0:-7ffc</id>
+  <name>legacy_bathy</name>
+  <type>PostGIS (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-459f1a44:1624bc3a9cf:-7ffc</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="dbtype">postgis</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
+    <entry key="Support on the fly geometry simplification">true</entry>
+    <entry key="namespace">http://emii.org.au/nowms</entry>
+    <entry key="schema">legacy_bathy</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="Estimated extends">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

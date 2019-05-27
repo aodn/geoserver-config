@@ -1,0 +1,16 @@
+<layer>
+  <name>world_depth_view</name>
+  <id>LayerInfoImpl--771c575a:1624bcb83e0:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--61363ae4:1624bb8f2b9:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--771c575a:1624bcb83e0:-7ffb</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
