@@ -16,4 +16,11 @@
     <wmsStartDateName>time_coverage_start</wmsStartDateName>
     <wmsEndDateName>time_coverage_end</wmsEndDateName>
   </filter>
+  <filter>
+    <name>vessel_status</name>
+    <type>string</type>
+    <label>Transect/Mooring</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+</filter>
 </filters>
