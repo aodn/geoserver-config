@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl--771c575a:1624bcb83e0:-7ffb</id>
-  <name>world_depth_view</name>
-  <nativeName>world_depth_view</nativeName>
+  <name>world_depth_data</name>
+  <nativeName>world_depth_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-459f1a44:1624bc3a9cf:-7ffb</id>
   </namespace>
-  <title>world_depth_view</title>
+  <title>world_depth_data</title>
   <keywords>
     <string>features</string>
-    <string>world_depth_view</string>
+    <string>world_depth_data</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -31,7 +31,7 @@
   <metadata>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>world_depth_view</name>
+        <name>world_depth_data</name>
         <sql>SELECT world_depth.id,&#xd;
     world_depth.longitude,&#xd;
     world_depth.latitude,&#xd;
