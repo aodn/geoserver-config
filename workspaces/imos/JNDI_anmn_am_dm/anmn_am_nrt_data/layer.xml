@@ -1,0 +1,15 @@
+<layer>
+  <name>anmn_am_nrt_data</name>
+  <id>LayerInfoImpl--5b9a4d2c:16d1eb918c8:-7fb9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--a1ff436:1357f8d1119:1547</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5b9a4d2c:16d1eb918c8:-7fba</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
