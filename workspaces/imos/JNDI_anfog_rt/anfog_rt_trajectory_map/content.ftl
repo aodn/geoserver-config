@@ -10,14 +10,11 @@
         <#assign platform="seaglider">
         <b>Seaglider :</b> ${feature.platform_code.value}</br>
     </#if>
-    <#if feature.status_filter.value == "in_progress" >
-        <b>This deployment is in progress.</b></br>
-    <#else>
-        <b>This deployment is completed.</b></br>
-        <#if feature.platform_type.value == "slocum glider" >
-            <b>Time range :</b> ${feature.time_coverage_start.value} - ${feature.time_coverage_end.value}</br>
-        </#if>
-    </#if>
+    <BR>
+    <b>Deployment status: This deployment is ${feature.status_filter.value?replace("_"," ")}</b></br>
+
+       <b>Time range :</b> ${feature.time_coverage_start.value} - ${feature.time_coverage_end.value}</br>
+    <BR>
     <b>View charts of this deployment: <a  rel="external" href="${my.baseurlDataServerS3Listing}IMOS/ANFOG/REALTIME/${platform}/${feature.deployment_name.value}/" target="_blank" class="h3" > Charts</a>
 
     </div>
