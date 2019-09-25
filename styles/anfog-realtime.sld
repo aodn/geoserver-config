@@ -17,44 +17,111 @@
 
     <LineSymbolizer>
         <Stroke>
-        <CssParameter name="stroke">#C44176</CssParameter>
+        <CssParameter name="stroke">#40FF00</CssParameter>
         <CssParameter name="stroke-opacity">0.2</CssParameter>
         <CssParameter name="stroke-width">5</CssParameter>
         </Stroke>
     </LineSymbolizer>
     <LineSymbolizer>
       <Stroke>
-        <CssParameter name="stroke">#C44176</CssParameter>
+        <CssParameter name="stroke">#40FF00</CssParameter>
         <CssParameter name="stroke-opacity">1</CssParameter>
         <CssParameter name="stroke-width">2</CssParameter>
       </Stroke>
     </LineSymbolizer>
 </Rule> 
 <Rule>
-  <Title>Anfog Glider tracks - completed</Title> 
+  <Title>Anfog Glider tracks - recovered</Title> 
    <ogc:Filter>  
     <ogc:PropertyIsEqualTo>
    <ogc:PropertyName>status_filter</ogc:PropertyName>
-   <ogc:Literal>completed</ogc:Literal> 
+   <ogc:Literal>recovered</ogc:Literal> 
    </ogc:PropertyIsEqualTo> 
   </ogc:Filter> 
     <LineSymbolizer>
         <Stroke>
-        <CssParameter name="stroke">#0000F</CssParameter>
+        <CssParameter name="stroke">#0101DF</CssParameter>
         <CssParameter name="stroke-opacity">0.2</CssParameter>
         <CssParameter name="stroke-width">5</CssParameter>
         </Stroke>
     </LineSymbolizer>
     <LineSymbolizer>
       <Stroke>
-        <CssParameter name="stroke">#0000F</CssParameter>
+        <CssParameter name="stroke">#0101DF</CssParameter>
         <CssParameter name="stroke-opacity">1</CssParameter>
         <CssParameter name="stroke-width">2</CssParameter>
       </Stroke>
     </LineSymbolizer>
 </Rule> 
-
-
+<Rule>
+  <Title>Anfog Glider tracks - aborted</Title> 
+   <ogc:Filter>  
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>status_filter</ogc:PropertyName>
+   <ogc:Literal>aborted</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+  </ogc:Filter> 
+    <LineSymbolizer>
+        <Stroke>
+        <CssParameter name="stroke">#FFFF00</CssParameter>
+        <CssParameter name="stroke-opacity">0.2</CssParameter>
+        <CssParameter name="stroke-width">5</CssParameter>
+        </Stroke>
+    </LineSymbolizer>
+    <LineSymbolizer>
+      <Stroke>
+        <CssParameter name="stroke">#FFFF00</CssParameter>
+        <CssParameter name="stroke-opacity">1</CssParameter>
+        <CssParameter name="stroke-width">2</CssParameter>
+      </Stroke>
+    </LineSymbolizer>
+</Rule>
+<Rule>
+  <Title>Anfog Glider tracks - potentially lost</Title> 
+   <ogc:Filter>  
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>status_filter</ogc:PropertyName>
+   <ogc:Literal>potentially_lost</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+  </ogc:Filter> 
+    <LineSymbolizer>
+        <Stroke>
+        <CssParameter name="stroke">#FE9A2E</CssParameter>
+        <CssParameter name="stroke-opacity">0.2</CssParameter>
+        <CssParameter name="stroke-width">5</CssParameter>
+        </Stroke>
+    </LineSymbolizer>
+    <LineSymbolizer>
+      <Stroke>
+        <CssParameter name="stroke">#FE9A2E</CssParameter>
+        <CssParameter name="stroke-opacity">1</CssParameter>
+        <CssParameter name="stroke-width">2</CssParameter>
+      </Stroke>
+    </LineSymbolizer>
+</Rule>
+<Rule>
+  <Title>Anfog Glider tracks - lost</Title> 
+   <ogc:Filter>  
+    <ogc:PropertyIsEqualTo>
+   <ogc:PropertyName>status_filter</ogc:PropertyName>
+   <ogc:Literal>lost</ogc:Literal> 
+   </ogc:PropertyIsEqualTo> 
+  </ogc:Filter> 
+    <LineSymbolizer>
+        <Stroke>
+        <CssParameter name="stroke">#DF0101</CssParameter>
+        <CssParameter name="stroke-opacity">0.2</CssParameter>
+        <CssParameter name="stroke-width">5</CssParameter>
+        </Stroke>
+    </LineSymbolizer>
+    <LineSymbolizer>
+      <Stroke>
+        <CssParameter name="stroke">#DF0101</CssParameter>
+        <CssParameter name="stroke-opacity">1</CssParameter>
+        <CssParameter name="stroke-width">2</CssParameter>
+      </Stroke>
+    </LineSymbolizer>
+</Rule>
 <Rule>                                                     
 
       <Name>track direction arrows</Name>
