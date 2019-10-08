@@ -43,7 +43,7 @@
             </ac:attribute>
         </ac:attributes>
     </ac:template>
-    <ac:template match="srs_ghrsst.l3*,srs_sst.*" name="srs_ghrsst_l3">
+    <ac:template match="srs_ghrsst.l3.*,srs_sst.*" name="srs_ghrsst_l3">
         <ac:attributes>
             <ac:attribute>
                 <ac:name>start_time</ac:name><ac:type>String</ac:type><ac:value>${TIME_START}</ac:value>
@@ -112,7 +112,7 @@
             </ac:variable>
         </ac:variables>
     </ac:template>
-    <ac:template match="srs_ghrsst.l4_*" name="srs_ghrsst_l4">
+    <ac:template match="srs_ghrsst.l4_.*" name="srs_ghrsst_l4">
         <ac:attributes>
             <ac:attribute>
                 <ac:name>start_time</ac:name><ac:type>String</ac:type><ac:value>${TIME_START}</ac:value>
