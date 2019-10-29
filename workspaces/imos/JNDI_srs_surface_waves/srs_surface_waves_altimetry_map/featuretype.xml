@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--5703edff:16785ee0c5e:-7ffc</id>
   <name>srs_surface_waves_altimetry_map</name>
-  <nativeName>srs_surface_waves_map</nativeName>
+  <nativeName>srs_surface_waves_altimetry_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
@@ -9,7 +9,7 @@
   <abstract>Time-series observations of waves and wind from radar altimeters data processed by the Sensor Remote Sensing Surface Waves sub-facility of IMOS.</abstract>
   <keywords>
     <string>features</string>
-    <string>srs_surface_waves_map</string>
+    <string>srs_surface_waves_altimetry_map</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
