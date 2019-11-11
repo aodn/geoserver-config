@@ -19,7 +19,7 @@
   <filter>
     <name>wavnum_type</name>
     <type>string</type>
-    <label>WAVNUM coordinate</label>
+    <label>WAVNUM coordinate vector</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
  </filter>
