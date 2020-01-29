@@ -1,0 +1,15 @@
+<layer>
+  <name>moorings_gridded_timeseries_map</name>
+  <id>LayerInfoImpl-fea72f1:16fea68191d:-7ffe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-758ca76b:15f4bc800f6:-7b1f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-fea72f1:16fea68191d:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
