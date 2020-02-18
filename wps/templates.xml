@@ -153,13 +153,13 @@
                 <ac:name>lon</ac:name>
             </ac:variable>
             <ac:variable>
-                <ac:name>analysed_sst</ac:name><ac:type>Short</ac:type>
+                <ac:name>analysed_sst</ac:name><ac:type>Float</ac:type>
             </ac:variable>
             <ac:variable>
-                <ac:name>analysis_error</ac:name><ac:type>Short</ac:type>
+                <ac:name>analysis_error</ac:name><ac:type>Float</ac:type>
             </ac:variable>
             <ac:variable>
-              <ac:name>mask</ac:name><ac:type>Byte</ac:type>
+                <ac:name>mask</ac:name>
             </ac:variable>
         </ac:variables>
     </ac:template>
