@@ -43,6 +43,10 @@
     <id>DataStoreInfoImpl-566d3c3a:146130660ad:2bd5</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WMS</string>
+  </disabledServices>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
