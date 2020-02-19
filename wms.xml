@@ -45,6 +45,6 @@
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
   <maxRequestMemory>0</maxRequestMemory>
-  <maxRenderingTime>0</maxRenderingTime>
+  <maxRenderingTime>10</maxRenderingTime>
   <maxRenderingErrors>0</maxRenderingErrors>
 </wms>
