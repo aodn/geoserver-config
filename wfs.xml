@@ -45,7 +45,7 @@
       </gml>
     </entry>
   </gml>
-  <serviceLevel>COMPLETE</serviceLevel>
+  <serviceLevel>BASIC</serviceLevel>
   <maxFeatures>2000000000</maxFeatures>
   <featureBounding>false</featureBounding>
   <canonicalSchemaLocation>false</canonicalSchemaLocation>
