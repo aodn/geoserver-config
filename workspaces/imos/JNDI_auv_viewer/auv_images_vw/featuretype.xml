@@ -48,10 +48,6 @@
   <store class="dataStore">
     <id>DataStoreInfoImpl-219289c1:1497999d21a:-6cf6</id>
   </store>
-  <serviceConfiguration>true</serviceConfiguration>
-  <disabledServices>
-    <string>WMS</string>
-  </disabledServices>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <overridingServiceSRS>false</overridingServiceSRS>
