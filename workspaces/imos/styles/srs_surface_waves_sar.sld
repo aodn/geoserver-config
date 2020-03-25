@@ -1,8 +1,8 @@
 <StyledLayerDescriptor xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.opengis.net/sld" version="1.0.0">
 <NamedLayer>
-<Name>SOOP TRV trajectories</Name>
+<Name>SRS Surface Waves SAR</Name>
 <UserStyle>
-<Name>SOOP TRV trajectories</Name>
+<Name>SRS Surface Waves SAR</Name>
 <FeatureTypeStyle>
 <Rule>
 <Title>Satellite Tracks measurements</Title>
