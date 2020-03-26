@@ -5,7 +5,7 @@ set -e
 tmp_output=$(mktemp)
 trap "rm -f $tmp_output" EXIT
 
-find . -type f -name '*.xml' -exec xmlwf {} \; > $tmp_output
+find . -path ./.git -prune -o -name '*.xml' -exec xmlwf {} \; > $tmp_output
 
 declare -i retval=$(cat $tmp_output | wc -l)
 if [ $retval -ne 0 ]; then
