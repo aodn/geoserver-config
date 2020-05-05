@@ -42,7 +42,6 @@
   <store class="dataStore">
     <id>DataStoreInfoImpl-566d3c3a:146130660ad:2bd5</id>
   </store>
-  <serviceConfiguration>false</serviceConfiguration>
   <serviceConfiguration>true</serviceConfiguration>
   <disabledServices>
     <string>WMS</string>
