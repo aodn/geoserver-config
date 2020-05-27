@@ -29,49 +29,6 @@
       </Graphic>
       </PointSymbolizer>
 </Rule>
-  <Rule>
-  <Title>Satellite Tracks (Directional Arrows)</Title>
-<MaxScaleDenominator>5000000</MaxScaleDenominator>
-        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#F7A53A</CssParameter>
-            <CssParameter name="stroke-opacity">1</CssParameter>
-            <CssParameter name="stroke-width">2</CssParameter>
-          </Stroke>
-        </LineSymbolizer>
-<LineSymbolizer>
-<Stroke>
-<CssParameter name="stroke">#FFFFFF</CssParameter>
-<CssParameter name="stroke-width">1</CssParameter>
-<CssParameter name="stroke-linejoin">bevel</CssParameter>
-<CssParameter name="stroke-dasharray">0 12 10 152</CssParameter>
-</Stroke>
-</LineSymbolizer>
-<LineSymbolizer>
-<Stroke>
-<CssParameter name="stroke">#FFFFFF</CssParameter>
-<CssParameter name="stroke-width">2</CssParameter>
-<CssParameter name="stroke-linejoin">bevel</CssParameter>
-<CssParameter name="stroke-dasharray">0 12 9 153</CssParameter>
-</Stroke>
-</LineSymbolizer>
-<LineSymbolizer>
-<Stroke>
-<CssParameter name="stroke">#FFFFFF</CssParameter>
-<CssParameter name="stroke-width">3</CssParameter>
-<CssParameter name="stroke-linejoin">bevel</CssParameter>
-<CssParameter name="stroke-dasharray">0 18 2 154</CssParameter>
-</Stroke>
-</LineSymbolizer>
-<LineSymbolizer>
-<Stroke>
-<CssParameter name="stroke">#FFFFFF</CssParameter>
-<CssParameter name="stroke-width">4</CssParameter>
-<CssParameter name="stroke-linejoin">bevel</CssParameter>
-<CssParameter name="stroke-dasharray">0 18 1 155</CssParameter>
-</Stroke>
-</LineSymbolizer>
-</Rule>
 <Rule>
   <Title>Measurement location</Title>
 <MaxScaleDenominator>2500000</MaxScaleDenominator>
@@ -98,36 +55,7 @@
 </Graphic>
 </PointSymbolizer>
 </Rule>
-<Rule>
-<Title>Platform Code</Title>
-  
-<MaxScaleDenominator>4500000</MaxScaleDenominator>
-  
-<TextSymbolizer>
-  <Label>
-<ogc:PropertyName>platform_code</ogc:PropertyName>
-</Label>
-<Font>
-<CssParameter name="font-family">Verdana</CssParameter>
-<CssParameter name="font-style">Normal</CssParameter>
-<CssParameter name="font-size">9</CssParameter>
-</Font>
-<sld:LabelPlacement>
-<sld:PointPlacement>
-<sld:Displacement>
-<sld:DisplacementX>-10.0</sld:DisplacementX>
-<sld:DisplacementY>10.0</sld:DisplacementY>
-</sld:Displacement>
-</sld:PointPlacement>
-</sld:LabelPlacement>
-<Fill>
-<CssParameter name="fill">#111100</CssParameter>
-<CssParameter name="fill-opacity">1</CssParameter>
-</Fill>
-<VendorOption name="followLine">true</VendorOption>
 
-</TextSymbolizer>
-</Rule>
 </FeatureTypeStyle>
 </UserStyle>
 </NamedLayer>
