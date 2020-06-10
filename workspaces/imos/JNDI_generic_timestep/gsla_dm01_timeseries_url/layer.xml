@@ -1,0 +1,12 @@
+<layer>
+  <name>gsla_dm01_timeseries_url</name>
+  <id>LayerInfoImpl-1ef2c939:172971899be:-7ffe</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1ef2c939:172971899be:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
