@@ -31,14 +31,14 @@
     <filter>
         <name>deployment_date</name>
         <type>datetime</type>
-        <label>Deployment date</label>
+        <label>Last deployment date</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>recovery_date</name>
         <type>datetime</type>
-        <label>Recovery date</label>
+        <label>Last recovery date</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
