@@ -1,0 +1,15 @@
+<layer>
+  <name>aatams_sattag_qc_dm_location_data</name>
+  <id>LayerInfoImpl--50450070:172df4afacb:-7fb2</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-78ecace6:172df45d804:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--50450070:172df4afacb:-7fb3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
