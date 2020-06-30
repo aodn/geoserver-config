@@ -1,0 +1,51 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-184bde:17302f8a69b:-7fff</id>
+  <name>acorn_hourly_avg_corl_qc_timeseries_url</name>
+  <nativeName>acorn_hourly_avg_corl_qc_timeseries_url</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>acorn_hourly_avg_corl_qc_timeseries_url</title>
+  <keywords>
+    <string>features</string>
+    <string>acorn_hourly_avg_corl_qc_timeseries_url</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>acorn_hourly_avg_corl_qc_timeseries_url</name>
+        <sql>select * &#xd;
+from acorn_hourly_avg_qc.acorn_hourly_avg_qc_timeseries_url&#xd;
+where site_code = &apos;CORL, Coral Coast&apos;
+</sql>
+        <escapeSql>false</escapeSql>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-18eae362:143936638b2:-7ff3</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
