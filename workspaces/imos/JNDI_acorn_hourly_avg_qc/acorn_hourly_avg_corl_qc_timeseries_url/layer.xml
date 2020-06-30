@@ -1,0 +1,12 @@
+<layer>
+  <name>acorn_hourly_avg_corl_qc_timeseries_url</name>
+  <id>LayerInfoImpl-184bde:17302f8a69b:-7ffe</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-184bde:17302f8a69b:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
