@@ -48,7 +48,7 @@ hidden for use in AUV page  TODO: make it visible and hide with jquery !!!!!!!!!
   </#if>
 
   <#if feature.metadata_uuid.value?trim != "">
-    <a href="https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/metadata.show?id=21882&currTab=advanced"  target="_blank"  rel="external" class="h3" title="https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/metadata.show?id=21882&currTab=advanced">
+    <a href="https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/af5d0ff9-bb9c-4b7c-a63c-854a630b6984"  target="_blank"  rel="external" class="h3" title="https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/metadata.show?id=21882&currTab=advanced">
 Link to the IMOS - Autonomous Underwater Vehicle (AUV) Facility metadata record</a><BR>
   </#if>
 
