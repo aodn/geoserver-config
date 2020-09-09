@@ -1,0 +1,12 @@
+<layer>
+  <name>srs_oc_aqua_l2_flags_url</name>
+  <id>LayerInfoImpl-4734fe9e:17470dad9eb:-7ff2</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4734fe9e:17470dad9eb:-7ff3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
