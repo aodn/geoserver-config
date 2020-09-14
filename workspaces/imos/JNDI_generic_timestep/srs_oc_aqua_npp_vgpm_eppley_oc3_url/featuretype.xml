@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl-4734fe9e:17470dad9eb:-7feb</id>
-  <name>srs_oc_aqua_npp_vgpm_eppley_oc3</name>
-  <nativeName>srs_oc_aqua_npp_vgpm_eppley_oc3</nativeName>
+  <name>srs_oc_aqua_npp_vgpm_eppley_oc3_url</name>
+  <nativeName>srs_oc_aqua_npp_vgpm_eppley_oc3_url</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>srs_oc_aqua_npp_vgpm_eppley_oc3</title>
+  <title>srs_oc_aqua_npp_vgpm_eppley_oc3_url</title>
   <keywords>
     <string>features</string>
-    <string>srs_oc_aqua_npp_vgpm_eppley_oc3</string>
+    <string>srs_oc_aqua_npp_vgpm_eppley_oc3_url</string>
   </keywords>
   <srs>EPSG:4326</srs>
   <latLonBoundingBox>
@@ -22,7 +22,7 @@
   <metadata>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>srs_oc_aqua_npp_vgpm_eppley_oc3</name>
+        <name>srs_oc_aqua_npp_vgpm_eppley_oc3_url</name>
         <sql>select timestep_id, collection_name, file_url, size, &quot;TIME&quot; as time from generic_timestep.timestep_url where collection_name = &apos;srs_oc_aqua_npp_vgpm_eppley_oc3&apos;
 </sql>
         <escapeSql>false</escapeSql>
