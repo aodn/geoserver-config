@@ -1,0 +1,20 @@
+<layer>
+  <name>soop_auscpr_phyto_htg_map</name>
+  <id>LayerInfoImpl-480aacb8:1749f77427a:5e6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1186b25e:1674d1d3893:-7fe7</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1b043e60:13164ec07c0:-7ffd</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-480aacb8:1749f77427a:5e5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
