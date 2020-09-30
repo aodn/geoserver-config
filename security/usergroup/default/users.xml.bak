@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<userRegistry xmlns="http://www.geoserver.org/security/users" version="1.0">
+<users>
+<user enabled="true" name="admin" password="plain:c6134c1d86b1d20ba3c221f06b9f9b11"/>
+</users>
+<groups/>
+</userRegistry>

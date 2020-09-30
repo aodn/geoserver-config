@@ -1,0 +1,24 @@
+# if a request waits in queue for more than 60 seconds it's not worth executing,
+# the client will  likely have given up by then
+timeout=60
+# don't allow the execution of more than 10 requests total in parallel
+ows.global=10
+
+# don't allow more than 2 GetMap in parallel
+ows.wms.getmap=2
+
+ows.wfs.getfeature=6
+# don't allow more than 2 outputs with Excel or csv output as it's memory bound
+ows.wfs.getfeature.application/msexcel=2
+ows.wfs.getfeature.application/csv=2
+
+# prevent json requests from taking over too many database connections
+ows.wfs.getfeature.application/json=1
+
+# for nagios checks
+ows.wfs.getfeature.application/gml2=4
+
+# don't allow the execution of more than 16 tile requests in parallel
+# (assuming a server with 4 cores, GWC empirical tests show that throughput
+# peaks up at 4 x number of cores. Adjust as appropriate to your system)
+ows.gwc=16
