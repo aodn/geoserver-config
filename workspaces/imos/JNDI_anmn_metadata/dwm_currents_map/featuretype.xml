@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=b355a5a5-e6ec-45c7-8506-103cf160431a&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=f7e49e83-4579-413c-b092-2187dca8395d&amp;styleSheet=xml_iso19139.mcp.xsl</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -28,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>153.8989</minx>
-    <maxx>153.8991</maxx>
-    <miny>-27.3261</miny>
-    <maxy>-27.3259</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>153.8989</minx>
-    <maxx>153.8991</maxx>
-    <miny>-27.3261</miny>
-    <maxy>-27.3259</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
