@@ -1,0 +1,24 @@
+<dataStore>
+  <id>DataStoreInfoImpl-4e47b3c0:175008d0b66:-7dc4</id>
+  <name>JNDI_dwm_ts</name>
+  <type>PostGIS (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">dwm_ts</entry>
+    <entry key="Estimated extends">true</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="encode functions">true</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="Support on the fly geometry simplification">true</entry>
+    <entry key="Batch insert size">1</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="namespace">imos.mod</entry>
+    <entry key="Loose bbox">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
