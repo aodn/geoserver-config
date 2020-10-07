@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-5d4061e7:174dcf9a4d0:-7ffe</id>
+  <id>FeatureTypeInfoImpl-4e47b3c0:175008d0b66:-7dc2</id>
   <name>dwm_ts_timeseries_data</name>
   <nativeName>dwm_ts_timeseries_data</nativeName>
   <namespace>
@@ -15,7 +15,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=c117a4a5-32b8-488a-8b98-ac3b7a0abc2a&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/c117a4a5-32b8-488a-8b98-ac3b7a0abc2a</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -33,19 +33,20 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-5d4061e7:174dcf9a4d0:-7fff</id>
+    <id>DataStoreInfoImpl-4e47b3c0:175008d0b66:-7dc4</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>

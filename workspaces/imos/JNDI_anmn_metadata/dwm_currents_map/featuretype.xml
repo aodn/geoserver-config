@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-4b4d9a7c:174e23caa20:-7ff6</id>
+  <id>FeatureTypeInfoImpl-4e47b3c0:1750103ef86:65b1</id>
   <name>dwm_currents_map</name>
   <nativeName>dwm_currents_map</nativeName>
   <namespace>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=f7e49e83-4579-413c-b092-2187dca8395d&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+      <content>https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/f7e49e83-4579-413c-b092-2187dca8395d</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -32,14 +32,12 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>

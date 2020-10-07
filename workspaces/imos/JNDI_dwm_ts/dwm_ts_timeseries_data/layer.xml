@@ -1,12 +1,12 @@
 <layer>
   <name>dwm_ts_timeseries_data</name>
-  <id>LayerInfoImpl-5d4061e7:174dcf9a4d0:-7ffd</id>
+  <id>LayerInfoImpl-4e47b3c0:175008d0b66:-7dc1</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--7c061b24:174dc2fd200:-8000</id>
+    <id>StyleInfoImpl--71f71ebf:15c42744a8b:-53d1</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-5d4061e7:174dcf9a4d0:-7ffe</id>
+    <id>FeatureTypeInfoImpl-4e47b3c0:175008d0b66:-7dc2</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
