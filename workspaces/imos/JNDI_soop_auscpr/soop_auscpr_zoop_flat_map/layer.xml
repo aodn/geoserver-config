@@ -1,0 +1,20 @@
+<layer>
+  <name>soop_auscpr_zoop_flat_map</name>
+  <id>LayerInfoImpl-7fb687d:17500894a09:-7ff9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1186b25e:1674d1d3893:-7fe7</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1b043e60:13164ec07c0:-7ffc</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7fb687d:17500894a09:-7ffa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
