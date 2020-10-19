@@ -1,21 +1,21 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--10d89908:1753dff776b:-7fe9</id>
-  <name>dwm_sofs_surfaceprop_rt_data</name>
-  <nativeName>dwm_sofs_surfaceprop_rt_data</nativeName>
+  <id>FeatureTypeInfoImpl--10d89908:1753dff776b:-7fef</id>
+  <name>dwm_sofs_surfaceprop_dm_data</name>
+  <nativeName>dwm_sofs_surfaceprop_dm_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>DWM SOFS surface properties real-time (data)</title>
-  <abstract>Near real-time observations of meteorology, downwelling radiation, and sea water temperature and salinity at the surface, from the Southern Ocean Flux Station (SOFS) mooring. Operated by the Deep Water Moorings (DWM)</abstract>
+  <title>DWM SOFS surface properties delayed-mode (data)</title>
+  <abstract>Observations of meteorology, downwelling radiation, and sea water temperature and salinity at the surface, from the Southern Ocean Flux Station (SOFS) mooring. Operated by the Deep Water Moorings (DWM).</abstract>
   <keywords>
     <string>features</string>
-    <string>dwm_sofs_surfaceprop_rt_data</string>
+    <string>dwm_sofs_surfaceprop_dm_data</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/9fdb1eee-bc28-43a9-88c5-972324784837</content>
+      <content>https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/bbd0c85b-7218-4065-8180-421b1c1d6bbe</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
