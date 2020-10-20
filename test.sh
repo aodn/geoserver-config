@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+HERE=$(dirname $(readlink -f $0))
+
 # Checking well formed local xml files
 tmp_output=$(mktemp)
 trap "rm -f $tmp_output" EXIT
@@ -12,6 +14,8 @@ if [ $retval -ne 0 ]; then
     cat $tmp_output
     exit 1
 fi
+
+$HERE/bin/validate_layers.py $HERE
 
 exit 0
 
