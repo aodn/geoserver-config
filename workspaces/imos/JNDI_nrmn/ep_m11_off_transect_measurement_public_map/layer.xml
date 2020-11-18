@@ -1,12 +1,12 @@
 <layer>
   <name>ep_m11_off_transect_measurement_public_map</name>
-  <id>LayerInfoImpl-7864044:175d38260a7:-7fe1</id>
+  <id>LayerInfoImpl-634c386c:175d8796623:-fd3</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-7864044:175d38260a7:-7fe2</id>
+    <id>FeatureTypeInfoImpl-634c386c:175d8796623:-fd4</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

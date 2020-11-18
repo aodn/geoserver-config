@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-7864044:175d38260a7:-7fd9</id>
+  <id>FeatureTypeInfoImpl-634c386c:175d8796623:-fcb</id>
   <name>ep_species_list_public_map</name>
   <nativeName>ep_species_list_public_map</nativeName>
   <namespace>
@@ -14,10 +14,10 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/bbd0c85b-7218-4065-8180-421b1c1d6bbe</content>
+      <content>https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/c117a4a5-32b8-488a-8b98-ac3b7a0abc2a</content>
     </metadataLink>
   </metadataLinks>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:404000</srs>
   <nativeBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
@@ -29,6 +29,7 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
@@ -36,7 +37,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-7864044:175d38260a7:-7fff</id>
+    <id>DataStoreInfoImpl-634c386c:175d8796623:-15e6</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
