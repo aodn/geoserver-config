@@ -1,0 +1,15 @@
+<layer>
+  <name>ep_m5_limpet_quadrats_public_map</name>
+  <id>LayerInfoImpl-634c386c:175d8796623:-fd6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-634c386c:175d8796623:-fd7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
