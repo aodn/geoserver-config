@@ -10,7 +10,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="?" escape="\">
               <ogc:PropertyName>url</ogc:PropertyName>
-              <ogc:Literal>IMOS/ABOS/*</ogc:Literal>
+              <ogc:Literal>IMOS/DWM/*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <PointSymbolizer>
