@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl-758ca76b:15f4bc800f6:-7b2f</id>
-  <name>abos-RT</name>
+  <id>StyleInfoImpl--71f71ebf:15c42744a8b:-53d1</id>
+  <name>dwm</name>
   <workspace>
     <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>abos-RT.sld</filename>
+  <filename>dwm.sld</filename>
 </style>
