@@ -4,7 +4,7 @@
   <NamedLayer>
     <Name>Argos</Name>
     <UserStyle>
-      <Title>Argo Floats ABOS</Title>
+      <Title>Argo Floats DWM</Title>
       <FeatureTypeStyle>
         <Rule>
           <Title>Argo Floats</Title>
