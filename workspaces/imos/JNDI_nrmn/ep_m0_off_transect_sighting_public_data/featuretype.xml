@@ -1,20 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-634c386c:175d8796623:-1328</id>
-  <name>ep_m3_isq_public_map</name>
-  <nativeName>ep_m3_isq_public_map</nativeName>
+  <id>FeatureTypeInfoImpl-7852369a:1776f5b1362:-7ffd</id>
+  <name>ep_m0_off_transect_sighting_public_data</name>
+  <nativeName>ep_m0_off_transect_sighting_public_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>ep_m3_isq_public_map</title>
+  <title>ep_m0_off_transect_sighting_public_data</title>
   <keywords>
     <string>features</string>
-    <string>ep_m3_isq_public_map</string>
+    <string>ep_m0_off_transect_sighting_public_data</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/c117a4a5-32b8-488a-8b98-ac3b7a0abc2a</content>
+      <content>https://catalogue-stack.aodn.org.au:443/geonetwork/srv/api/records/54c95415-5646-4214-8d90-7e255d94a05a</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -47,7 +47,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-634c386c:175d8796623:-15e6</id>
+    <id>DataStoreInfoImpl-7852369a:1776f5b1362:-7fff</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
