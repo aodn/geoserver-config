@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-634c386c:175d8796623:-132e</id>
+  <id>FeatureTypeInfoImpl--335f5fc6:177a2d3dcbb:-7dc5</id>
   <name>ep_m2_cryptic_fish_public_map</name>
   <nativeName>ep_m2_cryptic_fish_public_map</nativeName>
   <namespace>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/c117a4a5-32b8-488a-8b98-ac3b7a0abc2a</content>
+      <content>http://geonetwork3-aodnstack-apberger.dev.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/20a65034-f220-4f35-9d87-1307510f2e4d</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -47,7 +47,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-634c386c:175d8796623:-15e6</id>
+    <id>DataStoreInfoImpl-7852369a:1776f5b1362:-7fff</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>

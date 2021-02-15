@@ -1,12 +1,12 @@
 <layer>
-  <name>ep_m4_macrocystis_count_public_map</name>
-  <id>LayerInfoImpl--335f5fc6:177a2d3dcbb:-7c94</id>
+  <name>ep_site_list_public_data</name>
+  <id>LayerInfoImpl--335f5fc6:177a2d3dcbb:-7a78</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--335f5fc6:177a2d3dcbb:-7c95</id>
+    <id>FeatureTypeInfoImpl--335f5fc6:177a2d3dcbb:-7a79</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

@@ -1,12 +1,12 @@
 <layer>
   <name>ep_survey_list_public_map</name>
-  <id>LayerInfoImpl-634c386c:175d8796623:-fc7</id>
+  <id>LayerInfoImpl--335f5fc6:177a2d3dcbb:-6e08</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-634c386c:175d8796623:-fc8</id>
+    <id>FeatureTypeInfoImpl--335f5fc6:177a2d3dcbb:-6e09</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

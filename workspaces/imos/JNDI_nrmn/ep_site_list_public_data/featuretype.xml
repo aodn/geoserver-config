@@ -1,20 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--335f5fc6:177a2d3dcbb:-6e09</id>
-  <name>ep_survey_list_public_map</name>
-  <nativeName>ep_survey_list_public_map</nativeName>
+  <id>FeatureTypeInfoImpl--335f5fc6:177a2d3dcbb:-7a79</id>
+  <name>ep_site_list_public_data</name>
+  <nativeName>ep_site_list_public_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>ep_survey_list_public_map</title>
+  <title>ep_site_list_public_data</title>
   <keywords>
     <string>features</string>
-    <string>ep_survey_list_public_map</string>
+    <string>ep_site_list_public_data</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://geonetwork3-aodnstack-apberger.dev.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/d789f8ff-6db4-4450-8db4-4e4c372db835</content>
+      <content>http://geonetwork3-aodnstack-apberger.dev.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/b3fd504e-ab83-4d8b-a5c0-f81161e05f32</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -49,7 +49,10 @@
   <store class="dataStore">
     <id>DataStoreInfoImpl-7852369a:1776f5b1362:-7fff</id>
   </store>
-  <serviceConfiguration>false</serviceConfiguration>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WMS</string>
+  </disabledServices>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-634c386c:175d8796623:-15e4</id>
+  <id>FeatureTypeInfoImpl--335f5fc6:177a2d3dcbb:-7e07</id>
   <name>ep_m1_public_map</name>
   <nativeName>ep_m1_public_map</nativeName>
   <namespace>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/c117a4a5-32b8-488a-8b98-ac3b7a0abc2a</content>
+      <content>http://geonetwork3-aodnstack-apberger.dev.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/dbeae43f-4bf9-4c63-9781-106b460cc734</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -32,12 +32,14 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
@@ -45,7 +47,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-634c386c:175d8796623:-15e6</id>
+    <id>DataStoreInfoImpl-7852369a:1776f5b1362:-7fff</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
