@@ -162,7 +162,7 @@
        </PointSymbolizer>
         </Rule>
         <Rule>
-          <Title> NTP-WA buoys</Title>
+          <Title> IMOS NTP-Wave buoys</Title>
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
              <ogc:PropertyName>institution</ogc:PropertyName>
