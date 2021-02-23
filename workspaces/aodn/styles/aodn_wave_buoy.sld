@@ -161,6 +161,37 @@
         </Graphic>
        </PointSymbolizer>
         </Rule>
+        <Rule>
+          <Title> NTP-WA buoys</Title>
+           <ogc:Filter>
+             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+             <ogc:PropertyName>institution</ogc:PropertyName>
+             <ogc:Literal>*NTP*</ogc:Literal>
+             </ogc:PropertyIsLike>
+           </ogc:Filter>
+        <PointSymbolizer>        
+          <Graphic>
+          <Mark>
+            <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#F333FF</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                </Stroke>
+            </Mark>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        <PointSymbolizer>     
+          <Graphic>
+            <ExternalGraphic>
+             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+             <Format>image/png</Format>
+            </ExternalGraphic>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
