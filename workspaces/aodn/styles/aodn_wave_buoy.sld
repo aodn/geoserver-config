@@ -166,7 +166,7 @@
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
              <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*NTP*</ogc:Literal>
+             <ogc:Literal>*UWA*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>        
