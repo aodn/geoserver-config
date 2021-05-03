@@ -1,0 +1,15 @@
+<layer>
+  <name>argo_profile_bio_nitrate_data</name>
+  <id>LayerInfoImpl--7180cd2c:1792fb9323a:-71c5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4cff5eef:1792fb4c897:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--7180cd2c:1792fb9323a:-71c6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
