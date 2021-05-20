@@ -8,6 +8,34 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>oxygen_sensor</name>
+        <type>boolean</type>
+        <label>Oxygen sensor</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>ph_sensor</name>
+        <type>boolean</type>
+        <label>pH sensor</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>chla_sensor</name>
+        <type>boolean</type>
+        <label>Chla sensor</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>nitrate_sensor</name>
+        <type>boolean</type>
+        <label>Nitrate sensor</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>platform_number</name>
         <type>string</type>
         <label>Platform Number</label>
