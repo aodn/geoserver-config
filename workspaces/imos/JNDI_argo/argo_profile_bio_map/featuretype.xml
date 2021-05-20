@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--7180cd2c:1792fb9323a:40fa</id>
+  <id>FeatureTypeInfoImpl--274ab273:1798767c1fb:-7fc0</id>
   <name>argo_profile_bio_map</name>
   <nativeName>argo_profile_bio_map</nativeName>
   <namespace>
@@ -28,22 +28,35 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-30.821</minx>
-    <maxx>172.706</maxx>
-    <miny>-70.336</miny>
-    <maxy>-58.199</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-30.821</minx>
-    <maxx>172.706</maxx>
-    <miny>-70.336</miny>
-    <maxy>-58.199</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>argo_profile_bio_map</name>
+        <sql>select * from argo_profile_bio_map
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>position</name>
+          <type>Point</type>
+          <srid>4326</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
