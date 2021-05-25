@@ -8,28 +8,28 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>profile_doxy_qc</name>
+        <name>oxygen_sensor</name>
         <type>boolean</type>
         <label>Oxygen sensor</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>profile_ph_in_situ_total_qc</name>
+        <name>ph_sensor</name>
         <type>boolean</type>
         <label>pH sensor</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>profile_chla_qc</name>
+        <name>chla_sensor</name>
         <type>boolean</type>
         <label>Chla sensor</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>profile_nitrate_qc</name>
+        <name>nitrate_sensor</name>
         <type>boolean</type>
         <label>Nitrate sensor</label>
         <visualised>true</visualised>
