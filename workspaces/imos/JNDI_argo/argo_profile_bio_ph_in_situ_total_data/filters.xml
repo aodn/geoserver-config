@@ -10,28 +10,28 @@
     <filter>
         <name>oxygen_sensor</name>
         <type>boolean</type>
-        <label>Oxygen sensor</label>
+        <label>Oxygen adjusted</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>ph_sensor</name>
         <type>boolean</type>
-        <label>pH sensor</label>
+        <label>pH adjusted</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>chla_sensor</name>
         <type>boolean</type>
-        <label>Chla sensor</label>
+        <label>Chla adjusted</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>nitrate_sensor</name>
         <type>boolean</type>
-        <label>Nitrate sensor</label>
+        <label>Nitrate adjusted</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
