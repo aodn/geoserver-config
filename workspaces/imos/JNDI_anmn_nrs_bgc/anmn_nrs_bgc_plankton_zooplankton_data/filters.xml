@@ -7,13 +7,13 @@
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
-  <filter>
-    <name>TAXON_ECO_GROUP</name>
-    <type>string</type>
-    <label>Functional Group</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
+<!--  <filter>-->
+<!--    <name>TAXON_ECO_GROUP</name>-->
+<!--    <type>string</type>-->
+<!--    <label>Functional Group</label>-->
+<!--    <visualised>true</visualised>-->
+<!--    <excludedFromDownload>false</excludedFromDownload>-->
+<!--  </filter>-->
   <filter>
     <name>geom</name>
     <type>geometrypropertytype</type>
