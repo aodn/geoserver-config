@@ -1,0 +1,76 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--a667a1:1796302f798:-7429</id>
+  <name>ep_m2_inverts_public_data</name>
+  <nativeName>ep_m2_inverts_public_data</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>ep_m2_inverts_public_data</title>
+  <keywords>
+    <string>features</string>
+    <string>ep_m2_inverts_public_data</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>https://catalogue-stack.aodn.org.au:443/geonetwork/srv/api/records/54c95415-5646-4214-8d90-7e255d94a05aad48aca6-d823-492f-ad57-6b3734800b2e</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>ep_m2_inverts_public_data</name>
+        <sql>select m2inv.survey_id, m2inv.country, m2inv.area, m2inv.ecoregion, m2inv.realm, m2inv.location, m2inv.site_code, m2inv.site_name, m2inv.latitude, m2inv.longitude, m2inv.survey_date, m2inv.depth, m2inv.program, m2inv.visibility, m2inv.hour, m2inv.survey_latitude, m2inv.survey_longitude, m2inv.method, m2inv.block, m2inv.phylum, m2inv.class_ as class, m2inv.order, m2inv.family, m2inv.species_name, m2inv.reporting_name, m2inv.size_class, m2inv.total, m2inv.biomass, m2inv.geom from nrmn.ep_m2_inverts_public_data m2inv
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom</name>
+          <type>Geometry</type>
+          <srid>4326</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--a667a1:1796302f798:-744c</id>
+  </store>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WMS</string>
+  </disabledServices>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
