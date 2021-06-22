@@ -1,22 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--a667a1:1796302f798:-7408</id>
-  <name>ep_survey_list_public_map</name>
-  <nativeName>ep_survey_list_public_map</nativeName>
+  <id>FeatureTypeInfoImpl--1eeb3a6e:17a3128af6a:-7ff3</id>
+  <name>ep_species_list_data</name>
+  <nativeName>ep_species_list_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>ep_survey_list_public_map</title>
+  <title>ep_species_list_data</title>
   <keywords>
     <string>features</string>
-    <string>ep_survey_list_public_map</string>
+    <string>ep_species_list_data</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/xml</type>
-      <metadataType>TC211</metadataType>
-      <content>https://catalogue-stack.aodn.org.au:443/geonetwork/srv/api/records/d789f8ff-6db4-4450-8db4-4e4c372db835</content>
-    </metadataLink>
-  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -50,6 +43,9 @@
     <id>DataStoreInfoImpl--a667a1:1796302f798:-744c</id>
   </store>
   <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WMS</string>
+  </disabledServices>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
