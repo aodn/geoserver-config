@@ -9,7 +9,7 @@
 
 <div class="featurewhite">
 
-<h4 class="getfeatureTitle">${feature.dive_code_name.value}</h4>
+<h4 class="getfeatureTitle">${feature.site_code.value}</h4>
 <p class="getfeatureCode" style="display:none" >${feature.site_code.value}</p>
 <p class="getfeatureExtent" style="display:none" >${feature.geospatial_lon_min.value},${feature.geospatial_lat_min.value},${feature.geospatial_lon_max.value},${feature.geospatial_lat_max.value}</p>
 
