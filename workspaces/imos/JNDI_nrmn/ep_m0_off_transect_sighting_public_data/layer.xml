@@ -1,0 +1,15 @@
+<layer>
+  <name>ep_m0_off_transect_sighting_public_data</name>
+  <id>LayerInfoImpl--a667a1:1796302f798:-7449</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--a667a1:1796302f798:-744a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
