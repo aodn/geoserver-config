@@ -165,8 +165,8 @@
           <Title> IMOS NTP-Wave buoys</Title>
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-             <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*UWA*</ogc:Literal>
+             <ogc:PropertyName>url</ogc:PropertyName>
+             <ogc:Literal>*NTP/Low_Cost_Wave_Buoy_Technology*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>        
