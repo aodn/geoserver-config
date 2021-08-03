@@ -1,9 +1,9 @@
 <layer>
-  <name>srs_oc_contributed_aqua_johnson_8d</name>
-  <id>LayerInfoImpl-29bb23c5:177654f6d0d:-7ffa</id>
+  <name>srs_oc_contributed_seawifs_johnson_1m_url</name>
+  <id>LayerInfoImpl-29bb23c5:177654f6d0d:-7ffc</id>
   <type>VECTOR</type>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-29bb23c5:177654f6d0d:-7ffb</id>
+    <id>FeatureTypeInfoImpl-29bb23c5:177654f6d0d:-7ffd</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
