@@ -15,8 +15,7 @@
       <!-- A FeatureTypeStyle for rendering points -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>measurements</Name>
-         
+          <Name>measurement location</Name>
             <PointSymbolizer>
               <Graphic>
                 <Mark>
