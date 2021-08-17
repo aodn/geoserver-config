@@ -6,10 +6,10 @@
      
      <b>Platform code :</b> ${feature.platform_code.value}</br>
      <b>Location:</b></br>
-     <b>Longitude range:</b> ${feature.longitude_min.rawValue?string("0.#####")} - ${feature.longitude_max.rawValue?string("0.#####")} </br>
-     <b>Latitude range:</b> ${feature.latitude_min.rawValue?string("0.#####")} - ${feature.latitude_max.rawValue?string("0.#####")} </br>
-     <b>Time deployment start:</b> ${feature.platform_time_start.value} </br>
-     <b>Time deployment end :</b> ${feature.platform_time_end.value} </br>
+     <b>Deployments longitude range:</b> ${feature.longitude_min.rawValue?string("0.#####")} - ${feature.longitude_max.rawValue?string("0.#####")} </br>
+     <b>Deployments latitude range:</b> ${feature.latitude_min.rawValue?string("0.#####")} - ${feature.latitude_max.rawValue?string("0.#####")} </br>
+     <b>Deployments starting time:</b> ${feature.platform_time_start.value} </br>
+     <b>Deployments ending time:</b> ${feature.platform_time_end.value} </br>
     <BR>  
    </div>
   </#if>
