@@ -1,0 +1,15 @@
+<layer>
+  <name>bgc_zooplankton_map</name>
+  <id>LayerInfoImpl--12620821:17bc273958d:-6a08</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1186b25e:1674d1d3893:-7fe7</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--12620821:17bc273958d:-6a09</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
