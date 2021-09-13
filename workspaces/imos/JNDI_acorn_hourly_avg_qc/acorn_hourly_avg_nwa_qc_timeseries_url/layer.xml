@@ -1,0 +1,15 @@
+<layer>
+  <name>acorn_hourly_avg_nwa_qc_timeseries_url</name>
+  <id>LayerInfoImpl-2a8e3ba:17b9b308ce7:-7ffc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2a8e3ba:17b9b308ce7:-7ffd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
