@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://geonetwork3-aodnstack-bpasquer.dev.aodn.org.au/geonetwork/srv/api/records/b273fafa-03d6-4fc2-9acf-39d8c06581e5</content>
+      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/api/records/b273fafa-03d6-4fc2-9acf-39d8c06581e5</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
