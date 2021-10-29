@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--a667a1:1796302f798:-742c</id>
+  <id>FeatureTypeInfoImpl--537b92cc:17cc8f7c734:-7ff3</id>
   <name>ep_m2_cryptic_fish_public_map</name>
   <nativeName>ep_m2_cryptic_fish_public_map</nativeName>
   <namespace>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-stack.aodn.org.au:443/geonetwork/srv/api/records/9efa25cd-4da4-47b5-9385-45e3cbd11705</content>
+      <content>http://geonetwork3-aodnstack-bpasquer.dev.aodn.org.au/geonetwork/srv/api/records/9efa25cd-4da4-47b5-9385-45e3cbd11705</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -32,19 +32,29 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>ep_m2_cryptic_fish_public_map</name>
+        <sql>select site_code,site_name,country,ecoregion,realm,latitude,longitude,survey_date,depth,program, phylum,class_ as &quot;class&quot;, family,reporting_name, geom from nrmn.ep_m2_cryptic_fish_public_map
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom</name>
+          <type>Geometry</type>
+          <srid>4326</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--a667a1:1796302f798:-744c</id>

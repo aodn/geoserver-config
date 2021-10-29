@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-stack.aodn.org.au:443/geonetwork/srv/api/records/a73907b7-3686-4dcf-8a1d-7efc4e5ffc05</content>
+      <content>https://http://geonetwork3-aodnstack-bpasquer.dev.aodn.org.au/geonetwork/srv/api/records/a73907b7-3686-4dcf-8a1d-7efc4e5ffc05</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -47,8 +47,7 @@
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>ep_m0_off_transect_sighting_public_data</name>
-        <sql>select m0.survey_id, m0.country, m0.area, m0.ecoregion, m0.realm, m0.location, m0.site_code, m0.site_name, m0.latitude, m0.longitude, m0.survey_date, m0.depth, m0.program, m0.visibility, m0.hour, m0.survey_latitude, m0.survey_longitude, m0.block, m0.phylum, m0.class_ as class, m0.order, m0.family, m0.species_name, m0.reporting_name, m0.total, m0.geom&#xd;
-from nrmn.ep_m0_off_transect_sighting_public_data m0
+        <sql>select survey_id,country,area,ecoregion,realm,location,site_code,site_name,latitude,longitude,survey_date,depth,program,visibility,hour,survey_latitude,survey_longitude,method,block,phylum,class_ as &quot;class&quot;,&quot;order&quot;,family,species_name,reporting_name,size_class,total,biomass,geom from nrmn.ep_m0_off_transect_sighting_public_data
 </sql>
         <escapeSql>false</escapeSql>
         <geometry>
