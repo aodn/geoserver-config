@@ -5,25 +5,25 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>NRMN_surveys</Name>
+    <Name>NRMN_fish_surveys</Name>
     <UserStyle>
-      <Title>dark yellow square point style</Title>
+      <Title>NRMN_fish_surveys</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Survey location</Title>
+          <Title>green point</Title>
           <PointSymbolizer>
-             <Graphic>
+            <Graphic>
               <Mark>
-               <WellKnownName>circle</WellKnownName>
-                 <Fill>
-                   <CssParameter name="fill">#110CA8</CssParameter>
-                 </Fill>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#00ad00</CssParameter>
+                </Fill>
               </Mark>
               <Size>6</Size>
-             </Graphic>
+            </Graphic>
           </PointSymbolizer>
         </Rule>
-        
+
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

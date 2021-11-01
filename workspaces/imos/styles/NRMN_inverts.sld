@@ -5,25 +5,25 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>NRMN_surveys</Name>
+    <Name>NRMN_inverts</Name>
     <UserStyle>
-      <Title>dark yellow square point style</Title>
+      <Title>NRMN_inverts</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Survey location</Title>
+          <Title>orange triangle</Title>
           <PointSymbolizer>
-             <Graphic>
+            <Graphic>
               <Mark>
-               <WellKnownName>circle</WellKnownName>
-                 <Fill>
-                   <CssParameter name="fill">#110CA8</CssParameter>
-                 </Fill>
+                <WellKnownName>triangle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff6600</CssParameter>
+                </Fill>
               </Mark>
               <Size>6</Size>
-             </Graphic>
+            </Graphic>
           </PointSymbolizer>
         </Rule>
-        
+
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
