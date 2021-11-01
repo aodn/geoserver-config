@@ -55,6 +55,7 @@
         </geometry>
       </virtualTable>
     </entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--a667a1:1796302f798:-744c</id>

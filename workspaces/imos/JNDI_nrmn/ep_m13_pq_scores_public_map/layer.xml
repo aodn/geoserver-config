@@ -1,12 +1,12 @@
 <layer>
   <name>ep_m13_pq_scores_public_map</name>
-  <id>LayerInfoImpl--537b92cc:17cc8f7c734:-7fec</id>
+  <id>LayerInfoImpl--a667a1:1796302f798:-7439</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--4b7e570d:17cc8f2325c:-8000</id>
+    <id>StyleInfoImpl-2362deef:17cd87f5b51:-7ff7</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--537b92cc:17cc8f7c734:-7fed</id>
+    <id>FeatureTypeInfoImpl--a667a1:1796302f798:-743a</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

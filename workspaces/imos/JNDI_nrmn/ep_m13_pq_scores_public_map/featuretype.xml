@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--537b92cc:17cc8f7c734:-7fed</id>
+  <id>FeatureTypeInfoImpl--a667a1:1796302f798:-743a</id>
   <name>ep_m13_pq_scores_public_map</name>
   <nativeName>ep_m13_pq_scores_public_map</nativeName>
   <namespace>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/api/records/0a65be6d-1c76-49ac-a151-80acf123612c</content>
+      <content>https://catalogue-stack.aodn.org.au:443/geonetwork/srv/api/records/0a65be6d-1c76-49ac-a151-80acf123612c</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -32,29 +32,19 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="JDBC_VIRTUAL_TABLE">
-      <virtualTable>
-        <name>ep_m13_pq_scores_public_map</name>
-        <sql>select site_code,site_name,country,ecoregion,realm,latitude,longitude,survey_date,depth,program,resolution,category, geom from nrmn.ep_m13_pq_scores_public_map
-</sql>
-        <escapeSql>false</escapeSql>
-        <geometry>
-          <name>geom</name>
-          <type>Geometry</type>
-          <srid>4326</srid>
-        </geometry>
-      </virtualTable>
-    </entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--a667a1:1796302f798:-744c</id>
