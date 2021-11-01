@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--537b92cc:17cc8f7c734:-7fe7</id>
+  <id>FeatureTypeInfoImpl--a667a1:1796302f798:-740e</id>
   <name>ep_site_list_public_map</name>
   <nativeName>ep_site_list_public_map</nativeName>
   <namespace>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/api/records/e41efa35-03f0-4dea-be98-2a69e46b510b</content>
+      <content>https://catalogue-stack.aodn.org.au:443/geonetwork/srv/api/records/e41efa35-03f0-4dea-be98-2a69e46b510b</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -32,30 +32,19 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="JDBC_VIRTUAL_TABLE">
-      <virtualTable>
-        <name>ep_site_list_public_map</name>
-        <sql>select country,area,site_code,site_name,latitude,longitude,geom from &#xd;
-nrmn.ep_site_list_public_map
-</sql>
-        <escapeSql>false</escapeSql>
-        <geometry>
-          <name>geom</name>
-          <type>Geometry</type>
-          <srid>4326</srid>
-        </geometry>
-      </virtualTable>
-    </entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--a667a1:1796302f798:-744c</id>
