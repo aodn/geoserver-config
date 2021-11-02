@@ -1,12 +1,12 @@
 <layer>
   <name>ep_m2_cryptic_fish_public_map</name>
-  <id>LayerInfoImpl--a667a1:1796302f798:-742b</id>
+  <id>LayerInfoImpl--537b92cc:17cc8f7c734:-7ff2</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+    <id>StyleInfoImpl-2362deef:17cd87f5b51:-7e59</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--a667a1:1796302f798:-742c</id>
+    <id>FeatureTypeInfoImpl--537b92cc:17cc8f7c734:-7ff3</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

@@ -21,5 +21,61 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
+    <filter>
+	<name>site_code</name>
+        <type>string</type>
+        <label>Site Code</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+	<name>site_name</name>
+        <type>string</type>
+        <label>Site Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+	<name>country</name>
+        <type>string</type>
+        <label>Country</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+	<name>area</name>
+        <type>area</type>
+        <label>Programs</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+	<name>latest_surveydate_for_site</name>
+        <type>boolean</type>
+        <label>Latest Survey For Site</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+	<name>has_pq_scores_in_db</name>
+        <type>boolean</type>
+        <label>Photoquadrat scored</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+	<name>has_rugosity_scores_in_db</name>
+        <type>boolean</type>
+        <label>Rugosity scored</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+	<name>has_pqs_catalogued_in_db</name>
+        <type>boolean</type>
+        <label>Photoquadrats present</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
 </filters>
 

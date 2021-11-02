@@ -1,12 +1,12 @@
 <layer>
   <name>ep_m3_isq_public_map</name>
-  <id>LayerInfoImpl--a667a1:1796302f798:-741f</id>
+  <id>LayerInfoImpl--537b92cc:17cc8f7c734:-7ff8</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+    <id>StyleInfoImpl-2362deef:17cd87f5b51:-7df1</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--a667a1:1796302f798:-7420</id>
+    <id>FeatureTypeInfoImpl--537b92cc:17cc8f7c734:-7ff9</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

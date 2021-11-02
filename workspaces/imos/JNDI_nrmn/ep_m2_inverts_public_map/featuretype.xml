@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--a667a1:1796302f798:-7426</id>
+  <id>FeatureTypeInfoImpl--537b92cc:17cc8f7c734:-7ff0</id>
   <name>ep_m2_inverts_public_map</name>
   <nativeName>ep_m2_inverts_public_map</nativeName>
   <namespace>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>https://catalogue-stack.aodn.org.au:443/geonetwork/srv/api/records/48cf3cb9-caa9-4633-9baa-8bba3c4d904a</content>
+      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/api/records/48cf3cb9-caa9-4633-9baa-8bba3c4d904a</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -32,18 +32,29 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>ep_m2_inverts_public_map</name>
+        <sql>select site_code,site_name,country,ecoregion,realm,latitude,longitude,survey_date,depth,program, phylum,class_ as &quot;class&quot;, family,reporting_name, geom from nrmn.ep_m2_inverts_public_map
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom</name>
+          <type>Geometry</type>
+          <srid>4326</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
