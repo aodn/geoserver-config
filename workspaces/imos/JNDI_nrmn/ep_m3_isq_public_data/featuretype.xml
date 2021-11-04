@@ -47,13 +47,13 @@
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>ep_m3_isq_public_data</name>
-        <sql>select m3.survey_id, m3.country, m3.area, m3.ecoregion, m3.realm, m3.location, m3.site_code, m3.site_name, m3.latitude, m3.longitude, m3.survey_date, m3.depth, m3.program, m3.visibility, m3.hour, m3.survey_latitude, m3.survey_longitude,3 as method, m3.phylum, m3.class_ as class, m3.order, m3.family, m3.species_name, m3.reporting_name, m3.quadrat, m3.total, m3.geom from nrmn.ep_m3_isq_public_data m3
+        <sql>select m3.survey_id, m3.country, m3.area, m3.ecoregion, m3.realm, m3.location, m3.site_code, m3.site_name, m3.latitude, m3.longitude, m3.survey_date, m3.depth, m3.program, m3.visibility, m3.hour, m3.survey_latitude, m3.survey_longitude,3 as method, m3.phylum, m3.class_ as class, m3.order, m3.family, m3.species_name, m3.reporting_name,m3.report_group,m3.habitat_groups, m3.quadrat, m3.total, m3.geom from nrmn.ep_m3_isq_public_data m3
 </sql>
         <escapeSql>false</escapeSql>
         <geometry>
           <name>geom</name>
           <type>Geometry</type>
-          <srid>-1</srid>
+          <srid>4326</srid>
         </geometry>
       </virtualTable>
     </entry>
