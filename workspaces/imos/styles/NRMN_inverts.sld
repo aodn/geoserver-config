@@ -10,7 +10,7 @@
       <Title>NRMN_inverts</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>orange triangle</Title>
+          <Title>Mobile macroinvertebrate abundance</Title>
           <PointSymbolizer>
             <Graphic>
               <Mark>

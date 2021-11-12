@@ -10,7 +10,7 @@
       <Title>dark yellow square point style</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Survey location</Title>
+          <Title>NRMN - survey metadata</Title>
           <PointSymbolizer>
              <Graphic>
               <Mark>

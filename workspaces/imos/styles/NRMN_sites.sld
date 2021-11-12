@@ -10,7 +10,7 @@
       <Title>NRMN_sites</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>red point</Title>
+          <Title>NRMN - Site information</Title>
           <PointSymbolizer>
             <Graphic>
               <Mark>

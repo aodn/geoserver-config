@@ -10,7 +10,7 @@
       <Title>NRMN_pq_scores</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>cyan cross</Title>
+          <Title>Benthic cover data-photoquadrats</Title>
           <PointSymbolizer>
             <Graphic>
               <Mark>

@@ -10,7 +10,7 @@
       <Title>NRMN_isq</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>violet triangle</Title>
+          <Title>Benthic cover data-in situ survey</Title>
           <PointSymbolizer>
             <Graphic>
               <Mark>

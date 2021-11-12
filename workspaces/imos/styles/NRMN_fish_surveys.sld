@@ -10,7 +10,7 @@
       <Title>NRMN_fish_surveys</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>green point</Title>
+          <Title>Reef fish abundance</Title>
           <PointSymbolizer>
             <Graphic>
               <Mark>
