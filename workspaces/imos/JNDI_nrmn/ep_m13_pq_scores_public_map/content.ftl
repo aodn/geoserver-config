@@ -9,10 +9,9 @@
       <b> Ecoregion:</b> ${feature.ecoregion.value}</br>
       <b> Realm:</b> ${feature.realm.value}</br> 
       <b> Survey Date:</b> ${feature.survey_date.rawValue?string("dd/MM/yyyy")}</br>
-      <b> Class:</b> ${feature.class.value}</br>
-      <b> Family:</b> ${feature.family.value}</br>
-      <b> Species Name:</b> ${feature.reporting_name.value}</br><BR>
-      
+      <b> Depth:</b> ${feature.depth.value}</br>
+      <b> Schema</b> ${feature.resoltion.value}</br><BR>
+      <b> Label</b> ${feature.category.value}</br><BR>
       <b>More data is available at this location<b>  
     </#if>
   </#list>

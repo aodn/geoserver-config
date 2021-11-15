@@ -6,12 +6,11 @@
       <b> Site Code:</b> ${feature.site_code.value}</br>
       <b> Program:</b> ${feature.program.value}</br>
       <b> Country:</b> ${feature.country.value}</br>
-      <b> Ecoregion:</b> ${feature.ecoregion.value}</br>
-      <b> Realm:</b> ${feature.realm.value}</br> 
+      <b> Area:</b> ${feature.area.value}</br>
       <b> Survey Date:</b> ${feature.survey_date.rawValue?string("dd/MM/yyyy")}</br>
-      <b> Class:</b> ${feature.class.value}</br>
-      <b> Family:</b> ${feature.family.value}</br>
-      <b> Species Name:</b> ${feature.reporting_name.value}</br><BR>
+      <b> Has PQs?:</b> ${feature.has_pqs_catalogued_in_db.value}</br>
+      <b> Has PQ Scores?:</b> ${feature.has_pq_scores_in_db.value}</br>
+      <b> Has Rugosity Scores?:</b> ${feature.has_rugosity_scores_in_db.value}</br><BR>
       
       <b>More data is available at this location<b>  
     </#if>
