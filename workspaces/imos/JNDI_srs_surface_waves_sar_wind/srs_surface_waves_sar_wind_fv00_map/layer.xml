@@ -1,0 +1,15 @@
+<layer>
+  <name>srs_surface_waves_sar_wind_fv00_map</name>
+  <id>LayerInfoImpl-9aa20a4:17d304382b0:-7ba6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--26177d82:17d11535972:-7e05</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-9aa20a4:17d304382b0:-7ba7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
