@@ -12,14 +12,14 @@
     <filter>
         <name>platform_code</name>
         <type>string</type>
-        <label>Platform code</label>
+        <label>Satellite</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>product_id</name>
         <type>string</type>
-        <label>Product id</label>
+        <label>Swath id</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
