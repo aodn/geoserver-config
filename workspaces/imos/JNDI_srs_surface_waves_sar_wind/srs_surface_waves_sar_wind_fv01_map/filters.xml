@@ -9,32 +9,32 @@
         <wmsStartDateName>time_coverage_start</wmsStartDateName>
         <wmsEndDateName>time_coverage_end</wmsEndDateName>
    </filter>
-    <filter>
+   <filter>
         <name>platform_code</name>
         <type>string</type>
         <label>Satellite</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>product_id</name>
+   </filter>
+   <filter>
+        <name>swath_id</name>
         <type>string</type>
         <label>Swath id</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
+   </filter>
+   <filter>
         <name>percent_coverage</name>
         <type>double</type>
         <label>Percent coverage</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
+   </filter>
+   <filter>
         <name>geom</name>
         <type>geometrypropertytype</type>
         <label>Geom</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
-    </filter>
+   </filter>
 </filters>
