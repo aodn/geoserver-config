@@ -10,7 +10,7 @@
       <Title>NRMN_off_transect_sighting</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>yellow square x</Title>
+          <Title>Off-transect species observations</Title>
           <PointSymbolizer>
             <Graphic>
               <Mark>

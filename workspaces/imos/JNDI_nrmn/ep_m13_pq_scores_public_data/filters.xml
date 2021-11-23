@@ -45,7 +45,7 @@
     <filter>
 	<name>resolution</name>
         <type>string</type>
-        <label>Resolution</label>
+        <label>Schema</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

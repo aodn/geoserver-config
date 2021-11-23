@@ -31,7 +31,7 @@
     <filter>
 	<name>area</name>
         <type>string</type>
-        <label>Area</label>
+        <label>State/Area</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

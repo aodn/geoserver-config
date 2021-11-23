@@ -10,7 +10,7 @@
       <Title>NRMN_cryptic_fish</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>purple point</Title>
+          <Title>Cryptobenthic fish abundance</Title>
           <PointSymbolizer>
             <Graphic>
               <Mark>

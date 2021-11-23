@@ -44,8 +44,8 @@
     </filter>
     <filter>
 	<name>area</name>
-        <type>area</type>
-        <label>Programs</label>
+        <type>string</type>
+        <label>State/Area</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
