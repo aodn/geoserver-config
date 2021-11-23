@@ -1,0 +1,15 @@
+<layer>
+  <name>bgc_zooplankton_abundance_genus_data</name>
+  <id>LayerInfoImpl-62ea0107:17c0a9fb0be:-7ffb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-62ea0107:17c0a9fb0be:-7ffc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
