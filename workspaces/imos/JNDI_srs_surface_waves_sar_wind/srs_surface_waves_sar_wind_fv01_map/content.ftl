@@ -11,11 +11,13 @@
 <b>Absolute Orbit number :</b> ${feature.absolute_orbit_number.value}<br/>
 <b>Product ID :</b> ${feature.product_id.value}<br/>
 
-<img src="${my.baseurlDataServer}/${feature.url.value?substring(0, feature.url.value?last_index_of("."))}.png"><br clear="all" />
 
-<a href="${my.baseurlDataServer}/${feature.url.value?substring(0, feature.url.value?last_index_of("."))}.png">
-<img src="${my.baseurlDataServer}/${feature.url.value?substring(0, feature.url.value?last_index_of("."))}.png" width="700" 
-     height="500" /><\a><br clear="all" />
+<a href="${my.baseurlDataServer}/${feature.url.value?substring(0, feature.url.value?last_index_of("."))}.png" target="_blank">
+  <img width="420" height="250" border="0" align="center"  src="${my.baseurlDataServer}/${feature.url.value?substring(0, feature.url.value?last_index_of("."))}.png"/>
+</a>
+
+
+<br clear="all" />
 <BR>
 
 </div>
