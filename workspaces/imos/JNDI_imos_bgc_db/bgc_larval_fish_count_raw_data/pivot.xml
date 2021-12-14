@@ -2,6 +2,6 @@
 <pivotedOutputConfig>
 	<orderDirection>asc</orderDirection>
 	<defaultValue>0</defaultValue>
-	<excludedField>trip_code</excludedField>
+	<excludedField>i_sample_id</excludedField>
 	<excludedField>geom</excludedField>
 </pivotedOutputConfig>
