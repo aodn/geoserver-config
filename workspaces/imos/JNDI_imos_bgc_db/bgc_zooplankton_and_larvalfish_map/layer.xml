@@ -1,0 +1,20 @@
+<layer>
+  <name>bgc_zooplankton_and_larvalfish_map</name>
+  <id>LayerInfoImpl--44df63ae:17dbb25fef8:3e6f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--44df63ae:17dbc6706e8:-3a7c</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1186b25e:1674d1d3893:-7fe7</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--44df63ae:17dbb25fef8:3e6e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
