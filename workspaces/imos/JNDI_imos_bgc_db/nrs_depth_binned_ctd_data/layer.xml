@@ -1,0 +1,15 @@
+<layer>
+  <name>nrs_depth_binned_ctd_data</name>
+  <id>LayerInfoImpl-47e1658:17dc02c5512:-7ffb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-47e1658:17dc02c5512:-7ffc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
