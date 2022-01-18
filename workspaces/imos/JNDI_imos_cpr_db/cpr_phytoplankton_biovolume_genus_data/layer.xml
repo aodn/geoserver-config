@@ -1,0 +1,15 @@
+<layer>
+  <name>cpr_phytoplankton_biovolume_genus_data</name>
+  <id>LayerInfoImpl-449189ba:17e6b17023b:-2831</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-449189ba:17e6b17023b:-2832</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
