@@ -1,0 +1,15 @@
+<layer>
+  <name>cpr_phytoplankton_map</name>
+  <id>LayerInfoImpl-449189ba:17e69fe14b1:-7ffc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--42dac3d7:17e69f96ec3:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-449189ba:17e69fe14b1:-7ffd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
