@@ -42,7 +42,7 @@
         <name>cpr_phytoplankton_biovolume_species_data</name>
         <sql>SELECT *&#xd;
 FROM imos_cpr_db.cpr_phytoplankton_biovolume_species_data&#xd;
-ORDER BY &quot;TripCode&quot;, &quot;SampleDate_UTC&quot;
+ORDER BY &quot;SampleDate_UTC&quot;
 </sql>
         <escapeSql>false</escapeSql>
         <geometry>
