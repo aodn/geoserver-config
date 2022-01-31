@@ -42,7 +42,7 @@
         <name>bgc_picoplankton_data</name>
         <sql>SELECT *&#xd;
 FROM imos_bgc_db.bgc_picoplankton_data&#xd;
-ORDER BY &quot;Project&quot;, &quot;TripCode&quot;
+ORDER BY &quot;Project&quot;, &quot;TripCode&quot;, &quot;Depth_m&quot;
 </sql>
         <escapeSql>false</escapeSql>
         <geometry>
