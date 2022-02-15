@@ -10,20 +10,20 @@
     <filter>
         <name>StationName</name>
         <type>string</type>
-        <label>StationName</label>
+        <label>Station</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>SampleTime_local</name>
+        <name>SampleTime_UTC</name>
         <type>datetime</type>
-        <label>SampleTime local</label>
+        <label>Sample Time UTC</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>geom</name>
-        <type>pointpropertytype</type>
+        <type>geometrypropertytype</type>
         <label>Geom</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>

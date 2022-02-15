@@ -15,9 +15,9 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>SampleTime_local</name>
+        <name>SampleTime_UTC</name>
         <type>datetime</type>
-        <label>Sample Time local</label>
+        <label>Sample Time UTC</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
