@@ -8,9 +8,9 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>SampleTime_local</name>
+        <name>SampleDate_UTC</name>
         <type>datetime</type>
-        <label>Sample Time local</label>
+        <label>Sample Date UTC</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
