@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl-4734fe9e:17470dad9eb:-7fe9</id>
-  <name>srs_oc_aqua_owtd_url</name>
-  <nativeName>srs_oc_aqua_owtd_url</nativeName>
+  <name>srs_oc_aqua_owtd_csiro_url</name>
+  <nativeName>srs_oc_aqua_owtd_csiro_url</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>srs_oc_aqua_owtd_url</title>
+  <title>srs_oc_aqua_owtd_csiro_url</title>
   <keywords>
     <string>features</string>
-    <string>srs_oc_aqua_owtd_url</string>
+    <string>srs_oc_aqua_owtd_csiro_url</string>
   </keywords>
   <srs>EPSG:4326</srs>
   <latLonBoundingBox>
@@ -22,8 +22,8 @@
   <metadata>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>srs_oc_aqua_owtd_url</name>
-        <sql>select timestep_id, collection_name, file_url, size, &quot;TIME&quot; as time from generic_timestep.timestep_url where collection_name = &apos;srs_oc_aqua_owtd&apos;
+        <name>srs_oc_aqua_owtd_csiro_url</name>
+        <sql>select timestep_id, collection_name, file_url, size, &quot;TIME&quot; as time from generic_timestep.timestep_url where collection_name = &apos;srs_oc_aqua_owtd_csiro&apos;
 </sql>
         <escapeSql>false</escapeSql>
       </virtualTable>
