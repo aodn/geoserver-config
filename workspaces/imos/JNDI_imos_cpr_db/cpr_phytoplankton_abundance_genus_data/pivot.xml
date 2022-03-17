@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<pivotedOutputConfig>
+	<orderDirection>asc</orderDirection>
+	<defaultValue>0</defaultValue>
+	<excludedField>trip_code</excludedField>
+        <excludedField>sample</excludedField>
+	<excludedField>geom</excludedField>
+</pivotedOutputConfig>

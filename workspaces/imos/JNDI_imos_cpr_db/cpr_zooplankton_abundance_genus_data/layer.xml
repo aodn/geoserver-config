@@ -1,0 +1,15 @@
+<layer>
+  <name>cpr_zooplankton_abundance_genus_data</name>
+  <id>LayerInfoImpl-30b60f06:17e6f39564c:-7ff7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-30b60f06:17e6f39564c:-7ff8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
