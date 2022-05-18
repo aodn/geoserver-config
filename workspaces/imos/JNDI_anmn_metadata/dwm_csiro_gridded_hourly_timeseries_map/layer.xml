@@ -1,0 +1,15 @@
+<layer>
+  <name>dwm_csiro_gridded_hourly_timeseries_map</name>
+  <id>LayerInfoImpl-40d699d:180d41fcfe8:-7ffd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--7fbda343:180d41b32eb:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-40d699d:180d41fcfe8:-7ffe</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
