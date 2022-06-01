@@ -1,0 +1,12 @@
+<layer>
+  <name>srs_oc_aqua_chl_carder_url</name>
+  <id>LayerInfoImpl-5326d5a3:1811cec9404:-7ffe</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-5326d5a3:1811cec9404:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
