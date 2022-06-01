@@ -42,7 +42,7 @@
         <name>nrs_depth_binned_ctd_data</name>
         <sql>SELECT *&#xd;
 FROM imos_bgc_db.nrs_depth_binned_ctd_data&#xd;
-ORDER BY &quot;TripCode&quot;, &quot;Depth_m&quot;
+ORDER BY &quot;TripCode&quot;, &quot;SampleDepth_m&quot;
 </sql>
         <escapeSql>false</escapeSql>
         <geometry>
