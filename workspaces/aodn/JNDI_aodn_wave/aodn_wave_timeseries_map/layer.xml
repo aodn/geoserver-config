@@ -1,0 +1,15 @@
+<layer>
+  <name>aodn_wave_timeseries_map</name>
+  <id>LayerInfoImpl-38520aac:181277088f5:-7ff9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5f95dec5:1678052ab7f:-7fde</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-38520aac:181277088f5:-7ffa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

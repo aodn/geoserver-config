@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl-38520aac:181277088f5:-7ffe</id>
+  <name>JNDI_aodn_wave</name>
+  <type>PostGIS (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-3b0a723a:137e9896802:-7ffe</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">aodn_wave</entry>
+    <entry key="Estimated extends">true</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="Support on the fly geometry simplification">true</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/harvest_read</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="namespace">aodn</entry>
+    <entry key="Loose bbox">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
