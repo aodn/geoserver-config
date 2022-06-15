@@ -9,7 +9,10 @@
 
 <#if (feature_index < 5) >
 <div class="featurewhite">
-<b>File ID:</b> ${feature.file_id.value}<br/>
+<b>Instrument:</b> ${feature.instrument.value}<br/>
+<b>Time Period:</b> ${feature.period.value}<br/>
+<b>Product Version:</b> ${feature.product.value}<br/>
+<b>Instrument:</b> ${feature.instrument.value}<br/>
 <b>Time coverage start and end:</b> ${feature.time_coverage_start.value} - ${feature.time_coverage_end.value}<br/>
 <BR>
 </div>
