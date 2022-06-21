@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--5360df55:155d8796886:-7ffb</id>
-  <name>srs_oc_ljco_wws_daily_all_products_fv02_timeseries_map</name>
-  <nativeName>srs_oc_ljco_wws_daily_all_products_fv02_timeseries_map</nativeName>
+  <id>FeatureTypeInfoImpl--58d17e5d:18164c84cd6:-7fff</id>
+  <name>srs_oc_ljco_wws_all_products_timeseries_map</name>
+  <nativeName>srs_oc_ljco_wws_all_products_timeseries_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
   </namespace>
-  <title>srs_oc_ljco_wws_daily_all_products_fv02_timeseries_map</title>
+  <title>srs_oc_ljco_wws_all_products_timeseries_map</title>
   <keywords>
-    <string>srs_oc_ljco_wws_daily_all_products_fv02_timeseries_map</string>
     <string>features</string>
+    <string>srs_oc_ljco_wws_all_products_timeseries_map</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -32,28 +32,23 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
-  DATUM[&quot;WGS84&quot;, 
-    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <store class="dataStore">
     <id>DataStoreInfoImpl--a5e2e8a:151c1e676ed:-7ffc</id>
   </store>
+  <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
   <overridingServiceSRS>false</overridingServiceSRS>
   <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>

@@ -8,6 +8,20 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>period</name>
+        <type>string</type>
+        <label>Time Period</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>product</name>
+        <type>string</type>
+        <label>Product Version</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>geom</name>
         <type>geometrypropertytype</type>
         <label>Bounding Box</label>
