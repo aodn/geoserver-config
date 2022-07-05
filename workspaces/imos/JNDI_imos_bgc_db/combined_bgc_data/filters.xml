@@ -15,9 +15,9 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>SampleDate_UTC</name>
+        <name>TripDate_UTC</name>
         <type>datetime</type>
-        <label>Sample Date UTC</label>
+        <label>Trip Date UTC</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
