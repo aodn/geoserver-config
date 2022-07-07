@@ -1,0 +1,49 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-5326d5a3:1811cec9404:-7fff</id>
+  <name>srs_oc_aqua_chl_carder_url</name>
+  <nativeName>srs_oc_aqua_chl_carder_url</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>srs_oc_aqua_chl_carder_url</title>
+  <keywords>
+    <string>features</string>
+    <string>srs_oc_aqua_chl_carder_url</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>srs_oc_aqua_chl_carder_url</name>
+        <sql>select timestep_id, collection_name, file_url, size, &quot;TIME&quot; as time from generic_timestep.timestep_url where collection_name = &apos;srs_oc_aqua_chl_carder&apos;
+</sql>
+        <escapeSql>false</escapeSql>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--5360df55:155d8796886:-7dbc</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
