@@ -192,6 +192,99 @@
           </Graphic>
         </PointSymbolizer>
         </Rule>
+        <Rule>
+          <Title> NSW-DPE buoys</Title>
+           <ogc:Filter>
+             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+             <ogc:PropertyName>institution</ogc:PropertyName>
+             <ogc:Literal>*NSW*</ogc:Literal>
+             </ogc:PropertyIsLike>
+           </ogc:Filter>
+        <PointSymbolizer>
+          <Graphic>
+          <Mark>
+            <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#000080</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                </Stroke>
+            </Mark>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        <PointSymbolizer>
+          <Graphic>
+            <ExternalGraphic>
+             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+             <Format>image/png</Format>
+            </ExternalGraphic>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        </Rule>
+        <Rule>
+          <Title> VIC buoys</Title>
+           <ogc:Filter>
+             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+             <ogc:PropertyName>institution</ogc:PropertyName>
+             <ogc:Literal>*VIC*</ogc:Literal>
+             </ogc:PropertyIsLike>
+           </ogc:Filter>
+        <PointSymbolizer>
+          <Graphic>
+          <Mark>
+            <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#FA8072</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                </Stroke>
+            </Mark>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        <PointSymbolizer>
+          <Graphic>
+            <ExternalGraphic>
+             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+             <Format>image/png</Format>
+            </ExternalGraphic>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        </Rule>
+        <Rule>
+          <Title> UWA buoys</Title>
+           <ogc:Filter>
+             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+             <ogc:PropertyName>institution</ogc:PropertyName>
+             <ogc:Literal>*UWA*</ogc:Literal>
+             </ogc:PropertyIsLike>
+           </ogc:Filter>
+        <PointSymbolizer>
+          <Graphic>
+          <Mark>
+            <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#800000</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                </Stroke>
+            </Mark>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        <PointSymbolizer>
+          <Graphic>
+            <ExternalGraphic>
+             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+             <Format>image/png</Format>
+            </ExternalGraphic>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
