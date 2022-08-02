@@ -1,3 +1,4 @@
+<#import "config.ftl" as my>
 
 <#list features as feature>
 

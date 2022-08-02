@@ -1,4 +1,4 @@
-
+<#import "config.ftl" as my>
 <#list features as feature>
 
 <#if (feature_index < 2) >
