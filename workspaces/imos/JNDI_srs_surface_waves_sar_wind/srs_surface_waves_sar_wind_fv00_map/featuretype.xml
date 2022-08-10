@@ -1,0 +1,50 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-9aa20a4:17d304382b0:-7ba7</id>
+  <name>srs_surface_waves_sar_wind_fv00_map</name>
+  <nativeName>srs_surface_waves_sar_wind_fv00_map</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>srs_surface_waves_sar_wind_fv00_map</title>
+  <keywords>
+    <string>features</string>
+    <string>srs_surface_waves_sar_wind_fv00_map</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>TC211</metadataType>
+      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=b02b929f-2caf-45d4-ac60-d4632b7ca0ca&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--26177d82:17d11535972:-7fff</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

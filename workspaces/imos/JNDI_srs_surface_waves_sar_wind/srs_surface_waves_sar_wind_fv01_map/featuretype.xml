@@ -1,0 +1,60 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--26177d82:17d11535972:-7fcb</id>
+  <name>srs_surface_waves_sar_wind_fv01_map</name>
+  <nativeName>srs_surface_waves_sar_wind_fv01_map</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>srs_surface_waves_sar_wind_fv01_map</title>
+  <keywords>
+    <string>features</string>
+    <string>srs_surface_waves_sar_wind_fv01_map</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>TC211</metadataType>
+      <content>https://catalogue-123.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp?uuid=b02b929f-2caf-45d4-ac60-d4632b7ca0ca&amp;styleSheet=xml_iso19139.mcp.xsl</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>144.883361816406</minx>
+    <maxx>176.433670043945</maxx>
+    <miny>-44.3624496459961</miny>
+    <maxy>-19.6401519775391</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>144.883361816406</minx>
+    <maxx>173.938873291016</maxx>
+    <miny>-44.3624496459961</miny>
+    <maxy>-19.6401519775391</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--26177d82:17d11535972:-7fff</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
