@@ -2,7 +2,7 @@
 
 <#list features as feature>
 
-<#if (feature_index < 2) >
+<#if (feature_index < 1) >
 <div class="featurewhite">
 <b>Satellite :</b> ${feature.platform_code.value}<br/>
 <b>Percent coverage :</b> ${feature.percent_coverage.value}<br/>
