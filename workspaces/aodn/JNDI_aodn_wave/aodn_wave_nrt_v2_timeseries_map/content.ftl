@@ -2,7 +2,7 @@
  <#list features as feature>
   <#if (feature_index < 1) >
    <div class="featurewhite">
-    <h3>${feature.owner.value} wave buoy Near Real Time observations at ${feature.site_name.value}</h3>
+    <h3>${feature.institution.value} Wave Buoy Near Real Time observations at ${feature.site_name.value}</h3>
     <p> This collection starts on ${feature.time_start.value}</p>
     <p><b>Location (Longitude,Latitude):</b> ${feature.longitude_min.value}, ${feature.latitude_min.value} </br>
     <b> Instrument:</b> ${feature.instrument.value}</br> 
@@ -15,18 +15,18 @@
 <TABLE bordercolorlight="#000000" class="table_design" ALIGN="LEFT" border="2">
 <TR class="record_heading">
 <th>Time</th>
-<th>Significant wave Height (m)</th>
-<th>Maximum Wave Height (m)</th>
-<th>Wave mean period (s)</th>
-<th>Wave direction (Degrees)</th>
+<th>Significant Wave Height (m)</th>
+<th>Wave Mean Period (s)</th>
+<th>Peak Wave Direction (Degrees)</th>
+<th>Peak Wave Period (s)</th>
 </TR>
 <#list features as feature>
 <TR class="record">
 <TD Align="Center">${feature.TIME.rawValue?iso_utc}</td>
-<TD Align="Center"><#if feature.WHTH.value?has_content>${feature.WHTH.rawValue?string("0.00")}<#else>${feature.WHTH.rawValue?replace("","N/A")}</#if></td>
-<TD Align="Center"><#if feature.WMXH.value?has_content>${feature.WMXH.rawValue?string("0.00")}<#else>${feature.WMXH.rawValue?replace("","N/A")}</#if></td>
-<TD Align="Center"><#if feature.WPMH.value?has_content>${feature.WPMH.rawValue?string("0.0")}<#else>${feature.WPMH.rawValue?replace("","N/A")}</#if></td>
-<TD Align="Center"><#if feature.SSWMD.value?has_content>${feature.SSWMD.rawValue?string("0")}<#else>${feature.SSWMD.rawValue?replace("","N/A")}</#if></td>
+<TD Align="Center"><#if feature.significant_wave_height.value?has_content>${feature.significant_wave_height.rawValue?string("0.00")}<#else>${feature.significant_wave_height.rawValue?replace("","N/A")}</#if></td>
+<TD Align="Center"><#if feature.wave_mean_period.value?has_content>${feature.wave_mean_period.rawValue?string("0.00")}<#else>${feature.wave_mean_period.rawValue?replace("","N/A")}</#if></td>
+<TD Align="Center"><#if feature.peak_wave_direction.value?has_content>${feature.peak_wave_direction.rawValue?string("0.0")}<#else>${feature.peak_wave_direction.rawValue?replace("","N/A")}</#if></td>
+<TD Align="Center"><#if feature.peak_wave_period.value?has_content>${feature.peak_wave_period.rawValue?string("0")}<#else>${feature.peak_wave_period.rawValue?replace("","N/A")}</#if></td>
 </TR>
 </#list>
 </TABLE>
