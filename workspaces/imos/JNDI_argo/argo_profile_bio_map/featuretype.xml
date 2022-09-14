@@ -47,7 +47,7 @@
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>argo_profile_bio_map</name>
-        <sql>select * from argo_profile_bio_map
+        <sql>select * from argo.argo_profile_bio_map
 </sql>
         <escapeSql>false</escapeSql>
         <geometry>
