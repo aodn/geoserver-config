@@ -1,0 +1,15 @@
+<layer>
+  <name>srs_oc_ljco_wws_daily_ecotriplet_fv01_timeseries_data</name>
+  <id>LayerInfoImpl-71a6a394:181f558af16:-7db5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-71a6a394:181f558af16:-7db6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
