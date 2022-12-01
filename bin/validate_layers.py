@@ -79,11 +79,47 @@ def validate_layer_services(layer, styles):
     raise ValidationError("WMS must be disabled for _data layers")
 
 
+def is_whole_world(bounding_box):
+    """Check if a bounding box covers the whole world
+
+    :param bounding_box: XML bounding box
+    :return: Boolean
+    """
+
+    if not bounding_box:
+        return False
+
+    minx = float(bounding_box.find('./minx').text)
+    maxx = float(bounding_box.find('./maxx').text)
+    miny = float(bounding_box.find('./miny').text)
+    maxy = float(bounding_box.find('./maxy').text)
+
+    return minx == -180 and maxx == 180 and miny == -90 and maxy == 90
+
+
+def validate_bounding_box(layer, styles):
+    """Validator to check that bounding boxes cover entire world for _map layers
+
+    :param layer: layer to validate
+    :param styles: list of *valid* styles
+    :return: None
+    """
+
+    if not layer.name.endswith('_map'):
+        return
+
+    if is_whole_world(layer.featuretype.latLonBoundingBox):
+        return
+
+    raise ValidationError("Bounding box must be whole world")
+
+
 # validator function references added to this list will be included in overall validation of each layer object
 # functions must accept two parameters: the Layer object being validated, and the list of all styles
 ALL_LAYER_VALIDATORS = [
     validate_layer_default_style,
-    validate_layer_services
+    validate_layer_services,
+    validate_bounding_box
 ]
 
 
@@ -163,9 +199,10 @@ class FeatureType(object):
     """Represents a featuretype.xml file in a Geoserver config directory
     """
 
-    def __init__(self, id_, disabled_services):
+    def __init__(self, id_, disabled_services, latLonBoundingBox):
         self.id = id_
         self.disabled_services = disabled_services
+        self.latLonBoundingBox = latLonBoundingBox
 
     @classmethod
     def from_xml_file(cls, xml_file):
@@ -178,7 +215,9 @@ class FeatureType(object):
         raw_disabled_services = root.find('./disabledServices')
         disabled_services = [] if raw_disabled_services is None else [e.text
                                                                       for e in raw_disabled_services.findall('string')]
-        return cls(root.findtext('./id'), disabled_services)
+        latLonBoundingBox = root.find('./latLonBoundingBox')
+
+        return cls(root.findtext('./id'), disabled_services, latLonBoundingBox)
 
 
 #
