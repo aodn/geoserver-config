@@ -35,7 +35,7 @@
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-180></minx>
+    <minx>-180</minx>
     <maxx>180</maxx>
     <miny>-90</miny>
     <maxy>90</maxy>
