@@ -1,0 +1,15 @@
+<layer>
+  <name>aad_so_cpr_map</name>
+  <id>LayerInfoImpl-2a063d6c:14858ec12b2:5509</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--76dc30d3:13ba6555f5c:-44c8</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2a063d6c:14858ec12b2:5508</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
