@@ -1,0 +1,15 @@
+<layer>
+  <name>gsla_fv02_nrt_timseries_url</name>
+  <id>LayerInfoImpl-4dfda088:186049c99ba:-7ffe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--491e2272:1860496ea2d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4dfda088:186049c99ba:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
