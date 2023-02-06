@@ -1,0 +1,15 @@
+<layer>
+  <name>anmn_nrs_ctd_profiles_map</name>
+  <id>LayerInfoImpl--219bb081:1862491c24d:-7fd9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-24fa5423:186248d1711:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--219bb081:1862491c24d:-7fda</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
