@@ -1,0 +1,12 @@
+<layer>
+  <name>gsla_fv02_nrt_timeseries_url</name>
+  <id>LayerInfoImpl-4dfda088:186049c99ba:-7ffe</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4dfda088:186049c99ba:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
