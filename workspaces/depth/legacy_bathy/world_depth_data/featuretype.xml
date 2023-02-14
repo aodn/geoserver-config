@@ -38,8 +38,8 @@
     world_depth.depth,&#xd;
     world_depth.geom&#xd;
    FROM legacy_bathy.world_depth&#xd;
-  WHERE st_dwithin(world_depth.geom, st_geomfromtext(&apos;POINT(%lon% %lat%)&apos;::text, 4326), 0.12::double precision)&#xd;
-  ORDER BY (st_distance(world_depth.geom, st_geomfromtext(&apos;POINT(%lon% %lat%)&apos;::text, 4326)))&#xd;
+  WHERE st_dwithin(world_depth.geom, st_geomfromtext(&apos;POINT(&percnt;lon&percnt; &percnt;lat&percnt;)&apos;::text, 4326), 0.12::double precision)&#xd;
+  ORDER BY (st_distance(world_depth.geom, st_geomfromtext(&apos;POINT(&percnt;lon&percnt; &percnt;lat&percnt;)&apos;::text, 4326)))&#xd;
  LIMIT 1
 </sql>
         <escapeSql>false</escapeSql>
