@@ -51,10 +51,12 @@
         <parameter>
           <name>lon</name>
           <regexpValidator>^[-+]?[0-9]*\.?[0-9]+$</regexpValidator>
+          <defaultValue>0</defaultValue>
         </parameter>
         <parameter>
           <name>lat</name>
           <regexpValidator>^[-+]?[0-9]*\.?[0-9]+$</regexpValidator>
+          <defaultValue>0</defaultValue>
         </parameter>
       </virtualTable>
     </entry>
