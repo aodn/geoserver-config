@@ -3,14 +3,14 @@
     <filter>
         <name>transmitter_id</name>
         <type>string</type>
-        <label>Tag ID</label>
+        <label>Transmitter ID</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>tag_project</name>
+        <name>tagging_project</name>
         <type>string</type>
-        <label>Tag project name</label>
+        <label>Tagging project name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
