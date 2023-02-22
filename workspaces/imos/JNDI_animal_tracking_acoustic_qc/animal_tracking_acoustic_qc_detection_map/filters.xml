@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>transmitter_id</name>
+        <type>string</type>
+        <label>Transmitter ID</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>tagging_project</name>
+        <type>string</type>
+        <label>Tagging project name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>species</name>
+        <type>string</type>
+        <label>Species Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>detection_timestamp</name>
+        <type>datetime</type>
+        <label>Time</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+        <wmsEndDateName>time_coverage_start</wmsEndDateName>
+        <wmsStartDateName>time_coverage_end</wmsStartDateName>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
