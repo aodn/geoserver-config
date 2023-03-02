@@ -1,0 +1,12 @@
+<layer>
+  <name>srs_ghrsst_l3c_1d_h08_ngt_url</name>
+  <id>LayerInfoImpl-6af61b08:186a01dbc4a:-7ffe</id>
+  <type>VECTOR</type>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6af61b08:186a01dbc4a:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
