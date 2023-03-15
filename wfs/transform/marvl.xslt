@@ -7,10 +7,10 @@
 
 
   <!-- Replace a file path with an HTTP URL. -->
-  <xsl:template match="imos:url/text()">http://data.aodn.org.au/<xsl:value-of select="."/>
+  <xsl:template match="imos:url/text()">https://imos-data.s3-ap-southeast-2.amazonaws.com/<xsl:value-of select="."/>
   </xsl:template>
 
-  <xsl:template match="imos:file_url/text()">http://data.aodn.org.au/<xsl:value-of select="."/>
+  <xsl:template match="imos:file_url/text()">https://imos-data.s3-ap-southeast-2.amazonaws.com/<xsl:value-of select="."/>
   </xsl:template>
 
   <!-- copy everything else as is - identity template -->
