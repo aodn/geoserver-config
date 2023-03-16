@@ -18,7 +18,7 @@
     <maxy>90.0</maxy>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
-  <enabled>false</enabled>
+  <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
     <entry key="JDBC_VIRTUAL_TABLE">
