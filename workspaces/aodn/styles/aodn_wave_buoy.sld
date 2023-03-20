@@ -228,7 +228,7 @@
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
              <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*VIC*</ogc:Literal>
+             <ogc:Literal>*Deakin University*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>
@@ -259,7 +259,7 @@
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
              <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*UWA*</ogc:Literal>
+             <ogc:Literal>*University of Western Australia*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>
