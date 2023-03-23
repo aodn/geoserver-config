@@ -14,10 +14,15 @@
             <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                    <CssParameter name="fill">#FF0000</CssParameter>
+                    <CssParameter name="fill">#4bc87f</CssParameter>
+                    <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
+                <Stroke>
+                    <CssParameter name="stroke">#000000</CssParameter>
+                    <CssParameter name="stroke-width">0.5</CssParameter>
+           </Stroke>
             </Mark>
-            <Size>8</Size>
+            <Size>9</Size>
         </Graphic>
     </PointSymbolizer>
 </Rule>
@@ -28,12 +33,17 @@
 <PointSymbolizer>
    <Graphic>
        <Mark>
-           <WellKnownName>square</WellKnownName>
+           <WellKnownName>circle</WellKnownName>
            <Fill>
-               <CssParameter name="fill">#FF0000</CssParameter>
+               <CssParameter name="fill">#4bc87f</CssParameter>
+               <CssParameter name="fill-opacity">0.8</CssParameter>
            </Fill>
+           <Stroke>
+               <CssParameter name="stroke">#000000</CssParameter>
+               <CssParameter name="stroke-width">0.5</CssParameter>
+           </Stroke>
        </Mark>
-       <Size>16</Size>
+       <Size>18</Size>
    </Graphic>
 </PointSymbolizer>
 </Rule>
