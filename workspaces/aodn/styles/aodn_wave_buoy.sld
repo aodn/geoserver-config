@@ -227,8 +227,8 @@
           <Title> VIC buoys</Title>
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-             <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*Deakin University*</ogc:Literal>
+             <ogc:PropertyName>url</ogc:PropertyName>
+             <ogc:Literal>*Deakin_University/WAVE-BUOYS*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>
@@ -258,8 +258,8 @@
           <Title> UWA buoys</Title>
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-             <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*University of Western Australia*</ogc:Literal>
+             <ogc:PropertyName>url</ogc:PropertyName>
+             <ogc:Literal>*UWA/WAVE-BUOYS*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>
