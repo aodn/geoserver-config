@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>data_type</name>
+        <name>product_type</name>
         <type>string</type>
-        <label>Data type</label>
+        <label>Product type</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
