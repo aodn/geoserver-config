@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>data_type</name>
+        <type>string</type>
+        <label>Data type</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>site_code</name>
+        <type>string</type>
+        <label>Site code</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
+
