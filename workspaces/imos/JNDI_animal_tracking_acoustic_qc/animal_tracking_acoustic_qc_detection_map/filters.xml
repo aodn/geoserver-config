@@ -10,14 +10,21 @@
     <filter>
         <name>tagging_project</name>
         <type>string</type>
-        <label>Tagging project name</label>
+        <label>Tagging Project Name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>species</name>
         <type>string</type>
-        <label>Species Name</label>
+        <label>Species Common Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>species_scientific_name</name>
+        <type>string</type>
+        <label>Species Scientific Name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
