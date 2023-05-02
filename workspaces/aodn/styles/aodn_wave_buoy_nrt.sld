@@ -7,73 +7,11 @@
       <Title>Colored Wave buoy</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title> PPA buoys</Title>
-           <ogc:Filter>
-             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-             <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*PPA*</ogc:Literal>
-             </ogc:PropertyIsLike>
-           </ogc:Filter>
-        <PointSymbolizer>        
-          <Graphic>
-          <Mark>
-            <WellKnownName>diamond</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#ffe11e</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>
-                  <CssParameter name="stroke-width">1.5</CssParameter>
-                </Stroke>
-            </Mark>
-            <Size>16</Size>
-          </Graphic>
-        </PointSymbolizer>
-        <PointSymbolizer>     
-          <Graphic>
-            <ExternalGraphic>
-             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
-             <Format>image/png</Format>
-            </ExternalGraphic>
-            <Size>20</Size>
-          </Graphic>
-        </PointSymbolizer>
-        </Rule>
-        <Rule>
-          <Title> DES-QLD buoys</Title>
-           <ogc:Filter>
-             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-             <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*DES*</ogc:Literal>
-             </ogc:PropertyIsLike>
-           </ogc:Filter>
-        <PointSymbolizer>        
-          <Graphic>
-          <Mark>
-            <WellKnownName>diamond</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#1E90FF</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>
-                  <CssParameter name="stroke-width">1.5</CssParameter>
-                </Stroke>
-            </Mark>
-            <Size>16</Size>
-          </Graphic>
-        </PointSymbolizer>
-        <PointSymbolizer>     
-          <Graphic>
-            <ExternalGraphic>
-             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
-             <Format>image/png</Format>
-            </ExternalGraphic>
-            <Size>20</Size>
-          </Graphic>
-        </PointSymbolizer>
-        </Rule>
-        <Rule>
           <Title> ABOM buoys</Title>
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
              <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*BoM*</ogc:Literal>
+             <ogc:Literal>*Bureau*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
            <PointSymbolizer>        
@@ -100,11 +38,42 @@
            </PointSymbolizer>
         </Rule>
         <Rule>
+          <Title> DES-QLD buoys</Title>
+           <ogc:Filter>
+             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+             <ogc:PropertyName>institution</ogc:PropertyName>
+             <ogc:Literal>Queens*</ogc:Literal>
+             </ogc:PropertyIsLike>
+           </ogc:Filter>
+        <PointSymbolizer>        
+          <Graphic>
+          <Mark>
+            <WellKnownName>diamond</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#1E90FF</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                  <CssParameter name="stroke-width">1.5</CssParameter>
+                </Stroke>
+            </Mark>
+            <Size>16</Size>
+          </Graphic>
+        </PointSymbolizer>
+        <PointSymbolizer>     
+          <Graphic>
+            <ExternalGraphic>
+             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+             <Format>image/png</Format>
+            </ExternalGraphic>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        </Rule>
+        <Rule>
           <Title> DOT-WA buoys</Title>
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
              <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*DOT*</ogc:Literal>
+             <ogc:Literal>*Transport WA*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>        
@@ -130,12 +99,74 @@
         </Graphic>
        </PointSymbolizer>
         </Rule>
+        <Rule>
+          <Title> GIPPSLAND PORTS buoys</Title>
+           <ogc:Filter>
+             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+             <ogc:PropertyName>institution</ogc:PropertyName>
+             <ogc:Literal>*Gipps*</ogc:Literal>
+             </ogc:PropertyIsLike>
+           </ogc:Filter>
+        <PointSymbolizer>
+          <Graphic>
+          <Mark>
+            <WellKnownName>diamond</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#A21FFA</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                  <CssParameter name="stroke-width">1.5</CssParameter>
+                </Stroke>
+            </Mark>
+            <Size>16</Size>
+          </Graphic>
+        </PointSymbolizer>
+        <PointSymbolizer>
+          <Graphic>
+            <ExternalGraphic>
+             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+             <Format>image/png</Format>
+            </ExternalGraphic>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        </Rule>
+         <Rule>
+          <Title> IMOS buoys</Title>
+           <ogc:Filter>
+             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+             <ogc:PropertyName>institution</ogc:PropertyName>
+             <ogc:Literal>*IMOS*</ogc:Literal>
+             </ogc:PropertyIsLike>
+           </ogc:Filter>
+        <PointSymbolizer>        
+          <Graphic>
+          <Mark>
+            <WellKnownName>diamond</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#000080</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                  <CssParameter name="stroke-width">1.5</CssParameter>
+                </Stroke>
+            </Mark>
+            <Size>16</Size>
+          </Graphic>
+        </PointSymbolizer>
+        <PointSymbolizer>     
+          <Graphic>
+            <ExternalGraphic>
+             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+             <Format>image/png</Format>
+            </ExternalGraphic>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        </Rule>
          <Rule>
           <Title> MHL buoys</Title>
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
              <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*MHL*</ogc:Literal>
+             <ogc:Literal>*Manly Hydraulics*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>        
@@ -162,11 +193,42 @@
        </PointSymbolizer>
         </Rule>
         <Rule>
-          <Title> IMOS NTP-Wave buoys</Title>
+          <Title> NSW-DPE buoys</Title>
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-             <ogc:PropertyName>url</ogc:PropertyName>
-             <ogc:Literal>*NTP/Low_Cost_Wave_Buoy_Technology*</ogc:Literal>
+             <ogc:PropertyName>institution</ogc:PropertyName>
+             <ogc:Literal>*New South Wales*</ogc:Literal>
+             </ogc:PropertyIsLike>
+           </ogc:Filter>
+        <PointSymbolizer>
+          <Graphic>
+          <Mark>
+            <WellKnownName>diamond</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#F333FF</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                  <CssParameter name="stroke-width">1.5</CssParameter>
+                </Stroke>
+            </Mark>
+            <Size>16</Size>
+          </Graphic>
+        </PointSymbolizer>
+        <PointSymbolizer>
+          <Graphic>
+            <ExternalGraphic>
+             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+             <Format>image/png</Format>
+            </ExternalGraphic>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        </Rule>
+        <Rule>
+          <Title> PPA buoys</Title>
+           <ogc:Filter>
+             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+             <ogc:PropertyName>institution</ogc:PropertyName>
+             <ogc:Literal>*Pilbara Ports*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>        
@@ -174,7 +236,7 @@
           <Mark>
             <WellKnownName>diamond</WellKnownName>
                 <Stroke>
-                  <CssParameter name="stroke">#F333FF</CssParameter>
+                  <CssParameter name="stroke">#ffe11e</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                   <CssParameter name="stroke-width">1.5</CssParameter>
                 </Stroke>
@@ -193,11 +255,11 @@
         </PointSymbolizer>
         </Rule>
         <Rule>
-          <Title> NSW-DPE buoys</Title>
+          <Title> UWA buoys</Title>
            <ogc:Filter>
              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-             <ogc:PropertyName>institution</ogc:PropertyName>
-             <ogc:Literal>*NSW*</ogc:Literal>
+             <ogc:PropertyName>url</ogc:PropertyName>
+             <ogc:Literal>*UWA/WAVE-BUOYS*</ogc:Literal>
              </ogc:PropertyIsLike>
            </ogc:Filter>
         <PointSymbolizer>
@@ -205,7 +267,7 @@
           <Mark>
             <WellKnownName>diamond</WellKnownName>
                 <Stroke>
-                  <CssParameter name="stroke">#000080</CssParameter>
+                  <CssParameter name="stroke">#800000</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                   <CssParameter name="stroke-width">1.5</CssParameter>
                 </Stroke>
@@ -237,37 +299,6 @@
             <WellKnownName>diamond</WellKnownName>
                 <Stroke>
                   <CssParameter name="stroke">#FA8072</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>
-                  <CssParameter name="stroke-width">1.5</CssParameter>
-                </Stroke>
-            </Mark>
-            <Size>16</Size>
-          </Graphic>
-        </PointSymbolizer>
-        <PointSymbolizer>
-          <Graphic>
-            <ExternalGraphic>
-             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
-             <Format>image/png</Format>
-            </ExternalGraphic>
-            <Size>20</Size>
-          </Graphic>
-        </PointSymbolizer>
-        </Rule>
-        <Rule>
-          <Title> UWA buoys</Title>
-           <ogc:Filter>
-             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-             <ogc:PropertyName>url</ogc:PropertyName>
-             <ogc:Literal>*UWA/WAVE-BUOYS*</ogc:Literal>
-             </ogc:PropertyIsLike>
-           </ogc:Filter>
-        <PointSymbolizer>
-          <Graphic>
-          <Mark>
-            <WellKnownName>diamond</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#800000</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                   <CssParameter name="stroke-width">1.5</CssParameter>
                 </Stroke>
