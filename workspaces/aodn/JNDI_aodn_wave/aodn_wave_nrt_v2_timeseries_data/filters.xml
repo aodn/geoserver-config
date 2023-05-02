@@ -15,6 +15,13 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>institution</name>
+        <type>string</type>
+        <label>Institution</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>TIME</name>
         <type>datetime</type>
         <label>TIME</label>
