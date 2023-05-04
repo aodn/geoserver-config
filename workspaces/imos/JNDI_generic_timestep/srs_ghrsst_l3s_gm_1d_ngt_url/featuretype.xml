@@ -23,7 +23,7 @@
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>srs_ghrsst_l3s_gm_1d_ngt_url</name>
-        <sql>select timestep_id, collection_name, file_url, size, &quot;TIME&quot; as time from generic_timestep.timestep_url where collection_name = &apos;srs_ghrsst_l3s_gm_1d_ngt&apos;
+        <sql>select timestep_id, collection_name, file_url, size, &quot;TIME&quot; as time from generic_timestep.timestep_url where collection_name = &apos;srs_ghrsst_l3s_GM_1d_ngt&apos;
 </sql>
         <escapeSql>false</escapeSql>
       </virtualTable>
