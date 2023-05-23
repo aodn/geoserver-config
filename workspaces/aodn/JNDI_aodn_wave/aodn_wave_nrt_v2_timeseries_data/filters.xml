@@ -15,7 +15,7 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>institution</name>
+        <name>institut_for_filter</name>
         <type>string</type>
         <label>Institution</label>
         <visualised>true</visualised>
