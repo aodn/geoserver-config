@@ -316,6 +316,37 @@
           </Graphic>
         </PointSymbolizer>
         </Rule>
+        <Rule>
+          <Title> Flinders Uni buoys</Title>
+           <ogc:Filter>
+             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+             <ogc:PropertyName>institution</ogc:PropertyName>
+             <ogc:Literal>*Flinders University*</ogc:Literal>
+             </ogc:PropertyIsLike>
+           </ogc:Filter>
+        <PointSymbolizer>
+          <Graphic>
+          <Mark>
+            <WellKnownName>diamond</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#00E6E6</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                  <CssParameter name="stroke-width">1.5</CssParameter>
+                </Stroke>
+            </Mark>
+            <Size>16</Size>
+          </Graphic>
+        </PointSymbolizer>
+        <PointSymbolizer>
+          <Graphic>
+            <ExternalGraphic>
+             <OnlineResource xlink:type="simple" xlink:href="MHL_WaveBuoy.png" />
+             <Format>image/png</Format>
+            </ExternalGraphic>
+            <Size>20</Size>
+          </Graphic>
+        </PointSymbolizer>
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
