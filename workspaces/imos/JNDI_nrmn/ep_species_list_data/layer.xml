@@ -1,13 +1,14 @@
 <layer>
   <name>ep_species_list_data</name>
-  <id>LayerInfoImpl--1eeb3a6e:17a3128af6a:-7ff2</id>
+  <id>LayerInfoImpl--7b250965:189aa090c6d:-7f65</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--1eeb3a6e:17a3128af6a:-7ff3</id>
+    <id>FeatureTypeInfoImpl--7b250965:189aa090c6d:-7f66</id>
   </resource>
+  <queryable>true</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>

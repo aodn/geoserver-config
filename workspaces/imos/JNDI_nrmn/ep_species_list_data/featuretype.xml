@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--1eeb3a6e:17a3128af6a:-7ff3</id>
+  <id>FeatureTypeInfoImpl--7b250965:189aa090c6d:-7f66</id>
   <name>ep_species_list_data</name>
   <nativeName>ep_species_list_data</nativeName>
   <namespace>
@@ -32,11 +32,20 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
