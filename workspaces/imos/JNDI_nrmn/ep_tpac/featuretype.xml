@@ -1,0 +1,48 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-6c7992f5:18b83420711:-7fff</id>
+  <name>ep_tpac</name>
+  <nativeName>ep_tpac</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>ep_tpac</title>
+  <keywords>
+    <string>features</string>
+    <string>ep_tpac</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--a667a1:1796302f798:-744c</id>
+  </store>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WMS</string>
+  </disabledServices>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

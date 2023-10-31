@@ -1,0 +1,17 @@
+<layer>
+  <name>ep_tpac</name>
+  <id>LayerInfoImpl-6c7992f5:18b83420711:-7ffe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6c7992f5:18b83420711:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-10-31 03:49:37.918 UTC</dateCreated>
+  <dateModified>2023-10-31 03:56:19.392 UTC</dateModified>
+</layer>
